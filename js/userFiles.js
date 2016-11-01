@@ -16,10 +16,11 @@ var divs = targetdivs.split(",");
 
 $(document).ready(function(){
         
-        var i = 2;
+        var i = 0;
         cb(i);
         function cb(i){
           
+            
         //This is ajax call    
         $.ajax({
         type: "POST",
@@ -27,14 +28,15 @@ $(document).ready(function(){
         dataType: "json",
         data: { folderurl : ids[i] },
       success: function(data){
+          var folder = ids[i]
           var newdata = new Object();
           newdata.files = [];
           newdata.containfiles = true;
           $.each(data, function(i,filename) { 
             var file = new Object();
-            file.url = ids[i]+filename;
+            file.url = folder+filename;
             file.name = filename.split(".")[0];
-            file.mitomodel = ids[i]+file.name;
+            file.mitomodel = folder+file.name;
             newdata.files.push(file);
 
         });
@@ -46,30 +48,6 @@ $(document).ready(function(){
           // HTML element with id "animalList" is set to the output above
           document.getElementById(divs[i]).innerHTML = output;
           
-          
-            $(".database").click(function(){
-                var $checkbox = $(this).find(".comparecheckbox");
-                console.log($checkbox);
-                $checkbox.prop('checked', !$checkbox.prop('checked'));
-                var $glyok = $(this).find(".glyphicon-ok");
-                if($checkbox.prop('checked')){
-                    $(this).css('background-color','#a3f379');
-                    $glyok.css('display','block');
-                }
-                else{
-                    $(this).css('background-color', 'white');
-                    $glyok.css('display','none');
-                }
-                if ($('input[type=checkbox]:checked').length > 6) {
-                    $checkbox.prop('checked', false);
-                    $(this).css('background-color', 'white');
-                    $glyok.css('display','none');
-                    $( "#warning1" ).fadeIn( 300 ).delay( 400 ).fadeOut( 300 );
-                }
-            });
-          
-            if (i>0) cb(i-1);
-    
           
       },
         error:function(e){
@@ -85,7 +63,7 @@ $(document).ready(function(){
         }
     });
         //end of ajax call
-            
+         if (i<ids.length-1) cb(i+1);   
         }
 
 
@@ -104,4 +82,27 @@ $(document).ready(function(){
         $('input:checkbox').removeAttr('checked');
         $(".database").css('background-color', 'white');
     })
+    
+
 });
+
+$(document).on("click", '.database', function(event) { 
+        var $checkbox = $(this).find(".comparecheckbox");
+        $checkbox.prop('checked', !$checkbox.prop('checked'));
+        var $glyok = $(this).find(".glyphicon-ok");
+        if($checkbox.prop('checked')){
+            $(this).css('background-color','#a3f379');
+            $glyok.css('display','block');
+        }
+        else{
+            $(this).css('background-color', 'white');
+            $glyok.css('display','none');
+        }
+        if ($('input[type=checkbox]:checked').length > 6) {
+            $checkbox.prop('checked', false);
+            $(this).css('background-color', 'white');
+            $glyok.css('display','none');
+            $( "#warning1" ).fadeIn( 300 ).delay( 400 ).fadeOut( 300 );
+        }
+});
+

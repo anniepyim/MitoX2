@@ -13,6 +13,7 @@ body {
 .text-primary {
   color: #12e2c0;
 }
+
 p {
   font-size: 14px;
   line-height: 1.75;
@@ -104,7 +105,7 @@ fieldset[disabled] .btn-primary.active {
   color: #12e2c0;
   background-color: white;
 }
-.btn-xl {
+.btn-l {
   color: white;
   background-color: #12e2c0;
   border-color: #12e2c0;
@@ -113,41 +114,41 @@ fieldset[disabled] .btn-primary.active {
   font-weight: 700;
   border-radius: 3px;
   font-size: 18px;
-  padding: 20px 40px;
+  padding: 15px 30px;
 }
-.btn-xl:hover,
-.btn-xl:focus,
-.btn-xl:active,
-.btn-xl.active,
-.open .dropdown-toggle.btn-xl {
+.btn-l:hover,
+.btn-l:focus,
+.btn-l:active,
+.btn-l.active,
+.open .dropdown-toggle.btn-l {
   color: white;
   background-color: #11dbb9;
-  border-color: #f6bf01;
+  border-color: #02dbbe;
 }
-.btn-xl:active,
-.btn-xl.active,
-.open .dropdown-toggle.btn-xl {
+.btn-l:active,
+.btn-l.active,
+.open .dropdown-toggle.btn-l {
   background-image: none;
 }
-.btn-xl.disabled,
-.btn-xl[disabled],
-fieldset[disabled] .btn-xl,
-.btn-xl.disabled:hover,
-.btn-xl[disabled]:hover,
-fieldset[disabled] .btn-xl:hover,
-.btn-xl.disabled:focus,
-.btn-xl[disabled]:focus,
-fieldset[disabled] .btn-xl:focus,
-.btn-xl.disabled:active,
-.btn-xl[disabled]:active,
-fieldset[disabled] .btn-xl:active,
-.btn-xl.disabled.active,
-.btn-xl[disabled].active,
-fieldset[disabled] .btn-xl.active {
+.btn-l.disabled,
+.btn-l[disabled],
+fieldset[disabled] .btn-l,
+.btn-l.disabled:hover,
+.btn-l[disabled]:hover,
+fieldset[disabled] .btn-l:hover,
+.btn-l.disabled:focus,
+.btn-l[disabled]:focus,
+fieldset[disabled] .btn-l:focus,
+.btn-l.disabled:active,
+.btn-l[disabled]:active,
+fieldset[disabled] .btn-l:active,
+.btn-l.disabled.active,
+.btn-l[disabled].active,
+fieldset[disabled] .btn-l.active {
   background-color: #12e2c0;
   border-color: #12e2c0;
 }
-.btn-xl .badge {
+.btn-l .badge {
   color: #12e2c0;
   background-color: white;
 }
@@ -461,6 +462,14 @@ section#contact {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+section#contact hr {
+    margin-top: 25px;
+  border-color: #11dbb9;
+  border-width: 150px;
+  max-width: 3px;
+}
+
 section#contact .section-heading {
   color: white;
 }
@@ -510,6 +519,22 @@ section#contact :-ms-input-placeholder {
 section#contact .text-danger {
   color: #e74c3c;
 }
+
+section#contact h4 {
+    color:white;
+}
+
+section#contact p {
+    color:white;
+}
+
+section#contact span {
+    color:white;
+    display:inline-block; 
+    width: 25px;
+    font-size: 1em;
+}
+
 footer {
   padding: 25px 0;
   text-align: center;
@@ -556,6 +581,8 @@ footer ul.quicklinks {
 .database-modal .modal-content p {
   margin-bottom: 30px;
 }
+
+
 .database-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
