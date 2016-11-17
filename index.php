@@ -1,9 +1,18 @@
 <?php 
+
+// restore existing user upload session when browser was closed
+if ($_COOKIE['mitoviz_user_upload']!='') { 
+        session_id($_COOKIE['mitoviz_user_upload']);
+}
+
+if (isset($_GET["muu"])) {
+        session_id($_GET["muu"]);
+}
+
 session_start();
 
 $id = session_id();
 ?>
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -19,10 +28,10 @@ $id = session_id();
     <title>MitoXplorer</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -41,7 +50,7 @@ $id = session_id();
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/png" href="img/logos/favicon.png">
 
 </head>
 
@@ -333,7 +342,7 @@ $id = session_id();
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>Aneuploidy</h2>
-                                <form name = "compareform" action="../compare.php" method="get">
+                                <form name = "compareform" action="compare.php" method="get">
                                     <p class="text-muted"><span class="glyphicon glyphicon-eye-open" aria-hidden="true" style="font-size: 1.2em"></span> Click on individual samples to visualize their expression and mutation profile<br>
                                     <span class="glyphicon glyphicon-ok" aria-hidden="true" style="font-size: 1.2em"></span>
                                     Or select up to 6 samples for comparative analysis</p>     
@@ -369,7 +378,7 @@ $id = session_id();
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>Trisomy 21</h2>
-                                <form name = "compareform" action="../compare.php" method="get">
+                                <form name = "compareform" action="compare.php" method="get">
                                     <p class="text-muted"><span class="glyphicon glyphicon-eye-open" aria-hidden="true" style="font-size: 1.2em"></span> Click on individual samples to visualize their expression and mutation profile<br>
                                     <span class="glyphicon glyphicon-ok" aria-hidden="true" style="font-size: 1.2em"></span>
                                     Or select up to 6 samples for comparative analysis</p>     
@@ -405,7 +414,7 @@ $id = session_id();
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>TCGA</h2>
-                                <form name = "compareform" action="../compare.php" method="get">
+                                <form name = "compareform" action="compare.php" method="get">
                                     <p class="text-muted"><span class="glyphicon glyphicon-eye-open" aria-hidden="true" style="font-size: 1.2em"></span> Click on individual samples to visualize their expression and mutation profile<br>
                                     <span class="glyphicon glyphicon-ok" aria-hidden="true" style="font-size: 1.2em"></span>
                                     Or select up to 6 samples for comparative analysis</p>     
@@ -517,7 +526,7 @@ $id = session_id();
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>My Data</h2>
-                                <form name = "compareform" action="../compare.php" method="get">
+                                <form name = "compareform" action="compare.php" method="get">
                                     <p class="text-muted"><span class="glyphicon glyphicon-eye-open" aria-hidden="true" style="font-size: 1.2em"></span> Click on individual samples to visualize their expression and mutation profile<br>
                                     <span class="glyphicon glyphicon-ok" aria-hidden="true" style="font-size: 1.2em"></span>
                                     Or select up to 6 samples for comparative analysis</p>     
@@ -538,10 +547,10 @@ $id = session_id();
     </div>
 
     <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
@@ -556,7 +565,7 @@ $id = session_id();
         
     <!--Database Javascript -->
     <script src="js/handlebars-v4.0.5.js"></script>
-    <<script id="userFilesTemplate" type="text/x-handlebars-template">
+    <script id="userFilesTemplate" type="text/x-handlebars-template">
     
     <div class="row">
         {{#if containfiles}}
