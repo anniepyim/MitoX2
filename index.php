@@ -1,5 +1,4 @@
 <?php 
-
 // restore existing user upload session when browser was closed
 if ($_COOKIE['mitoviz_user_upload']!='') { 
         session_id($_COOKIE['mitoviz_user_upload']);
@@ -13,8 +12,8 @@ session_start();
 
 $id = session_id();
 ?>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     
 
