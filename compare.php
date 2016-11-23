@@ -68,7 +68,7 @@ echo $id
         <!-- Page Content -->
         <div class = "container" id="content">
         </div>
-        <script data-my_var_1="<?php echo $jsarray; ?>" data-id="<?php echo $id; ?>" src="./js/Test.js"></script>
+        <script data-my_var_1="<?php echo $jsarray; ?>" data-id="<?php echo $id; ?>" src="./js/Test.min.js"></script>
         <script>   
             App.init();
         </script>
