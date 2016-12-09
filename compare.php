@@ -1,5 +1,5 @@
 <?php 
-//session_start();
+session_start();
 
 $id = session_id();
 $compare = $_GET['compare'];
@@ -7,7 +7,6 @@ $compare = $_GET['compare'];
 if($compare){
     $jsarray =implode(",", $compare);
 }
-echo $id
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -66,9 +65,10 @@ echo $id
         <!-- /.container-fluid -->
     </nav>
         <!-- Page Content -->
+<br>
         <div class = "container" id="content">
         </div>
-        <script data-my_var_1="<?php echo $jsarray; ?>" data-id="<?php echo $id; ?>" src="./js/Test.min.js"></script>
+        <script files="<?php echo $jsarray; ?>" session-id="<?php echo $id; ?>" src="./js/Test.min.js"></script>
         <script>   
             App.init();
         </script>
