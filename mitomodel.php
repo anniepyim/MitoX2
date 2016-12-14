@@ -1,7 +1,6 @@
 <?php
 $id = $_GET['id'];
 
-echo $id
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -70,7 +69,7 @@ echo $id
         </div>
         <!-- /.container-fluid -->
     </nav>
-        
+    <br>
     </body>
     <!-- App Script  -->
     <script data-my_var_1="<?php echo $id; ?>" data-my_var_2="./data/zzfiles/links.json" src="./js/App.js"></script>

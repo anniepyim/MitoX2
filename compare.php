@@ -18,7 +18,7 @@ if($compare){
         
         
         <link href="./css/style.css" rel="stylesheet" >
-        <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src="./js/jquery-1.12.4.min.js"></script>
         <script src="./js/bootstrap.min.js"></script>
         <script src="./js/bootstrap-select.js"></script>
         
@@ -68,7 +68,7 @@ if($compare){
 <br>
         <div class = "container" id="content">
         </div>
-        <script files="<?php echo $jsarray; ?>" session-id="<?php echo $id; ?>" src="./js/Test.min.js"></script>
+        <script files="<?php echo $jsarray; ?>" session-id="<?php echo $id; ?>" src="./js/App_compare.min.js"></script>
         <script>   
             App.init();
         </script>
