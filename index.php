@@ -109,10 +109,10 @@ $id = session_id();
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Some description about MitoXplorer</h3>
-                    <p class="large">MitoXplorer allows user to look up the mutation and expression landscape of mitochondrial genes. You could start with browsing our <a class="page-scroll" href="#database">databases</a>, doing <a class="page-scroll" href="#analysis">comparative analysis</a> on them or even <a class="page-scroll" href="#analysis">upload your own data</a>.</p>
-                    <p class="large">We also provide pipelines and other plugin for <a class="page-scroll" href="#download">downloading</a> to aid your analysis in mitochondrial genes.</p>
-                    <p class="large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur! </p>
+                    <h3 class="section-subheading text-muted">MitoXplorer - A Visualization Tool for Mitochondrial Gene Expression and Mutation</h3>
+                    <p class="large">Mitochondria are important organelles of eukaryotic cells. They serve primarily as a powerhouse to generate energy, and are also responsible for a lot of crucial biological functions.</p>
+                    <p class="large">MitoXplorer maps mutation and expression data to our mitochondrial model that consists of known functions of mitochondria, and allows user to explore the data in an interactive way. You could start with browsing our <a class="page-scroll" href="#database">databases</a>, doing <a class="page-scroll" href="#analysis">comparative analysis</a> on them or even <a class="page-scroll" href="#analysis">upload your own data</a>.</p>
+                    <p class="large">We also provide pipelines and other plugin for <a class="page-scroll" href="#download">downloading</a> to aid your analysis in mitochondrial genes and mitochondria-related research.</p>
                 </div>
             </div>
         </div>

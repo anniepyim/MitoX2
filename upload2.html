@@ -18,52 +18,6 @@
     <script src="js/jasny-bootstrap.min.js"></script>
 </head>
 
-<script>
-function validateForm() {
-    
-    ///This part has to be modified!!!!
-    //Duplicate name, file size, empty files etc
-    
-    var x = document.getElementsByClassName("warning");
-    var i;
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-    }
-    var organism = document.getElementById("organism").value;
-    //var samplename = document.getElementById("samplename1").value;
-    //var expfile = document.getElementById("expfile1").value;
-    //var mutfile = document.getElementById("mutfile1").value;
-
-    if (organism == "") document.getElementById('warning-organism').style.display = "block";
-    //if (samplename == "") document.getElementById('warning-samplename').style.display = "block";
-    //if (expfile == "") document.getElementById('warning-expfile').style.display = "block";
-    //if (mutfile == "") document.getElementById('warning-mutfile').style.display = "block";
-    
-    //if (organism == "" || samplename == "" || expfile == "" || mutfile == "") {
-    //    document.getElementById('warning-missing').style.display = "block";
-    //    return false;
-    //}
-}
-    
-    var counter = 2;
-    var limit = 10;
-
-    function addInput(divName){
-         if (counter == limit)  {
-              alert("You have reached the limit of adding " + counter + " samples");
-         }
-         else {
-              var newdiv = document.createElement('div');
-             newdiv.className = "jumbotron";
-             newdiv.style="border:solid #d3d1d1";
-              newdiv.innerHTML = "<b>Sample " + counter + ":</b> <input type='text' class='form-control' name='samplename" + counter + "' class='samplename'><br> <b>Expression file " + counter + ":</b> <input name='expfile" + counter + "' type='file' class='expfile'><br> <b>Mutation file " + counter + ":</b> <input name='mutfile" + counter + "' type='file' class='mutfile'>";
-              document.getElementById(divName).appendChild(newdiv);
-             document.getElementById("counter").value=counter;
-              counter++;
-         }
-    }
-</script>    
-    
 <body>
   
     <!-- Navigation -->
@@ -116,7 +70,7 @@ function validateForm() {
         <!--<h2 class="text-center">--><h2> MITOMODEL INPUT PORTAL</h2>
         <br><br>
     </div>
-    <form enctype="multipart/form-data" action="./upload/uploader.php" onsubmit="return validateForm()" method="POST">
+    <form enctype="multipart/form-data" action="./upload/uploader.php" method="POST">
     <div class="jumbotron">
     <h3>SELECT ORGANISM</h3>
         
@@ -132,37 +86,44 @@ function validateForm() {
     
 
     <div class="jumbotron">
-    <h3>UPLOAD DATA</h3>
-        <p>Submit both EXPRESSION (<u><a href="#Expression format">example</a></u>) and MUTATION (<u><a href="#Mutation format">example</a></u>) data in defined formats</p>
-    <input type="hidden" name="counter" value=1 id="counter">
-    <div id="dynamicInput">
-    
-    <div class="jumbotron" style="border:solid #d3d1d1">
-        <b>Sample 1:</b>
-        <input type="text" class="form-control" name="samplename1" class="samplename"><br>
-        <b>Expression file 1:</b>
-  		    <input name="expfile1" type="file" class="expfile"><br>
-        <b>Mutation file 1:</b>
-        <input name="mutfile1" type="file" class="mutfile">
-    </div>
-        
-    </div>
-    
-    
-    
-        <div style = "display:none" class="warning" id = "warning-missing"><p><font color="red">Something is missing!</font></p></div>
-    <div style = "display:none" class="warning" id = "warning-organism"><p><font color="red">- Select organism</p></font></div>
-        <div style = "display:none" class="warning" id = "warning-samplename"><p><font color="red">- Fill in file name</font></p></div>
-        <div style = "display:none" class="warning" id = "warning-expfile"><p><font color="red">- Select expression file</font></p></div>
-        <div style = "display:none" class="warning" id = "warning-mutfile"><p><font color="red">- Select mutation file</font></p></div>
+    <h3>EXPRESSION AND/OR MUTATION DATA</h3>
+        <p>To generate MitoModel:</p>
+    <p>Submit both expression and mutation data</p> 
+    <div class="form-group">
+    <label for="samplename">Sample Name:</label>
+  <input type="text" class="form-control" name="samplename">
+</div>
+    <label>Expression file: <a href="#Expression format">Example</a></label>
+ 	<div class="fileinput fileinput-new input-group" data-provides="fileinput">
+  		<div class="form-control" data-trigger="fileinput">
+  		<i class="glyphicon glyphicon-file fileinput-exists"></i> 
+  		<span class="fileinput-filename"></span>
+  		</div>
+  		<span class="input-group-addon btn btn-default btn-file">
+  		<span class="fileinput-new">Select file</span>
+  		<span class="fileinput-exists">Change</span>
+  		<input name="expfile1" type="file"></span>
+  		<a href="#" class="input-group-addon btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
+	</div>
+   <label>Mutation file: <a href="#Mutation format">Example</a></label>
+   <div class="fileinput fileinput-new input-group" data-provides="fileinput">
+  		<div class="form-control" data-trigger="fileinput">
+  		<i class="glyphicon glyphicon-file fileinput-exists"></i> 
+  		<span class="fileinput-filename"></span>
+  		</div>
+  		<span class="input-group-addon btn btn-default btn-file">
+  		<span class="fileinput-new">Select file</span>
+  		<span class="fileinput-exists">Change</span>
+  		<input name="mutfile1" type="file"  >
+  		</span>
+  		<a href="#" class="input-group-addon btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
+	</div>
     <button type="submit" class="btn btn-default" value="Upload File">Submit</button>
     <a href="index.php#analysis"><button type="button" class="btn btn-success" data-dismiss="modal">Go Back</button></a>
     <a href="upload/destroy.php" style="float:right" class="btn btn-warning">Restore</a>
-    <input type="button" value="Add another text input" onClick="addInput('dynamicInput');">
 	</div>
-    
-    </form>      
-    
+    </form>  
+  
     <a name="Expression format"></a>
     <div class="jumbotron">
         <h3>Expression File Format</h3>
