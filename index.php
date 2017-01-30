@@ -531,7 +531,8 @@ $id = session_id();
                                     <div class="row" id="userfiles-user">
                                     </div><br><br>
                                 </form>
-                                <a href="upload.html"><button type="button" class="btn btn-primary dismiss">Upload Data</button></a>
+                                <a href="upload.html"><button type="button" class="btn btn-primary dismiss">Upload Data</button></a><br><br>
+                                <a href="upload/destroy.php" class="btn btn-warning" onclick="return confirm('Are you sure you want to delete all your uploaded samples?');">Restore</a>
                             </div>
                         </div>
                     </div>

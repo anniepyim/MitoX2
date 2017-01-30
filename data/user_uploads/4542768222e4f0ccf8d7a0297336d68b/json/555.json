@@ -1,7 +1,488 @@
 [
  {
+  "gene": "AK4",
+  "sampleID": "555",
+  "chr": "1",
+  "process": "Replication & Transcription",
+  "gene_function": "AK4: Phosphorylates the deoxyribonucleoside mono phosphates specifically on dAMP",
+  "EMBL_ID": "ENSG00000162433",
+  "Normal": 16.7625,
+  "Abnormal": 21.478,
+  "log2": 0.357618,
+  "pvalue": 0.05805,
+  "mutation": "chr1 65695930 G/A: MODIFIER: 3_prime_UTR_variant"
+ },
+ {
+  "gene": "YRDC",
+  "sampleID": "555",
+  "chr": "1",
+  "process": "Replication & Transcription",
+  "gene_function": "YRDC: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
+  "EMBL_ID": "ENSG00000196449",
+  "Normal": 19.9562,
+  "Abnormal": 16.0963,
+  "log2": -0.310109,
+  "pvalue": 0.28805,
+  "mutation": "chr1 38268918 T/C: MODIFIER: 3_prime_UTR_variant"
+ },
+ {
+  "gene": "HK1",
+  "sampleID": "555",
+  "chr": "10",
+  "process": "Glycolysis",
+  "gene_function": "HK1: Hexokinases phosphorylate glucose to produce glucose-6-phosphate",
+  "EMBL_ID": "ENSG00000156515",
+  "Normal": 35.1365,
+  "Abnormal": 40.1835,
+  "log2": 0.193634,
+  "pvalue": 0.3009,
+  "mutation": "chr10 71161494 TG/T: MODIFIER: 3_prime_UTR_variant"
+ },
+ {
+  "gene": "ACADSB",
+  "sampleID": "555",
+  "chr": "10",
+  "process": "Fatty acid beta-oxidation",
+  "gene_function": "ACADSB: Involved in the metabolism of short branched chain fatty acids",
+  "EMBL_ID": "ENSG00000196177",
+  "Normal": 7.99223,
+  "Abnormal": 8.64078,
+  "log2": 0.112563,
+  "pvalue": 0.57165,
+  "mutation": "chr10 124800853 C/T: LOW: synonymous_variant"
+ },
+ {
+  "gene": "KIF5B",
+  "sampleID": "555",
+  "chr": "10",
+  "process": "Mitochondrial Dynamics",
+  "gene_function": "KIF5B: Involved in the mitochondrial movement, have role in the mitochondrial distribution in neurons",
+  "EMBL_ID": "ENSG00000170759",
+  "Normal": 59.2803,
+  "Abnormal": 73.6368,
+  "log2": 0.312875,
+  "pvalue": 0.0988,
+  "mutation": "chr10 32300337 AT/A: MODIFIER: 3_prime_UTR_variant"
+ },
+ {
+  "gene": "MMS19",
+  "sampleID": "555",
+  "chr": "10",
+  "process": "Fe-S cluster biosynthesis",
+  "gene_function": "MMS19: Cytosolic Fe/S protein assembly targeting factor",
+  "EMBL_ID": "ENSG00000155229",
+  "Normal": 33.1874,
+  "Abnormal": 23.7746,
+  "log2": -0.481216,
+  "pvalue": 0.0124,
+  "mutation": "chr10 99240758 G/C: MODERATE: missense_variant"
+ },
+ {
+  "gene": "UROS",
+  "sampleID": "555",
+  "chr": "10",
+  "process": "Heme Biosynthesis",
+  "gene_function": "UROS: Enzyme uroporphyrinogen III syntase catalyzes the liner tetrapyrrole molecule is cyclized or rearranged",
+  "EMBL_ID": "ENSG00000188690",
+  "Normal": 37.8215,
+  "Abnormal": 33.3361,
+  "log2": -0.182122,
+  "pvalue": 0.36265,
+  "mutation": "chr10 127477557 G/A: LOW: synonymous_variant"
+ },
+ {
+  "gene": "PDHX",
+  "sampleID": "555",
+  "chr": "11",
+  "process": "Formation of Acetyl CoA",
+  "gene_function": "PDHX: Catalyzes the conversion of pyruvate to acetyl coenzyme A",
+  "EMBL_ID": "ENSG00000110435",
+  "Normal": 14.922,
+  "Abnormal": 16.2808,
+  "log2": 0.125731,
+  "pvalue": 0.6311,
+  "mutation": "chr11 34991727 T/C: LOW: synonymous_variant"
+ },
+ {
+  "gene": "CPT1A",
+  "sampleID": "555",
+  "chr": "11",
+  "process": "Fatty acid beta-oxidation",
+  "gene_function": "CPT1A: Carnitiine palmitoyl transferase converts an acyl-CoA into an acylcarnitine",
+  "EMBL_ID": "ENSG00000110090",
+  "Normal": 34.0205,
+  "Abnormal": 30.0882,
+  "log2": -0.177208,
+  "pvalue": 0.3661,
+  "mutation": "chr11 68523910 T/C: MODIFIER: 3_prime_UTR_variant"
+ },
+ {
+  "gene": "DNM1L",
+  "sampleID": "555",
+  "chr": "12",
+  "process": "Mitochondrial Dynamics",
+  "gene_function": "DNM1L: Involved in the mitochondrial fission, mediates the division of mitochondria",
+  "EMBL_ID": "ENSG00000087470",
+  "Normal": 22.402,
+  "Abnormal": 24.6356,
+  "log2": 0.137116,
+  "pvalue": 0.47455,
+  "mutation": "chr12 32854366 A/C: LOW: synonymous_variant"
+ },
+ {
+  "gene": "PFKM",
+  "sampleID": "555",
+  "chr": "12",
+  "process": "Glycolysis",
+  "gene_function": "PFKM: Catalyzes the phosphorylation of fructose-6-phosphate to fructose-1,6-bisphosphate",
+  "EMBL_ID": "ENSG00000152556",
+  "Normal": 68.1138,
+  "Abnormal": 43.5469,
+  "log2": -0.645375,
+  "pvalue": 0.0008,
+  "mutation": "chr12 48526758 C/T: LOW: synonymous_variant"
+ },
+ {
+  "gene": "DIABLO",
+  "sampleID": "555",
+  "chr": "12",
+  "process": "Apoptosis",
+  "gene_function": "DIABLO: Acts as caspase activator by inhibiting the inhibitors of apoptotic proteins",
+  "EMBL_ID": "ENSG00000184047",
+  "Normal": 23.7525,
+  "Abnormal": 23.1535,
+  "log2": -0.0368469,
+  "pvalue": 0.85275,
+  "mutation": "chr12 122692820 T/C: MODIFIER: 3_prime_UTR_variant"
+ },
+ {
+  "gene": "CARS2",
+  "sampleID": "555",
+  "chr": "13",
+  "process": "Translation",
+  "gene_function": "CARS2: Involved in the specific attachment of cysteine aminoacid to its cognate tRNA",
+  "EMBL_ID": "ENSG00000134905",
+  "Normal": 19.7334,
+  "Abnormal": 25.0744,
+  "log2": 0.345574,
+  "pvalue": 0.0844,
+  "mutation": "chr13 111293915 T/G: MODERATE: missense_variant, chr13 111319754 T/C: LOW: synonymous_variant, chr13 111340101 T/A: MODERATE: missense_variant"
+ },
+ {
+  "gene": "NUBP2",
+  "sampleID": "555",
+  "chr": "16",
+  "process": "Fe-S cluster biosynthesis",
+  "gene_function": "NUBP2: Required for the assembly of cyotosolic iron-sulfur proteins",
+  "EMBL_ID": "ENSG00000095906",
+  "Normal": 65.8064,
+  "Abnormal": 50.6912,
+  "log2": -0.376495,
+  "pvalue": 0.0557,
+  "mutation": "chr16 1838836 C/T: MODERATE: missense_variant"
+ },
+ {
+  "gene": "NME3",
+  "sampleID": "555",
+  "chr": "16",
+  "process": "Replication & Transcription",
+  "gene_function": "NME3: Shows mitochondrial nucleoside diphosphate kinase activity",
+  "EMBL_ID": "ENSG00000103024",
+  "Normal": 54.9159,
+  "Abnormal": 60.9473,
+  "log2": 0.150336,
+  "pvalue": 0.4663,
+  "mutation": "chr16 1820992 T/A: LOW: splice_region_variant&synonymous_variant"
+ },
+ {
+  "gene": "MRPL45",
+  "sampleID": "555",
+  "chr": "17",
+  "process": "Translation",
+  "gene_function": "MRPL45: Mitoribosome which forms a part of mitochondrial translation machinary",
+  "EMBL_ID": "ENSG00000278845",
+  "Normal": 53.4822,
+  "Abnormal": 43.3619,
+  "log2": -0.302628,
+  "pvalue": 0.1183,
+  "mutation": "chr17 36478776 G/A: MODIFIER: 3_prime_UTR_variant"
+ },
+ {
+  "gene": "FECH",
+  "sampleID": "555",
+  "chr": "18",
+  "process": "Heme Biosynthesis",
+  "gene_function": "FECH: Ferrochelatase catalyzes the step involving the addition of Ferrous iron into the protoprphyrin IX to form the protoheme IX",
+  "EMBL_ID": "ENSG00000066926",
+  "Normal": 8.1731,
+  "Abnormal": 9.85962,
+  "log2": 0.270648,
+  "pvalue": 0.1593,
+  "mutation": "chr18 55221648 T/C: LOW: synonymous_variant, chr18 55217696 G/A: MODIFIER: 3_prime_UTR_variant"
+ },
+ {
+  "gene": "MRPL54",
+  "sampleID": "555",
+  "chr": "19",
+  "process": "Translation",
+  "gene_function": "MRPL54: Mitoribosome which forms a part of mitochondrial translation machinary",
+  "EMBL_ID": "ENSG00000183617",
+  "Normal": 51.0286,
+  "Abnormal": 51.9554,
+  "log2": 0.0259656,
+  "pvalue": 0.90485,
+  "mutation": "chr19 3765222 C/T: LOW: synonymous_variant"
+ },
+ {
+  "gene": "BCKDHA",
+  "sampleID": "555",
+  "chr": "19",
+  "process": "ROS defense",
+  "gene_function": "BCKDHA: Involved in the catabolism of aminoacids in mitochondria and may also be involved in the production of superoxides and hydrogen peroxide",
+  "EMBL_ID": "ENSG00000248098",
+  "Normal": 18.3208,
+  "Abnormal": 24.2814,
+  "log2": 0.406366,
+  "pvalue": 0.0497,
+  "mutation": "chr19 41928652 C/T: LOW: synonymous_variant, chr19 41930396 A/G: LOW: synonymous_variant"
+ },
+ {
+  "gene": "ACSL3",
+  "sampleID": "555",
+  "chr": "2",
+  "process": "Fatty acid beta-oxidation",
+  "gene_function": "ACSL3: Acyl-CoA synthetase activity for long chain free fatty acids are also involved in the activation of fatty acids",
+  "EMBL_ID": "ENSG00000123983",
+  "Normal": 43.7905,
+  "Abnormal": 53.6791,
+  "log2": 0.293744,
+  "pvalue": 0.12035,
+  "mutation": "chr2 223808401 A/C: MODIFIER: downstream_gene_variant"
+ },
+ {
+  "gene": "LRPPRC",
+  "sampleID": "555",
+  "chr": "2",
+  "process": "Translation",
+  "gene_function": "LRPPRC: Might play a role in the translation and stability of COX subunits",
+  "EMBL_ID": "ENSG00000138095",
+  "Normal": 64.554,
+  "Abnormal": 51.1919,
+  "log2": -0.334592,
+  "pvalue": 0.07025,
+  "mutation": "chr2 44145196 A/G: MODERATE: missense_variant"
+ },
+ {
+  "gene": "IDH1",
+  "sampleID": "555",
+  "chr": "2",
+  "process": "Tricarboxylic acid cycle",
+  "gene_function": "IDH1: Catalyze the oxidative decarboxylation of isocitrate to 2-oxoglutarate",
+  "EMBL_ID": "ENSG00000138413",
+  "Normal": 77.3987,
+  "Abnormal": 69.8481,
+  "log2": -0.148089,
+  "pvalue": 0.42985,
+  "mutation": "chr2 209101623 A/C: MODIFIER: 3_prime_UTR_variant"
+ },
+ {
+  "gene": "IDH3B",
+  "sampleID": "555",
+  "chr": "20",
+  "process": "Tricarboxylic acid cycle",
+  "gene_function": "IDH3B: Catalyze the oxidative decarboxylation of isocitrate to 2-oxoglutarate",
+  "EMBL_ID": "ENSG00000101365",
+  "Normal": 61.5578,
+  "Abnormal": 74.6925,
+  "log2": 0.279021,
+  "pvalue": 0.1509,
+  "mutation": "chr20 2640188 CCTT/C: MODERATE: inframe_deletion"
+ },
+ {
+  "gene": "PFKL",
+  "sampleID": "555",
+  "chr": "21",
+  "process": "Glycolysis",
+  "gene_function": "PFKL: Catalyzes the conversion of fructose 6-phosphate to fructose 1,6-bisphosphate",
+  "EMBL_ID": "ENSG00000141959",
+  "Normal": 63.8627,
+  "Abnormal": 69.6737,
+  "log2": 0.125641,
+  "pvalue": 0.509,
+  "mutation": "chr21 45746913 G/C: MODIFIER: 3_prime_UTR_variant"
+ },
+ {
+  "gene": "MAPK1",
+  "sampleID": "555",
+  "chr": "22",
+  "process": "Apoptosis",
+  "gene_function": "MAPK1: Inhibitors of CASP9 activity",
+  "EMBL_ID": "ENSG00000100030",
+  "Normal": 34.5346,
+  "Abnormal": 38.5974,
+  "log2": 0.160462,
+  "pvalue": 0.46805,
+  "mutation": "chr22 22117726 CT/C: MODIFIER: 3_prime_UTR_variant, chr22 22115004 C/G: MODIFIER: 3_prime_UTR_variant, chr22 22115498 T/C: MODIFIER: 3_prime_UTR_variant"
+ },
+ {
+  "gene": "OPA1",
+  "sampleID": "555",
+  "chr": "3",
+  "process": "Mitochondrial Dynamics",
+  "gene_function": "OPA1: Involved in the mitochondrial fusion, initiates inner membrane fusion",
+  "EMBL_ID": "ENSG00000198836",
+  "Normal": 19.3417,
+  "Abnormal": 19.0389,
+  "log2": -0.0227633,
+  "pvalue": 0.9065,
+  "mutation": "chr3 193334991 G/A: MODERATE: missense_variant, chr3 193414675 T/C: MODIFIER: 3_prime_UTR_variant"
+ },
+ {
+  "gene": "MRPS30",
+  "sampleID": "555",
+  "chr": "5",
+  "process": "Translation",
+  "gene_function": "MRPS30: Mitoribosome which forms a part of mitochondrial translation machinary",
+  "EMBL_ID": "ENSG00000112996",
+  "Normal": 50.9405,
+  "Abnormal": 90.9961,
+  "log2": 0.836992,
+  "pvalue": 0.00005,
+  "mutation": "chr5 44809162 G/C: MODERATE: missense_variant, chr5 44818181 A/G: MODIFIER: downstream_gene_variant"
+ },
+ {
+  "gene": "GRPEL2",
+  "sampleID": "555",
+  "chr": "5",
+  "process": "Import & Sorting",
+  "gene_function": "GRPEL2: Presequence translocase associated motor, acts as a nucleotide exchange factor releasing the ADP from HSPA9",
+  "EMBL_ID": "ENSG00000164284",
+  "Normal": 12.6718,
+  "Abnormal": 19.5113,
+  "log2": 0.622686,
+  "pvalue": 0.00145,
+  "mutation": "chr5 148733364 C/T: MODIFIER: 3_prime_UTR_variant"
+ },
+ {
+  "gene": "SQSTM1",
+  "sampleID": "555",
+  "chr": "5",
+  "process": "Mitochondrial Dynamics",
+  "gene_function": "SQSTM1: Involved  in the mitophagy, recruited to mitochondria and binds mitochondrial substrates on the autophagosomes",
+  "EMBL_ID": "ENSG00000161011",
+  "Normal": 131.958,
+  "Abnormal": 454.132,
+  "log2": 1.78304,
+  "pvalue": 0.00005,
+  "mutation": "chr5 179264915 G/T: MODIFIER: 3_prime_UTR_variant"
+ },
+ {
+  "gene": "GFM2",
+  "sampleID": "555",
+  "chr": "5",
+  "process": "Translation",
+  "gene_function": "GFM2: Involved in the elongation and termination phases of the translation process may also be involved in the ribosome recycling",
+  "EMBL_ID": "ENSG00000164347",
+  "Normal": 13.4944,
+  "Abnormal": 27.7562,
+  "log2": 1.04045,
+  "pvalue": 0.00305,
+  "mutation": "chr5 74021846 TACTCAA/T: MODERATE: disruptive_inframe_deletion"
+ },
+ {
+  "gene": "MTO1",
+  "sampleID": "555",
+  "chr": "6",
+  "process": "Replication & Transcription",
+  "gene_function": "MTO1: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
+  "EMBL_ID": "ENSG00000135297",
+  "Normal": 9.87292,
+  "Abnormal": 12.7352,
+  "log2": 0.367273,
+  "pvalue": 0.0722,
+  "mutation": "chr6 74190448 T/C: LOW: synonymous_variant"
+ },
+ {
+  "gene": "OGDH",
+  "sampleID": "555",
+  "chr": "7",
+  "process": "Tricarboxylic acid cycle",
+  "gene_function": "OGDH: Catalyzes the overall conversion of 2-oxoglutarate to succinyl-CoA and CO2",
+  "EMBL_ID": "ENSG00000105953",
+  "Normal": 26.0702,
+  "Abnormal": 32.8442,
+  "log2": 0.333238,
+  "pvalue": 0.0856,
+  "mutation": "chr7 44748330 A/G: MODIFIER: 3_prime_UTR_variant"
+ },
+ {
+  "gene": "DLD",
+  "sampleID": "555",
+  "chr": "7",
+  "process": "Tricarboxylic acid cycle",
+  "gene_function": "DLD: Catalyzes the overall conversion of 2-oxoglutarate to succinyl-CoA and CO2",
+  "EMBL_ID": "ENSG00000091140",
+  "Normal": 32.3239,
+  "Abnormal": 35.5796,
+  "log2": 0.13845,
+  "pvalue": 0.4645,
+  "mutation": "chr7 107560191 C/T: MODIFIER: 3_prime_UTR_variant"
+ },
+ {
+  "gene": "CYC1",
+  "sampleID": "555",
+  "chr": "8",
+  "process": "Electron transport chain",
+  "gene_function": "CYC1: Essential component of complex III transfers electrons from iron sulphur protein to cytochrome c",
+  "EMBL_ID": "ENSG00000179091",
+  "Normal": 209.303,
+  "Abnormal": 222.6,
+  "log2": 0.0888599,
+  "pvalue": 0.6306,
+  "mutation": "chr8 145151091 G/A: MODERATE: missense_variant"
+ },
+ {
+  "gene": "RRM2B",
+  "sampleID": "555",
+  "chr": "8",
+  "process": "Replication & Transcription",
+  "gene_function": "RRM2B: Required for the de novo deoxyribonucloetide synthesis in nonproliferating cells supplying dNTPs to mtDNA synthesis",
+  "EMBL_ID": "ENSG00000048392",
+  "Normal": 25.7664,
+  "Abnormal": 25.0349,
+  "log2": -0.0415511,
+  "pvalue": 0.8277,
+  "mutation": "chr8 103237225 C/G: MODERATE: missense_variant"
+ },
+ {
+  "gene": "TOP1MT",
+  "sampleID": "555",
+  "chr": "8",
+  "process": "Replication & Transcription",
+  "gene_function": "TOP1MT: Suggested to have a role in the removal of positive supercoils created by helicase activity",
+  "EMBL_ID": "ENSG00000184428",
+  "Normal": 33.5647,
+  "Abnormal": 28.2347,
+  "log2": -0.249473,
+  "pvalue": 0.20695,
+  "mutation": "chr8 144392368 G/A: MODERATE: missense_variant"
+ },
+ {
+  "gene": "CRAT",
+  "sampleID": "555",
+  "chr": "9",
+  "process": "Fatty acid beta-oxidation",
+  "gene_function": "CRAT: Free carnitine in the mitochondria can be converted into acyl carnitine by the action of carnitine acetyl transferase",
+  "EMBL_ID": "ENSG00000095321",
+  "Normal": 8.01212,
+  "Abnormal": 30.21,
+  "log2": 1.91477,
+  "pvalue": 0.00005,
+  "mutation": "chr9 131857630 C/T: MODIFIER: 3_prime_UTR_variant, chr9 131860901 G/T: MODERATE: missense_variant"
+ },
+ {
   "gene": "ATAD3B",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Translation",
   "gene_function": "ATAD3B: May interact with mitochondrial proteins and is required mitochondrial protein synthesis",
@@ -14,7 +495,7 @@
  },
  {
   "gene": "ATAD3A",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Translation",
   "gene_function": "ATAD3A: May interact with mitochondrial proteins and is required mitochondrial protein synthesis",
@@ -27,7 +508,7 @@
  },
  {
   "gene": "SLC25A33",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Replication & Transcription",
   "gene_function": "SLC25A33: Mitochondrial pyrimidine nucleotide carrier",
@@ -40,7 +521,7 @@
  },
  {
   "gene": "KIF1B",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Mitochondrial Dynamics",
   "gene_function": "KIF1B: Involved in the mitochondrial movement, have role in the mitochondrial distribution in neurons",
@@ -53,7 +534,7 @@
  },
  {
   "gene": "MFN2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Mitochondrial Dynamics",
   "gene_function": "MFN2: Involved in the mitochondrial fusion, mitofusins dimerize resulting in the tethering of the outer membranes of the fusing mitochondria also involved in the tethering of Endoplasmic reticulum with mitochondria for mitochondrial calcium uptake",
@@ -65,21 +546,8 @@
   "mutation": ""
  },
  {
-  "gene": "PINK1",
-  "sampleID": "test",
-  "chr": "1",
-  "process": "Mitochondrial Dynamics",
-  "gene_function": "PINK1: Involved in the mitochondrial fusion, PINK1 phosphorylates PARK2 and inturn PARK2 induced ubiquitination of mitofusins may target mitochondria for mitophagy",
-  "EMBL_ID": "ENSG00000158828",
-  "Normal": 21.0342,
-  "Abnormal": 29.8062,
-  "log2": 0.502878,
-  "pvalue": 0.0117,
-  "mutation": ""
- },
- {
   "gene": "ATPIF1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Electron transport chain",
   "gene_function": "ATPIF1: ATPase inhibitory factor 1 essential component of complex V",
@@ -92,7 +560,7 @@
  },
  {
   "gene": "NDUFS5",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Electron transport chain",
   "gene_function": "NDUFS5: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -105,7 +573,7 @@
  },
  {
   "gene": "UROD",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Heme Biosynthesis",
   "gene_function": "UROD: Uroporphyrinogen III decarboxylase catalyzes stepwise decarboxylation of the Uroporphyrinogen III",
@@ -118,7 +586,7 @@
  },
  {
   "gene": "UQCRH",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Electron transport chain",
   "gene_function": "UQCRH: Ubiquinol-cytochrome c reductase hinge protein essential component of complex III",
@@ -131,7 +599,7 @@
  },
  {
   "gene": "CPT2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "CPT2: Acylcarnitines are reconverted to their CoA esters by carnitine palmitoyltransferase 2",
@@ -144,7 +612,7 @@
  },
  {
   "gene": "MRPL37",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Translation",
   "gene_function": "MRPL37: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -156,21 +624,8 @@
   "mutation": ""
  },
  {
-  "gene": "AK4",
-  "sampleID": "test",
-  "chr": "1",
-  "process": "Replication & Transcription",
-  "gene_function": "AK4: Phosphorylates the deoxyribonucleoside mono phosphates specifically on dAMP",
-  "EMBL_ID": "ENSG00000162433",
-  "Normal": 16.7625,
-  "Abnormal": 21.478,
-  "log2": 0.357618,
-  "pvalue": 0.05805,
-  "mutation": ""
- },
- {
   "gene": "ACADM",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "ACADM: Fatty acids are metabolized for 3 to 4 cycles by the medium chain acyl-CoA dehydrogenase",
@@ -183,7 +638,7 @@
  },
  {
   "gene": "SH3GLB1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Mitochondrial Dynamics",
   "gene_function": "SH3GLB1: Involved in the mitochondrial fission, proposed to be involved in the lipid remodeling of the outer membrane during fission",
@@ -196,7 +651,7 @@
  },
  {
   "gene": "ATP5F1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Electron transport chain",
   "gene_function": "ATP5F1: ATP synthase H+ transporting mitochondrial Fo complex subunit B1 essential component of complex V",
@@ -209,7 +664,7 @@
  },
  {
   "gene": "MRPS21",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Translation",
   "gene_function": "MRPS21: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -222,7 +677,7 @@
  },
  {
   "gene": "TARS2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Translation",
   "gene_function": "TARS2: Involved in the specific attachment of threonine aminoacid to its cognate tRNA",
@@ -235,7 +690,7 @@
  },
  {
   "gene": "SLC27A3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "SLC27A3: Readily converts the transported very long chain fatty acids to acyl-CoAs",
@@ -248,7 +703,7 @@
  },
  {
   "gene": "MSTO1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Mitochondrial Dynamics",
   "gene_function": "MSTO1: Involved in the regulation of mitochondrial distribution and morphology",
@@ -261,7 +716,7 @@
  },
  {
   "gene": "DAP3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Translation",
   "gene_function": "DAP3: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -274,7 +729,7 @@
  },
  {
   "gene": "PPOX",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Heme Biosynthesis",
   "gene_function": "PPOX: Enzyme protoporphyrinogen oxidase coverts Protoporphyrinogen IX to Protoporphyrin IX",
@@ -287,7 +742,7 @@
  },
  {
   "gene": "NDUFS2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Electron transport chain",
   "gene_function": "NDUFS2: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -300,7 +755,7 @@
  },
  {
   "gene": "TOMM40L",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Import & Sorting",
   "gene_function": "TOMM40L: Outer membrane translocation, forms the outer membrane channel forming protein",
@@ -313,7 +768,7 @@
  },
  {
   "gene": "SDHC",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Tricarboxylic acid cycle",
   "gene_function": "SDHC: Part of Succinate dehydrogenase complex in oxidative phosporylation in TCA cycle it catalyzes the oxidation of succinate to fumarate",
@@ -326,7 +781,7 @@
  },
  {
   "gene": "DARS2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Translation",
   "gene_function": "DARS2: Involved in the specific attachment of aspartic acid aminoacid to its cognate tRNA",
@@ -339,7 +794,7 @@
  },
  {
   "gene": "TIMM17A",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Import & Sorting",
   "gene_function": "TIMM17A: Inner membrane translocation, might influence the channel activity formed by the TIMM23",
@@ -352,7 +807,7 @@
  },
  {
   "gene": "IARS2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Translation",
   "gene_function": "IARS2: Involved in the specific attachment of isoleucine aminoacid to its cognate tRNA",
@@ -365,7 +820,7 @@
  },
  {
   "gene": "IBA57",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Fe-S cluster biosynthesis",
   "gene_function": "IBA57: Involved in the maturation of mitochondrial iron-sulfur proteins",
@@ -378,7 +833,7 @@
  },
  {
   "gene": "C1orf31",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Electron transport chain",
   "gene_function": "C1orf31: COA6 Complex IV assembly factor",
@@ -391,7 +846,7 @@
  },
  {
   "gene": "COX20",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Electron transport chain",
   "gene_function": "COX20: Complex IV assembly factor",
@@ -404,7 +859,7 @@
  },
  {
   "gene": "MRPL20",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Translation",
   "gene_function": "MRPL20: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -417,7 +872,7 @@
  },
  {
   "gene": "ENO1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Glycolysis",
   "gene_function": "ENO1: Catalyzes the dehydration of 2-phosphoglycerate to phosphoenolpyruate",
@@ -430,7 +885,7 @@
  },
  {
   "gene": "CASP9",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Apoptosis",
   "gene_function": "CASP9: Initiator caspase recruited by Apoptosome",
@@ -443,7 +898,7 @@
  },
  {
   "gene": "SDHB",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Tricarboxylic acid cycle",
   "gene_function": "SDHB: Part of Succinate dehydrogenase complex in oxidative phosporylation in TCA cycle it catalyzes the oxidation of succinate to fumarate",
@@ -456,7 +911,7 @@
  },
  {
   "gene": "YARS",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Translation",
   "gene_function": "YARS: Aminoacyl-tRNA synthetases that catalyze the aminoacylation of tRNA by their cognate amino acid",
@@ -469,7 +924,7 @@
  },
  {
   "gene": "MRPS15",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Translation",
   "gene_function": "MRPS15: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -481,21 +936,8 @@
   "mutation": ""
  },
  {
-  "gene": "YRDC",
-  "sampleID": "test",
-  "chr": "1",
-  "process": "Replication & Transcription",
-  "gene_function": "YRDC: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
-  "EMBL_ID": "ENSG00000196449",
-  "Normal": 19.9562,
-  "Abnormal": 16.0963,
-  "log2": -0.310109,
-  "pvalue": 0.28805,
-  "mutation": ""
- },
- {
   "gene": "TRIT1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Replication & Transcription",
   "gene_function": "TRIT1: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
@@ -508,7 +950,7 @@
  },
  {
   "gene": "SLC2A1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Glycolysis",
   "gene_function": "SLC2A1: A major glucose transporter in the mammalian blood-brain barrier",
@@ -521,7 +963,7 @@
  },
  {
   "gene": "MUTYH",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Replication & Transcription",
   "gene_function": "MUTYH: Involved in the mitochondrial DNA base excision repair",
@@ -534,7 +976,7 @@
  },
  {
   "gene": "ATPAF1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Electron transport chain",
   "gene_function": "ATPAF1: Complex V assembly factor, essential for assembly of alpha + beta heterooligomer",
@@ -547,7 +989,7 @@
  },
  {
   "gene": "SELRC1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Electron transport chain",
   "gene_function": "SELRC1: COA7 Complex IV assembly factor",
@@ -560,7 +1002,7 @@
  },
  {
   "gene": "PARS2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Translation",
   "gene_function": "PARS2: Involved in the specific attachment of proline aminoacid to its cognate tRNA",
@@ -573,7 +1015,7 @@
  },
  {
   "gene": "OMA1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Mitochondrial Dynamics",
   "gene_function": "OMA1: Involved in the mitochondrial fusion, know to induce proteolytic inactivation of OPA1",
@@ -586,7 +1028,7 @@
  },
  {
   "gene": "GCLM",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "ROS defense",
   "gene_function": "GCLM: Catalyzes the first step reaction which combines cystein and glutamate to form glutamylcysteine",
@@ -599,7 +1041,7 @@
  },
  {
   "gene": "WARS2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Translation",
   "gene_function": "WARS2: Involved in the specific attachment of tryptophan aminoacid to its cognate tRNA",
@@ -612,7 +1054,7 @@
  },
  {
   "gene": "MCL1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Apoptosis",
   "gene_function": "MCL1: Bcl-2 family member Anti-apoptotic proteins",
@@ -625,7 +1067,7 @@
  },
  {
   "gene": "MRPL9",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Translation",
   "gene_function": "MRPL9: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -638,7 +1080,7 @@
  },
  {
   "gene": "SHC1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "ROS defense",
   "gene_function": "SHC1: Could be involved in the generation of the hydrogen peroxide independent of superoxides in mitochondria",
@@ -651,7 +1093,7 @@
  },
  {
   "gene": "PKLR",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Glycolysis",
   "gene_function": "PKLR: Catalyzes the transphosphorylation of phohsphoenolpyruvate into pyruvate and ATP",
@@ -664,7 +1106,7 @@
  },
  {
   "gene": "MRPL24",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Translation",
   "gene_function": "MRPL24: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -677,7 +1119,7 @@
  },
  {
   "gene": "BRP44",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Pyruvate transfer",
   "gene_function": "BRP44: Mitochondrial pyruvate carrier 2",
@@ -690,7 +1132,7 @@
  },
  {
   "gene": "MRPS14",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Translation",
   "gene_function": "MRPS14: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -703,7 +1145,7 @@
  },
  {
   "gene": "RNASEL",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Translation",
   "gene_function": "RNASEL: Modulate the stability of mitochondrial mRNAsby interacting with MTIF2",
@@ -716,7 +1158,7 @@
  },
  {
   "gene": "GLRX2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "ROS defense",
   "gene_function": "GLRX2: Involved in the control of mitochndrial protein gluthathionylation",
@@ -729,7 +1171,7 @@
  },
  {
   "gene": "MRPL55",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Translation",
   "gene_function": "MRPL55: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -742,7 +1184,7 @@
  },
  {
   "gene": "TOMM20",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Import & Sorting",
   "gene_function": "TOMM20: Outer membrane translocation, recognize presequences on the mitochondrial outer membrane",
@@ -755,7 +1197,7 @@
  },
  {
   "gene": "FH",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Tricarboxylic acid cycle",
   "gene_function": "FH: Catalyzes the formation of L-malate from fumarate",
@@ -768,7 +1210,7 @@
  },
  {
   "gene": "TFB2M",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "1",
   "process": "Replication & Transcription",
   "gene_function": "TFB2M: Essential transcription faactor involved in the transcription of mitochondrial genes",
@@ -781,7 +1223,7 @@
  },
  {
   "gene": "PFKP",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "10",
   "process": "Glycolysis",
   "gene_function": "PFKP: Catalyzes the irreversible conversion of fructose-6-phosphate to fructose-1,6-bisphosphate",
@@ -794,7 +1236,7 @@
  },
  {
   "gene": "ATP5C1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "10",
   "process": "Electron transport chain",
   "gene_function": "ATP5C1: ATP synthase H+ transporting mitochondrial F1 complex gamma polypeptide 1 essential component of complex V",
@@ -807,7 +1249,7 @@
  },
  {
   "gene": "TFAM",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "10",
   "process": "Replication & Transcription",
   "gene_function": "TFAM: A key activator of mitochondrial transcription and also functions in replication and repair",
@@ -820,7 +1262,7 @@
  },
  {
   "gene": "CDK1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "10",
   "process": "Apoptosis",
   "gene_function": "CDK1: Can Inhibit CASP9 activity and also involved in the phosphorylation of DNM1L to increase fission",
@@ -832,21 +1274,8 @@
   "mutation": ""
  },
  {
-  "gene": "HK1",
-  "sampleID": "test",
-  "chr": "10",
-  "process": "Glycolysis",
-  "gene_function": "HK1: Hexokinases phosphorylate glucose to produce glucose-6-phosphate",
-  "EMBL_ID": "ENSG00000156515",
-  "Normal": 35.1365,
-  "Abnormal": 40.1835,
-  "log2": 0.193634,
-  "pvalue": 0.3009,
-  "mutation": ""
- },
- {
   "gene": "MCU",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "10",
   "process": "Calcium trafficking",
   "gene_function": "MCU: Involved in the accumulation of calcium ions in the matrix through ion impermeable inner mitochondrial membrane",
@@ -859,7 +1288,7 @@
  },
  {
   "gene": "VDAC2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "10",
   "process": "Apoptosis",
   "gene_function": "VDAC2: Voltage dependent anion channel forms part of permeability transition pore and also involved in the takeup of calcium ions from the Endoplasmic reticulum",
@@ -872,7 +1301,7 @@
  },
  {
   "gene": "PPIF",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "10",
   "process": "Apoptosis",
   "gene_function": "PPIF: Cyclophilin D forms part of permeability transition pore",
@@ -885,7 +1314,7 @@
  },
  {
   "gene": "MARCH5",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "10",
   "process": "Mitochondrial Dynamics",
   "gene_function": "MARCH5: Involved in the mitochondrial fusion and fission, control of mitochondrial morphology by regulating MFN2 and DNM1L",
@@ -898,7 +1327,7 @@
  },
  {
   "gene": "PGAM1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "10",
   "process": "Glycolysis",
   "gene_function": "PGAM1: Catalyzes the reversible reaction of 3-phosphoglycerate to 2-phosphoglycerate",
@@ -911,7 +1340,7 @@
  },
  {
   "gene": "C10orf2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "10",
   "process": "Replication & Transcription",
   "gene_function": "C10orf2: Mitochondrial DNA (mtDNA) helicase (TWINKLE) plays a important role in the maintenance of mtDNA",
@@ -924,7 +1353,7 @@
  },
  {
   "gene": "ACSL5",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "10",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "ACSL5: Acyl-CoA synthetase activity for long chain free fatty acids are also involved in the activation of fatty acids",
@@ -937,7 +1366,7 @@
  },
  {
   "gene": "CASP7",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "10",
   "process": "Apoptosis",
   "gene_function": "CASP7: Executioner caspases leading to apoptosis",
@@ -949,21 +1378,8 @@
   "mutation": ""
  },
  {
-  "gene": "ACADSB",
-  "sampleID": "test",
-  "chr": "10",
-  "process": "Fatty acid beta-oxidation",
-  "gene_function": "ACADSB: Involved in the metabolism of short branched chain fatty acids",
-  "EMBL_ID": "ENSG00000196177",
-  "Normal": 7.99223,
-  "Abnormal": 8.64078,
-  "log2": 0.112563,
-  "pvalue": 0.57165,
-  "mutation": ""
- },
- {
   "gene": "YME1L1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "10",
   "process": "Mitochondrial Dynamics",
   "gene_function": "YME1L1: Involved in the mitochondrial fusion, known to cleave OPA1",
@@ -976,7 +1392,7 @@
  },
  {
   "gene": "MTPAP",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "10",
   "process": "Replication & Transcription",
   "gene_function": "MTPAP: Involved in the polyadenylation of mitochondrial tRNAs, rRNAs and mRNAs",
@@ -988,21 +1404,8 @@
   "mutation": ""
  },
  {
-  "gene": "KIF5B",
-  "sampleID": "test",
-  "chr": "10",
-  "process": "Mitochondrial Dynamics",
-  "gene_function": "KIF5B: Involved in the mitochondrial movement, have role in the mitochondrial distribution in neurons",
-  "EMBL_ID": "ENSG00000170759",
-  "Normal": 59.2803,
-  "Abnormal": 73.6368,
-  "log2": 0.312875,
-  "pvalue": 0.0988,
-  "mutation": ""
- },
- {
   "gene": "TIMM23",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "10",
   "process": "Import & Sorting",
   "gene_function": "TIMM23: Inner membrane translocation, forms the main channel of TIMM23 complex",
@@ -1015,7 +1418,7 @@
  },
  {
   "gene": "MICU1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "10",
   "process": "Calcium trafficking",
   "gene_function": "MICU1: Regulates the mitochodrial calcium uniporter by inhibiting and permitting the calcium depending upon the cytosolic calcium concentrations",
@@ -1028,7 +1431,7 @@
  },
  {
   "gene": "MRPS16",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "10",
   "process": "Translation",
   "gene_function": "MRPS16: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -1040,21 +1443,8 @@
   "mutation": ""
  },
  {
-  "gene": "MMS19",
-  "sampleID": "test",
-  "chr": "10",
-  "process": "Fe-S cluster biosynthesis",
-  "gene_function": "MMS19: Cytosolic Fe/S protein assembly targeting factor",
-  "EMBL_ID": "ENSG00000155229",
-  "Normal": 33.1874,
-  "Abnormal": 23.7746,
-  "log2": -0.481216,
-  "pvalue": 0.0124,
-  "mutation": ""
- },
- {
   "gene": "SLC25A28",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "10",
   "process": "Fe-S cluster biosynthesis",
   "gene_function": "SLC25A28: Mitochondrial iron transporter",
@@ -1067,7 +1457,7 @@
  },
  {
   "gene": "COX15",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "10",
   "process": "Electron transport chain",
   "gene_function": "COX15: Complex IV assembly factor, may function in the regulation and assembly of the complex",
@@ -1080,7 +1470,7 @@
  },
  {
   "gene": "NDUFB8",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "10",
   "process": "Electron transport chain",
   "gene_function": "NDUFB8: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -1093,7 +1483,7 @@
  },
  {
   "gene": "MRPL43",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "10",
   "process": "Translation",
   "gene_function": "MRPL43: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -1106,7 +1496,7 @@
  },
  {
   "gene": "PRDX3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "10",
   "process": "ROS defense",
   "gene_function": "PRDX3: Mitochondrial peroxiredoxin reduces hydrogen peroxide to water",
@@ -1118,21 +1508,8 @@
   "mutation": ""
  },
  {
-  "gene": "UROS",
-  "sampleID": "test",
-  "chr": "10",
-  "process": "Heme Biosynthesis",
-  "gene_function": "UROS: Enzyme uroporphyrinogen III syntase catalyzes the liner tetrapyrrole molecule is cyclized or rearranged",
-  "EMBL_ID": "ENSG00000188690",
-  "Normal": 37.8215,
-  "Abnormal": 33.3361,
-  "log2": -0.182122,
-  "pvalue": 0.36265,
-  "mutation": ""
- },
- {
   "gene": "BNIP3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "10",
   "process": "Mitochondrial Dynamics",
   "gene_function": "BNIP3: Involved in the mitophagy, cause permeabilization of the mitochondrial membrane and also acts as a proapoptotic factor",
@@ -1145,7 +1522,7 @@
  },
  {
   "gene": "ECHS1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "10",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "ECHS1: Enoyl-CoA hydratases, short chain, 1, mitochondrial",
@@ -1158,7 +1535,7 @@
  },
  {
   "gene": "MRPL23",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Translation",
   "gene_function": "MRPL23: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -1171,7 +1548,7 @@
  },
  {
   "gene": "LDHA",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Glycolysis",
   "gene_function": "LDHA: Catalyzes the interconversion of pyruvate to lactate and back",
@@ -1184,7 +1561,7 @@
  },
  {
   "gene": "EIF3M",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Apoptosis",
   "gene_function": "EIF3M: PCI domain containing protein 1 can negatively regulate CASP9 activity",
@@ -1196,21 +1573,8 @@
   "mutation": ""
  },
  {
-  "gene": "PDHX",
-  "sampleID": "test",
-  "chr": "11",
-  "process": "Formation of Acetyl CoA",
-  "gene_function": "PDHX: Catalyzes the conversion of pyruvate to acetyl coenzyme A",
-  "EMBL_ID": "ENSG00000110435",
-  "Normal": 14.922,
-  "Abnormal": 16.2808,
-  "log2": 0.125731,
-  "pvalue": 0.6311,
-  "mutation": ""
- },
- {
   "gene": "PTPMT1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Cardiolipin biosynthesis",
   "gene_function": "PTPMT1: Phosphatidylglycerophosphatase activity removes phospate from phosphatidylglycerol phosphate to form phosphatidylglycerol",
@@ -1223,7 +1587,7 @@
  },
  {
   "gene": "NDUFS3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Electron transport chain",
   "gene_function": "NDUFS3: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -1236,7 +1600,7 @@
  },
  {
   "gene": "SDHAF2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Electron transport chain",
   "gene_function": "SDHAF2: Required for flavination of a succinate dehydrogenase complex",
@@ -1249,7 +1613,7 @@
  },
  {
   "gene": "COX8A",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Electron transport chain",
   "gene_function": "COX8A: Cytochrome c oxidase subunit VIIIA (ubiquitous) essential component of complex IV",
@@ -1262,7 +1626,7 @@
  },
  {
   "gene": "MRPL49",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Translation",
   "gene_function": "MRPL49: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -1275,7 +1639,7 @@
  },
  {
   "gene": "GSTP1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "ROS defense",
   "gene_function": "GSTP1: Mitochondrial gluthathione-S-transferases through gluthothione conjugation or proxide reduction detoxify harmful byproducts",
@@ -1288,7 +1652,7 @@
  },
  {
   "gene": "NDUFV1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Electron transport chain",
   "gene_function": "NDUFV1: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -1301,7 +1665,7 @@
  },
  {
   "gene": "NDUFS8",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Electron transport chain",
   "gene_function": "NDUFS8: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -1314,7 +1678,7 @@
  },
  {
   "gene": "MRPL48",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Translation",
   "gene_function": "MRPL48: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -1327,7 +1691,7 @@
  },
  {
   "gene": "TMEM126B",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Electron transport chain",
   "gene_function": "TMEM126B: Component of the mitochondrial complex I assembly complex",
@@ -1340,7 +1704,7 @@
  },
  {
   "gene": "FDX1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Fe-S cluster biosynthesis",
   "gene_function": "FDX1: Small iron-sulfur protein, transfers electrons from NADPH to mitochondrial cytochrome P450",
@@ -1353,7 +1717,7 @@
  },
  {
   "gene": "DLAT",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Formation of Acetyl CoA",
   "gene_function": "DLAT: Catalyzes the conversion of pyruvate to acetyl coenzyme A",
@@ -1366,7 +1730,7 @@
  },
  {
   "gene": "SDHD",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Tricarboxylic acid cycle",
   "gene_function": "SDHD: Part of Succinate dehydrogenase complex in oxidative phosporylation in TCA cycle it catalyzes the oxidation of succinate to fumarate",
@@ -1379,7 +1743,7 @@
  },
  {
   "gene": "ATP5L",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Electron transport chain",
   "gene_function": "ATP5L: ATP synthase H+ transporting mitochondrial Fo complex subunit G essential component of complex V",
@@ -1392,7 +1756,7 @@
  },
  {
   "gene": "HMBS",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Heme Biosynthesis",
   "gene_function": "HMBS: Hydroxymethylbilane synthase catalyzes head to tail condensation of four PBG and subsequent deamination to form a linear tetrapyrrole, Hydroxymethylbilane",
@@ -1405,7 +1769,7 @@
  },
  {
   "gene": "FOXRED1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Electron transport chain",
   "gene_function": "FOXRED1: Complex I assembly factor",
@@ -1418,7 +1782,7 @@
  },
  {
   "gene": "ACAD8",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "ACAD8: Involved in the caatabolism of fatty acids and branched chain aminoacid valine",
@@ -1431,7 +1795,7 @@
  },
  {
   "gene": "MRPL17",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Translation",
   "gene_function": "MRPL17: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -1444,7 +1808,7 @@
  },
  {
   "gene": "IMMP1L",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Import & Sorting",
   "gene_function": "IMMP1L: Inner membrane peptidase that cleaves hydrophobic sorting signal",
@@ -1457,7 +1821,7 @@
  },
  {
   "gene": "AMBRA1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Mitochondrial Dynamics",
   "gene_function": "AMBRA1: Involved in the mitophagy, translocates to the mitochondria and facilitate phagophore formation",
@@ -1470,7 +1834,7 @@
  },
  {
   "gene": "TIMM10",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Import & Sorting",
   "gene_function": "TIMM10: Innermembrane carrier pathway, forms complex with TIMM9 and performs chaperone like activity in the intermembrane space",
@@ -1483,7 +1847,7 @@
  },
  {
   "gene": "MRPL16",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Translation",
   "gene_function": "MRPL16: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -1496,7 +1860,7 @@
  },
  {
   "gene": "BAD",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Apoptosis",
   "gene_function": "BAD: Bcl-2 family member propagating apoptosis",
@@ -1509,7 +1873,7 @@
  },
  {
   "gene": "TRMT112",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Replication & Transcription",
   "gene_function": "TRMT112: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
@@ -1522,7 +1886,7 @@
  },
  {
   "gene": "MRPL11",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Translation",
   "gene_function": "MRPL11: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -1534,21 +1898,8 @@
   "mutation": ""
  },
  {
-  "gene": "CPT1A",
-  "sampleID": "test",
-  "chr": "11",
-  "process": "Fatty acid beta-oxidation",
-  "gene_function": "CPT1A: Carnitiine palmitoyl transferase converts an acyl-CoA into an acylcarnitine",
-  "EMBL_ID": "ENSG00000110090",
-  "Normal": 34.0205,
-  "Abnormal": 30.0882,
-  "log2": -0.177208,
-  "pvalue": 0.3661,
-  "mutation": ""
- },
- {
   "gene": "MRPL21",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Translation",
   "gene_function": "MRPL21: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -1561,7 +1912,7 @@
  },
  {
   "gene": "CHCHD8",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Electron transport chain",
   "gene_function": "CHCHD8: COA4 Complex IV assembly factor",
@@ -1574,7 +1925,7 @@
  },
  {
   "gene": "NDUFC2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Electron transport chain",
   "gene_function": "NDUFC2: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -1587,7 +1938,7 @@
  },
  {
   "gene": "NARS2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Translation",
   "gene_function": "NARS2: Involved in the specific attachment of asparagine aminoacid to its cognate tRNA",
@@ -1600,7 +1951,7 @@
  },
  {
   "gene": "TIMM8B",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Import & Sorting",
   "gene_function": "TIMM8B: Innermembrane carrier pathway, forms complex with TIMM13 and also performs the transfer of inner membrane proteins",
@@ -1613,7 +1964,7 @@
  },
  {
   "gene": "PUS3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Replication & Transcription",
   "gene_function": "PUS3: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
@@ -1626,7 +1977,7 @@
  },
  {
   "gene": "RPUSD4",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "11",
   "process": "Replication & Transcription",
   "gene_function": "RPUSD4: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
@@ -1639,7 +1990,7 @@
  },
  {
   "gene": "NDUFA9",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Electron transport chain",
   "gene_function": "NDUFA9: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -1652,7 +2003,7 @@
  },
  {
   "gene": "GAPDH",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Glycolysis",
   "gene_function": "GAPDH: Catalyzes the reversible oxidative phosphorylation of glyceraldehyde-3-phosphate and may also inhibit Caspase independent cell death in apoptosis",
@@ -1665,7 +2016,7 @@
  },
  {
   "gene": "TPI1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Glycolysis",
   "gene_function": "TPI1: Catalyzes the isomerization of glyceraldehydes 3-phosphate and dihydroxy-acetone phosphate",
@@ -1678,7 +2029,7 @@
  },
  {
   "gene": "ENO2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Glycolysis",
   "gene_function": "ENO2: Catalyzes the dehydration of 2-phosphoglycerate to phosphoenolpyruate",
@@ -1691,7 +2042,7 @@
  },
  {
   "gene": "MRPS35",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Translation",
   "gene_function": "MRPS35: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -1703,34 +2054,8 @@
   "mutation": ""
  },
  {
-  "gene": "DNM1L",
-  "sampleID": "test",
-  "chr": "12",
-  "process": "Mitochondrial Dynamics",
-  "gene_function": "DNM1L: Involved in the mitochondrial fission, mediates the division of mitochondria",
-  "EMBL_ID": "ENSG00000087470",
-  "Normal": 22.402,
-  "Abnormal": 24.6356,
-  "log2": 0.137116,
-  "pvalue": 0.47455,
-  "mutation": ""
- },
- {
-  "gene": "PFKM",
-  "sampleID": "test",
-  "chr": "12",
-  "process": "Glycolysis",
-  "gene_function": "PFKM: Catalyzes the phosphorylation of fructose-6-phosphate to fructose-1,6-bisphosphate",
-  "EMBL_ID": "ENSG00000152556",
-  "Normal": 68.1138,
-  "Abnormal": 43.5469,
-  "log2": -0.645375,
-  "pvalue": 0.0008,
-  "mutation": ""
- },
- {
   "gene": "COX14",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Electron transport chain",
   "gene_function": "COX14: Complex IV assembly factor",
@@ -1743,7 +2068,7 @@
  },
  {
   "gene": "TSFM",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Translation",
   "gene_function": "TSFM: Involved in the elongation and termination phases of the translation process",
@@ -1756,7 +2081,7 @@
  },
  {
   "gene": "MRPL42",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Translation",
   "gene_function": "MRPL42: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -1769,7 +2094,7 @@
  },
  {
   "gene": "SLC25A3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Replication & Transcription",
   "gene_function": "SLC25A3: Involved in the transport of phosphate into the mitochondrial matrix",
@@ -1782,7 +2107,7 @@
  },
  {
   "gene": "APAF1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Apoptosis",
   "gene_function": "APAF1: Binds CASP9 preprotein forming an apoptosome and activates it",
@@ -1795,7 +2120,7 @@
  },
  {
   "gene": "ISCU",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Fe-S cluster biosynthesis",
   "gene_function": "ISCU: Iron sulphur cluster assembly enzyme, Fe-S cluster intermediate is formed on it",
@@ -1808,7 +2133,7 @@
  },
  {
   "gene": "UNG",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Replication & Transcription",
   "gene_function": "UNG: prevent mutagenesis by eliminating uracil from DNA molecules",
@@ -1821,7 +2146,7 @@
  },
  {
   "gene": "TCHP",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Calcium trafficking",
   "gene_function": "TCHP: Involved in the regulation of ER mitochondria juxtaposition ",
@@ -1834,7 +2159,7 @@
  },
  {
   "gene": "ACAD10",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "ACAD10: Involved in the catabolism of fatty acids with significant activity towards branched chains",
@@ -1847,7 +2172,7 @@
  },
  {
   "gene": "COX6A1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Electron transport chain",
   "gene_function": "COX6A1: Cytochrome c oxidase subunit VIa polypeptide 1 essential component of complex IV",
@@ -1860,7 +2185,7 @@
  },
  {
   "gene": "GATC",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Translation",
   "gene_function": "GATC: Involved in the biosynthesis of glutamyl-tRNA",
@@ -1873,7 +2198,7 @@
  },
  {
   "gene": "DYNLL1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Mitochondrial Dynamics",
   "gene_function": "DYNLL1: Involved in the mitochondrial movement, have role in the retrograde mitochondrial movement",
@@ -1886,7 +2211,7 @@
  },
  {
   "gene": "ACADS",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "ACADS: Short chain acyl-CoA dehydrogenase encoded by ACADS catalyzes the final 1 to 2 cycles",
@@ -1899,7 +2224,7 @@
  },
  {
   "gene": "C12orf65",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Translation",
   "gene_function": "C12orf65: Codon-independent translation release factor that appears to contribute to peptide chain termination in the mitochondrial translation machinery",
@@ -1912,7 +2237,7 @@
  },
  {
   "gene": "PUS1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Replication & Transcription",
   "gene_function": "PUS1: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
@@ -1925,7 +2250,7 @@
  },
  {
   "gene": "MRPL51",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Translation",
   "gene_function": "MRPL51: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -1938,7 +2263,7 @@
  },
  {
   "gene": "PHB2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Mitochondrial Dynamics",
   "gene_function": "PHB2: Involved in the mitochondrial fusion, scaffold proteins PHB2 and STOML2 coordinate stability of the OPA1",
@@ -1951,7 +2276,7 @@
  },
  {
   "gene": "SLC2A3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Glycolysis",
   "gene_function": "SLC2A3: Solute carrier family 2 (facilitated glucose transporter), member 3",
@@ -1964,7 +2289,7 @@
  },
  {
   "gene": "LDHB",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Glycolysis",
   "gene_function": "LDHB: Catalyzes the interconversion of pyruvate to lactate and back",
@@ -1977,7 +2302,7 @@
  },
  {
   "gene": "ITPR2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Calcium trafficking",
   "gene_function": "ITPR2: Component of the Inositol-1,4,5-triphosphate receptors channels used for the fluxes of Ca2+ from ER to mitochondria",
@@ -1990,7 +2315,7 @@
  },
  {
   "gene": "YARS2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Translation",
   "gene_function": "YARS2: Involved in the specific attachment of tyrosine aminoacid to its cognate tRNA",
@@ -2003,7 +2328,7 @@
  },
  {
   "gene": "ATP5G2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Electron transport chain",
   "gene_function": "ATP5G2: ATP synthase H+ transporting mitochondrial Fo complex subunit C2 (subunit 9) essential component of complex V",
@@ -2016,7 +2341,7 @@
  },
  {
   "gene": "CS",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Tricarboxylic acid cycle",
   "gene_function": "CS: Catalyzes the synthesis of citrate from oxaloacetate and acetyl coenzyme A",
@@ -2029,7 +2354,7 @@
  },
  {
   "gene": "ATP5B",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Electron transport chain",
   "gene_function": "ATP5B: ATP synthase H+ transporting mitochondrial F1 complex beta polypeptide essential component of complex V",
@@ -2042,7 +2367,7 @@
  },
  {
   "gene": "NDUFA12",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Electron transport chain",
   "gene_function": "NDUFA12: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -2055,7 +2380,7 @@
  },
  {
   "gene": "SLC24A6",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "12",
   "process": "Calcium trafficking",
   "gene_function": "SLC24A6: Involved in the calcium homeostasis by counteracting the calcium accumaltion in the mitochondria",
@@ -2067,21 +2392,8 @@
   "mutation": ""
  },
  {
-  "gene": "DIABLO",
-  "sampleID": "test",
-  "chr": "12",
-  "process": "Apoptosis",
-  "gene_function": "DIABLO: Acts as caspase activator by inhibiting the inhibitors of apoptotic proteins",
-  "EMBL_ID": "ENSG00000184047",
-  "Normal": 23.7525,
-  "Abnormal": 23.1535,
-  "log2": -0.0368469,
-  "pvalue": 0.85275,
-  "mutation": ""
- },
- {
   "gene": "EFHA1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "13",
   "process": "Calcium trafficking",
   "gene_function": "EFHA1: Regulates the mitochodrial calcium uniporter by inhibiting and permitting the calcium depending upon the cytosolic calcium concentrations",
@@ -2094,7 +2406,7 @@
  },
  {
   "gene": "MIPEP",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "13",
   "process": "Import & Sorting",
   "gene_function": "MIPEP: Secondary cleavage of the pre proteins processed by the mitochondrial processing peptidase",
@@ -2107,7 +2419,7 @@
  },
  {
   "gene": "MTIF3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "13",
   "process": "Translation",
   "gene_function": "MTIF3: Translation initiation factor could assist the mRNA to bind to rRNAs",
@@ -2120,7 +2432,7 @@
  },
  {
   "gene": "MRPS31",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "13",
   "process": "Translation",
   "gene_function": "MRPS31: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -2133,7 +2445,7 @@
  },
  {
   "gene": "MTRF1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "13",
   "process": "Translation",
   "gene_function": "MTRF1: Involved in the mitochondrial translation termination, may act as a release factor",
@@ -2146,7 +2458,7 @@
  },
  {
   "gene": "SUCLA2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "13",
   "process": "Tricarboxylic acid cycle",
   "gene_function": "SUCLA2: convert succinate to succinyl-CoA",
@@ -2158,21 +2470,8 @@
   "mutation": ""
  },
  {
-  "gene": "CARS2",
-  "sampleID": "test",
-  "chr": "13",
-  "process": "Translation",
-  "gene_function": "CARS2: Involved in the specific attachment of cysteine aminoacid to its cognate tRNA",
-  "EMBL_ID": "ENSG00000134905",
-  "Normal": 19.7334,
-  "Abnormal": 25.0744,
-  "log2": 0.345574,
-  "pvalue": 0.0844,
-  "mutation": ""
- },
- {
   "gene": "APEX1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "14",
   "process": "Replication & Transcription",
   "gene_function": "APEX1: Involved in the mitochondrial DNA base excision repair",
@@ -2185,7 +2484,7 @@
  },
  {
   "gene": "OXA1L",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "14",
   "process": "Translation",
   "gene_function": "OXA1L: May have a role in the insertion of proteins into inner membrane and also a complex V assembly factor",
@@ -2198,7 +2497,7 @@
  },
  {
   "gene": "MRPL52",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "14",
   "process": "Translation",
   "gene_function": "MRPL52: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -2211,7 +2510,7 @@
  },
  {
   "gene": "NUBPL",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "14",
   "process": "Electron transport chain",
   "gene_function": "NUBPL: Possible role in the delivery of one or more Fe/S clusters to complex I subunits",
@@ -2224,7 +2523,7 @@
  },
  {
   "gene": "KIAA0391",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "14",
   "process": "Replication & Transcription",
   "gene_function": "KIAA0391: Human mitochondrial tRNA processing enzyme",
@@ -2237,7 +2536,7 @@
  },
  {
   "gene": "ARG2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "14",
   "process": "Urea Cycle",
   "gene_function": "ARG2: Arginase catalyzes the step where Arginine is hydrolyzed to form urea and ornithine",
@@ -2250,7 +2549,7 @@
  },
  {
   "gene": "ISCA2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "14",
   "process": "Fe-S cluster biosynthesis",
   "gene_function": "ISCA2: Involved in the maturation of mitochondrial iron-sulfur proteins",
@@ -2263,7 +2562,7 @@
  },
  {
   "gene": "DLST",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "14",
   "process": "Tricarboxylic acid cycle",
   "gene_function": "DLST: Catalyzes the overall conversion of 2-oxoglutarate to succinyl-CoA and CO2",
@@ -2276,7 +2575,7 @@
  },
  {
   "gene": "GLRX5",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "14",
   "process": "Fe-S cluster biosynthesis",
   "gene_function": "GLRX5: Fe-S cluster transfer protein directly to the apoprotein",
@@ -2289,7 +2588,7 @@
  },
  {
   "gene": "APOPT1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "14",
   "process": "Apoptosis",
   "gene_function": "APOPT1: Localizes to the mitochondria and stimulates the release of cytochrome c",
@@ -2302,7 +2601,7 @@
  },
  {
   "gene": "PACS2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "14",
   "process": "Calcium trafficking",
   "gene_function": "PACS2: Involved in the control of ER mitochondria appositions ",
@@ -2315,7 +2614,7 @@
  },
  {
   "gene": "TIMM9",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "14",
   "process": "Import & Sorting",
   "gene_function": "TIMM9: Innermembrane carrier pathway, forms complex with TIMM10 and performs chaperone like activity in the intermembrane space",
@@ -2328,7 +2627,7 @@
  },
  {
   "gene": "TRMT5",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "14",
   "process": "Replication & Transcription",
   "gene_function": "TRMT5: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
@@ -2341,7 +2640,7 @@
  },
  {
   "gene": "NDUFB1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "14",
   "process": "Electron transport chain",
   "gene_function": "NDUFB1: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -2354,7 +2653,7 @@
  },
  {
   "gene": "RPUSD2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "15",
   "process": "Replication & Transcription",
   "gene_function": "RPUSD2: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
@@ -2367,7 +2666,7 @@
  },
  {
   "gene": "SLC27A2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "15",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "SLC27A2: Readily converts the transported very long chain fatty acids to acyl-CoAs",
@@ -2380,7 +2679,7 @@
  },
  {
   "gene": "PML",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "15",
   "process": "Calcium trafficking",
   "gene_function": "PML: Regulates Inositol-1,4,5-triphosphate receptor mediated Ca2+ release from the ER",
@@ -2393,7 +2692,7 @@
  },
  {
   "gene": "IDH3A",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "15",
   "process": "Tricarboxylic acid cycle",
   "gene_function": "IDH3A: Catalyze the oxidative decarboxylation of isocitrate to 2-oxoglutarate",
@@ -2406,7 +2705,7 @@
  },
  {
   "gene": "MRPS11",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "15",
   "process": "Translation",
   "gene_function": "MRPS11: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -2419,7 +2718,7 @@
  },
  {
   "gene": "NDUFAF1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "15",
   "process": "Electron transport chain",
   "gene_function": "NDUFAF1: Required in the assembly of Complex I",
@@ -2432,7 +2731,7 @@
  },
  {
   "gene": "FAM96A",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "15",
   "process": "Fe-S cluster biosynthesis",
   "gene_function": "FAM96A: Components of the cytosolic Fe/S protein assembly (CIA) machinery",
@@ -2445,7 +2744,7 @@
  },
  {
   "gene": "MTFMT",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "15",
   "process": "Translation",
   "gene_function": "MTFMT: Involved in the specific attachment of methionine aminoacid to its cognate tRNA",
@@ -2458,7 +2757,7 @@
  },
  {
   "gene": "CLPX",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "15",
   "process": "Translation",
   "gene_function": "CLPX: Quality control of inner membrane proteins",
@@ -2471,7 +2770,7 @@
  },
  {
   "gene": "ANP32A",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "15",
   "process": "Apoptosis",
   "gene_function": "ANP32A: Enhances APAF1 function",
@@ -2484,7 +2783,7 @@
  },
  {
   "gene": "PKM2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "15",
   "process": "Glycolysis",
   "gene_function": "PKM2: Catalyzes the transphosphorylation of phohsphoenolpyruvate into pyruvate and ATP",
@@ -2497,7 +2796,7 @@
  },
  {
   "gene": "COX5A",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "15",
   "process": "Electron transport chain",
   "gene_function": "COX5A: Cytochrome c oxidase subunit Va essential component of complex IV",
@@ -2510,7 +2809,7 @@
  },
  {
   "gene": "ACSBG1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "15",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "ACSBG1: Acyl-CoA synthetase activity for bubblegum family members",
@@ -2523,7 +2822,7 @@
  },
  {
   "gene": "MRPL46",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "15",
   "process": "Translation",
   "gene_function": "MRPL46: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -2536,7 +2835,7 @@
  },
  {
   "gene": "POLG",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "15",
   "process": "Replication & Transcription",
   "gene_function": "POLG: Mitochondrial DNA polymerasein addition it also shows 3' to 5' exonuclease activity and ensure faithful replication",
@@ -2549,7 +2848,7 @@
  },
  {
   "gene": "IDH2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "15",
   "process": "Tricarboxylic acid cycle",
   "gene_function": "IDH2: Catalyze the oxidative decarboxylation of isocitrate to 2-oxoglutarate",
@@ -2562,7 +2861,7 @@
  },
  {
   "gene": "NME4",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "16",
   "process": "Replication & Transcription",
   "gene_function": "NME4: Shows mitochondrial nucleoside diphosphate kinase activity",
@@ -2575,7 +2874,7 @@
  },
  {
   "gene": "RHOT2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "16",
   "process": "Mitochondrial Dynamics",
   "gene_function": "RHOT2: Involved in the mitophagy, tethers mitochondria to the tubulin network but phosphorylation by PINK1 results in the disattachment of mitochondria",
@@ -2587,21 +2886,8 @@
   "mutation": ""
  },
  {
-  "gene": "NUBP2",
-  "sampleID": "test",
-  "chr": "16",
-  "process": "Fe-S cluster biosynthesis",
-  "gene_function": "NUBP2: Required for the assembly of cyotosolic iron-sulfur proteins",
-  "EMBL_ID": "ENSG00000095906",
-  "Normal": 65.8064,
-  "Abnormal": 50.6912,
-  "log2": -0.376495,
-  "pvalue": 0.0557,
-  "mutation": ""
- },
- {
   "gene": "NDUFB10",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "16",
   "process": "Electron transport chain",
   "gene_function": "NDUFB10: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -2614,7 +2900,7 @@
  },
  {
   "gene": "GFER",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "16",
   "process": "Fe-S cluster biosynthesis",
   "gene_function": "GFER: Facilitates ABCB7 and essential for assembly of cytosolic Fe–S proteins",
@@ -2627,7 +2913,7 @@
  },
  {
   "gene": "GFER",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "16",
   "process": "Import & Sorting",
   "gene_function": "GFER: Intermembrane transport and assembly, it is know to oxidize CHCHD4 and then the oxidized CHCHD4 acts as a receptor for the pre proteins",
@@ -2640,7 +2926,7 @@
  },
  {
   "gene": "NUBP1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "16",
   "process": "Fe-S cluster biosynthesis",
   "gene_function": "NUBP1: Essential for both cytosolic iron-sulfur protein assembly and iron homeostasis",
@@ -2653,7 +2939,7 @@
  },
  {
   "gene": "ACSM3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "16",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "ACSM3: Acyl-CoA synthetase activity for medium chain fatty acids",
@@ -2666,7 +2952,7 @@
  },
  {
   "gene": "UQCRC2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "16",
   "process": "Electron transport chain",
   "gene_function": "UQCRC2: Ubiquinol-cytochrome c reductase core protein II essential component of complex III",
@@ -2679,7 +2965,7 @@
  },
  {
   "gene": "ALDOA",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "16",
   "process": "Glycolysis",
   "gene_function": "ALDOA: Catalyzes the reversible conversion of fructose-1,6-bisphosphate to glyceraldehyde 3-phosphate and dihydroxyacetone phosphate",
@@ -2692,7 +2978,7 @@
  },
  {
   "gene": "DUS2L",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "16",
   "process": "Replication & Transcription",
   "gene_function": "DUS2L: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
@@ -2705,7 +2991,7 @@
  },
  {
   "gene": "COX4I1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "16",
   "process": "Electron transport chain",
   "gene_function": "COX4I1: Cytochrome c oxidase subunit IV isoform 1 essential component of complex IV",
@@ -2718,7 +3004,7 @@
  },
  {
   "gene": "SPG7",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "16",
   "process": "Mitochondrial Dynamics",
   "gene_function": "SPG7: Involved in the mitochondrial fusion, known to maintain the OPA1 isoforms",
@@ -2731,7 +3017,7 @@
  },
  {
   "gene": "MRPL28",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "16",
   "process": "Translation",
   "gene_function": "MRPL28: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -2743,21 +3029,8 @@
   "mutation": ""
  },
  {
-  "gene": "NME3",
-  "sampleID": "test",
-  "chr": "16",
-  "process": "Replication & Transcription",
-  "gene_function": "NME3: Shows mitochondrial nucleoside diphosphate kinase activity",
-  "EMBL_ID": "ENSG00000103024",
-  "Normal": 54.9159,
-  "Abnormal": 60.9473,
-  "log2": 0.150336,
-  "pvalue": 0.4663,
-  "mutation": ""
- },
- {
   "gene": "MRPS34",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "16",
   "process": "Translation",
   "gene_function": "MRPS34: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -2770,7 +3043,7 @@
  },
  {
   "gene": "NTHL1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "16",
   "process": "Replication & Transcription",
   "gene_function": "NTHL1: Involved in the repair of mispairs in DNA",
@@ -2783,7 +3056,7 @@
  },
  {
   "gene": "TRAP1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "16",
   "process": "Mitochondrial Dynamics",
   "gene_function": "TRAP1: Involved in the mitochonrial fission, known to regulate fission proteins DNM1L and MFF",
@@ -2796,7 +3069,7 @@
  },
  {
   "gene": "PAM16",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "16",
   "process": "Import & Sorting",
   "gene_function": "PAM16: Presequence translocase associated motor, controls the activity of DNAJC19",
@@ -2809,7 +3082,7 @@
  },
  {
   "gene": "EARS2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "16",
   "process": "Translation",
   "gene_function": "EARS2: Involved in the specific attachment of glutamic acid aminoacid to its cognate tRNA",
@@ -2822,7 +3095,7 @@
  },
  {
   "gene": "NDUFAB1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "16",
   "process": "Electron transport chain",
   "gene_function": "NDUFAB1: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -2835,7 +3108,7 @@
  },
  {
   "gene": "TUFM",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "16",
   "process": "Translation",
   "gene_function": "TUFM: Involved in the elongation and termination phases of the translation process",
@@ -2848,7 +3121,7 @@
  },
  {
   "gene": "MAPK3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "16",
   "process": "Apoptosis",
   "gene_function": "MAPK3: Inhibitors of CASP9 activity",
@@ -2861,7 +3134,7 @@
  },
  {
   "gene": "CIAPIN1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "16",
   "process": "Fe-S cluster biosynthesis",
   "gene_function": "CIAPIN1: Facilitates NUBP1 and NUBP2 assembly",
@@ -2874,7 +3147,7 @@
  },
  {
   "gene": "GOT2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "16",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "GOT2: Plasma membrane fatty acid binding protein",
@@ -2887,7 +3160,7 @@
  },
  {
   "gene": "TK2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "16",
   "process": "Replication & Transcription",
   "gene_function": "TK2: Involved in the phosphorylation of recycled deoxyribonucleosides in mitochondria specific for thymidine, cytidine and uridine",
@@ -2900,7 +3173,7 @@
  },
  {
   "gene": "FAM96B",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "16",
   "process": "Fe-S cluster biosynthesis",
   "gene_function": "FAM96B: Components of the cytosolic Fe/S protein assembly (CIA) machinery",
@@ -2913,7 +3186,7 @@
  },
  {
   "gene": "DDX28",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "16",
   "process": "Translation",
   "gene_function": "DDX28: May be involved in the biogenesis of mitochondrial ribosomes",
@@ -2926,7 +3199,7 @@
  },
  {
   "gene": "AARS",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "16",
   "process": "Translation",
   "gene_function": "AARS: Alanyl-tRNA synthetase that catalyzes the attachment of alanine to tRNA(Ala)",
@@ -2939,7 +3212,7 @@
  },
  {
   "gene": "KARS",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "16",
   "process": "Translation",
   "gene_function": "KARS: Involved in the specific attachment of lysine aminoacid to its cognate tRNA",
@@ -2952,7 +3225,7 @@
  },
  {
   "gene": "TIMM22",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Import & Sorting",
   "gene_function": "TIMM22: Innermembrane carrier pathway, forms the core channel and inserts proteins into inner membrane",
@@ -2965,7 +3238,7 @@
  },
  {
   "gene": "ENO3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Glycolysis",
   "gene_function": "ENO3: Catalyzes the dehydration of 2-phosphoglycerate to phosphoenolpyruate",
@@ -2978,7 +3251,7 @@
  },
  {
   "gene": "ACADVL",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "ACADVL: Very long chain acyl-CoAs are first catalyzed by long chain acyl-CoA dehydrogenase",
@@ -2991,7 +3264,7 @@
  },
  {
   "gene": "SLC2A4",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Glycolysis",
   "gene_function": "SLC2A4: Insulin-regulated facilitative glucose transporter",
@@ -3004,7 +3277,7 @@
  },
  {
   "gene": "COX10",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Electron transport chain",
   "gene_function": "COX10: Complex IV assembly factor",
@@ -3017,7 +3290,7 @@
  },
  {
   "gene": "TTC19",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Electron transport chain",
   "gene_function": "TTC19: Complex III assembly factor",
@@ -3030,7 +3303,7 @@
  },
  {
   "gene": "RHOT1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Mitochondrial Dynamics",
   "gene_function": "RHOT1: Involved in the mitophagy, tethers mitochondria to the tubulin network but phosphorylation by PINK1 results in the disattachment of mitochondria",
@@ -3043,7 +3316,7 @@
  },
  {
   "gene": "LIG3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Replication & Transcription",
   "gene_function": "LIG3: involved in the mitochondrial DNA replication and repair",
@@ -3055,21 +3328,8 @@
   "mutation": ""
  },
  {
-  "gene": "MRPL45",
-  "sampleID": "test",
-  "chr": "17",
-  "process": "Translation",
-  "gene_function": "MRPL45: Mitoribosome which forms a part of mitochondrial translation machinary",
-  "EMBL_ID": "ENSG00000278845",
-  "Normal": 53.4822,
-  "Abnormal": 43.3619,
-  "log2": -0.302628,
-  "pvalue": 0.1183,
-  "mutation": ""
- },
- {
   "gene": "ATP5G1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Electron transport chain",
   "gene_function": "ATP5G1: ATP synthase H+ transporting mitochondrial Fo complex subunit C1 (subunit 9) essential component of complex V",
@@ -3082,7 +3342,7 @@
  },
  {
   "gene": "TACO1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Translation",
   "gene_function": "TACO1: Translation activator of complex IV subunit",
@@ -3095,7 +3355,7 @@
  },
  {
   "gene": "MRPS7",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Translation",
   "gene_function": "MRPS7: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -3108,7 +3368,7 @@
  },
  {
   "gene": "PGS1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Cardiolipin biosynthesis",
   "gene_function": "PGS1: Phosphatidylglycerol synthase converts cytidine diphosphate diacylglycerol to phosphatidylglycerol phosphate",
@@ -3121,7 +3381,7 @@
  },
  {
   "gene": "MRPL12",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Translation",
   "gene_function": "MRPL12: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -3134,7 +3394,7 @@
  },
  {
   "gene": "NARF",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Fe-S cluster biosynthesis",
   "gene_function": "NARF: Cytosolic Fe-S protein maturation",
@@ -3147,7 +3407,7 @@
  },
  {
   "gene": "GABARAP",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Mitochondrial Dynamics",
   "gene_function": "GABARAP: Involved in the mitophagy, interacts with BNIP3 and BNIP3L to remove mitochondria via autophagy",
@@ -3160,7 +3420,7 @@
  },
  {
   "gene": "TP53",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Apoptosis",
   "gene_function": "TP53: Directly binds both BAK and BAX and activates them",
@@ -3173,7 +3433,7 @@
  },
  {
   "gene": "SCO1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Electron transport chain",
   "gene_function": "SCO1: Complex IV assembly factor, Incorporation of copper atoms in the catalytic sites of the nascent complex",
@@ -3186,7 +3446,7 @@
  },
  {
   "gene": "ELAC2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Replication & Transcription",
   "gene_function": "ELAC2: Endolytic processing the 3' end of tRNA",
@@ -3199,7 +3459,7 @@
  },
  {
   "gene": "PLD6",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Mitochondrial Dynamics",
   "gene_function": "PLD6: Involved in the mitochondrial fusion, promotes mitofusin-mediated fusion",
@@ -3212,7 +3472,7 @@
  },
  {
   "gene": "ATPAF2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Electron transport chain",
   "gene_function": "ATPAF2: Complex V assembly factor, essential for assembly of alpha + beta heterooligome",
@@ -3225,7 +3485,7 @@
  },
  {
   "gene": "TOP3A",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Replication & Transcription",
   "gene_function": "TOP3A: May also be present in mitochondrial with the role in the removal of positive supercoils during replication",
@@ -3238,7 +3498,7 @@
  },
  {
   "gene": "ALDOC",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Glycolysis",
   "gene_function": "ALDOC: Catalyzes the reversible conversion of fructose-1,6-bisphosphate to glyceraldehyde 3-phosphate and dihydroxyacetone phosphate",
@@ -3251,7 +3511,7 @@
  },
  {
   "gene": "CCDC56",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Electron transport chain",
   "gene_function": "CCDC56: COA3 Complex IV assembly factor",
@@ -3264,7 +3524,7 @@
  },
  {
   "gene": "BECN1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Mitochondrial Dynamics",
   "gene_function": "BECN1: Involved in the mitophagy, involved in the initiation of autophagy",
@@ -3277,7 +3537,7 @@
  },
  {
   "gene": "MRPL10",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Translation",
   "gene_function": "MRPL10: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -3290,7 +3550,7 @@
  },
  {
   "gene": "PHB",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Translation",
   "gene_function": "PHB: Involved in the post translational quality control, stabilizes mitochondrially synthesized proteins",
@@ -3303,7 +3563,7 @@
  },
  {
   "gene": "MRPL27",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Translation",
   "gene_function": "MRPL27: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -3316,7 +3576,7 @@
  },
  {
   "gene": "COX11",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Electron transport chain",
   "gene_function": "COX11: Complex IV assembly factor",
@@ -3329,7 +3589,7 @@
  },
  {
   "gene": "MRPS23",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Translation",
   "gene_function": "MRPS23: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -3342,7 +3602,7 @@
  },
  {
   "gene": "POLG2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Replication & Transcription",
   "gene_function": "POLG2: Acts as catalytic subunit of mitochondrial DNA polymerase",
@@ -3355,7 +3615,7 @@
  },
  {
   "gene": "FDXR",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Fe-S cluster biosynthesis",
   "gene_function": "FDXR: Provide reducing equivalents in an electron transfer chain contribute to iron-sulfur cluster biogenesis",
@@ -3368,7 +3628,7 @@
  },
  {
   "gene": "ATP5H",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Electron transport chain",
   "gene_function": "ATP5H: ATP synthase H+ transporting mitochondrial Fo complex subunit d essential component of complex V",
@@ -3381,7 +3641,7 @@
  },
  {
   "gene": "SLC25A19",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Replication & Transcription",
   "gene_function": "SLC25A19: Transports thiamine pyrophosphates into mitochondria",
@@ -3394,7 +3654,7 @@
  },
  {
   "gene": "MRPL38",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "17",
   "process": "Translation",
   "gene_function": "MRPL38: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -3407,7 +3667,7 @@
  },
  {
   "gene": "NDUFV2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "18",
   "process": "Electron transport chain",
   "gene_function": "NDUFV2: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -3420,7 +3680,7 @@
  },
  {
   "gene": "PMAIP1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "18",
   "process": "Apoptosis",
   "gene_function": "PMAIP1: Noxa Bcl-2 family member propagating apoptosis",
@@ -3433,7 +3693,7 @@
  },
  {
   "gene": "TIMM21",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "18",
   "process": "Import & Sorting",
   "gene_function": "TIMM21: Inner membrane translocation, connects TOMM and TIMM complex and may assist in the release of preprotein from the TOMM complex",
@@ -3446,7 +3706,7 @@
  },
  {
   "gene": "AFG3L2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "18",
   "process": "Mitochondrial Dynamics",
   "gene_function": "AFG3L2: Involved in the mitochondrial fusion, known to maintain the OPA1 isoforms",
@@ -3459,7 +3719,7 @@
  },
  {
   "gene": "ATP5A1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "18",
   "process": "Electron transport chain",
   "gene_function": "ATP5A1: ATP synthase H+ transporting mitochondrial F1 complex alpha subunit 1 cardiac muscle essential component of complex V",
@@ -3472,7 +3732,7 @@
  },
  {
   "gene": "ACAA2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "18",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "ACAA2: Medium chain 3-ketoacyl-CoA thiolase",
@@ -3484,21 +3744,8 @@
   "mutation": ""
  },
  {
-  "gene": "FECH",
-  "sampleID": "test",
-  "chr": "18",
-  "process": "Heme Biosynthesis",
-  "gene_function": "FECH: Ferrochelatase catalyzes the step involving the addition of Ferrous iron into the protoprphyrin IX to form the protoheme IX",
-  "EMBL_ID": "ENSG00000066926",
-  "Normal": 8.1731,
-  "Abnormal": 9.85962,
-  "log2": 0.270648,
-  "pvalue": 0.1593,
-  "mutation": ""
- },
- {
   "gene": "BCL2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "18",
   "process": "Apoptosis",
   "gene_function": "BCL2: Bcl-2 family member Anti-apoptotic proteins",
@@ -3511,7 +3758,7 @@
  },
  {
   "gene": "GPX4",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "ROS defense",
   "gene_function": "GPX4: Involved in the reduction of the lipid peroxides to their hydroxides",
@@ -3524,7 +3771,7 @@
  },
  {
   "gene": "ATP5D",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Electron transport chain",
   "gene_function": "ATP5D: ATP synthase H+ transporting mitochondrial F1 complex delta subunit essential component of complex V",
@@ -3537,7 +3784,7 @@
  },
  {
   "gene": "NDUFS7",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Electron transport chain",
   "gene_function": "NDUFS7: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -3549,21 +3796,8 @@
   "mutation": ""
  },
  {
-  "gene": "MRPL54",
-  "sampleID": "test",
-  "chr": "19",
-  "process": "Translation",
-  "gene_function": "MRPL54: Mitoribosome which forms a part of mitochondrial translation machinary",
-  "EMBL_ID": "ENSG00000183617",
-  "Normal": 51.0286,
-  "Abnormal": 51.9554,
-  "log2": 0.0259656,
-  "pvalue": 0.90485,
-  "mutation": ""
- },
- {
   "gene": "CLPP",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Translation",
   "gene_function": "CLPP: Involved in the post translational quality control, has re-solublization activity of protein aggregates",
@@ -3576,7 +3810,7 @@
  },
  {
   "gene": "MRPL4",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Translation",
   "gene_function": "MRPL4: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -3589,7 +3823,7 @@
  },
  {
   "gene": "QTRT1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Replication & Transcription",
   "gene_function": "QTRT1: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
@@ -3602,7 +3836,7 @@
  },
  {
   "gene": "MRPL34",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Translation",
   "gene_function": "MRPL34: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -3615,7 +3849,7 @@
  },
  {
   "gene": "GTPBP3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Replication & Transcription",
   "gene_function": "GTPBP3: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
@@ -3628,7 +3862,7 @@
  },
  {
   "gene": "SLC27A1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "SLC27A1: Readily converts the transported very long chain fatty acids to acyl-CoAs",
@@ -3641,7 +3875,7 @@
  },
  {
   "gene": "MPV17L2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Translation",
   "gene_function": "MPV17L2: May be involved in the biogenesis of mitochondrial ribosomes",
@@ -3654,7 +3888,7 @@
  },
  {
   "gene": "NDUFA13",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Electron transport chain",
   "gene_function": "NDUFA13: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -3667,7 +3901,7 @@
  },
  {
   "gene": "GPI",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Glycolysis",
   "gene_function": "GPI: Glycolytic enzyme that interconverts glucose-6-phophsate and fructose-6-phosphate",
@@ -3680,7 +3914,7 @@
  },
  {
   "gene": "GAPDHS",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Glycolysis",
   "gene_function": "GAPDHS: Catalyzes the reversible oxidative phosphorylation of glyceraldehyde-3-phosphate",
@@ -3693,7 +3927,7 @@
  },
  {
   "gene": "COX6B1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Electron transport chain",
   "gene_function": "COX6B1: Cytochrome c oxidase subunit VIb polypeptide 1 (ubiquitous) essential component of complex IV",
@@ -3706,7 +3940,7 @@
  },
  {
   "gene": "SDHAF1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Electron transport chain",
   "gene_function": "SDHAF1: Essential for complex II assembly",
@@ -3719,7 +3953,7 @@
  },
  {
   "gene": "MRPS12",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Translation",
   "gene_function": "MRPS12: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -3732,7 +3966,7 @@
  },
  {
   "gene": "TIMM50",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Import & Sorting",
   "gene_function": "TIMM50: Inner membrane translocation, guides the preproteins to the import channel formed by TIMM23",
@@ -3744,21 +3978,8 @@
   "mutation": ""
  },
  {
-  "gene": "BCKDHA",
-  "sampleID": "test",
-  "chr": "19",
-  "process": "ROS defense",
-  "gene_function": "BCKDHA: Involved in the catabolism of aminoacids in mitochondria and may also be involved in the production of superoxides and hydrogen peroxide",
-  "EMBL_ID": "ENSG00000248098",
-  "Normal": 18.3208,
-  "Abnormal": 24.2814,
-  "log2": 0.406366,
-  "pvalue": 0.0497,
-  "mutation": ""
- },
- {
   "gene": "RPS19",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Translation",
   "gene_function": "RPS19: Ribosomal protein required for pre-rRNA processing and maturation of 40S ribosomal subunits",
@@ -3771,7 +3992,7 @@
  },
  {
   "gene": "TOMM40",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Import & Sorting",
   "gene_function": "TOMM40: Outer membrane translocation, forms the outer membrane channel forming protein",
@@ -3784,7 +4005,7 @@
  },
  {
   "gene": "BAX",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Apoptosis",
   "gene_function": "BAX: Bcl-2 family member propagating apoptosis",
@@ -3797,7 +4018,7 @@
  },
  {
   "gene": "CPT1C",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "CPT1C: Carnitiine palmitoyl transferase converts an acyl-CoA into an acylcarnitine",
@@ -3810,7 +4031,7 @@
  },
  {
   "gene": "NDUFA3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Electron transport chain",
   "gene_function": "NDUFA3: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -3823,7 +4044,7 @@
  },
  {
   "gene": "POLRMT",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Replication & Transcription",
   "gene_function": "POLRMT: provides primers for the initiation of replication of the mitochondria genome",
@@ -3836,7 +4057,7 @@
  },
  {
   "gene": "UQCR11",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Electron transport chain",
   "gene_function": "UQCR11: Ubiquinol-cytochrome c reductase essential component of complex III",
@@ -3849,7 +4070,7 @@
  },
  {
   "gene": "TIMM13",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Import & Sorting",
   "gene_function": "TIMM13: Innermembrane carrier pathway, forms complex with TIMM8 and performs the transfer of inner membrane proteins",
@@ -3862,7 +4083,7 @@
  },
  {
   "gene": "LONP1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Translation",
   "gene_function": "LONP1: Involved in the post translational quality control, has re-solublization activity of protein aggregates",
@@ -3875,7 +4096,7 @@
  },
  {
   "gene": "NDUFA11",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Electron transport chain",
   "gene_function": "NDUFA11: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -3888,7 +4109,7 @@
  },
  {
   "gene": "TIMM44",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Import & Sorting",
   "gene_function": "TIMM44: Presequence translocase associated motor, gets asssociated with the HSPA9 to drive proteins into the matrix",
@@ -3901,7 +4122,7 @@
  },
  {
   "gene": "NDUFA7",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Electron transport chain",
   "gene_function": "NDUFA7: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -3914,7 +4135,7 @@
  },
  {
   "gene": "FDX1L",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Fe-S cluster biosynthesis",
   "gene_function": "FDX1L: Transfers electrons from NADPH to mitochondrial cytochrome P450",
@@ -3927,7 +4148,7 @@
  },
  {
   "gene": "ECSIT",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Electron transport chain",
   "gene_function": "ECSIT: Interactcs with NDUFAF1 and functions in Complex I assembly",
@@ -3940,7 +4161,7 @@
  },
  {
   "gene": "TRMT1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Replication & Transcription",
   "gene_function": "TRMT1: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
@@ -3953,7 +4174,7 @@
  },
  {
   "gene": "NDUFB7",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Electron transport chain",
   "gene_function": "NDUFB7: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -3966,7 +4187,7 @@
  },
  {
   "gene": "UQCRFS1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Electron transport chain",
   "gene_function": "UQCRFS1: Ubiquinol-cytochrome c reductase Rieske iron-sulfur polypeptide 1 essential component of complex III",
@@ -3979,7 +4200,7 @@
  },
  {
   "gene": "SARS2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Translation",
   "gene_function": "SARS2: Involved in the specific attachment of serine aminoacid to its cognate tRNA",
@@ -3992,7 +4213,7 @@
  },
  {
   "gene": "OPA3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Mitochondrial Dynamics",
   "gene_function": "OPA3: Involved in the mitochondrial fusion, Involved in mitochondrial fragmentation, interacts with MFN1",
@@ -4005,7 +4226,7 @@
  },
  {
   "gene": "BBC3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Apoptosis",
   "gene_function": "BBC3: Puma Bcl-2 family member propagating apoptosis",
@@ -4018,7 +4239,7 @@
  },
  {
   "gene": "COX6B2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Electron transport chain",
   "gene_function": "COX6B2: Cytochrome c oxidase subunit VIb polypeptide 2 (testis) essential component of complex IV",
@@ -4031,7 +4252,7 @@
  },
  {
   "gene": "SLC27A5",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "19",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "SLC27A5: Readily converts the transported very long chain fatty acids to acyl-CoAs",
@@ -4044,7 +4265,7 @@
  },
  {
   "gene": "HADHB",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "HADHB: Mitochondrial trifunctional protein catalyzes the Very long and long chain fatty acids",
@@ -4057,7 +4278,7 @@
  },
  {
   "gene": "MRPL33",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Translation",
   "gene_function": "MRPL33: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -4070,7 +4291,7 @@
  },
  {
   "gene": "C2orf56",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Electron transport chain",
   "gene_function": "C2orf56: NDUFAF7 methylates arginine 85 in the NDUFS2 subunit of human complex I",
@@ -4083,7 +4304,7 @@
  },
  {
   "gene": "HTRA2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Apoptosis",
   "gene_function": "HTRA2: Mitochondrial serene protease induces cell death by inhibiting Inhibitors of apoptotic proteins",
@@ -4096,7 +4317,7 @@
  },
  {
   "gene": "HK2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Glycolysis",
   "gene_function": "HK2: Hexokinases phosphorylate glucose to produce glucose-6-phosphate",
@@ -4109,7 +4330,7 @@
  },
  {
   "gene": "MRPL19",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Translation",
   "gene_function": "MRPL19: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -4122,7 +4343,7 @@
  },
  {
   "gene": "PTCD3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Translation",
   "gene_function": "PTCD3: Associates with mitochondrial small ribosomal subunit and regulates translation",
@@ -4135,7 +4356,7 @@
  },
  {
   "gene": "MRPL35",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Translation",
   "gene_function": "MRPL35: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -4148,7 +4369,7 @@
  },
  {
   "gene": "CIAO1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Fe-S cluster biosynthesis",
   "gene_function": "CIAO1: Cytosolic Fe-S cluster biogenesis and maturation",
@@ -4161,7 +4382,7 @@
  },
  {
   "gene": "COX5B",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Electron transport chain",
   "gene_function": "COX5B: Cytochrome c oxidase subunit Vb essential component of complex IV",
@@ -4174,7 +4395,7 @@
  },
  {
   "gene": "MRPL30",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Translation",
   "gene_function": "MRPL30: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -4187,7 +4408,7 @@
  },
  {
   "gene": "MRPS9",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Translation",
   "gene_function": "MRPS9: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -4200,7 +4421,7 @@
  },
  {
   "gene": "BCL2L11",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Apoptosis",
   "gene_function": "BCL2L11: Bim Bcl-2 family member propagating apoptosis",
@@ -4213,7 +4434,7 @@
  },
  {
   "gene": "MARS2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Translation",
   "gene_function": "MARS2: Involved in the specific attachment of methionine aminoacid to its cognate tRNA",
@@ -4226,7 +4447,7 @@
  },
  {
   "gene": "NDUFB3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Electron transport chain",
   "gene_function": "NDUFB3: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -4239,7 +4460,7 @@
  },
  {
   "gene": "CREB1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Replication & Transcription",
   "gene_function": "CREB1: Promotes the transcription of mitochondrial genes",
@@ -4252,7 +4473,7 @@
  },
  {
   "gene": "CPS1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Urea Cycle",
   "gene_function": "CPS1: Carbamoyl phosphate synthetase catalyzes the step where free NH4+ with HCO3- to form carbamoyl phosphate",
@@ -4265,7 +4486,7 @@
  },
  {
   "gene": "BCS1L",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Electron transport chain",
   "gene_function": "BCS1L: Involved in the assembly of complex III of the mitochondrial respiratory chain",
@@ -4277,21 +4498,8 @@
   "mutation": ""
  },
  {
-  "gene": "ACSL3",
-  "sampleID": "test",
-  "chr": "2",
-  "process": "Fatty acid beta-oxidation",
-  "gene_function": "ACSL3: Acyl-CoA synthetase activity for long chain free fatty acids are also involved in the activation of fatty acids",
-  "EMBL_ID": "ENSG00000123983",
-  "Normal": 43.7905,
-  "Abnormal": 53.6791,
-  "log2": 0.293744,
-  "pvalue": 0.12035,
-  "mutation": ""
- },
- {
   "gene": "MRPL44",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Translation",
   "gene_function": "MRPL44: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -4304,7 +4512,7 @@
  },
  {
   "gene": "MFF",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Mitochondrial Dynamics",
   "gene_function": "MFF: Involved in the mitochondrial fission, suggested to have roles in recruiting DNM1L",
@@ -4317,7 +4525,7 @@
  },
  {
   "gene": "RNASEH1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Replication & Transcription",
   "gene_function": "RNASEH1: May have role in the removal of RNA primers at the origin of replication on heavy and light strands",
@@ -4330,7 +4538,7 @@
  },
  {
   "gene": "CMPK2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Replication & Transcription",
   "gene_function": "CMPK2: Phosphorylates the deoxyribonucleoside mono phosphates specifically on dCMP",
@@ -4343,7 +4551,7 @@
  },
  {
   "gene": "HADHA",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "HADHA: Mitochondrial trifunctional protein catalyzes the Very long and long chain fatty acids",
@@ -4356,7 +4564,7 @@
  },
  {
   "gene": "MPV17",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "ROS defense",
   "gene_function": "MPV17: May have a role in the metabolism of reactive oxygen species",
@@ -4369,7 +4577,7 @@
  },
  {
   "gene": "TRMT61B",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Replication & Transcription",
   "gene_function": "TRMT61B: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
@@ -4381,21 +4589,8 @@
   "mutation": ""
  },
  {
-  "gene": "LRPPRC",
-  "sampleID": "test",
-  "chr": "2",
-  "process": "Translation",
-  "gene_function": "LRPPRC: Might play a role in the translation and stability of COX subunits",
-  "EMBL_ID": "ENSG00000138095",
-  "Normal": 64.554,
-  "Abnormal": 51.1919,
-  "log2": -0.334592,
-  "pvalue": 0.07025,
-  "mutation": ""
- },
- {
   "gene": "MTIF2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Translation",
   "gene_function": "MTIF2: Translation initiation factor could assist the tRNA to bind to rRNAs",
@@ -4408,7 +4603,7 @@
  },
  {
   "gene": "NFU1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Fe-S cluster biosynthesis",
   "gene_function": "NFU1: Protein assembles and transfers 4Fe-4S clusters to target apoproteins",
@@ -4421,7 +4616,7 @@
  },
  {
   "gene": "BOLA3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Fe-S cluster biosynthesis",
   "gene_function": "BOLA3: Rrole in the biogenesis of iron-sulfur clusters",
@@ -4434,7 +4629,7 @@
  },
  {
   "gene": "MRPL53",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Translation",
   "gene_function": "MRPL53: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -4447,7 +4642,7 @@
  },
  {
   "gene": "SUCLG1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Tricarboxylic acid cycle",
   "gene_function": "SUCLG1: Catalyzes the conversion of succinyl CoA to succinate",
@@ -4460,7 +4655,7 @@
  },
  {
   "gene": "EIF2AK3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Translation",
   "gene_function": "EIF2AK3: Metabolic-stress sensing protein kinase that phosphorylates and inactivates the alpha subunit of eukaryotic translation initiation factor 2",
@@ -4473,7 +4668,7 @@
  },
  {
   "gene": "MRPS5",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Translation",
   "gene_function": "MRPS5: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -4486,7 +4681,7 @@
  },
  {
   "gene": "COA5",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Electron transport chain",
   "gene_function": "COA5: Complex IV assembly factor",
@@ -4499,7 +4694,7 @@
  },
  {
   "gene": "ATP5G3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Electron transport chain",
   "gene_function": "ATP5G3: ATP synthase H+ transporting mitochondrial Fo complex subunit C3 (subunit 9) essential component of complex V",
@@ -4512,7 +4707,7 @@
  },
  {
   "gene": "NFE2L2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Replication & Transcription",
   "gene_function": "NFE2L2: Regulates the expression of TFB1M and TFB2M which are two mitochondrial transcription factors",
@@ -4525,7 +4720,7 @@
  },
  {
   "gene": "OSGEPL1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Replication & Transcription",
   "gene_function": "OSGEPL1: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
@@ -4538,7 +4733,7 @@
  },
  {
   "gene": "TRAK2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Mitochondrial Dynamics",
   "gene_function": "TRAK2: Involved in the mitochondrial movement, acts as a adapter linking kinesin-1 to mitochondria",
@@ -4551,7 +4746,7 @@
  },
  {
   "gene": "NDUFS1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Electron transport chain",
   "gene_function": "NDUFS1: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -4563,21 +4758,8 @@
   "mutation": ""
  },
  {
-  "gene": "IDH1",
-  "sampleID": "test",
-  "chr": "2",
-  "process": "Tricarboxylic acid cycle",
-  "gene_function": "IDH1: Catalyze the oxidative decarboxylation of isocitrate to 2-oxoglutarate",
-  "EMBL_ID": "ENSG00000138413",
-  "Normal": 77.3987,
-  "Abnormal": 69.8481,
-  "log2": -0.148089,
-  "pvalue": 0.42985,
-  "mutation": ""
- },
- {
   "gene": "NDUFA10",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "2",
   "process": "Electron transport chain",
   "gene_function": "NDUFA10: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -4590,7 +4772,7 @@
  },
  {
   "gene": "MRPS26",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "20",
   "process": "Translation",
   "gene_function": "MRPS26: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -4603,7 +4785,7 @@
  },
  {
   "gene": "CRLS1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "20",
   "process": "Cardiolipin biosynthesis",
   "gene_function": "CRLS1: Catalyzes the condensation of cytidine diphosphate diacylglycerol and phosphatidylglycerol forming a nascent cardiolipin",
@@ -4616,7 +4798,7 @@
  },
  {
   "gene": "C20orf7",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "20",
   "process": "Electron transport chain",
   "gene_function": "C20orf7: NDUFAF5 is required for complex I assembly",
@@ -4629,7 +4811,7 @@
  },
  {
   "gene": "ACSS2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "20",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "ACSS2: Acyl-CoA synthetase activity for short chain fatty acids",
@@ -4641,21 +4823,8 @@
   "mutation": ""
  },
  {
-  "gene": "IDH3B",
-  "sampleID": "test",
-  "chr": "20",
-  "process": "Tricarboxylic acid cycle",
-  "gene_function": "IDH3B: Catalyze the oxidative decarboxylation of isocitrate to 2-oxoglutarate",
-  "EMBL_ID": "ENSG00000101365",
-  "Normal": 61.5578,
-  "Abnormal": 74.6925,
-  "log2": 0.279021,
-  "pvalue": 0.1509,
-  "mutation": ""
- },
- {
   "gene": "TRMT6",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "20",
   "process": "Replication & Transcription",
   "gene_function": "TRMT6: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
@@ -4668,7 +4837,7 @@
  },
  {
   "gene": "BCL2L1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "20",
   "process": "Apoptosis",
   "gene_function": "BCL2L1: Bcl-2 family member Anti-apoptotic proteins",
@@ -4681,7 +4850,7 @@
  },
  {
   "gene": "CDK5RAP1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "20",
   "process": "Replication & Transcription",
   "gene_function": "CDK5RAP1: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
@@ -4694,7 +4863,7 @@
  },
  {
   "gene": "GSS",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "20",
   "process": "ROS defense",
   "gene_function": "GSS: Catalyzes the formation of gluthathione from glutamylcysteine by combining it with the glycine",
@@ -4707,7 +4876,7 @@
  },
  {
   "gene": "UQCC",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "20",
   "process": "Electron transport chain",
   "gene_function": "UQCC: Complex III assembly factor, ubiquinol-cytochrome c reductase complex assembly factor 1",
@@ -4720,7 +4889,7 @@
  },
  {
   "gene": "NFS1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "20",
   "process": "Fe-S cluster biosynthesis",
   "gene_function": "NFS1: The sulfide for Fe-S clusters originates from cysteine via the action of NFS1",
@@ -4733,7 +4902,7 @@
  },
  {
   "gene": "ATP5E",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "20",
   "process": "Electron transport chain",
   "gene_function": "ATP5E: ATP synthase H+ transporting mitochondrial F1 complex epsilon subunit essential component of complex V",
@@ -4746,7 +4915,7 @@
  },
  {
   "gene": "SOD1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "21",
   "process": "ROS defense",
   "gene_function": "SOD1: May be involved in the removal of superoxides in the inter membrane space of mitochondria",
@@ -4759,7 +4928,7 @@
  },
  {
   "gene": "MRPS6",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "21",
   "process": "Translation",
   "gene_function": "MRPS6: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -4772,7 +4941,7 @@
  },
  {
   "gene": "NDUFV3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "21",
   "process": "Electron transport chain",
   "gene_function": "NDUFV3: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -4784,21 +4953,8 @@
   "mutation": ""
  },
  {
-  "gene": "PFKL",
-  "sampleID": "test",
-  "chr": "21",
-  "process": "Glycolysis",
-  "gene_function": "PFKL: Catalyzes the conversion of fructose 6-phosphate to fructose 1,6-bisphosphate",
-  "EMBL_ID": "ENSG00000141959",
-  "Normal": 63.8627,
-  "Abnormal": 69.6737,
-  "log2": 0.125641,
-  "pvalue": 0.509,
-  "mutation": ""
- },
- {
   "gene": "MRPL39",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "21",
   "process": "Translation",
   "gene_function": "MRPL39: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -4811,7 +4967,7 @@
  },
  {
   "gene": "ATP5J",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "21",
   "process": "Electron transport chain",
   "gene_function": "ATP5J: ATP synthase H+ transporting mitochondrial Fo complex subunit F6 essential component of complex V",
@@ -4824,7 +4980,7 @@
  },
  {
   "gene": "ATP5O",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "21",
   "process": "Electron transport chain",
   "gene_function": "ATP5O: ATP synthase H+ transporting mitochondrial F1 complex O subunit essential component of complex V",
@@ -4837,7 +4993,7 @@
  },
  {
   "gene": "MRPL40",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "22",
   "process": "Translation",
   "gene_function": "MRPL40: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -4850,7 +5006,7 @@
  },
  {
   "gene": "HSCB",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "22",
   "process": "Fe-S cluster biosynthesis",
   "gene_function": "HSCB: Mitochondrial iron-sulfur cluster co-chaperone",
@@ -4863,7 +5019,7 @@
  },
  {
   "gene": "UQCR10",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "22",
   "process": "Electron transport chain",
   "gene_function": "UQCR10: Ubiquinol-cytochrome c reductase essential component of complex III",
@@ -4876,7 +5032,7 @@
  },
  {
   "gene": "MTFP1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "22",
   "process": "Mitochondrial Dynamics",
   "gene_function": "MTFP1: Involved in the mitochondrial fission, role in mitochondrial fragmentation and is dependent on DNM1L expression",
@@ -4889,7 +5045,7 @@
  },
  {
   "gene": "TOMM22",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "22",
   "process": "Import & Sorting",
   "gene_function": "TOMM22: Outer membrane translocation, recognize presequences on the mitochondrial outer membrane",
@@ -4902,7 +5058,7 @@
  },
  {
   "gene": "ACO2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "22",
   "process": "Tricarboxylic acid cycle",
   "gene_function": "ACO2: Catalyzes the interconversion of citrate to isocitrate ",
@@ -4915,7 +5071,7 @@
  },
  {
   "gene": "C22orf32",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "22",
   "process": "Calcium trafficking",
   "gene_function": "C22orf32: Forms a important component of mitochondrial calcium uniporter with MCU",
@@ -4928,7 +5084,7 @@
  },
  {
   "gene": "BIK",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "22",
   "process": "Apoptosis",
   "gene_function": "BIK: Bcl-2 family member propagating apoptosis",
@@ -4941,7 +5097,7 @@
  },
  {
   "gene": "SAMM50",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "22",
   "process": "Import & Sorting",
   "gene_function": "SAMM50: Outermembrane sorting and assembly machinary, central component of SAMM complex and inserts beta barrel proteins into the outer membrane",
@@ -4954,7 +5110,7 @@
  },
  {
   "gene": "TRMU",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "22",
   "process": "Replication & Transcription",
   "gene_function": "TRMU: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
@@ -4967,7 +5123,7 @@
  },
  {
   "gene": "BID",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "22",
   "process": "Apoptosis",
   "gene_function": "BID: Bcl-2 family member propagating apoptosis",
@@ -4980,7 +5136,7 @@
  },
  {
   "gene": "SLC25A1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "22",
   "process": "ROS defense",
   "gene_function": "SLC25A1: May be involved in the transport of gluthathione into the mitochondria",
@@ -4993,7 +5149,7 @@
  },
  {
   "gene": "TXNRD2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "22",
   "process": "ROS defense",
   "gene_function": "TXNRD2: Maintains thioredoxins in their reduced state using NAPDH reducing equivalents",
@@ -5005,21 +5161,8 @@
   "mutation": ""
  },
  {
-  "gene": "MAPK1",
-  "sampleID": "test",
-  "chr": "22",
-  "process": "Apoptosis",
-  "gene_function": "MAPK1: Inhibitors of CASP9 activity",
-  "EMBL_ID": "ENSG00000100030",
-  "Normal": 34.5346,
-  "Abnormal": 38.5974,
-  "log2": 0.160462,
-  "pvalue": 0.46805,
-  "mutation": ""
- },
- {
   "gene": "TXN2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "22",
   "process": "ROS defense",
   "gene_function": "TXN2: Mitochondrial thioredoxin reduces peroxiredoxin to their super oxide scavenging state",
@@ -5032,7 +5175,7 @@
  },
  {
   "gene": "NDUFA6",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "22",
   "process": "Electron transport chain",
   "gene_function": "NDUFA6: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -5045,7 +5188,7 @@
  },
  {
   "gene": "SCO2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "22",
   "process": "Electron transport chain",
   "gene_function": "SCO2: Complex IV assembly factor, involved in the biogenesis of cytochrome c oxidase subunit II",
@@ -5058,7 +5201,7 @@
  },
  {
   "gene": "CPT1B",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "22",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "CPT1B: Carnitiine palmitoyl transferase converts an acyl-CoA into an acylcarnitine",
@@ -5071,7 +5214,7 @@
  },
  {
   "gene": "TRNT1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Replication & Transcription",
   "gene_function": "TRNT1: Mitochondrial CCA adding enzyme, adds CCA sequence to the 3' end of tRNA",
@@ -5084,7 +5227,7 @@
  },
  {
   "gene": "ITPR1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Calcium trafficking",
   "gene_function": "ITPR1: Component of the Inositol-1,4,5-triphosphate receptors channels used for the fluxes of Ca2+ from ER to mitochondria",
@@ -5097,7 +5240,7 @@
  },
  {
   "gene": "OGG1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Replication & Transcription",
   "gene_function": "OGG1: responsible for the excision of 8-oxoguanine",
@@ -5110,7 +5253,7 @@
  },
  {
   "gene": "TRAK1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Mitochondrial Dynamics",
   "gene_function": "TRAK1: Involved in the mitochondrial movement, acts as a adapter linking kinesin-1 to mitochondria",
@@ -5123,7 +5266,7 @@
  },
  {
   "gene": "LARS2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Translation",
   "gene_function": "LARS2: Involved in the specific attachment of leucine aminoacid to its cognate tRNA",
@@ -5136,7 +5279,7 @@
  },
  {
   "gene": "DHX30",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Translation",
   "gene_function": "DHX30: May be involved in the biogenesis of mitochondrial ribosomes",
@@ -5149,7 +5292,7 @@
  },
  {
   "gene": "NDUFAF3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Electron transport chain",
   "gene_function": "NDUFAF3: Required in the assembly of Complex I",
@@ -5162,7 +5305,7 @@
  },
  {
   "gene": "ALAS1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Heme Biosynthesis",
   "gene_function": "ALAS1: Catalyzes the reaction amino acid glycine and succinyl CoA from TCA cycle condenses to form 5-aminolevulinate (ALA) and CO2",
@@ -5175,7 +5318,7 @@
  },
  {
   "gene": "QTRTD1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Replication & Transcription",
   "gene_function": "QTRTD1: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
@@ -5188,7 +5331,7 @@
  },
  {
   "gene": "NDUFB4",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Electron transport chain",
   "gene_function": "NDUFB4: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -5201,7 +5344,7 @@
  },
  {
   "gene": "ACAD9",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Electron transport chain",
   "gene_function": "ACAD9: Role in the assembly of Complex I and might also be involved in the Fatty acid beta-oxidation",
@@ -5214,7 +5357,7 @@
  },
  {
   "gene": "MRPS22",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Translation",
   "gene_function": "MRPS22: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -5227,7 +5370,7 @@
  },
  {
   "gene": "GFM1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Translation",
   "gene_function": "GFM1: Involved in the elongation and termination phases of the translation process",
@@ -5240,7 +5383,7 @@
  },
  {
   "gene": "MFN1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Mitochondrial Dynamics",
   "gene_function": "MFN1: Involved in the mitochondrial fusion, mitofusins dimerize resulting in the tethering of the outer membranes of the fusing mitochondria also involved in the tethering of Endoplasmic reticulum with mitochondria for mitochondrial calcium uptake",
@@ -5253,7 +5396,7 @@
  },
  {
   "gene": "NDUFB5",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Electron transport chain",
   "gene_function": "NDUFB5: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -5265,21 +5408,8 @@
   "mutation": ""
  },
  {
-  "gene": "OPA1",
-  "sampleID": "test",
-  "chr": "3",
-  "process": "Mitochondrial Dynamics",
-  "gene_function": "OPA1: Involved in the mitochondrial fusion, initiates inner membrane fusion",
-  "EMBL_ID": "ENSG00000198836",
-  "Normal": 19.3417,
-  "Abnormal": 19.0389,
-  "log2": -0.0227633,
-  "pvalue": 0.9065,
-  "mutation": ""
- },
- {
   "gene": "CHCHD4",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Import & Sorting",
   "gene_function": "CHCHD4: Intermembrane transport and assembly, acts as a receptor at the inter membrane space and recognizes incoming precursor proteins",
@@ -5292,7 +5422,7 @@
  },
  {
   "gene": "MRPS25",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Translation",
   "gene_function": "MRPS25: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -5305,7 +5435,7 @@
  },
  {
   "gene": "NME6",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Replication & Transcription",
   "gene_function": "NME6: Shows mitochondrial nucleoside diphosphate kinase activity",
@@ -5318,7 +5448,7 @@
  },
  {
   "gene": "UQCRC1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Electron transport chain",
   "gene_function": "UQCRC1: Ubiquinol-cytochrome c reductase core protein I essential component of complex III",
@@ -5331,7 +5461,7 @@
  },
  {
   "gene": "SLC25A20",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "SLC25A20: Carnitine acylcarnitine translocase mediates acylcarnitine entry into mitochondria",
@@ -5344,7 +5474,7 @@
  },
  {
   "gene": "GPX1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "ROS defense",
   "gene_function": "GPX1: Reduces hydrogen peroxide to water by using reducing equivalents from gluthathione",
@@ -5357,7 +5487,7 @@
  },
  {
   "gene": "PDHB",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Formation of Acetyl CoA",
   "gene_function": "PDHB: Catalyzes the overall conversion of pyruvate to acetyl-CoA",
@@ -5370,7 +5500,7 @@
  },
  {
   "gene": "SUCLG2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Tricarboxylic acid cycle",
   "gene_function": "SUCLG2: Catalyzes the conversion of succinyl CoA to succinate",
@@ -5383,7 +5513,7 @@
  },
  {
   "gene": "CPOX",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Heme Biosynthesis",
   "gene_function": "CPOX: Coproporphyrinogen III is transported to mitochondria and in the presence of coproporphyrinogen III oxidase it is oxidatively decarboxylated",
@@ -5396,7 +5526,7 @@
  },
  {
   "gene": "TOMM70A",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Import & Sorting",
   "gene_function": "TOMM70A: Outer membrane translocation, recognizes proteins with internal targeting signals",
@@ -5409,7 +5539,7 @@
  },
  {
   "gene": "COX17",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Electron transport chain",
   "gene_function": "COX17: Complex IV assembly factor, may function in the regulation and assembly of the complex",
@@ -5422,7 +5552,7 @@
  },
  {
   "gene": "MRPL3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Translation",
   "gene_function": "MRPL3: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -5435,7 +5565,7 @@
  },
  {
   "gene": "ACAD11",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "ACAD11: May be involved in the catabolism of long chain fatty acids",
@@ -5448,7 +5578,7 @@
  },
  {
   "gene": "MRPL47",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Translation",
   "gene_function": "MRPL47: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -5461,7 +5591,7 @@
  },
  {
   "gene": "DNAJC19",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Import & Sorting",
   "gene_function": "DNAJC19: Presequence translocase associated motor, could stimulate the ATPase activity of HSPA9",
@@ -5474,7 +5604,7 @@
  },
  {
   "gene": "PARL",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "3",
   "process": "Mitochondrial Dynamics",
   "gene_function": "PARL: Involved in the mitochondrial fusion, regulates the clevage of OPA1",
@@ -5487,7 +5617,7 @@
  },
  {
   "gene": "MRPL1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "4",
   "process": "Translation",
   "gene_function": "MRPL1: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -5500,7 +5630,7 @@
  },
  {
   "gene": "MRPS18C",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "4",
   "process": "Translation",
   "gene_function": "MRPS18C: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -5513,7 +5643,7 @@
  },
  {
   "gene": "CDS1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "4",
   "process": "Cardiolipin biosynthesis",
   "gene_function": "CDS1: Converts phosphatidic acid to cytidine diphosphate diacylglycerol",
@@ -5526,7 +5656,7 @@
  },
  {
   "gene": "HADH",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "4",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "HADH: Medium and short chain hydroxyacyl-CoA dehydrogenase",
@@ -5539,7 +5669,7 @@
  },
  {
   "gene": "CCDC109B",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "4",
   "process": "Calcium trafficking",
   "gene_function": "CCDC109B: Forms a important component of mitochondrial calcium uniporter with MCU",
@@ -5552,7 +5682,7 @@
  },
  {
   "gene": "SLC25A4",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "4",
   "process": "Apoptosis",
   "gene_function": "SLC25A4: Adenine nucleotide translocator forms part of permeability transition pore",
@@ -5565,7 +5695,7 @@
  },
  {
   "gene": "ATP5I",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "4",
   "process": "Electron transport chain",
   "gene_function": "ATP5I: ATP synthase H+ transporting mitochondrial Fo complex subunit E essential component of complex V",
@@ -5578,7 +5708,7 @@
  },
  {
   "gene": "LETM1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "4",
   "process": "Calcium trafficking",
   "gene_function": "LETM1: Might act as calcium ion and hydrogen ion antiporter exchanging hydrogen for calcium",
@@ -5591,7 +5721,7 @@
  },
  {
   "gene": "GRPEL1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "4",
   "process": "Import & Sorting",
   "gene_function": "GRPEL1: Presequence translocase associated motor, acts as a nucleotide exchange factor releasing the ADP from HSPA9",
@@ -5604,7 +5734,7 @@
  },
  {
   "gene": "COX18",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "4",
   "process": "Electron transport chain",
   "gene_function": "COX18: Complex IV assembly factor",
@@ -5617,7 +5747,7 @@
  },
  {
   "gene": "NDUFC1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "4",
   "process": "Electron transport chain",
   "gene_function": "NDUFC1: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -5630,7 +5760,7 @@
  },
  {
   "gene": "PET112",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "4",
   "process": "Translation",
   "gene_function": "PET112: Involved in the biosynthesis of glutamyl-tRNA",
@@ -5643,7 +5773,7 @@
  },
  {
   "gene": "CASP3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "4",
   "process": "Apoptosis",
   "gene_function": "CASP3: Executioner caspases leading to apoptosis",
@@ -5656,7 +5786,7 @@
  },
  {
   "gene": "ACSL1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "4",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "ACSL1: Acyl-CoA synthetase activity for long chain free fatty acids are also involved in the activation of fatty acids",
@@ -5669,7 +5799,7 @@
  },
  {
   "gene": "SDHA",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "5",
   "process": "Tricarboxylic acid cycle",
   "gene_function": "SDHA: Part of Succinate dehydrogenase complex in oxidative phosporylation in TCA cycle it catalyzes the oxidation of succinate to fumarate",
@@ -5682,7 +5812,7 @@
  },
  {
   "gene": "NDUFS6",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "5",
   "process": "Electron transport chain",
   "gene_function": "NDUFS6: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -5694,21 +5824,8 @@
   "mutation": ""
  },
  {
-  "gene": "MRPS30",
-  "sampleID": "test",
-  "chr": "5",
-  "process": "Translation",
-  "gene_function": "MRPS30: Mitoribosome which forms a part of mitochondrial translation machinary",
-  "EMBL_ID": "ENSG00000112996",
-  "Normal": 50.9405,
-  "Abnormal": 90.9961,
-  "log2": 0.836992,
-  "pvalue": 0.00005,
-  "mutation": ""
- },
- {
   "gene": "NDUFS4",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "5",
   "process": "Electron transport chain",
   "gene_function": "NDUFS4: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -5721,7 +5838,7 @@
  },
  {
   "gene": "NDUFAF2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "5",
   "process": "Electron transport chain",
   "gene_function": "NDUFAF2: Required in the assembly of Complex I",
@@ -5734,7 +5851,7 @@
  },
  {
   "gene": "MRPS36",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "5",
   "process": "Translation",
   "gene_function": "MRPS36: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -5747,7 +5864,7 @@
  },
  {
   "gene": "PTCD2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "5",
   "process": "Electron transport chain",
   "gene_function": "PTCD2: Complex III assembly factor, maturation and stabilization of cytochrome b mRNA",
@@ -5760,7 +5877,7 @@
  },
  {
   "gene": "COX7C",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "5",
   "process": "Electron transport chain",
   "gene_function": "COX7C: Cytochrome c oxidase subunit VIIc essential component of complex IV",
@@ -5773,7 +5890,7 @@
  },
  {
   "gene": "SLC27A6",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "5",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "SLC27A6: Readily converts the transported very long chain fatty acids to acyl-CoAs",
@@ -5786,7 +5903,7 @@
  },
  {
   "gene": "UQCRQ",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "5",
   "process": "Electron transport chain",
   "gene_function": "UQCRQ: Ubiquinol-cytochrome c reductase essential component of complex III",
@@ -5799,7 +5916,7 @@
  },
  {
   "gene": "HARS2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "5",
   "process": "Translation",
   "gene_function": "HARS2: Involved in the specific attachment of histidine aminoacid to its cognate tRNA",
@@ -5811,21 +5928,8 @@
   "mutation": ""
  },
  {
-  "gene": "GRPEL2",
-  "sampleID": "test",
-  "chr": "5",
-  "process": "Import & Sorting",
-  "gene_function": "GRPEL2: Presequence translocase associated motor, acts as a nucleotide exchange factor releasing the ADP from HSPA9",
-  "EMBL_ID": "ENSG00000164284",
-  "Normal": 12.6718,
-  "Abnormal": 19.5113,
-  "log2": 0.622686,
-  "pvalue": 0.00145,
-  "mutation": ""
- },
- {
   "gene": "MRPL22",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "5",
   "process": "Translation",
   "gene_function": "MRPL22: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -5838,7 +5942,7 @@
  },
  {
   "gene": "FABP6",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "5",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "FABP6: Fatty acid binding proteins are also involved in the import and export of fatty acids",
@@ -5850,21 +5954,8 @@
   "mutation": ""
  },
  {
-  "gene": "SQSTM1",
-  "sampleID": "test",
-  "chr": "5",
-  "process": "Mitochondrial Dynamics",
-  "gene_function": "SQSTM1: Involved  in the mitophagy, recruited to mitochondria and binds mitochondrial substrates on the autophagosomes",
-  "EMBL_ID": "ENSG00000161011",
-  "Normal": 131.958,
-  "Abnormal": 454.132,
-  "log2": 1.78304,
-  "pvalue": 0.00005,
-  "mutation": ""
- },
- {
   "gene": "TERT",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "5",
   "process": "Replication & Transcription",
   "gene_function": "TERT: Role in the protection of mitochondrial integrity with a suggested role in mt-DNA replication and/or repair",
@@ -5877,7 +5968,7 @@
  },
  {
   "gene": "MRPL36",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "5",
   "process": "Translation",
   "gene_function": "MRPL36: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -5890,7 +5981,7 @@
  },
  {
   "gene": "NSUN2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "5",
   "process": "Replication & Transcription",
   "gene_function": "NSUN2: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
@@ -5903,7 +5994,7 @@
  },
  {
   "gene": "MRPS27",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "5",
   "process": "Translation",
   "gene_function": "MRPS27: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -5915,21 +6006,8 @@
   "mutation": ""
  },
  {
-  "gene": "GFM2",
-  "sampleID": "test",
-  "chr": "5",
-  "process": "Translation",
-  "gene_function": "GFM2: Involved in the elongation and termination phases of the translation process may also be involved in the ribosome recycling",
-  "EMBL_ID": "ENSG00000164347",
-  "Normal": 13.4944,
-  "Abnormal": 27.7562,
-  "log2": 1.04045,
-  "pvalue": 0.00305,
-  "mutation": ""
- },
- {
   "gene": "ACSL6",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "5",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "ACSL6: Acyl-CoA synthetase activity for long chain free fatty acids are also involved in the activation of fatty acids",
@@ -5942,7 +6020,7 @@
  },
  {
   "gene": "VDAC1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "5",
   "process": "Apoptosis",
   "gene_function": "VDAC1: Voltage dependent anion channel forms part of permeability transition pore and also involved in the takeup of calcium ions from the Endoplasmic reticulum",
@@ -5955,7 +6033,7 @@
  },
  {
   "gene": "HSPA9",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "5",
   "process": "Import & Sorting",
   "gene_function": "HSPA9: Presequence translocase associated motor, binds to the preprotein and drives it into the matrix in association with other chaperones and also involved in the mediation of the interaction between VDAC1 and Inositol-1,4,5-triphosphate receptors",
@@ -5968,7 +6046,7 @@
  },
  {
   "gene": "NDUFA2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "5",
   "process": "Electron transport chain",
   "gene_function": "NDUFA2: Essential component of complex I may be involved in regulating complex I activity or its assembly via assistance in redox processes",
@@ -5981,7 +6059,7 @@
  },
  {
   "gene": "FARS2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "Translation",
   "gene_function": "FARS2: Involved in the specific attachment of phenylalanine aminoacid to its cognate tRNA",
@@ -5994,7 +6072,7 @@
  },
  {
   "gene": "CDKAL1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "Replication & Transcription",
   "gene_function": "CDKAL1: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
@@ -6007,7 +6085,7 @@
  },
  {
   "gene": "MRPS18B",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "Translation",
   "gene_function": "MRPS18B: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -6020,7 +6098,7 @@
  },
  {
   "gene": "VARS2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "Translation",
   "gene_function": "VARS2: Involved in the specific attachment of valine aminoacid to its cognate tRNA",
@@ -6033,7 +6111,7 @@
  },
  {
   "gene": "ITPR3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "Calcium trafficking",
   "gene_function": "ITPR3: Component of the Inositol-1,4,5-triphosphate receptors channels used for the fluxes of Ca2+ from ER to mitochondria",
@@ -6046,7 +6124,7 @@
  },
  {
   "gene": "TOMM6",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "Import & Sorting",
   "gene_function": "TOMM6: Outer membrane translocation, required for the assembly and stability of the TOM complex",
@@ -6059,7 +6137,7 @@
  },
  {
   "gene": "SLC29A1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "Replication & Transcription",
   "gene_function": "SLC29A1: Equilibrative nucleoside transporter 1 imports recycled deoxyribonucleosides from cytoplasm into mitochondria",
@@ -6071,21 +6149,8 @@
   "mutation": ""
  },
  {
-  "gene": "MTO1",
-  "sampleID": "test",
-  "chr": "6",
-  "process": "Replication & Transcription",
-  "gene_function": "MTO1: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
-  "EMBL_ID": "ENSG00000135297",
-  "Normal": 9.87292,
-  "Abnormal": 12.7352,
-  "log2": 0.367273,
-  "pvalue": 0.0722,
-  "mutation": ""
- },
- {
   "gene": "BCKDHB",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "ROS defense",
   "gene_function": "BCKDHB: Involved in the catabolism of aminoacids in mitochondria and may also be involved in the production of superoxides and hydrogen peroxide",
@@ -6098,7 +6163,7 @@
  },
  {
   "gene": "QRSL1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "Translation",
   "gene_function": "QRSL1: Involved in the biosynthesis of glutamyl-tRNA",
@@ -6111,7 +6176,7 @@
  },
  {
   "gene": "TRMT11",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "Replication & Transcription",
   "gene_function": "TRMT11: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
@@ -6124,7 +6189,7 @@
  },
  {
   "gene": "MRPL18",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "Translation",
   "gene_function": "MRPL18: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -6137,7 +6202,7 @@
  },
  {
   "gene": "LYRM4",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "Fe-S cluster biosynthesis",
   "gene_function": "LYRM4: Assembles with NFS1",
@@ -6150,7 +6215,7 @@
  },
  {
   "gene": "CCDC90A",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "Calcium trafficking",
   "gene_function": "CCDC90A: Mitochondrial calcium uniporter regulator 1 required for the MCU dependent calcium uptake by the mitochondria ",
@@ -6163,7 +6228,7 @@
  },
  {
   "gene": "BAK1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "Apoptosis",
   "gene_function": "BAK1: Bcl-2 family member propagating apoptosis",
@@ -6176,7 +6241,7 @@
  },
  {
   "gene": "MNF1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "Electron transport chain",
   "gene_function": "MNF1: Complex III assembly factor, ubiquinol-cytochrome c reductase complex assembly factor 2",
@@ -6189,7 +6254,7 @@
  },
  {
   "gene": "MRPS10",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "Translation",
   "gene_function": "MRPS10: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -6202,7 +6267,7 @@
  },
  {
   "gene": "MRPL2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "Translation",
   "gene_function": "MRPL2: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -6215,7 +6280,7 @@
  },
  {
   "gene": "MRPS18A",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "Translation",
   "gene_function": "MRPS18A: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -6228,7 +6293,7 @@
  },
  {
   "gene": "MRPL14",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "Translation",
   "gene_function": "MRPL14: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -6241,7 +6306,7 @@
  },
  {
   "gene": "AARS2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "Translation",
   "gene_function": "AARS2: Involved in the specific attachment of alanine aminoacid to its cognate tRNA",
@@ -6254,7 +6319,7 @@
  },
  {
   "gene": "GSTA2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "ROS defense",
   "gene_function": "GSTA2: Mitochondrial gluthathione-S-transferases through gluthothione conjugation or proxide reduction detoxify harmful byproducts",
@@ -6267,7 +6332,7 @@
  },
  {
   "gene": "GSTA1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "ROS defense",
   "gene_function": "GSTA1: Mitochondrial gluthathione-S-transferases through gluthothione conjugation or proxide reduction detoxify harmful byproducts",
@@ -6280,7 +6345,7 @@
  },
  {
   "gene": "GSTA4",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "ROS defense",
   "gene_function": "GSTA4: Mitochondrial gluthathione-S-transferases through gluthothione conjugation or proxide reduction detoxify harmful byproducts",
@@ -6293,7 +6358,7 @@
  },
  {
   "gene": "GCLC",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "ROS defense",
   "gene_function": "GCLC: Catalyzes the first step reaction which combines cystein and glutamate to form glutamylcysteine",
@@ -6306,7 +6371,7 @@
  },
  {
   "gene": "COX7A2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "Electron transport chain",
   "gene_function": "COX7A2: Cytochrome c oxidase subunit VIIa polypeptide 2 (liver) essential component of complex IV",
@@ -6319,7 +6384,7 @@
  },
  {
   "gene": "RARS2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "Translation",
   "gene_function": "RARS2: Involved in the specific attachment of arginine aminoacid to its cognate tRNA",
@@ -6332,7 +6397,7 @@
  },
  {
   "gene": "NDUFAF4",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "Electron transport chain",
   "gene_function": "NDUFAF4: Complex I assembly factor required in the assembly of Complex I",
@@ -6345,7 +6410,7 @@
  },
  {
   "gene": "RMND1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "Translation",
   "gene_function": "RMND1: Required for mitochondrial translation, possibly by coordinating the assembly or maintenance of the mitochondrial ribosome",
@@ -6358,7 +6423,7 @@
  },
  {
   "gene": "MTRF1L",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "Translation",
   "gene_function": "MTRF1L: Involved in the mitochondrial translation termination, act as a release factor",
@@ -6371,7 +6436,7 @@
  },
  {
   "gene": "TFB1M",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "Replication & Transcription",
   "gene_function": "TFB1M: Regulates the stability of small subunit of mitochondrial ribosome by its methylation activity. It also plays a very important role in transcription",
@@ -6384,7 +6449,7 @@
  },
  {
   "gene": "SOD2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "ROS defense",
   "gene_function": "SOD2: Dismutates the super oxide generated in the mitochondiral matrix to hydrogen peroxide",
@@ -6397,7 +6462,7 @@
  },
  {
   "gene": "BRP44L",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "6",
   "process": "Pyruvate transfer",
   "gene_function": "BRP44L: Mitochondrial pyruvate carrier 1",
@@ -6410,7 +6475,7 @@
  },
  {
   "gene": "GARS",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "7",
   "process": "Translation",
   "gene_function": "GARS: Involved in the specific attachment of glycine aminoacid to its cognate tRNA",
@@ -6423,7 +6488,7 @@
  },
  {
   "gene": "MRPL32",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "7",
   "process": "Translation",
   "gene_function": "MRPL32: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -6435,21 +6500,8 @@
   "mutation": ""
  },
  {
-  "gene": "OGDH",
-  "sampleID": "test",
-  "chr": "7",
-  "process": "Tricarboxylic acid cycle",
-  "gene_function": "OGDH: Catalyzes the overall conversion of 2-oxoglutarate to succinyl-CoA and CO2",
-  "EMBL_ID": "ENSG00000105953",
-  "Normal": 26.0702,
-  "Abnormal": 32.8442,
-  "log2": 0.333238,
-  "pvalue": 0.0856,
-  "mutation": ""
- },
- {
   "gene": "PPIA",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "7",
   "process": "Apoptosis",
   "gene_function": "PPIA: Cyclophilin A might work with ENDOG in a DNA degradation complex",
@@ -6462,7 +6514,7 @@
  },
  {
   "gene": "MRPS17",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "7",
   "process": "Translation",
   "gene_function": "MRPS17: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -6475,7 +6527,7 @@
  },
  {
   "gene": "ASL",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "7",
   "process": "Urea Cycle",
   "gene_function": "ASL: Argininosuccinate lyase catalyzes the reaction where Argininosuccinate is cleaved of its nitrogen and carbon skeleton forming arginine and fumarate respectively",
@@ -6488,7 +6540,7 @@
  },
  {
   "gene": "MDH2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "7",
   "process": "Tricarboxylic acid cycle",
   "gene_function": "MDH2: Catalyzes the reversible oxidation of malate to oxaloacetate",
@@ -6501,7 +6553,7 @@
  },
  {
   "gene": "PMPCB",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "7",
   "process": "Import & Sorting",
   "gene_function": "PMPCB: Presequence of preproteins are removed by proteolytic enzyme mitochondrial processing peptidase",
@@ -6513,21 +6565,8 @@
   "mutation": ""
  },
  {
-  "gene": "DLD",
-  "sampleID": "test",
-  "chr": "7",
-  "process": "Tricarboxylic acid cycle",
-  "gene_function": "DLD: Catalyzes the overall conversion of 2-oxoglutarate to succinyl-CoA and CO2",
-  "EMBL_ID": "ENSG00000091140",
-  "Normal": 32.3239,
-  "Abnormal": 35.5796,
-  "log2": 0.13845,
-  "pvalue": 0.4645,
-  "mutation": ""
- },
- {
   "gene": "NRF1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "7",
   "process": "Replication & Transcription",
   "gene_function": "NRF1: Regulates the expression of TFB1M and TFB2M which are two mitochondrial transcription factors",
@@ -6540,7 +6579,7 @@
  },
  {
   "gene": "NDUFB2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "7",
   "process": "Electron transport chain",
   "gene_function": "NDUFB2: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -6553,7 +6592,7 @@
  },
  {
   "gene": "SSBP1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "7",
   "process": "Replication & Transcription",
   "gene_function": "SSBP1: Promotes helical destabilization for the DNA helicases and Polymerase gama (POLG) to support mtDNA replication",
@@ -6566,7 +6605,7 @@
  },
  {
   "gene": "COX19",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "7",
   "process": "Electron transport chain",
   "gene_function": "COX19: Complex IV assembly factor",
@@ -6579,7 +6618,7 @@
  },
  {
   "gene": "EIF2AK1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "7",
   "process": "Translation",
   "gene_function": "EIF2AK1: Inhibits protein synthesis at the translation initiation level, in response to various stress conditions",
@@ -6592,7 +6631,7 @@
  },
  {
   "gene": "NDUFA4",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "7",
   "process": "Electron transport chain",
   "gene_function": "NDUFA4: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -6605,7 +6644,7 @@
  },
  {
   "gene": "TOMM7",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "7",
   "process": "Import & Sorting",
   "gene_function": "TOMM7: Outer membrane translocation, required for the assembly and stability of the TOM complex",
@@ -6618,7 +6657,7 @@
  },
  {
   "gene": "CYCS",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "7",
   "process": "Apoptosis",
   "gene_function": "CYCS: Binds to apoptosis inducing factor 1 (APAF1) forming a structure called apoptosome",
@@ -6631,7 +6670,7 @@
  },
  {
   "gene": "C7orf44",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "7",
   "process": "Electron transport chain",
   "gene_function": "C7orf44: COA1 Complex IV assembly factor",
@@ -6644,7 +6683,7 @@
  },
  {
   "gene": "MRPS24",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "7",
   "process": "Translation",
   "gene_function": "MRPS24: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -6657,7 +6696,7 @@
  },
  {
   "gene": "PGAM2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "7",
   "process": "Glycolysis",
   "gene_function": "PGAM2: Catalyzes the reversible reaction of 3-phosphoglycerate to 2-phosphoglycerate",
@@ -6670,7 +6709,7 @@
  },
  {
   "gene": "SBDS",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "7",
   "process": "Translation",
   "gene_function": "SBDS: Required for the assembly of mature ribosomes and ribosome biogenesis",
@@ -6683,7 +6722,7 @@
  },
  {
   "gene": "ATP5J2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "7",
   "process": "Electron transport chain",
   "gene_function": "ATP5J2: ATP synthase H+ transporting mitochondrial Fo complex subunit F2 essential component of complex V",
@@ -6696,7 +6735,7 @@
  },
  {
   "gene": "FIS1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "7",
   "process": "Mitochondrial Dynamics",
   "gene_function": "FIS1: Involved in the mitochondrial fission, facilitates binding and assembly of DNM1L",
@@ -6709,7 +6748,7 @@
  },
  {
   "gene": "IMMP2L",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "7",
   "process": "Import & Sorting",
   "gene_function": "IMMP2L: Inner membrane peptidase that cleaves hydrophobic sorting signal",
@@ -6722,7 +6761,7 @@
  },
  {
   "gene": "NDUFA5",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "7",
   "process": "Electron transport chain",
   "gene_function": "NDUFA5: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -6735,7 +6774,7 @@
  },
  {
   "gene": "MRPS33",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "7",
   "process": "Translation",
   "gene_function": "MRPS33: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -6748,7 +6787,7 @@
  },
  {
   "gene": "SLC25A37",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "8",
   "process": "Fe-S cluster biosynthesis",
   "gene_function": "SLC25A37: Functions as an essential iron importer",
@@ -6761,7 +6800,7 @@
  },
  {
   "gene": "BNIP3L",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "8",
   "process": "Mitochondrial Dynamics",
   "gene_function": "BNIP3L: Involved in the mitophagy, cause permeabilization of the mitochondrial membrane and also regulate mitophagy",
@@ -6774,7 +6813,7 @@
  },
  {
   "gene": "VDAC3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "8",
   "process": "Apoptosis",
   "gene_function": "VDAC3: Voltage dependent anion channel forms part of permeability transition pore and also involved in the takeup of calcium ions from the Endoplasmic reticulum",
@@ -6787,7 +6826,7 @@
  },
  {
   "gene": "MRPL15",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "8",
   "process": "Translation",
   "gene_function": "MRPL15: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -6800,7 +6839,7 @@
  },
  {
   "gene": "TMEM70",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "8",
   "process": "Electron transport chain",
   "gene_function": "TMEM70: Complex V assembly factor, may play a role in biogenesis of mitochondrial ATP synthase",
@@ -6813,7 +6852,7 @@
  },
  {
   "gene": "GDAP1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "8",
   "process": "Mitochondrial Dynamics",
   "gene_function": "GDAP1: Involved in the mitochondrial fission, know to have a role in the mitochondrial fragmentation",
@@ -6826,7 +6865,7 @@
  },
  {
   "gene": "PKIA",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "8",
   "process": "Mitochondrial Dynamics",
   "gene_function": "PKIA: Involved in the mitochondrial fission, is known to inhibit GTPase activity of DNM1L",
@@ -6839,7 +6878,7 @@
  },
  {
   "gene": "FABP5",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "8",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "FABP5: Fatty acid binding proteins are also involved in the import and export of fatty acids",
@@ -6852,7 +6891,7 @@
  },
  {
   "gene": "DECR1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "8",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "DECR1: 2,4 dienoyl CoA reductase 1 catalyzes the metabolism of Polyunsaturated fatty acids",
@@ -6865,7 +6904,7 @@
  },
  {
   "gene": "C8orf38",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "8",
   "process": "Electron transport chain",
   "gene_function": "C8orf38: NDUFAF6 important role in the assembly of complex I",
@@ -6878,7 +6917,7 @@
  },
  {
   "gene": "NDUFB9",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "8",
   "process": "Electron transport chain",
   "gene_function": "NDUFB9: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -6890,21 +6929,8 @@
   "mutation": ""
  },
  {
-  "gene": "CYC1",
-  "sampleID": "test",
-  "chr": "8",
-  "process": "Electron transport chain",
-  "gene_function": "CYC1: Essential component of complex III transfers electrons from iron sulphur protein to cytochrome c",
-  "EMBL_ID": "ENSG00000179091",
-  "Normal": 209.303,
-  "Abnormal": 222.6,
-  "log2": 0.0888599,
-  "pvalue": 0.6306,
-  "mutation": ""
- },
- {
   "gene": "GSR",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "8",
   "process": "ROS defense",
   "gene_function": "GSR: Reduces oxidized gluthathione to gluthathione which can be re utilized by GPX1",
@@ -6917,7 +6943,7 @@
  },
  {
   "gene": "MRPS28",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "8",
   "process": "Translation",
   "gene_function": "MRPS28: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -6930,7 +6956,7 @@
  },
  {
   "gene": "UQCRB",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "8",
   "process": "Electron transport chain",
   "gene_function": "UQCRB: Ubiquinol-cytochrome c reductase binding protein essential component of complex III",
@@ -6943,7 +6969,7 @@
  },
  {
   "gene": "COX6C",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "8",
   "process": "Electron transport chain",
   "gene_function": "COX6C: Cytochrome c oxidase subunit VIc essential component of complex IV",
@@ -6955,21 +6981,8 @@
   "mutation": ""
  },
  {
-  "gene": "RRM2B",
-  "sampleID": "test",
-  "chr": "8",
-  "process": "Replication & Transcription",
-  "gene_function": "RRM2B: Required for the de novo deoxyribonucloetide synthesis in nonproliferating cells supplying dNTPs to mtDNA synthesis",
-  "EMBL_ID": "ENSG00000048392",
-  "Normal": 25.7664,
-  "Abnormal": 25.0349,
-  "log2": -0.0415511,
-  "pvalue": 0.8277,
-  "mutation": ""
- },
- {
   "gene": "SYBU",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "8",
   "process": "Mitochondrial Dynamics",
   "gene_function": "SYBU: Involved in the mitochondrial movement, have a role in linking the mitochondria to KIF5B",
@@ -6982,7 +6995,7 @@
  },
  {
   "gene": "MRPL13",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "8",
   "process": "Translation",
   "gene_function": "MRPL13: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -6994,21 +7007,8 @@
   "mutation": ""
  },
  {
-  "gene": "TOP1MT",
-  "sampleID": "test",
-  "chr": "8",
-  "process": "Replication & Transcription",
-  "gene_function": "TOP1MT: Suggested to have a role in the removal of positive supercoils created by helicase activity",
-  "EMBL_ID": "ENSG00000184428",
-  "Normal": 33.5647,
-  "Abnormal": 28.2347,
-  "log2": -0.249473,
-  "pvalue": 0.20695,
-  "mutation": ""
- },
- {
   "gene": "FXN",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "9",
   "process": "Fe-S cluster biosynthesis",
   "gene_function": "FXN: Functions in regulating mitochondrial iron transport and respiration",
@@ -7021,7 +7021,7 @@
  },
  {
   "gene": "MRRF",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "9",
   "process": "Translation",
   "gene_function": "MRRF: Acts as a mitochondrial ribosome recycling factor during translation process",
@@ -7034,7 +7034,7 @@
  },
  {
   "gene": "DNM1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "9",
   "process": "Apoptosis",
   "gene_function": "DNM1: Recruited to mitochondria can induce cristae remodelling to release cytochrome c and subsequent apoptosis",
@@ -7047,7 +7047,7 @@
  },
  {
   "gene": "SLC27A4",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "9",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "SLC27A4: Readily converts the transported very long chain fatty acids to acyl-CoAs",
@@ -7060,7 +7060,7 @@
  },
  {
   "gene": "ENDOG",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "9",
   "process": "Replication & Transcription",
   "gene_function": "ENDOG: Nuclease which processes the RNA primers for heavy strand replication also has a role in apopptosis where after release from the mitochondria induces nucleosomal DNA fragmentation",
@@ -7073,7 +7073,7 @@
  },
  {
   "gene": "ASS1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "9",
   "process": "Urea Cycle",
   "gene_function": "ASS1: Argininosuccinate synthetase catalyzes the step where Citruline combines with Aspartate to form Argininosuccinate",
@@ -7086,7 +7086,7 @@
  },
  {
   "gene": "MRPS2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "9",
   "process": "Translation",
   "gene_function": "MRPS2: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -7099,7 +7099,7 @@
  },
  {
   "gene": "PMPCA",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "9",
   "process": "Import & Sorting",
   "gene_function": "PMPCA: Presequence of preproteins are removed by proteolytic enzyme mitochondrial processing peptidase",
@@ -7112,7 +7112,7 @@
  },
  {
   "gene": "MRPL41",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "9",
   "process": "Translation",
   "gene_function": "MRPL41: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -7125,7 +7125,7 @@
  },
  {
   "gene": "AK3",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "9",
   "process": "Replication & Transcription",
   "gene_function": "AK3: Phosphorylates the deoxyribonucleoside mono phosphates specifically on dAMP",
@@ -7138,7 +7138,7 @@
  },
  {
   "gene": "NDUFB6",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "9",
   "process": "Electron transport chain",
   "gene_function": "NDUFB6: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -7151,7 +7151,7 @@
  },
  {
   "gene": "SIGMAR1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "9",
   "process": "Calcium trafficking",
   "gene_function": "SIGMAR1: Stabilises the Inositol-1,4,5-triphosphate receptors and ensures proper Ca2+ fluxes",
@@ -7164,7 +7164,7 @@
  },
  {
   "gene": "STOML2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "9",
   "process": "Mitochondrial Dynamics",
   "gene_function": "STOML2:  Involved in the mitochondrial fusion, scaffold proteins PHB2 and STOML2 coordinate stability of the OPA1",
@@ -7177,7 +7177,7 @@
  },
  {
   "gene": "RMRP",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "9",
   "process": "Replication & Transcription",
   "gene_function": "RMRP: RNA component of mitochondrial RNA processing endoribonuclease: cleaves mitochondrial RNA at the priming site of mitochondrial DNA replication",
@@ -7190,7 +7190,7 @@
  },
  {
   "gene": "TOMM5",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "9",
   "process": "Import & Sorting",
   "gene_function": "TOMM5: Outer membrane translocation, transports preprotein to the import pore formed by TOMM40",
@@ -7203,7 +7203,7 @@
  },
  {
   "gene": "ISCA1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "9",
   "process": "Fe-S cluster biosynthesis",
   "gene_function": "ISCA1: Involved in the biogenesis and assembly of iron-sulfur clusters",
@@ -7216,7 +7216,7 @@
  },
  {
   "gene": "MRPL50",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "9",
   "process": "Translation",
   "gene_function": "MRPL50: Mitoribosome which forms a part of mitochondrial translation machinary",
@@ -7229,7 +7229,7 @@
  },
  {
   "gene": "ALAD",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "9",
   "process": "Heme Biosynthesis",
   "gene_function": "ALAD: ALA dehydratase catalyzes the reaction where two molecules of ALA condenses to form monopyrrole porphobilinogen (PBG)",
@@ -7242,7 +7242,7 @@
  },
  {
   "gene": "NDUFA8",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "9",
   "process": "Electron transport chain",
   "gene_function": "NDUFA8: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -7255,7 +7255,7 @@
  },
  {
   "gene": "TRUB2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "9",
   "process": "Replication & Transcription",
   "gene_function": "TRUB2: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
@@ -7267,21 +7267,8 @@
   "mutation": ""
  },
  {
-  "gene": "CRAT",
-  "sampleID": "test",
-  "chr": "9",
-  "process": "Fatty acid beta-oxidation",
-  "gene_function": "CRAT: Free carnitine in the mitochondria can be converted into acyl carnitine by the action of carnitine acetyl transferase",
-  "EMBL_ID": "ENSG00000095321",
-  "Normal": 8.01212,
-  "Abnormal": 30.21,
-  "log2": 1.91477,
-  "pvalue": 0.00005,
-  "mutation": ""
- },
- {
   "gene": "SURF1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "9",
   "process": "Electron transport chain",
   "gene_function": "SURF1: Complex IV assembly factor, involved in the biogenesis of the cytochrome c oxidase complex",
@@ -7294,7 +7281,7 @@
  },
  {
   "gene": "MT-ND1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "MT",
   "process": "Electron transport chain",
   "gene_function": "MT-ND1: Mitochondrially encoded NADH dehydrogenase 1 part of enzyme complex I",
@@ -7307,7 +7294,7 @@
  },
  {
   "gene": "MT-ND2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "MT",
   "process": "Electron transport chain",
   "gene_function": "MT-ND2: Mitochondrially encoded NADH dehydrogenase 2 part of enzyme complex I",
@@ -7320,7 +7307,7 @@
  },
  {
   "gene": "MT-CYB",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "MT",
   "process": "Electron transport chain",
   "gene_function": "MT-CYB: Essential component of complex III transfers electrons from iron sulphur protein to cytochrome c",
@@ -7333,7 +7320,7 @@
  },
  {
   "gene": "MT-TA",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "MT",
   "process": "Translation",
   "gene_function": "MT-TA: mitochondrially encoded tRNA alanine",
@@ -7346,7 +7333,7 @@
  },
  {
   "gene": "MT-TC",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "MT",
   "process": "Translation",
   "gene_function": "MT-TC: mitochondrially encoded tRNA cysteine",
@@ -7359,7 +7346,7 @@
  },
  {
   "gene": "MT-TN",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "MT",
   "process": "Translation",
   "gene_function": "MT-TN: mitochondrially encoded tRNA asparagine",
@@ -7372,7 +7359,7 @@
  },
  {
   "gene": "MT-TY",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "MT",
   "process": "Translation",
   "gene_function": "MT-TY: mitochondrially encoded tRNA tyrosine",
@@ -7385,7 +7372,7 @@
  },
  {
   "gene": "MT-ND6",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "MT",
   "process": "Electron transport chain",
   "gene_function": "MT-ND6: Mitochondrially encoded NADH dehydrogenase 6 part of enzyme complex I",
@@ -7398,7 +7385,7 @@
  },
  {
   "gene": "HCCS",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "X",
   "process": "Electron transport chain",
   "gene_function": "HCCS: Complex III assembly factor, covalently links a heme group to the apoprotein of cytochrome c",
@@ -7411,7 +7398,7 @@
  },
  {
   "gene": "PDHA1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "X",
   "process": "Formation of Acetyl CoA",
   "gene_function": "PDHA1: Catalyzes the overall conversion of pyruvate to acetyl-CoA",
@@ -7424,7 +7411,7 @@
  },
  {
   "gene": "APEX2",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "X",
   "process": "Replication & Transcription",
   "gene_function": "APEX2: Involved in the mitochondrial DNA base excision repair",
@@ -7437,7 +7424,7 @@
  },
  {
   "gene": "COX7B",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "X",
   "process": "Electron transport chain",
   "gene_function": "COX7B: Cytochrome c oxidase subunit VIIb essential component of complex IV",
@@ -7450,7 +7437,7 @@
  },
  {
   "gene": "PGK1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "X",
   "process": "Glycolysis",
   "gene_function": "PGK1: Catalyzes the conversion of 1,3-diphosphoglycerate to 3-phosphoglycerate",
@@ -7463,7 +7450,7 @@
  },
  {
   "gene": "SLC25A5",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "X",
   "process": "Apoptosis",
   "gene_function": "SLC25A5: Adenine nucleotide translocator forms part of permeability transition pore",
@@ -7476,7 +7463,7 @@
  },
  {
   "gene": "NDUFA1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "X",
   "process": "Electron transport chain",
   "gene_function": "NDUFA1: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -7489,7 +7476,7 @@
  },
  {
   "gene": "XIAP",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "X",
   "process": "Apoptosis",
   "gene_function": "XIAP: X-linked inhibitor of apoptosis protein inhibits caspase activity by directly binding to CASP9, 3 and 7",
@@ -7502,7 +7489,7 @@
  },
  {
   "gene": "TAZ",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "X",
   "process": "Cardiolipin biosynthesis",
   "gene_function": "TAZ: Converts the nascent cardiolipin to mature cardiolipin",
@@ -7515,7 +7502,7 @@
  },
  {
   "gene": "DKC1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "X",
   "process": "Translation",
   "gene_function": "DKC1: Has an active role in telomerase stabilization and maintenance",
@@ -7528,7 +7515,7 @@
  },
  {
   "gene": "NDUFB11",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "X",
   "process": "Electron transport chain",
   "gene_function": "NDUFB11: Essential component of complex I transfers electrons from NADH to ubiquinone",
@@ -7541,7 +7528,7 @@
  },
  {
   "gene": "TIMM17B",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "X",
   "process": "Import & Sorting",
   "gene_function": "TIMM17B: Inner membrane translocation, might influence the channel activity formed by the TIMM23",
@@ -7554,7 +7541,7 @@
  },
  {
   "gene": "HSD17B10",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "X",
   "process": "Replication & Transcription",
   "gene_function": "HSD17B10: Human mitochondrial tRNA processing enzyme",
@@ -7567,7 +7554,7 @@
  },
  {
   "gene": "ABCB7",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "X",
   "process": "Fe-S cluster biosynthesis",
   "gene_function": "ABCB7: Exports an sulphur product (X) from the mitochondrial iron sulphor cluster system to cytosol",
@@ -7580,7 +7567,7 @@
  },
  {
   "gene": "TRMT2B",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "X",
   "process": "Replication & Transcription",
   "gene_function": "TRMT2B: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
@@ -7593,7 +7580,7 @@
  },
  {
   "gene": "TIMM8A",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "X",
   "process": "Import & Sorting",
   "gene_function": "TIMM8A: Innermembrane carrier pathway, forms complex with TIMM13 and also performs the transfer of inner membrane proteins",
@@ -7606,7 +7593,7 @@
  },
  {
   "gene": "ACSL4",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "X",
   "process": "Fatty acid beta-oxidation",
   "gene_function": "ACSL4: Acyl-CoA synthetase activity for long chain free fatty acids are also involved in the activation of fatty acids",
@@ -7619,7 +7606,7 @@
  },
  {
   "gene": "AIFM1",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "X",
   "process": "Apoptosis",
   "gene_function": "AIFM1: Mitochondria associated apoptosis inducing factor translocates to nucleus and degrades DNA",
@@ -7632,7 +7619,7 @@
  },
  {
   "gene": "IDH3G",
-  "sampleID": "test",
+  "sampleID": "555",
   "chr": "X",
   "process": "Tricarboxylic acid cycle",
   "gene_function": "IDH3G: Catalyze the oxidative decarboxylation of isocitrate to 2-oxoglutarate",

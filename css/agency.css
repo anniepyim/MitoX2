@@ -61,6 +61,13 @@ h6 {
 .bg-darkest-gray {
   background-color: #222222;
 }
+
+.btn{
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
 .btn-primary {
   color: white;
   background-color: #12e2c0;

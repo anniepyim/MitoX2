@@ -6,62 +6,132 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    
     <link href="css/style.css" rel="stylesheet" >
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="css/jasny-bootstrap.min.css">
     
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="js/jasny-bootstrap.min.js"></script>
 </head>
 
 <script>
+    
+function contains(a, obj) {
+    var i = a.length;
+    while (i--) {
+       if (a[i] === obj) {
+           return true;
+       }
+    }
+    return false;
+}
+    
 function validateForm() {
     
     ///This part has to be modified!!!!
     //Duplicate name, file size, empty files etc
+    var warningDiv = document.getElementById('warning-div')
     
-    var x = document.getElementsByClassName("warning");
-    var i;
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
+    document.getElementById('warning-wrong').style.display = "none";
+    warningDiv.style.display = "none";
+
+    while (warningDiv.firstChild) {
+        warningDiv.removeChild(warningDiv.firstChild);
     }
+    
+    var newdiv;
+    
     var organism = document.getElementById("organism").value;
-    //var samplename = document.getElementById("samplename1").value;
-    //var expfile = document.getElementById("expfile1").value;
-    //var mutfile = document.getElementById("mutfile1").value;
-
-    if (organism == "") document.getElementById('warning-organism').style.display = "block";
-    //if (samplename == "") document.getElementById('warning-samplename').style.display = "block";
-    //if (expfile == "") document.getElementById('warning-expfile').style.display = "block";
-    //if (mutfile == "") document.getElementById('warning-mutfile').style.display = "block";
-    
-    //if (organism == "" || samplename == "" || expfile == "" || mutfile == "") {
-    //    document.getElementById('warning-missing').style.display = "block";
-    //    return false;
-    //}
-}
-    
-    var counter = 2;
-    var limit = 10;
-
-    function addInput(divName){
-         if (counter == limit)  {
-              alert("You have reached the limit of adding " + counter + " samples");
-         }
-         else {
-              var newdiv = document.createElement('div');
-             newdiv.className = "jumbotron";
-             newdiv.style="border:solid #d3d1d1";
-              newdiv.innerHTML = "<b>Sample " + counter + ":</b> <input type='text' class='form-control' name='samplename" + counter + "' class='samplename'><br> <b>Expression file " + counter + ":</b> <input name='expfile" + counter + "' type='file' class='expfile'><br> <b>Mutation file " + counter + ":</b> <input name='mutfile" + counter + "' type='file' class='mutfile'>";
-              document.getElementById(divName).appendChild(newdiv);
-             document.getElementById("counter").value=counter;
-              counter++;
-         }
+    if (organism == ""){
+        newdiv = document.createElement('div');
+        newdiv.innerHTML = "<font color='red'>- Select organism</font>"
+        warningDiv.appendChild(newdiv);
     }
+    
+    var repeat;
+    x = document.getElementsByClassName("samplename");
+    var samplename = []
+    for (i = 0; i < x.length; i++) {
+        if (contains(samplename,x[i].value)){
+            repeat = i+1;
+            newdiv = document.createElement('div');
+            newdiv.innerHTML = "<font color='red'>- Please give all samples a unique name</font>"
+            warningDiv.appendChild(newdiv);
+            break;
+        }
+        samplename.push(x[i].value);
+    }
+    
+    var emptysample;
+    x = document.getElementsByClassName("samplename");
+    for (i = 0; i < x.length; i++) {
+        if(x[i].value == ""){
+            emptysample = i+1;
+            newdiv = document.createElement('div');
+            newdiv.innerHTML = "<font color='red'>- Sample name is missing </font>"
+            warningDiv.appendChild(newdiv);
+            break;
+        }
+    }
+    
+    var emptyexp;
+    x = document.getElementsByClassName("expfile");
+    for (i = 0; i < x.length; i++) {
+        if(x[i].value == ""){
+            emptyexp = i+1;
+            newdiv = document.createElement('div');
+            newdiv.innerHTML = "<font color='red'>- Expression file is missing</font>"
+            warningDiv.appendChild(newdiv);
+            break;
+        }
+    }
+    
+    var emptymut = false;
+    x = document.getElementsByClassName("mutfile");
+    for (i = 0; i < x.length; i++) {
+        if(x[i].value == ""){
+            emptymut = i+1;
+            newdiv = document.createElement('div');
+            newdiv.innerHTML = "<font color='red'>- Mutation file is missing</font>"
+            warningDiv.appendChild(newdiv);
+            break;
+        }
+    }
+    
+    if (warningDiv.firstChild) {
+        document.getElementById('warning-wrong').style.display = "block";
+        warningDiv.style.display = "block";
+        return false;
+    }
+} 
+    
+    
+    
+var counter;
+var limit = 10;
+
+function addInput(divName){
+    
+    var inputdiv = document.getElementById("dynamicInput").childNodes;
+    
+    counter = inputdiv.length-1;
+
+     if (counter == limit)  {
+         var warningDiv = document.getElementById('warning-div')
+         warningDiv.style.display = "block";
+         newdiv = document.createElement('div');
+         newdiv.innerHTML = "<font color='red'>You have reached the limit of adding 10 samples</font>"
+         warningDiv.appendChild(newdiv);
+     }
+     else {
+          var newdiv = document.createElement('div');
+         newdiv.className = "jumbotron";
+         newdiv.style="border:solid #d3d1d1";
+          newdiv.innerHTML = "<b>Sample name:</b> <input type='text' class='form-control samplename' name='samplename[]'><br> <b>Expression file:</b> <input name='expfile[]' type='file' class='expfile'><br> <b>Mutation file:</b> <input name='mutfile[]' type='file' class='mutfile'><br><button type='button' class='btn btn-default btn-xs' onclick='this.parentNode.parentNode.removeChild(this.parentNode)' style='float: right;'>Remove sample</button>"
+          document.getElementById(divName).appendChild(newdiv);
+         document.getElementById("counter").value=counter;
+
+     }
+}
 </script>    
     
 <body>
@@ -116,7 +186,7 @@ function validateForm() {
         <!--<h2 class="text-center">--><h2> MITOMODEL INPUT PORTAL</h2>
         <br><br>
     </div>
-    <form enctype="multipart/form-data" action="./upload/uploader.php" onsubmit="return validateForm()" method="POST">
+    <form enctype="multipart/form-data" action="upload/uploader.php" onsubmit="return validateForm()" method="POST">
     <div class="jumbotron">
     <h3>SELECT ORGANISM</h3>
         
@@ -138,27 +208,24 @@ function validateForm() {
     <div id="dynamicInput">
     
     <div class="jumbotron" style="border:solid #d3d1d1">
-        <b>Sample 1:</b>
-        <input type="text" class="form-control" name="samplename1" class="samplename"><br>
-        <b>Expression file 1:</b>
-  		    <input name="expfile1" type="file" class="expfile"><br>
-        <b>Mutation file 1:</b>
-        <input name="mutfile1" type="file" class="mutfile">
+        <b>Sample name:</b>
+        <input type="text" class="form-control samplename" name="samplename[]"><br>
+        <b>Expression file:</b>
+  		    <input name="expfile[]" type="file" class="expfile"><br>
+        <b>Mutation file:</b>
+        <input name="mutfile[]" type="file" class="mutfile">
     </div>
         
     </div>
     
     
+        <div style = "display:none" id = "warning-wrong"><p><font color="red">Something went wrong!</font></p></div>
+        <div style = "display:none" id = "warning-div"></div><br>
+        
+    <button type="submit" class="btn btn-success" value="Upload File">Submit</button>
     
-        <div style = "display:none" class="warning" id = "warning-missing"><p><font color="red">Something is missing!</font></p></div>
-    <div style = "display:none" class="warning" id = "warning-organism"><p><font color="red">- Select organism</p></font></div>
-        <div style = "display:none" class="warning" id = "warning-samplename"><p><font color="red">- Fill in file name</font></p></div>
-        <div style = "display:none" class="warning" id = "warning-expfile"><p><font color="red">- Select expression file</font></p></div>
-        <div style = "display:none" class="warning" id = "warning-mutfile"><p><font color="red">- Select mutation file</font></p></div>
-    <button type="submit" class="btn btn-default" value="Upload File">Submit</button>
-    <a href="index.php#analysis"><button type="button" class="btn btn-success" data-dismiss="modal">Go Back</button></a>
-    <a href="upload/destroy.php" style="float:right" class="btn btn-warning">Restore</a>
-    <input type="button" value="Add another text input" onClick="addInput('dynamicInput');">
+    <button type="button" class="btn btn-info" style="float:right" onClick="addInput('dynamicInput');">Add more samples</button>
+
 	</div>
     
     </form>      
