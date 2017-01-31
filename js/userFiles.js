@@ -83,6 +83,11 @@ $(document).ready(function(){
         $(".database").css('background-color', 'white');
     })
     
+    $(".close-modal").click(function(e){
+        $('input:checkbox').removeAttr('checked');
+        $(".database").css('background-color', 'white');
+    })
+    
 
 });
 

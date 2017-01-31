@@ -26,7 +26,7 @@ $id = session_id();
     <title>MitoXplorer</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="css/font.css" rel="stylesheet" type="text/css">
