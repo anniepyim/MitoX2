@@ -3,6 +3,9 @@ session_start();
 //session_regenerate_id();
 $new_sessionid = session_id();
 $organism = $_POST['organism'];
+
+error_reporting(E_ERROR | E_PARSE);
+
 switch ($organism)
 {
 	case 'Human':
@@ -141,7 +144,7 @@ switch ($organism)
     }
     
     newdiv = document.createElement('div');
-    newdiv.innerHTML = "<br><a href='../upload.html'><button type='button' class='btn btn-secondary'>Go Back</button></a><a href='../index.php#database'><button type='button' class='btn btn-primary' style='float: right;background-color: #12e2c0;border-color: #12e2c0;'>Check Your Database</button></a>";
+    newdiv.innerHTML = "<br><a href='../upload.html'><button type='button' class='btn btn-primary'>Go Back</button></a><a href='../index.php#database'><button type='button' class='btn btn-primary' style='float: right;background-color: #12e2c0;border-color: #12e2c0;'>Check Your Database</button></a>";
     messageDiv.appendChild(newdiv);
     
     

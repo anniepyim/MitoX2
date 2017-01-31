@@ -73,25 +73,41 @@ function validateForm() {
         }
     }
     
-    var emptyexp;
+    var exp;
     x = document.getElementsByClassName("expfile");
     for (i = 0; i < x.length; i++) {
-        if(x[i].value == ""){
-            emptyexp = i+1;
+        exp = x[i].value;
+        
+        if(exp == ""){
             newdiv = document.createElement('div');
             newdiv.innerHTML = "<font color='red'>- Expression file is missing</font>"
             warningDiv.appendChild(newdiv);
             break;
         }
+        
+        if(exp.substr(exp.lastIndexOf('.')+1) !== "txt"){
+            newdiv = document.createElement('div');
+            newdiv.innerHTML = "<font color='red'>- The expression file is not a text file</font>"
+            warningDiv.appendChild(newdiv);
+            break;
+        }
     }
     
-    var emptymut = false;
+    var mut;
     x = document.getElementsByClassName("mutfile");
     for (i = 0; i < x.length; i++) {
-        if(x[i].value == ""){
-            emptymut = i+1;
+        mut = x[i].value;
+        
+        if(mut == ""){
             newdiv = document.createElement('div');
             newdiv.innerHTML = "<font color='red'>- Mutation file is missing</font>"
+            warningDiv.appendChild(newdiv);
+            break;
+        }
+        
+        if(mut.substr(mut.lastIndexOf('.')+1) !== "txt"){
+            newdiv = document.createElement('div');
+            newdiv.innerHTML = "<font color='red'>- The mutation file is not a text file</font>"
             warningDiv.appendChild(newdiv);
             break;
         }
@@ -183,14 +199,17 @@ function addInput(divName){
     
     <div class="jumbotron">
     	<br>
-        <!--<h2 class="text-center">--><h2> MITOMODEL INPUT PORTAL</h2>
-        <br><br>
+        <h2>DATA UPLOAD PORTAL</h2><br>
+        <font size="4px">Expression and mutation data can be uploaded and visualised using our tool to enhance your analysis.<br><br>
+        Generate your data in the format described <u><a href="#Expression format">below</a></u>.<br>
+        Alternatively, use our recommended <u><b><a href="#">RNA-seq pipeline</a></b></u> for your data that produces both the expression and mutation data files.</font>
+        
     </div>
     <form enctype="multipart/form-data" action="upload/uploader.php" onsubmit="return validateForm()" method="POST">
     <div class="jumbotron">
     <h3>SELECT ORGANISM</h3>
         
-            <p>At present MitoModel can be generated only for human and mouse data</p>
+            <p>Either human and mouse data are accepted</p>
             <input type="hidden" name="MAX_FILE_SIZE" value="3000000"/>
             <select id="organism" name="organism" class="form-control" >
                     <option value="">Choose organism</option>

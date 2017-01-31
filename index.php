@@ -157,17 +157,17 @@ $id = session_id();
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 database-item">
-                    <a href="#database-user" class="database-link" data-toggle="modal">
+                    <a href="#database-tcga" class="database-link" data-toggle="modal">
                         <div class="database-hover">
                             <div class="database-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/database/mydata.jpg" class="img-responsive" alt="">
+                        <img src="img/database/tcga.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="database-caption">
-                        <h4>My Data</h4>
-                        <p class="text-muted">Browse your own data</p>
+                        <h4>TCGA project</h4>
+                        <p class="text-muted">The Cancer Genome Atlas</p>
                     </div>
                 </div>
             </div>
@@ -392,7 +392,7 @@ $id = session_id();
         </div>
     </div>
     
-    <!-- database TCGA -->
+    <!-- database TCGA-->
     <div class="database-modal modal fade" id="database-tcga" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -408,6 +408,70 @@ $id = session_id();
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>TCGA</h2>
+                                <p class="text-muted">Select Cancer Type to Browse Data</p>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-sm-4 col-md-3">
+                                        <a href="#database-brca" class="database-link" data-toggle="modal" data-dismiss="modal"><div class="database thumbnail">
+                                            <div class="caption">
+                                                <h3 style="font-size:16px;font-color:black">BRCA</h3> 
+                                            </div>   
+                                        </div></a>
+                                    </div>
+                                    <div class="col-sm-4 col-md-3">
+                                        <a href="#database-lihc" class="database-link" data-toggle="modal" data-dismiss="modal"><div class="database thumbnail">
+                                            <div class="caption">
+                                                <h3 style="font-size:16px;font-color:black">LIHC</h3> 
+                                            </div>   
+                                        </div></a>
+                                    </div>
+                                    <div class="col-sm-4 col-md-3">
+                                        <a href="#database-luad" class="database-link" data-toggle="modal" data-dismiss="modal"><div class="database thumbnail">
+                                            <div class="caption">
+                                                <h3 style="font-size:16px;font-color:black">LUAD</h3> 
+                                            </div>   
+                                        </div></a>
+                                    </div>
+                                    <div class="col-sm-4 col-md-3">
+                                        <a href="#database-prad" class="database-link" data-toggle="modal" data-dismiss="modal"><div class="database thumbnail">
+                                            <div class="caption">
+                                                <h3 style="font-size:16px;font-color:black">PRAD</h3> 
+                                            </div>   
+                                        </div></a>
+                                    </div>
+                                    <div class="col-sm-4 col-md-3">
+                                        <a href="#database-thca" class="database-link" data-toggle="modal" data-dismiss="modal"><div class="database thumbnail">
+                                            <div class="caption">
+                                                <h3 style="font-size:16px;font-color:black">THCA</h3> 
+                                            </div>   
+                                        </div></a>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-primary dismiss" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- database TCGA BRCA-->
+    <div class="database-modal modal fade" id="database-brca" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>TCGA - BRCA</h2>
                                 <form name = "compareform" action="compare.php" method="get">
                                     <p class="text-muted"><span class="glyphicon glyphicon-eye-open" aria-hidden="true" style="font-size: 1.2em"></span> Click on individual samples to visualize their expression and mutation profile<br>
                                     <span class="glyphicon glyphicon-ok" aria-hidden="true" style="font-size: 1.2em"></span>
@@ -416,7 +480,7 @@ $id = session_id();
                                     <div style = "display:none" id = "warning2"><font color="red">Please select samples!!</font></div><br>
                                     <input id="readygo" type="submit" class="btn btn-success" value="Go!">
                                     <div><hr></div>
-                                    <div class="row" id="userfiles-tcga">
+                                    <div class="row" id="userfiles-brca">
                                     </div><br><br>
                                 </form>
                                 <button type="button" class="btn btn-primary dismiss" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
@@ -427,6 +491,151 @@ $id = session_id();
             </div>
         </div>
     </div>
+    
+    <!-- database TCGA LIHC-->
+    <div class="database-modal modal fade" id="database-lihc" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>TCGA - LIHC</h2>
+                                <form name = "compareform" action="compare.php" method="get">
+                                    <p class="text-muted"><span class="glyphicon glyphicon-eye-open" aria-hidden="true" style="font-size: 1.2em"></span> Click on individual samples to visualize their expression and mutation profile<br>
+                                    <span class="glyphicon glyphicon-ok" aria-hidden="true" style="font-size: 1.2em"></span>
+                                    Or select up to 6 samples for comparative analysis</p>     
+                                    <div style = "display:none" id = "warning1"><font color="red">Please select 6 samples at most!!</font></div>
+                                    <div style = "display:none" id = "warning2"><font color="red">Please select samples!!</font></div><br>
+                                    <input id="readygo" type="submit" class="btn btn-success" value="Go!">
+                                    <div><hr></div>
+                                    <div class="row" id="userfiles-lihc">
+                                    </div><br><br>
+                                </form>
+                                <button type="button" class="btn btn-primary dismiss" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <!-- database TCGA LUAD-->
+    <div class="database-modal modal fade" id="database-luad" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>TCGA - LUAD</h2>
+                                <form name = "compareform" action="compare.php" method="get">
+                                    <p class="text-muted"><span class="glyphicon glyphicon-eye-open" aria-hidden="true" style="font-size: 1.2em"></span> Click on individual samples to visualize their expression and mutation profile<br>
+                                    <span class="glyphicon glyphicon-ok" aria-hidden="true" style="font-size: 1.2em"></span>
+                                    Or select up to 6 samples for comparative analysis</p>     
+                                    <div style = "display:none" id = "warning1"><font color="red">Please select 6 samples at most!!</font></div>
+                                    <div style = "display:none" id = "warning2"><font color="red">Please select samples!!</font></div><br>
+                                    <input id="readygo" type="submit" class="btn btn-success" value="Go!">
+                                    <div><hr></div>
+                                    <div class="row" id="userfiles-luad">
+                                    </div><br><br>
+                                </form>
+                                <button type="button" class="btn btn-primary dismiss" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- database TCGA PRAD-->
+    <div class="database-modal modal fade" id="database-prad" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>TCGA - THCA</h2>
+                                <form name = "compareform" action="compare.php" method="get">
+                                    <p class="text-muted"><span class="glyphicon glyphicon-eye-open" aria-hidden="true" style="font-size: 1.2em"></span> Click on individual samples to visualize their expression and mutation profile<br>
+                                    <span class="glyphicon glyphicon-ok" aria-hidden="true" style="font-size: 1.2em"></span>
+                                    Or select up to 6 samples for comparative analysis</p>     
+                                    <div style = "display:none" id = "warning1"><font color="red">Please select 6 samples at most!!</font></div>
+                                    <div style = "display:none" id = "warning2"><font color="red">Please select samples!!</font></div><br>
+                                    <input id="readygo" type="submit" class="btn btn-success" value="Go!">
+                                    <div><hr></div>
+                                    <div class="row" id="userfiles-prad">
+                                    </div><br><br>
+                                </form>
+                                <button type="button" class="btn btn-primary dismiss" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- database TCGA THCA-->
+    <div class="database-modal modal fade" id="database-thca" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>TCGA - PRAD</h2>
+                                <form name = "compareform" action="compare.php" method="get">
+                                    <p class="text-muted"><span class="glyphicon glyphicon-eye-open" aria-hidden="true" style="font-size: 1.2em"></span> Click on individual samples to visualize their expression and mutation profile<br>
+                                    <span class="glyphicon glyphicon-ok" aria-hidden="true" style="font-size: 1.2em"></span>
+                                    Or select up to 6 samples for comparative analysis</p>     
+                                    <div style = "display:none" id = "warning1"><font color="red">Please select 6 samples at most!!</font></div>
+                                    <div style = "display:none" id = "warning2"><font color="red">Please select samples!!</font></div><br>
+                                    <input id="readygo" type="submit" class="btn btn-success" value="Go!">
+                                    <div><hr></div>
+                                    <div class="row" id="userfiles-thca">
+                                    </div><br><br>
+                                </form>
+                                <button type="button" class="btn btn-primary dismiss" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 
     <!-- Comparative analysis tutorial -->
     <div class="database-modal modal fade" id="analysis-compare" tabindex="-1" role="dialog" aria-hidden="true">
@@ -588,7 +797,7 @@ $id = session_id();
 
     <!-- RENDER TEMPLATE AFTER EVERYTHING ELSE LOADED -->
     
-    <script data-userid="../data/aneuploidy/,../data/trisomy/,../data/TCGA/HCC,<?php echo '../data/user_uploads/'.$id.'/json/'; ?>" data-type="userfiles-aneuploidy,userfiles-trisomy,userfiles-tcga,userfiles-user" src="js/userFiles.js"></script>
+    <script data-userid="../data/aneuploidy/,../data/trisomy/,../data/TCGA/BRCA/,../data/TCGA/LIHC/,../data/TCGA/LUAD/,../data/TCGA/PRAD/,../data/TCGA/THCA/,<?php echo '../data/user_uploads/'.$id.'/json/'; ?>" data-type="userfiles-aneuploidy,userfiles-trisomy,userfiles-brca,userfiles-lihc,userfiles-luad,userfiles-prad,userfiles-thca,userfiles-user" src="js/userFiles.js"></script>
     <!--<script data-userid="../data/trisomy/" data-type="userfiles-trisomy" src="js/userFiles.js"></script>
     <script data-userid="../data/TCGA/HCC" data-type="userfiles-tcga" src="js/userFiles.js"></script>-->
     

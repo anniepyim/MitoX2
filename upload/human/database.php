@@ -1,6 +1,8 @@
 <?php 
 session_start();
 
+error_reporting(E_ERROR | E_PARSE);
+
 function returnErrorDatabase(){
     $id = session_id();
     //-----------------------------------------
@@ -87,11 +89,7 @@ function returnErrorDatabase(){
         $result = mysql_query($json);
         $json_link = "select Source, Target from target";
         $target_result=mysql_query($json_link);
-
-        if (mysql_fetch_assoc( $result)['Res_geneid'] == ""){
-            array_push($error_database,"There is problem with the file format of sample '$samplename', please try again!");
-        }
-
+        
         // All good?
         if ( !$result ) 
         {
@@ -101,36 +99,38 @@ function returnErrorDatabase(){
           die( $message );
         }
 
+        if (mysql_fetch_assoc( $result)['Res_geneid'] == ""){
+            array_push($error_database,"There is problem with the file format of sample '$samplename', please try again!");
+        }else{
+            $id = session_id();
+            $target_path = "../data/user_uploads/".$id."/json/";
+            if (!is_dir($target_path)){
+                mkdir($target_path, 0777, true);
+            }
+            $prefix = '';
+            $fp = fopen($target_path.$samplename.'.json', 'w');
 
-        $id = session_id();
-        $target_path = "../data/user_uploads/".$id."/json/";
-        if (!is_dir($target_path)){
-            mkdir($target_path, 0777, true);
+             fprintf($fp, "[\n");
+            while ( $row = mysql_fetch_assoc( $result))
+            { 
+              fprintf($fp, $prefix . " {\n");
+             fprintf($fp,'  "gene": "' . $row['Res_geneid'] . '",' . "\n");
+             fprintf($fp,'  "sampleID": "' . $samplename . '",' . "\n");
+            fprintf($fp,'  "chr": "' . $row['Res_chromosome_number'] . '",' . "\n");
+             fprintf($fp,'  "process": "' . $row['Res_process'] . '",' . "\n");
+                     fprintf($fp,'  "gene_function": "' . $row['Res_gene_function'] . '",' . "\n");
+                     fprintf($fp,'  "EMBL_ID": "' . $row['Res_ensg_symbol'] . '",' . "\n");
+
+             fprintf($fp,'  "Normal": ' . $row['Res_expression_1'] . ',' . "\n");
+                     fprintf($fp,'  "Abnormal": ' . $row['Res_expression_2'] . ',' . "\n");
+                     fprintf($fp,'  "log2": ' . $row['Res_log2fold'] . ',' . "\n");
+                     fprintf($fp,'  "pvalue": ' . $row['Res_pvalue'] . ',' . "\n");
+                     fprintf($fp,'  "mutation": "' . $row['Res_variants'] . '"' . "\n");
+              fprintf($fp," }");
+             $prefix = ",\n";
+            }
+             fprintf($fp,"\n]");
         }
-        $prefix = '';
-        $fp = fopen($target_path.$samplename.'.json', 'w');
-
-         fprintf($fp, "[\n");
-        while ( $row = mysql_fetch_assoc( $result))
-        { 
-          fprintf($fp, $prefix . " {\n");
-         fprintf($fp,'  "gene": "' . $row['Res_geneid'] . '",' . "\n");
-         fprintf($fp,'  "sampleID": "' . $samplename . '",' . "\n");
-        fprintf($fp,'  "chr": "' . $row['Res_chromosome_number'] . '",' . "\n");
-         fprintf($fp,'  "process": "' . $row['Res_process'] . '",' . "\n");
-                 fprintf($fp,'  "gene_function": "' . $row['Res_gene_function'] . '",' . "\n");
-                 fprintf($fp,'  "EMBL_ID": "' . $row['Res_ensg_symbol'] . '",' . "\n");
-
-         fprintf($fp,'  "Normal": ' . $row['Res_expression_1'] . ',' . "\n");
-                 fprintf($fp,'  "Abnormal": ' . $row['Res_expression_2'] . ',' . "\n");
-                 fprintf($fp,'  "log2": ' . $row['Res_log2fold'] . ',' . "\n");
-                 fprintf($fp,'  "pvalue": ' . $row['Res_pvalue'] . ',' . "\n");
-                 fprintf($fp,'  "mutation": "' . $row['Res_variants'] . '"' . "\n");
-          fprintf($fp," }");
-         $prefix = ",\n";
-        }
-         fprintf($fp,"\n]");
-
 
     }
     return $error_database;

@@ -68,7 +68,7 @@ if($compare){
 <br>
         <div class = "container" id="content">
         </div>
-        <script files="<?php echo $jsarray; ?>" session-id="<?php echo $id; ?>" src="./js/App_compare.min.js"></script>
+        <script files="<?php echo $jsarray; ?>" session-id="<?php echo $id; ?>" src="./js/Test.js"></script>
         <script>   
             App.init();
         </script>
