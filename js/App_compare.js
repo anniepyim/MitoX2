@@ -68,7 +68,7 @@ var newdata;
 
 BC.draw = function (jsondata,colorrange) {
     
-    var BARmargin = {top: 20, right: 0, bottom: 0, left: 0},
+    var BARmargin = {top: 20, right: 0, bottom: 30, left: 0},
     svgHeight = 450,
     svgWidth = 300,
     BARwidth = svgWidth - BARmargin.left - BARmargin.right,
@@ -90,7 +90,6 @@ BC.draw = function (jsondata,colorrange) {
         .append("g")
         .attr("transform", "translate(" + BARmargin.left + "," + BARmargin.top + ")");
         
-    
     var nested_data = d3.nest()
     .key(function(d) { return d.process; })
     .entries(jsondata);
@@ -1975,26 +1974,16 @@ function parse(urls, errorcb, datacb,colorrange){
     axios
     .all(funcs)
     .then(axios.spread(function (){
-        
-        
+
         var data = [];
 
         _.each(arguments, function(res){
-            
-        
-            
-            if(! _.isArray(res.data)) {
-                console.log("not array")
-                errorcb(new Error('response is not an array'));
-            }
+            if(! _.isArray(res.data)) errorcb(new Error('response is not an array'));
                
             data = data.concat(res.data);
-            
-            
         });
-        
+
         data.sort(function(a,b) { return d3.ascending(a.gene, b.gene);});
-        
         
         datacb(data,colorrange);
 
@@ -2404,6 +2393,7 @@ function heatmapcompareData(){
 
     var parameter = $("#selected-sample").serialize() + '&filetype=' + type;
     
+    console.log(parameter);
     //Remove everything on svgs-all div and render the div for PCA plot and the side bar, ie the one for folders
     //This has to be down before the parser since the parser will get info for files and update the folders
     var el = document.getElementById( 'svgs-all' );
