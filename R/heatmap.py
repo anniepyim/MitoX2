@@ -18,7 +18,7 @@ filetype = form.getlist('filetype')
 
 for index, fn in enumerate(json_files):
     if not re.match(FNRE, fn):
-        sys.exit(-1)
+      sys.exit(-1)
     json_files[index] = "."+fn
 
 

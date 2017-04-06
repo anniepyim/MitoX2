@@ -1,0 +1,20 @@
+gene	mitofunc	mutation
+NDUFV3	Electron transport chain	chr21 44330831 T>C downstream_gene_variant
+GRPEL2	Import & Sorting	chr5 148731218 G>A 3_prime_UTR_variant,chr5 148731796 AT>A 3_prime_UTR_variant
+CPT1B	Fatty acid beta-oxidation	chr22 51009953 C>T missense_variant
+SHC1	ROS defense	chr1 154938165 G>A synonymous_variant
+PLD6	Mitochondrial Dynamics	chr17 17105682 G>A 3_prime_UTR_variant
+TRAK2	Mitochondrial Dynamics	chr2 202264156 C>T missense_variant
+ARG2	Urea Cycle	chr14 68117931 C>T 3_prime_UTR_variant
+UNG	Replication & Transcription	chr12 109548639 GAT>G 3_prime_UTR_variant
+SLC25A37	Fe-S cluster biosynthesis	chr8 23425885 G>A missense_variant
+SLC2A1	Glycolysis	chr1 43395635 C>T synonymous_variant,chr1 43408966 G>A synonymous_variant
+CPOX	Heme Biosynthesis	chr3 98309993 C>T missense_variant
+MAPK3	Apoptosis	chr16 30125840 G>C 3_prime_UTR_variant
+DAP3	Translation	chr1 155658940 T>G 5_prime_UTR_variant
+OPA1	Mitochondrial Dynamics	chr3 193412949 T>C 3_prime_UTR_variant,chr3 193413732 A>G 3_prime_UTR_variant
+COX10	Electron transport chain	chr17 13980350 G>A missense_variant
+AARS2	Translation	chr6 44268135 C>T 3_prime_UTR_variant
+SLC27A1	Fatty acid beta-oxidation	chr19 17616041 G>A 3_prime_UTR_variant,chr19 17616171 G>A 3_prime_UTR_variant
+SLC27A3	Fatty acid beta-oxidation	chr1 153750738 G>C synonymous_variant
+CDS1	Cardiolipin biosynthesis	chr4 85570767 C>T 3_prime_UTR_variant
