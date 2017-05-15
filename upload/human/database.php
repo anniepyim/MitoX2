@@ -37,11 +37,14 @@ function returnErrorDatabase(){
         $query = "DROP TABLE IF EXISTS `expression`";
         $s=mysql_query($query, $connect);
 
-        $quer = "create table expression (Gene_name varchar(50), Expression_Sample_1 float NOT NULL DEFAULT '0.00', Expression_Sample_2 float NOT NULL DEFAULT '0.00', log2fold_change float NOT NULL DEFAULT '0.00', p_value float NOT NULL DEFAULT '0.00')";
+        $quer = "create table expression (Gene_name varchar(50), Expression_Sample_1 float NOT NULL DEFAULT '0.00', Expression_Sample_2 float NOT NULL DEFAULT '0.00', log2fold_change float NOT NULL DEFAULT '0.00', p_value varchar(50) DEFAULT NULL)";
         $s=mysql_query($quer, $connect);
 
         $que = ("load data local infile '../data/user_uploads/".$id."/raw/".$samplename."_exp.txt' into table expression FIELDS TERMINATED BY '\t' LINES TERMINATED BY '\n' (@gene, @val1, @val2, @foch, @pval) set Gene_name = @gene, Expression_Sample_1 = @val1, Expression_Sample_2 = @val2, log2fold_change = @foch, p_value = @pval;");
         $z=mysql_query($que, $connect);
+        
+        $quer = "UPDATE expression SET p_value = '1.00' WHERE p_value NOT REGEXP ('[0-9]')";
+        $s=mysql_query($quer, $connect);
 
         $function = "DROP TABLE IF EXISTS `function`";
         $t=mysql_query($function, $connect);
@@ -72,7 +75,7 @@ function returnErrorDatabase(){
         //Added on 23rd april 2015
         $result_json = "DROP TABLE IF EXISTS result";
         $re = mysql_query($result_json, $connect);
-        $reform = "create table result (Res_geneid varchar(50), Res_gene_function varchar(1000), Res_process varchar(100), Res_expression_1 float NOT NULL DEFAULT '0.00', Res_expression_2 float NOT NULL DEFAULT '0.00', Res_log2fold float NOT NULL DEFAULT '0.00', Res_pvalue float NOT NULL DEFAULT '0.00', Res_chromosome_number varchar(50), Res_variants varchar(20000), Res_ensg_symbol varchar(500))";
+        $reform = "create table result (Res_geneid varchar(50), Res_gene_function varchar(1000), Res_process varchar(100), Res_expression_1 float NOT NULL DEFAULT '0.00', Res_expression_2 float NOT NULL DEFAULT '0.00', Res_log2fold float NOT NULL DEFAULT '0.00', Res_pvalue float NOT NULL DEFAULT '1.00', Res_chromosome_number varchar(50), Res_variants varchar(20000), Res_ensg_symbol varchar(500))";
         $re = mysql_query($reform, $connect);
         $result = "insert into result (Res_geneid, Res_gene_function, Res_process, Res_expression_1, Res_expression_2, Res_log2fold, Res_pvalue, Res_chromosome_number, Res_variants,Res_ensg_symbol) select Gene_id, Gene_function, Process, Expression_Sample_1, Expression_Sample_2, log2fold_change, p_value, Chromosome_number, Variants, ensg_symbol from function left join expression on function.Gene_id = expression.Gene_name left join variantformat on function.Gene_id = variantformat.Gene_varname where (log2fold_change > 0 or log2fold_change <0)";
         $result_form = mysql_query($result, $connect);

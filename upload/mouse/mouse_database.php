@@ -31,11 +31,14 @@ $samplename = $_POST['samplename'];
 $query = "DROP TABLE IF EXISTS `expression`";
 $s=mysql_query($query, $connect);
 
-$quer = "create table expression (Gene_name varchar(50), Expression_Sample_1 float NOT NULL DEFAULT '0.00', Expression_Sample_2 float NOT NULL DEFAULT '0.00', log2fold_change float NOT NULL DEFAULT '0.00', p_value float NOT NULL DEFAULT '0.00')";
+$quer = "create table expression (Gene_name varchar(50), Expression_Sample_1 float NOT NULL DEFAULT '0.00', Expression_Sample_2 float NOT NULL DEFAULT '0.00', log2fold_change float NOT NULL DEFAULT '0.00', p_value varchar(50) DEFAULT NULL)";
 $s=mysql_query($quer, $connect);
 
 $que = ("load data local infile '../data/user_uploads/".$id."/raw/".$samplename."_exp.txt' into table expression FIELDS TERMINATED BY '\t' LINES TERMINATED BY '\n' (@gene, @val1, @val2, @foch, @pval) set Gene_name = @gene, Expression_Sample_1 = @val1, Expression_Sample_2 = @val2, log2fold_change = @foch, p_value = @pval;");
 $z=mysql_query($que, $connect);
+
+$quer = "UPDATE expression SET p_value = '1.00' WHERE p_value NOT REGEXP ('[0-9]')";
+$s=mysql_query($quer, $connect);
 
 $function = "DROP TABLE IF EXISTS `function`";
 $t=mysql_query($function, $connect);

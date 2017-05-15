@@ -1,4 +1,4 @@
-gene	value_1	value_2	Protein-HCT116-5-4	p_value
+gene	NA	NA	Protein-HCT116-5-4	NA
 SRSF4	NA	NA	-0.8689146	NA
 COG2	NA	NA	0.243791	NA
 CNIH4	NA	NA	-0.02999725	NA
