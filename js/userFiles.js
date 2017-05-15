@@ -70,11 +70,11 @@ $(document).ready(function(){
     $("form").submit(function (e) {
         if ($('input[type=checkbox]:checked').length == 0){
             e.preventDefault();
-            $( "#warning2" ).fadeIn( 300 ).delay( 400 ).fadeOut( 300 );
+            $( ".warning2" ).fadeIn( 300 ).delay( 400 ).fadeOut( 300 );
         }
         if ($('input[type=checkbox]:checked').length > 6){
             e.preventDefault();
-            $( "#warning1" ).fadeIn( 300 ).delay( 400 ).fadeOut( 300 );
+            $( ".warning1" ).fadeIn( 300 ).delay( 400 ).fadeOut( 300 );
         } 
     });
     
@@ -107,7 +107,7 @@ $(document).on("click", '.database', function(event) {
             $checkbox.prop('checked', false);
             $(this).css('background-color', 'white');
             $glyok.css('display','none');
-            $( "#warning1" ).fadeIn( 300 ).delay( 400 ).fadeOut( 300 );
+            $( ".warning1" ).fadeIn( 300 ).delay( 400 ).fadeOut( 300 );
         }
 });
 

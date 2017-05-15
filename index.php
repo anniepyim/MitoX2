@@ -340,8 +340,8 @@ $id = session_id();
                                     <p class="text-muted"><span class="glyphicon glyphicon-eye-open" aria-hidden="true" style="font-size: 1.2em"></span> Click on individual samples to visualize their expression and mutation profile<br>
                                     <span class="glyphicon glyphicon-ok" aria-hidden="true" style="font-size: 1.2em"></span>
                                     Or select up to 6 samples for comparative analysis</p>     
-                                    <div style = "display:none" id = "warning1"><font color="red">Please select 6 samples at most!!</font></div>
-                                    <div style = "display:none" id = "warning2"><font color="red">Please select samples!!</font></div><br>
+                                    <div style = "display:none" class = "warning1"><font color="red">Please select 6 samples at most!!</font></div>
+                                    <div style = "display:none" class = "warning2"><font color="red">Please select samples!!</font></div><br>
                                     <input id="readygo" type="submit" class="btn btn-success" value="Go!">
                                     <div><hr></div>
                                     <div class="row" id="userfiles-aneuploidy">
@@ -376,8 +376,8 @@ $id = session_id();
                                     <p class="text-muted"><span class="glyphicon glyphicon-eye-open" aria-hidden="true" style="font-size: 1.2em"></span> Click on individual samples to visualize their expression and mutation profile<br>
                                     <span class="glyphicon glyphicon-ok" aria-hidden="true" style="font-size: 1.2em"></span>
                                     Or select up to 6 samples for comparative analysis</p>     
-                                    <div style = "display:none" id = "warning1"><font color="red">Please select 6 samples at most!!</font></div>
-                                    <div style = "display:none" id = "warning2"><font color="red">Please select samples!!</font></div><br>
+                                    <div style = "display:none" class = "warning1"><font color="red">Please select 6 samples at most!!</font></div>
+                                    <div style = "display:none" class = "warning2"><font color="red">Please select samples!!</font></div><br>
                                     <input id="readygo" type="submit" class="btn btn-success" value="Go!">
                                     <div><hr></div>
                                     <div class="row" id="userfiles-trisomy">
@@ -412,35 +412,35 @@ $id = session_id();
                                 <hr>
                                 <div class="row">
                                     <div class="col-sm-4 col-md-3">
-                                        <a href="#database-brca" class="database-link" data-toggle="modal" data-dismiss="modal"><div class="database thumbnail">
+                                        <a href="#database-brca" class="database-link" data-toggle="modal"><div class="database thumbnail">
                                             <div class="caption">
                                                 <h3 style="font-size:16px;font-color:black">BRCA</h3> 
                                             </div>   
                                         </div></a>
                                     </div>
                                     <div class="col-sm-4 col-md-3">
-                                        <a href="#database-lihc" class="database-link" data-toggle="modal" data-dismiss="modal"><div class="database thumbnail">
+                                        <a href="#database-lihc" class="database-link" data-toggle="modal"><div class="database thumbnail">
                                             <div class="caption">
                                                 <h3 style="font-size:16px;font-color:black">LIHC</h3> 
                                             </div>   
                                         </div></a>
                                     </div>
                                     <div class="col-sm-4 col-md-3">
-                                        <a href="#database-luad" class="database-link" data-toggle="modal" data-dismiss="modal"><div class="database thumbnail">
+                                        <a href="#database-luad" class="database-link" data-toggle="modal"><div class="database thumbnail">
                                             <div class="caption">
                                                 <h3 style="font-size:16px;font-color:black">LUAD</h3> 
                                             </div>   
                                         </div></a>
                                     </div>
                                     <div class="col-sm-4 col-md-3">
-                                        <a href="#database-prad" class="database-link" data-toggle="modal" data-dismiss="modal"><div class="database thumbnail">
+                                        <a href="#database-prad" class="database-link" data-toggle="modal"><div class="database thumbnail">
                                             <div class="caption">
                                                 <h3 style="font-size:16px;font-color:black">PRAD</h3> 
                                             </div>   
                                         </div></a>
                                     </div>
                                     <div class="col-sm-4 col-md-3">
-                                        <a href="#database-thca" class="database-link" data-toggle="modal" data-dismiss="modal"><div class="database thumbnail">
+                                        <a href="#database-thca" class="database-link" data-toggle="modal"><div class="database thumbnail">
                                             <div class="caption">
                                                 <h3 style="font-size:16px;font-color:black">THCA</h3> 
                                             </div>   
@@ -476,8 +476,8 @@ $id = session_id();
                                     <p class="text-muted"><span class="glyphicon glyphicon-eye-open" aria-hidden="true" style="font-size: 1.2em"></span> Click on individual samples to visualize their expression and mutation profile<br>
                                     <span class="glyphicon glyphicon-ok" aria-hidden="true" style="font-size: 1.2em"></span>
                                     Or select up to 6 samples for comparative analysis</p>     
-                                    <div style = "display:none" id = "warning1"><font color="red">Please select 6 samples at most!!</font></div>
-                                    <div style = "display:none" id = "warning2"><font color="red">Please select samples!!</font></div><br>
+                                    <div style = "display:none" class = "warning1"><font color="red">Please select 6 samples at most!!</font></div>
+                                    <div style = "display:none" class = "warning2"><font color="red">Please select samples!!</font></div><br>
                                     <input id="readygo" type="submit" class="btn btn-success" value="Go!">
                                     <div><hr></div>
                                     <div class="row" id="userfiles-brca">
@@ -512,8 +512,8 @@ $id = session_id();
                                     <p class="text-muted"><span class="glyphicon glyphicon-eye-open" aria-hidden="true" style="font-size: 1.2em"></span> Click on individual samples to visualize their expression and mutation profile<br>
                                     <span class="glyphicon glyphicon-ok" aria-hidden="true" style="font-size: 1.2em"></span>
                                     Or select up to 6 samples for comparative analysis</p>     
-                                    <div style = "display:none" id = "warning1"><font color="red">Please select 6 samples at most!!</font></div>
-                                    <div style = "display:none" id = "warning2"><font color="red">Please select samples!!</font></div><br>
+                                    <div style = "display:none" class = "warning1"><font color="red">Please select 6 samples at most!!</font></div>
+                                    <div style = "display:none" class = "warning2"><font color="red">Please select samples!!</font></div><br>
                                     <input id="readygo" type="submit" class="btn btn-success" value="Go!">
                                     <div><hr></div>
                                     <div class="row" id="userfiles-lihc">
@@ -548,8 +548,8 @@ $id = session_id();
                                     <p class="text-muted"><span class="glyphicon glyphicon-eye-open" aria-hidden="true" style="font-size: 1.2em"></span> Click on individual samples to visualize their expression and mutation profile<br>
                                     <span class="glyphicon glyphicon-ok" aria-hidden="true" style="font-size: 1.2em"></span>
                                     Or select up to 6 samples for comparative analysis</p>     
-                                    <div style = "display:none" id = "warning1"><font color="red">Please select 6 samples at most!!</font></div>
-                                    <div style = "display:none" id = "warning2"><font color="red">Please select samples!!</font></div><br>
+                                    <div style = "display:none" class = "warning1"><font color="red">Please select 6 samples at most!!</font></div>
+                                    <div style = "display:none" class = "warning2"><font color="red">Please select samples!!</font></div><br>
                                     <input id="readygo" type="submit" class="btn btn-success" value="Go!">
                                     <div><hr></div>
                                     <div class="row" id="userfiles-luad">
@@ -584,8 +584,8 @@ $id = session_id();
                                     <p class="text-muted"><span class="glyphicon glyphicon-eye-open" aria-hidden="true" style="font-size: 1.2em"></span> Click on individual samples to visualize their expression and mutation profile<br>
                                     <span class="glyphicon glyphicon-ok" aria-hidden="true" style="font-size: 1.2em"></span>
                                     Or select up to 6 samples for comparative analysis</p>     
-                                    <div style = "display:none" id = "warning1"><font color="red">Please select 6 samples at most!!</font></div>
-                                    <div style = "display:none" id = "warning2"><font color="red">Please select samples!!</font></div><br>
+                                    <div style = "display:none" class = "warning1"><font color="red">Please select 6 samples at most!!</font></div>
+                                    <div style = "display:none" class = "warning2"><font color="red">Please select samples!!</font></div><br>
                                     <input id="readygo" type="submit" class="btn btn-success" value="Go!">
                                     <div><hr></div>
                                     <div class="row" id="userfiles-prad">
@@ -620,8 +620,8 @@ $id = session_id();
                                     <p class="text-muted"><span class="glyphicon glyphicon-eye-open" aria-hidden="true" style="font-size: 1.2em"></span> Click on individual samples to visualize their expression and mutation profile<br>
                                     <span class="glyphicon glyphicon-ok" aria-hidden="true" style="font-size: 1.2em"></span>
                                     Or select up to 6 samples for comparative analysis</p>     
-                                    <div style = "display:none" id = "warning1"><font color="red">Please select 6 samples at most!!</font></div>
-                                    <div style = "display:none" id = "warning2"><font color="red">Please select samples!!</font></div><br>
+                                    <div style = "display:none" class = "warning1"><font color="red">Please select 6 samples at most!!</font></div>
+                                    <div style = "display:none" class = "warning2"><font color="red">Please select samples!!</font></div><br>
                                     <input id="readygo" type="submit" class="btn btn-success" value="Go!">
                                     <div><hr></div>
                                     <div class="row" id="userfiles-thca">
@@ -733,8 +733,8 @@ $id = session_id();
                                     <p class="text-muted"><span class="glyphicon glyphicon-eye-open" aria-hidden="true" style="font-size: 1.2em"></span> Click on individual samples to visualize their expression and mutation profile<br>
                                     <span class="glyphicon glyphicon-ok" aria-hidden="true" style="font-size: 1.2em"></span>
                                     Or select up to 6 samples for comparative analysis</p>     
-                                    <div style = "display:none" id = "warning1"><font color="red">Please select 6 samples at most!!</font></div>
-                                    <div style = "display:none" id = "warning2"><font color="red">Please select samples!!</font></div><br>
+                                    <div style = "display:none" class = "warning1"><font color="red">Please select 6 samples at most!!</font></div>
+                                    <div style = "display:none" class = "warning2"><font color="red">Please select samples!!</font></div><br>
                                     <input id="readygo" type="submit" class="btn btn-success" value="Go!">
                                     <div><hr></div>
                                     <div class="row" id="userfiles-user">
