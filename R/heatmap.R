@@ -40,7 +40,7 @@ for(i in 1:length(mitofunc)){
   
   p <- heatmaply(subsetdata,scale_fill_gradient_fun = ggplot2::scale_fill_gradient2(low = "blue", high = "red", midpoint = 0)) %>% layout(margin = list(l = 130, b = 100),xaxis=list(tickfont=list(size=7),tickangle=270),yaxis2=list(tickfont=list(size=5)))
   
-  htmlwidgets::saveWidget(p, outputname,selfcontained = FALSE)
+  htmlwidgets::saveWidget(p, outputname, selfcontained=FALSE)
 
 }
 
