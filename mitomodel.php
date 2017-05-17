@@ -21,7 +21,6 @@ $id = $_GET['id'];
         
         <!-- Vis CSS -->
         <link href='./css/App.css' rel='stylesheet' type='text/css'>
-        <link href="./css/style.css" rel="stylesheet">
         <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
         <script src="./js/bootstrap.min.js"></script>
         
@@ -30,46 +29,6 @@ $id = $_GET['id'];
     </head>
     
     <body>
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="index.php">MitoXplorer</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="index.php"></a>
-                    </li>
-                    <li>
-                        <a href="index.php#about">About</a>
-                    </li>
-                    <li>
-                        <a href="index.php#database">Database</a>
-                    </li>
-                    <li>
-                        <a href="index.php#analysis">Analysis</a>
-                    </li>
-                    <li>
-                        <a href="index.php#download">Download</a>
-                    </li>
-                    <li>
-                        <a href="index.php#contact">Contact</a>
-                    </li>
-
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-    <br>
     </body>
     <!-- App Script  -->
     <script data-my_var_1="<?php echo $id; ?>" data-my_var_2="./data/zzfiles/links.json" src="./js/App.js"></script>

@@ -778,7 +778,7 @@ $id = session_id();
             <div class="database thumbnail">
                 <div class="caption">
                 <span class="glyphicon glyphicon-ok" aria-hidden="true" style="float: left; color:white;display:none;font-size: 1.2em"></span>
-                    <a href="mitomodel.php?id={{mitomodel}}"><span class="glyeye glyphicon glyphicon-eye-open" aria-hidden="true" style="float: right;font-size: 1.2em;color:black"></span></a>
+                    <a href="mitomodel.php?id={{mitomodel}}" onclick="window.open(this.href,'','scrollbars=no,resizable=yes, location=no,menubar=no,status=no,toolbar=no,left='+(screen.availWidth/2-350)+ ', top='+(screen.availHeight/2-350)+',width=1200,height=800');return false;"><span class="glyeye glyphicon glyphicon-eye-open" aria-hidden="true" style="float: right;font-size: 1.2em;color:black"></span></a>
                     <h3 style="font-size:14px">{{name}}</h3>
                 </div>
                 <input style="visibility:hidden" class="comparecheckbox" type="checkbox" name="compare[]" value="./data/{{url}}">    
