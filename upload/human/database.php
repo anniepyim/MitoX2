@@ -50,7 +50,7 @@ function returnErrorDatabase(){
         $t=mysql_query($function, $connect);
         $funct="create table function (Gene_function varchar(1000), Process varchar(100), Chromosome_number varchar(50), Gene_id varchar(50), ensg_symbol varchar(500))";
         $t=mysql_query($funct, $connect);
-        $func = ("load data local infile 'human/gene_function.txt' into table function FIELDS TERMINATED BY '\t' LINES TERMINATED BY '\n' IGNORE 1 LINES (@gene_id, @process, @chrom, @gene_function, @ensgsymbol) set Gene_function = @gene_function, Process = @process, Gene_id = @gene_id, Chromosome_number = @chrom, ensg_symbol = @ensgsymbol");
+        $func = ("load data local infile '../main_files/human/gene_function.txt' into table function FIELDS TERMINATED BY '\t' LINES TERMINATED BY '\n' IGNORE 1 LINES (@gene_id, @process, @chrom, @gene_function, @ensgsymbol) set Gene_function = @gene_function, Process = @process, Gene_id = @gene_id, Chromosome_number = @chrom, ensg_symbol = @ensgsymbol");
         $u=mysql_query($func, $connect);
 
 

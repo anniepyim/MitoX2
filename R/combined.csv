@@ -1,0 +1,900 @@
+gene,process,TCGA-A7-A0CH,TCGA-A7-A0DB,TCGA-A7-A13G,TCGA-AC-A2FB,TCGA-A7-A13E
+AADAT,Amino Acid Metabolism,,,,,
+AARS2,Translation,0.4893,0.8163,1.2679,0.0821,1.0039
+AASS,Amino Acid Metabolism,,,,,
+ABAT,Amino Acid Metabolism,,,,,
+ABCA12,Transmembrane Transport,,,,,
+ABCA9,Transmembrane Transport,,,,,
+ABCB10,Import & Sorting,,,,,
+ABCB6,Import & Sorting,,,,,
+ABCB7,Import & Sorting,0.2101,0.0159,-0.6434,0.0537,-0.439
+ABCB8,Import & Sorting,,,,,
+ABCD1,Metabolism of Lipids & Lipoproteins,,,,,
+ABCD2,Metabolism of Lipids & Lipoproteins,,,,,
+ABCD3,Metabolism of Lipids & Lipoproteins,,,,,
+ABCE1,Transmembrane Transport,,,,,
+ABCF2,Import & Sorting,,,,,
+ACAA2,Amino Acid Metabolism,-1.211,-2.1139,-3.3792,-1.6087,-0.1343
+ACAA2,Fatty Acid Degradation,-1.211,-2.1139,-3.3792,-1.6087,-0.1343
+ACAD9,Electron Transport Chain,-0.7345,0.3186,-0.9922,-0.4945,0.1593
+ACAD9,Fatty Acid Degradation,-0.7345,0.3186,-0.9922,-0.4945,0.1593
+ACADM,Fatty Acid Degradation,-0.0366,-0.1055,-5.6703,0.215,-1.1933
+ACADS,Fatty Acid Degradation,-1.931,-2.0847,-0.9175,-1.2147,-1.9904
+ACADSB,Fatty Acid Degradation,1.6351,1.263,1.1613,-0.1844,-3.641
+ACADVL,Fatty Acid Degradation,-1.0056,-1.0558,-0.8198,-1.0656,0.1174
+ACAT1,Amino Acid Metabolism,,,,,
+ACAT1,Fatty Acid Degradation,,,,,
+ACAT2,Amino Acid Metabolism,,,,,
+ACAT2,Fatty Acid Degradation,,,,,
+ACN9,Electron Transport Chain,,,,,
+ACO2,TCA Cycle,-0.5771,-0.814,-0.798,0.053,-0.7956
+ACOT13,Fatty Acid Biosynthesis,,,,,
+ACOT9,Fatty Acid Metabolism,,,,,
+ACOX1,Fatty Acid Degradation,,,,,
+ACOX3,Fatty Acid Degradation,,,,,
+ACP6,Metabolism of Lipids & Lipoproteins,,,,,
+ACSBG2,Fatty Acid Degradation,-1.3966,1.3407,0.2632,0.2108,-0.7878
+ACSF2,Fatty Acid Biosynthesis,,,,,
+ACSF2,Fatty Acid Metabolism,,,,,
+ACSF3,Fatty Acid Metabolism,,,,,
+ACSL1,Fatty Acid Biosynthesis,-4.4197,-2.8197,-6.6445,-1.6487,-3.3952
+ACSL3,Fatty Acid Degradation,-0.5397,0.9519,0.6224,0.5505,-0.521
+ACSL4,Fatty Acid Degradation,-1.6019,-2.2444,-3.3184,-0.4828,-3.307
+ACSL5,Fatty Acid Biosynthesis,-1.3031,-1.1974,-1.5553,0.0015,-4.0796
+ACSL6,Fatty Acid Biosynthesis,-1.275,1.8888,2.4575,2.9471,-0.3449
+ACSM2A,Fatty Acid Biosynthesis,-1.0897,-2.4973,-4.0755,-1.7991,-1.7822
+ACSS1,Pyruvate Metabolism,0.1639,0.8838,1.9955,0.7406,0.7903
+ACSS3,Fatty Acid Metabolism,-1.3929,-1.905,-4.0784,-1.8295,-4.3989
+ADCK1,Electron Transport Chain,,,,,
+ADCK3,Electron Transport Chain,,,,,
+ADCK4,Electron Transport Chain,,,,,
+ADCK5,Electron Transport Chain,,,,,
+ADHFE1,Pyruvate Metabolism,,,,,
+ADO,Amino Acid Metabolism,,,,,
+ADSL,Nucleotide Metabolism,,,,,
+AFG3L2,Mitochondrial Dynamics,0.2145,0.4494,-0.2617,0.1923,1.8191
+AGK,Fatty Acid Metabolism,,,,,
+AGTPBP1,Mitochondrial Dynamics,,,,,
+AGXT,Amino Acid Metabolism,,,,,
+AGXT2,Amino Acid Metabolism,,,,,
+AGXT2L1,Amino Acid Metabolism,,,,,
+AGXT2L2,Amino Acid Metabolism,,,,,
+AIFM1,Apoptosis,0.1572,0.2735,-0.2629,0.4049,-0.5662
+AIFM3,Apoptosis,,,,,
+AK2,Apoptosis,,,,,
+AK3,Nucleotide Metabolism,-0.894,-1.1607,-2.3247,-0.9795,-1.252
+AK4,Nucleotide Metabolism,,,,,
+AKAP1,Mitochondrial Signaling,,,,,
+AKAP10,Mitochondrial Signaling,,,,,
+AKR1B10,Fructose Metabolism,,,,,
+AKR1B15,Metabolism of Lipids & Lipoproteins,,,,,
+ALAS1,Heme Biosynthesis,-0.0969,0.6219,0.0191,0.0738,-0.67
+ALAS2,Heme Biosynthesis,-5.3922,-2.3572,-4.4762,-1.0468,-5.6518
+ALDH18A1,Amino Acid Metabolism,,,,,
+ALDH1B1,Fatty Acid Degradation,,,,,
+ALDH1L1,Folate & Pterine Metabolism,,,,,
+ALDH1L2,Folate & Pterine Metabolism,,,,,
+ALDH2,Fatty Acid Degradation,,,,,
+ALDH3A2,Fatty Acid Degradation,,,,,
+ALDH4A1,Amino Acid Metabolism,,,,,
+ALDH5A1,Amino Acid Metabolism,,,,,
+ALDH6A1,Amino Acid Metabolism,,,,,
+ALDH7A1,Pyruvate Metabolism,,,,,
+ALDOC,Glycolysis,-5.472,-2.1105,-6.9402,-2.7425,-2.8585
+ALKBH1,Replication & Transcription,,,,,
+ALKBH7,Apoptosis,,,,,
+AMACR,Bile Acid Synthesis,,,,,
+APOA1BP,Mitochondrial Signaling,,,,,
+APOOL,Mitochondrial Dynamics,,,,,
+APOPT1,Apoptosis,,,,,
+ARG2,Nitrogen Metabolism,-0.1706,-0.4233,-1.8343,0.4994,-0.5606
+ASS1,Amino Acid Metabolism,-4.9147,-1.5825,-5.0394,-0.3019,-1.2554
+ATAD1,Protein Stability & Degradation,,,,,
+ATAD3A,Replication & Transcription,-0.862,0.4081,1.3223,0.1838,2.5536
+ATAD3B,Replication & Transcription,-0.7016,0.3874,1.401,-0.4321,2.684
+ATIC,Nucleotide Metabolism,,,,,
+ATP5A1,Electron Transport Chain,-0.2814,0.199,-0.3191,-0.0658,0.5267
+ATP5B,Electron Transport Chain,-0.3364,-0.0333,-1.3919,0.1335,-0.2853
+ATP5C1,Electron Transport Chain,0.0848,0.0232,-0.27,-0.0056,1.5873
+ATP5D,Electron Transport Chain,-1.2271,0.9162,0.6007,-0.4207,0.1656
+ATP5E,Electron Transport Chain,-0.5534,0.4294,-0.78,-0.051,-0.5061
+ATP5F1,Electron Transport Chain,0.1414,0.2233,-0.3965,0.0337,-0.5544
+ATP5G1,Electron Transport Chain,0.1533,1.0196,0.5773,-0.7201,0.5097
+ATP5G3,Electron Transport Chain,-0.6456,-0.1978,-0.9797,0.0433,-1.1616
+ATP5H,Electron Transport Chain,-0.2405,0.0841,-0.7483,-0.0238,-0.2708
+ATP5I,Electron Transport Chain,-0.2722,0.5781,-0.1524,0.3673,-0.0424
+ATP5J,Electron Transport Chain,-0.4599,-0.1145,-1.1843,-0.3719,-0.2496
+ATP5J2,Electron Transport Chain,0.1469,0.7716,-1.0447,-0.3735,0.0241
+ATP5L,Electron Transport Chain,-0.2597,0.1971,-0.8245,-0.5078,-0.7058
+ATP5L2,Electron Transport Chain,,,,,
+ATP5O,Electron Transport Chain,-1.3571,0.0817,-0.6986,-0.44,-0.0467
+ATP5S,Electron Transport Chain,,,,,
+ATP5SL,Electron Transport Chain,,,,,
+ATP6,Electron Transport Chain,,,,,
+ATP6V1E1,Electron Transport Chain,,,,,
+ATP8,Electron Transport Chain,,,,,
+ATPAF1,Electron Transport Chain,-0.0775,-0.0679,-1.1306,-0.234,-1.3158
+ATPAF2,Electron Transport Chain,0.2153,0.8789,1.0292,0.0196,0.0004
+ATPIF1,Electron Transport Chain,0.2607,1.3128,2.1405,0.613,1.184
+AUH,Amino Acid Metabolism,,,,,
+BAD,Apoptosis,-0.9901,0.7183,0.7891,-0.2263,-0.7925
+BCAT1,Amino Acid Metabolism,,,,,
+BCAT2,Amino Acid Metabolism,,,,,
+BCKDHA,Amino Acid Metabolism,0.0629,0.629,-0.0016,0.148,0.3239
+BCKDHB,Amino Acid Metabolism,0.9063,0.1445,-1.7919,0.0034,-0.3991
+BCS1L,Electron Transport Chain,-0.1311,0.091,0.3788,-0.1283,-0.3921
+BDH1,Fatty Acid Metabolism,,,,,
+BNIP1,Apoptosis,,,,,
+BNIP3,Apoptosis,-0.3133,-1.1226,-1.8753,-1.4599,-0.8934
+BNIP3L,Apoptosis,-0.1264,-0.8396,-1.839,-0.4507,-2.6026
+BOK,Apoptosis,,,,,
+BPHL,Translation,,,,,
+C10orf2,Replication & Transcription,0.3029,0.8935,0.772,0.1469,1.4062
+C15orf61,Amino Acid Metabolism,,,,,
+C19orf70,Mitochondrial Dynamics,,,,,
+C22orf32,Calcium Signaling & Transport,-0.3363,-0.5248,0.0291,-0.4346,-0.8568
+C2orf47,Electron Transport Chain,,,,,
+C5orf63,Fatty Acid Metabolism,,,,,
+C6orf57,Electron Transport Chain,,,,,
+C7orf55,Electron Transport Chain,,,,,
+CA5A,Nitrogen Metabolism,,,,,
+CARKD,Metabolism of Vitamins & Co-Factors,,,,,
+CARS2,Translation,-0.4088,0.332,0.3427,0.3127,0.7883
+CASP2,Apoptosis,,,,,
+CASP8,Apoptosis,,,,,
+CAT,ROS Defense,,,,,
+CBR4,Fatty Acid Biosynthesis,,,,,
+CCBL2,Amino Acid Metabolism,,,,,
+CCDC58,Translation,,,,,
+CDS2,Metabolism of Lipids & Lipoproteins,,,,,
+CHAT,Fatty Acid Metabolism,,,,,
+CHCHD1,Translation,,,,,
+CHCHD10,Import & Sorting,,,,,
+CHCHD2,Import & Sorting,,,,,
+CHCHD3,Mitochondrial Dynamics,,,,,
+CHCHD4,Import & Sorting,-0.1184,0.0619,-0.2269,-0.1596,0.1549
+CHCHD6,Mitochondrial Dynamics,,,,,
+CHCHD7,Import & Sorting,,,,,
+CISD1,Electron Transport Chain,,,,,
+CISD2,Electron Transport Chain,,,,,
+CISD3,Electron Transport Chain,,,,,
+CLIC4,Apoptosis,,,,,
+CLPP,Protein Stability & Degradation,-0.5315,0.8312,0.4188,0.2104,-0.2227
+CLPX,Heme Biosynthesis,0.7277,-0.3134,-0.3311,0.1451,0.27
+CMC1,Electron Transport Chain,,,,,
+COA3,Electron Transport Chain,,,,,
+COA6,Electron Transport Chain,,,,,
+COASY,Metabolism of Vitamins & Co-Factors,,,,,
+COQ10A,Electron Transport Chain,,,,,
+COQ10B,Electron Transport Chain,,,,,
+COQ2,Ubiquinone Biosynthesis,,,,,
+COQ3,Ubiquinone Biosynthesis,,,,,
+COQ4,Ubiquinone Biosynthesis,,,,,
+COQ5,Ubiquinone Biosynthesis,,,,,
+COQ6,Ubiquinone Biosynthesis,,,,,
+COQ7,Ubiquinone Biosynthesis,,,,,
+COQ9,Ubiquinone Biosynthesis,,,,,
+COX1,Electron Transport Chain,,,,,
+COX10,Electron Transport Chain,0.2809,0.0886,-0.5435,-0.0051,0.7045
+COX11,Electron Transport Chain,0.0045,0.56,-0.0166,-0.3224,0.3665
+COX14,Electron Transport Chain,,,,,
+COX15,Electron Transport Chain,0.1641,-0.0579,-0.3662,0.134,-1.2179
+COX16,Electron Transport Chain,,,,,
+COX17,Electron Transport Chain,-0.4387,0.5599,0.5824,0.1211,-0.2778
+COX18,Electron Transport Chain,0.3611,0.029,-0.5065,0.0133,0.1409
+COX2,Electron Transport Chain,,,,,
+COX20,Electron Transport Chain,,,,,
+COX3,Electron Transport Chain,,,,,
+COX4I1,Electron Transport Chain,-1.5513,-0.4789,-1.3133,-0.6231,-0.0513
+COX4I2,Electron Transport Chain,-2.3143,-1.671,-2.2423,-0.8502,-2.7772
+COX5A,Electron Transport Chain,-0.5825,-0.0381,-0.9869,0.2681,-0.2302
+COX5B,Electron Transport Chain,-1.1883,0.0581,-0.9141,-0.2117,0.016
+COX6A1,Electron Transport Chain,-0.1574,0.3565,-0.2864,0.145,-0.4604
+COX6A2,Electron Transport Chain,1.491,0.0,1.2298,0.0,0.0
+COX6B1,Electron Transport Chain,-0.44,0.6667,-0.6105,-0.0358,1.5791
+COX6B2,Electron Transport Chain,0.8417,1.5583,1.493,-0.6372,-1.8864
+COX6C,Electron Transport Chain,1.2016,0.933,2.4879,2.3024,0.3091
+COX7A1,Electron Transport Chain,-4.0012,-2.2061,-2.4324,-2.7097,-5.1723
+COX7A2,Electron Transport Chain,0.2267,0.2043,-0.3811,0.2654,0.2765
+COX7A2L,Electron Transport Chain,,,,,
+COX7C,Electron Transport Chain,-0.1555,1.1728,-0.583,0.0343,-0.4351
+COX8A,Electron Transport Chain,-0.5627,0.67,-0.1427,0.2225,-0.7016
+COX8C,Electron Transport Chain,,,,,
+CPOX,Heme Biosynthesis,0.2437,-0.0784,-0.9537,-0.4857,0.8066
+CPS1,Nitrogen Metabolism,-2.7875,-1.669,-3.827,-1.5815,-4.5299
+CPT1A,Fatty Acid Degradation,-0.6604,-0.8917,0.0232,-0.7559,-0.5409
+CPT1B,Fatty Acid Degradation,0.645,-1.0861,-0.4341,0.3726,0.5376
+CPT1C,Fatty Acid Degradation,-0.1809,-0.109,-0.0165,-0.3711,1.9131
+CPT2,Fatty Acid Degradation,0.0452,0.3939,-0.2383,0.4265,-0.0434
+CRAT,Fatty Acid Metabolism,-0.553,1.2232,0.4511,1.4227,-1.0455
+CRLS1,Cardiolipin Biosynthesis,-0.1329,-0.8695,-2.4363,-0.5132,-0.1248
+CS,TCA Cycle,-0.6312,-1.0082,-2.3112,0.3176,-1.2382
+CTPS2,Nucleotide Metabolism,,,,,
+CTSB,Apoptosis,,,,,
+CTU1,Translation,,,,,
+CYB5A,Metabolism of Vitamins & Co-Factors,,,,,
+CYB5B,Metabolism of Vitamins & Co-Factors,,,,,
+CYC1,Electron Transport Chain,-0.4041,0.3359,-0.4869,0.2589,0.9476
+CYCS,Electron Transport Chain,0.3968,0.6302,1.0054,0.6326,0.3721
+CYP11A1,Metabolism of Lipids & Lipoproteins,,,,,
+CYP11A1,Bile Acid Synthesis,,,,,
+CYP11B1,Metabolism of Lipids & Lipoproteins,,,,,
+CYP11B2,Metabolism of Lipids & Lipoproteins,,,,,
+CYP24A1,Metabolism of Vitamins & Co-Factors,,,,,
+CYP24A1,Bile Acid Synthesis,,,,,
+CYP27A1,Metabolism of Lipids & Lipoproteins,,,,,
+CYP27A1,Bile Acid Synthesis,,,,,
+CYP27B1,Bile Acid Synthesis,,,,,
+CYP27B1,Metabolism of Vitamins & Co-Factors,,,,,
+CYTB,Electron Transport Chain,,,,,
+Coa1,Electron Transport Chain,,,,,
+D2HGDH,Electron Transport Chain,,,,,
+DAP3,Translation,1.0612,1.1454,1.2885,0.3537,0.9287
+DARS2,Translation,1.3702,0.8521,0.5045,0.8798,1.2835
+DBT,Amino Acid Metabolism,,,,,
+DDAH1,Nitrogen Metabolism,,,,,
+DDX28,Translation,-1.2002,0.5322,-0.4014,-0.4172,0.8543
+DHFRL1,Folate & Pterine Metabolism,,,,,
+DHODH,Nucleotide Metabolism,,,,,
+DHRS4,Metabolism of Vitamins & Co-Factors,,,,,
+DHTKD1,Amino Acid Metabolism,,,,,
+DHX29,Replication & Transcription,,,,,
+DHX29,Translation,,,,,
+DLAT,Pyruvate Metabolism,0.4712,-0.0601,-0.8023,0.6224,-1.0356
+DLD,TCA Cycle,-0.1272,-0.09,-2.4405,0.0642,-0.5005
+DLST,TCA Cycle,-0.5713,-0.4747,-1.712,-0.481,-0.555
+DMGDH,Metabolism of Lipids & Lipoproteins,,,,,
+DNA2,Replication & Transcription,,,,,
+DNAJA3,Apoptosis,,,,,
+DNAJC11,Mitochondrial Dynamics,,,,,
+DNAJC15,Import & Sorting,,,,,
+DNAJC19,Import & Sorting,0.425,1.2552,0.9267,0.0024,-0.2458
+DNAJC30,Protein Stability & Degradation,,,,,
+DNLZ,Import & Sorting,,,,,
+DNM1L,Mitochondrial Dynamics,0.524,-0.4227,-0.0437,0.0148,-0.113
+DNM1L,Apoptosis,0.524,-0.4227,-0.0437,0.0148,-0.113
+DTYMK,Nucleotide Metabolism,,,,,
+DUT,Nucleotide Metabolism,,,,,
+DYNLL1,Apoptosis,0.185,0.667,0.6012,-0.2166,-0.0438
+EARS2,Translation,0.9909,1.8783,1.3888,0.2722,0.5344
+ECH1,Fatty Acid Degradation,,,,,
+ECHDC2,Amino Acid Metabolism,,,,,
+ECHDC2,Fatty Acid Degradation,,,,,
+ECHDC3,Fatty Acid Biosynthesis,,,,,
+ECHS1,Fatty Acid Elongation,-0.7759,-0.3012,-2.8387,-0.4909,-1.9123
+ECI1,Fatty Acid Degradation,,,,,
+ECSIT,Electron Transport Chain,-0.8043,0.5753,-0.3101,-0.3042,2.8054
+EEFSEC,Translation,,,,,
+EFHD1,Calcium Signaling & Transport,,,,,
+ELAC2,Translation,-0.3474,0.0169,0.064,-0.403,0.4805
+ENDOG,Replication & Transcription,-0.9781,0.7062,-0.1612,-0.2501,-0.2087
+ERAL1,Translation,,,,,
+ETFA,Electron Transport Chain,,,,,
+ETFB,Electron Transport Chain,,,,,
+ETFDH,Electron Transport Chain,,,,,
+ETHE1,Amino Acid Metabolism,,,,,
+EXOG,Replication & Transcription,,,,,
+FAHD1,Amino Acid Metabolism,,,,,
+FAM162A,Apoptosis,,,,,
+FARS2,Translation,-0.0359,0.4439,0.3953,-0.0368,-0.0324
+FASN,Fatty Acid Biosynthesis,,,,,
+FASTK,Electron Transport Chain,,,,,
+FASTKD1,Electron Transport Chain,,,,,
+FASTKD3,Electron Transport Chain,,,,,
+FASTKD5,Translation,,,,,
+FDPS,Metabolism of Lipids & Lipoproteins,,,,,
+FDX1,Fe-S cluster biosynthesis,-0.3059,0.4274,0.0596,-0.3311,-1.9396
+FDX1L,Fe-S cluster biosynthesis,-0.3618,1.0967,0.974,-0.4131,2.6573
+FDX2,Heme Biosynthesis,,,,,
+FDXR,Fe-S cluster biosynthesis,-0.5145,1.576,1.3693,0.2175,-0.553
+FECH,Heme Biosynthesis,0.7589,0.2585,0.1623,0.1906,-0.3732
+FEN1,Replication & Transcription,,,,,
+FGR,Mitochondrial Signaling,,,,,
+FH,TCA Cycle,0.7429,0.8034,0.106,0.2478,0.8473
+FIS1,Mitochondrial Dynamics,-0.974,0.4679,-0.7041,-0.362,0.0013
+FKBP8,Apoptosis,,,,,
+FOXRED1,Electron Transport Chain,-0.0072,0.399,-0.4141,-0.2746,0.1941
+FPGS,Folate & Pterine Metabolism,,,,,
+FTH1,Heme Biosynthesis,,,,,
+FTMT,Heme Biosynthesis,-1.3245,0.0,0.0,-0.7878,0.6165
+FTSJ2,Translation,,,,,
+FUNDC1,Mitochondrial Dynamics,,,,,
+FUNDC2,Mitochondrial Dynamics,,,,,
+FXC1,Import & Sorting,,,,,
+FXN,Fe-S cluster biosynthesis,-0.279,-0.0318,-0.1059,-0.2631,-0.7603
+GADD45GIP1,Translation,,,,,
+GARS,Translation,0.027,0.4605,0.6987,0.1693,1.6666
+GATC,Translation,1.064,0.3681,-0.0725,0.4798,-0.4721
+GBAS,Electron Transport Chain,,,,,
+GCAT,Heme Biosynthesis,,,,,
+GCDH,Fatty Acid Degradation,,,,,
+GCSH,Amino Acid Metabolism,,,,,
+GDAP1,Mitochondrial Dynamics,0.6061,0.8813,0.1322,0.5555,-2.4837
+GFER,Apoptosis,0.6037,1.0996,1.5852,-0.0894,0.7029
+GFM1,Translation,0.7384,1.2093,0.0983,0.4724,-0.4872
+GFM2,Translation,0.763,1.0015,-0.1534,0.1178,-0.4305
+GHITM,Apoptosis,,,,,
+GK,Replication & Transcription,,,,,
+GK2,Replication & Transcription,,,,,
+GLDC,Amino Acid Metabolism,,,,,
+GLRX5,ROS Defense,-0.3238,0.2386,-0.2968,0.4682,-0.5938
+GLS,Amino Acid Metabolism,,,,,
+GLS2,Amino Acid Metabolism,,,,,
+GLUD1,Amino Acid Metabolism,,,,,
+GLUD2,Amino Acid Metabolism,,,,,
+GLUL,Amino Acid Metabolism,,,,,
+GLYAT;,Translation,,,,,
+GLYATL2,Translation,,,,,
+GLYATL3,Translation,,,,,
+GLYCTK,Fructose Metabolism,,,,,
+GOT2,Amino Acid Metabolism,0.283,1.4301,1.9992,-0.1455,0.7178
+GPAM,Metabolism of Lipids & Lipoproteins,,,,,
+GPAT2,Metabolism of Lipids & Lipoproteins,,,,,
+GPD1,Electron Transport Chain,,,,,
+GPD2,Electron Transport Chain,,,,,
+GPT2,Amino Acid Metabolism,,,,,
+GPX1,ROS Defense,-1.8252,-0.2514,-0.8755,-0.055,-1.076
+GPX4,ROS Defense,-1.5566,-0.6043,-1.6376,-0.03,-1.6339
+GRPEL1,Import & Sorting,-0.2089,-0.2638,-0.0887,0.2349,-0.0021
+GRPEL2,Import & Sorting,1.0111,0.5499,-0.3123,0.1959,-0.3218
+GSR,ROS Defense,1.3825,0.4448,2.0184,1.1976,-0.5693
+GSTZ1,Amino Acid Metabolism,,,,,
+GTPBP10,Translation,,,,,
+GTPBP3,Translation,0.2377,1.7156,0.9665,0.0229,3.6965
+GTPBP5,Translation,,,,,
+GUF1,Translation,,,,,
+HADH,Fatty Acid Elongation,-0.8425,-1.6001,-2.5896,-1.3252,-2.0166
+HADHA,Fatty Acid Elongation,-0.6334,-0.5131,-1.4277,-0.3037,0.4285
+HADHB,Fatty Acid Elongation,-0.1383,-0.2319,-1.1163,-0.3801,0.1027
+HAGH,Pyruvate Metabolism,,,,,
+HARS2,Translation,0.2844,0.7042,-0.0101,0.3421,-0.4418
+HCCS,Electron Transport Chain,-0.2111,-0.1113,-0.5062,0.172,-0.281
+HEMK1,Translation,,,,,
+HIBADH,Amino Acid Metabolism,,,,,
+HIBCH,Amino Acid Metabolism,,,,,
+HIGD1A,Electron Transport Chain,,,,,
+HIGD2A,Electron Transport Chain,,,,,
+HINT2,Apoptosis,,,,,
+HK1,Glycolysis,0.2847,0.5825,1.3499,0.4398,-0.0835
+HK2,Glycolysis,0.2894,-0.8282,-0.9839,0.5998,-0.4117
+HK3,Glycolysis,-3.676,-0.723,-1.4314,-1.5821,-0.0104
+HKDC1,Glycolysis,,,,,
+HMGCL,Amino Acid Metabolism,,,,,
+HMGCS2,Amino Acid Metabolism,,,,,
+HRSP12,Translation,,,,,
+HSCB,Fe-S cluster biosynthesis,0.1212,-0.5392,0.7066,-0.1608,-0.5926
+HSD17B10,Translation,-0.1076,0.5025,-0.2251,-0.1265,-0.1109
+HSD17B4,Bile Acid Synthesis,,,,,
+HSD17B8,Fatty Acid Biosynthesis,,,,,
+HSD17B8,Metabolism of Vitamins & Co-Factors,,,,,
+HSD3B1,Metabolism of Lipids & Lipoproteins,,,,,
+HSD3B2,Metabolism of Lipids & Lipoproteins,,,,,
+HSPA1B,Apoptosis,,,,,
+HSPA9,Import & Sorting,0.2425,0.9962,0.2716,0.3265,-0.074
+HSPD1,Import & Sorting,,,,,
+HSPE1,Import & Sorting,,,,,
+HTRA2,Apoptosis,-0.7399,-0.0789,-0.3524,-0.428,1.2992
+IARS2,Translation,0.95,0.7705,-0.169,0.3964,0.4897
+IBA57,Fe-S cluster biosynthesis,,,,,
+ICT1,Translation,,,,,
+IDE,Mitochondrial Signaling,,,,,
+IDH1,TCA Cycle,-0.5499,-0.2545,-0.8641,0.2568,-1.7672
+IDH2,TCA Cycle,0.3158,1.8188,2.7604,1.227,0.6201
+IDH3A,TCA Cycle,-0.5246,-0.6008,-1.8509,0.1512,-1.8686
+IDH3B,TCA Cycle,-0.8037,0.2304,-0.4801,-0.3205,0.7685
+IDH3G,TCA Cycle,-0.7841,-0.408,-0.7038,-0.1335,-0.3359
+IMMP1L,Import & Sorting,0.835,1.2665,0.7434,0.545,-0.3168
+IMMP2L,Import & Sorting,-0.2603,0.0384,-2.227,-0.6323,0.2486
+IMMT,Mitochondrial Dynamics,,,,,
+ISCA1,Fe-S cluster biosynthesis,-0.5335,-0.2297,-1.1791,-0.0807,-0.6793
+ISCA2,Fe-S cluster biosynthesis,0.0537,1.2286,-0.086,0.5213,-1.2258
+ISCU,Fe-S cluster biosynthesis,-1.1396,-0.8935,-1.3192,-0.5567,-2.2876
+IVD,Amino Acid Metabolism,,,,,
+KARS,Translation,-1.0019,-0.8191,-1.2967,-0.4514,0.4406
+KIAA0391,Translation,0.7652,1.1601,0.4833,0.3289,0.2372
+KIAA1279,Mitochondrial Dynamics,,,,,
+KMO,Amino Acid Metabolism,,,,,
+L2HGDH,Pyruvate Metabolism,,,,,
+LACE1,Protein Stability & Degradation,,,,,
+LACTB2,Translation,,,,,
+LARS2,Translation,0.4005,0.9812,0.5065,0.632,0.0627
+LETM1,Calcium Signaling & Transport,-0.0337,0.5429,0.3327,0.7034,-0.0387
+LETM2,Calcium Signaling & Transport,,,,,
+LETMD1,Apoptosis,,,,,
+LIAS,Lipoic Acid Metabolism,,,,,
+LIG1,Replication & Transcription,,,,,
+LIPT1,Lipoic Acid Metabolism,,,,,
+LIPT2,Lipoic Acid Metabolism,,,,,
+LONP1,Protein Stability & Degradation,-0.438,0.785,0.3777,-0.0656,1.0173
+LRPPRC,Translation,0.6614,0.4078,-0.5312,0.1134,1.222
+LYN,Mitochondrial Signaling,,,,,
+LYPLA1,Fatty Acid Metabolism,,,,,
+LYRM4,Fe-S cluster biosynthesis,-0.8054,-0.2154,-0.8904,-0.4317,-0.1468
+LYRM5,Electron Transport Chain,,,,,
+LYRM7,Electron Transport Chain,,,,,
+MACROD1,Mitochondrial Signaling,,,,,
+MALSU1,Translation,,,,,
+MAOB,Amino Acid Metabolism,,,,,
+MARC1,Nucleotide Metabolism,,,,,
+MARC2,Nucleotide Metabolism,,,,,
+MARCH5,Mitochondrial Dynamics,0.7408,0.3891,-0.1646,0.3493,-0.2499
+MARS2,Translation,0.5909,0.7498,0.5263,0.6463,0.6964
+MCAT,Fatty Acid Biosynthesis,,,,,
+MCCC1,Amino Acid Metabolism,,,,,
+MCCC2,Amino Acid Metabolism,,,,,
+MCU,Calcium Signaling & Transport,,,,,
+MDH1,TCA Cycle,,,,,
+MDH2,TCA Cycle,-0.1181,1.0911,-0.9319,-0.0592,1.4093
+ME1,Pyruvate Metabolism,,,,,
+ME2,Pyruvate Metabolism,,,,,
+ME3,Pyruvate Metabolism,,,,,
+MECR,Fatty Acid Elongation,,,,,
+METAP1D,Import & Sorting,,,,,
+METTL17,Translation,,,,,
+MFF,Mitochondrial Dynamics,-0.1298,-0.3676,0.1468,-0.344,-0.3068
+MFN1,Mitochondrial Dynamics,0.7261,0.3043,-0.0108,0.251,0.9569
+MFN2,Mitochondrial Dynamics,-0.1912,-0.1474,0.1902,-0.0998,-0.2135
+MGST1,ROS Defense,,,,,
+MIC13,Mitochondrial Dynamics,,,,,
+MIC27,Mitochondrial Dynamics,,,,,
+MICU1,Calcium Signaling & Transport,,,,,
+MICU2;EFHA1 ,Calcium Signaling & Transport,,,,,
+MINOS1,Mitochondrial Dynamics,,,,,
+MIPEP,Import & Sorting,1.2197,1.316,1.1716,0.4411,-0.126
+MMADHC,Import & Sorting,,,,,
+MMADHC,Metabolism of Vitamins & Co-Factors,,,,,
+MPC1,Pyruvate Metabolism,,,,,
+MPC2,Pyruvate Metabolism,,,,,
+MPV17,ROS Defense,0.3892,0.0279,-0.0052,0.0275,0.4159
+MPV17L2,Translation,-0.2436,1.7454,0.6896,0.2545,0.879
+MRP63,Translation,,,,,
+MRPL1,Translation,-0.0207,0.195,-0.7601,-0.2995,0.0528
+MRPL10,Translation,-0.5707,-0.5073,-1.0687,-0.6045,-0.809
+MRPL11,Translation,-1.2136,-0.0864,-0.8336,-0.6414,-0.0574
+MRPL12,Translation,-0.461,0.7219,0.0335,0.387,1.0557
+MRPL12,Mitochondrial Carrier,-0.461,0.7219,0.0335,0.387,1.0557
+MRPL13,Translation,0.539,0.726,0.45,0.2995,0.7537
+MRPL14,Translation,0.1541,0.873,1.756,0.58,1.2067
+MRPL15,Translation,-0.1851,0.2356,-0.2066,-0.175,1.7456
+MRPL16,Translation,-0.241,-0.0797,-0.4255,-0.5676,-0.7838
+MRPL17,Translation,0.0553,0.5447,0.9513,0.5061,0.3727
+MRPL18,Translation,-0.1358,0.1493,0.5134,-0.0957,0.6272
+MRPL19,Translation,1.0309,0.3203,-0.2624,0.6028,0.3202
+MRPL2,Translation,-0.8625,-0.2692,-0.6169,-0.4591,1.0493
+MRPL20,Translation,-0.3344,0.3225,0.212,0.101,-0.0022
+MRPL21,Translation,-0.2652,0.9574,0.3024,-0.3284,0.273
+MRPL22,Translation,0.1253,0.5183,0.165,-0.1142,-0.2276
+MRPL23,Translation,-0.7562,0.777,1.0101,0.067,0.3335
+MRPL24,Translation,0.6699,1.3357,1.4226,0.6608,1.1339
+MRPL27,Translation,0.0522,0.0869,0.7355,-0.5377,-0.2834
+MRPL28,Translation,-0.1488,0.8027,1.4103,-0.1326,0.9106
+MRPL3,Translation,0.5653,1.2118,0.8619,0.3163,0.6505
+MRPL30,Translation,0.2945,-0.0411,-0.2023,-0.4521,-0.7482
+MRPL32,Translation,-0.1566,0.4853,0.2458,0.1288,0.4163
+MRPL33,Translation,-0.0615,-0.4764,-0.194,-0.2941,0.6201
+MRPL34,Translation,,,,,
+MRPL35,Translation,0.5066,0.1236,-0.1996,0.4816,0.1975
+MRPL36,Translation,-0.7056,0.1194,0.4197,0.1081,0.6826
+MRPL37,Translation,-0.3074,0.3752,-0.4086,0.1211,0.995
+MRPL38,Translation,-0.7058,0.1358,0.0223,-0.2079,0.5193
+MRPL39,Translation,0.0116,0.3517,-0.7629,-0.2004,0.3931
+MRPL4,Translation,-0.7305,0.9373,-0.0224,-0.1434,2.7493
+MRPL40,Translation,-0.5221,-0.5678,-0.2537,-0.2194,-0.7102
+MRPL41,Translation,-1.0339,0.4857,-0.225,0.1955,1.4316
+MRPL42,Translation,1.2354,0.8233,1.0384,0.8019,0.7439
+MRPL43,Translation,-0.4775,0.3851,0.0569,-0.1321,-0.4435
+MRPL44,Translation,0.2974,0.5358,-0.0074,0.2296,-0.8723
+MRPL45,Translation,-0.0237,0.1051,-0.5408,0.1979,0.4137
+MRPL46,Translation,-0.6908,-0.4958,-1.2257,-0.1239,-0.4526
+MRPL47,Translation,0.3437,1.0045,0.4793,0.3632,0.5234
+MRPL48,Translation,-0.218,0.2918,0.4462,-0.3982,0.1533
+MRPL49,Translation,0.1782,0.5728,1.2046,0.2846,0.2229
+MRPL50,Translation,0.3573,0.3982,0.2539,-0.0158,-0.1319
+MRPL51,Translation,-0.1131,0.4515,0.2921,0.1712,1.1246
+MRPL52,Translation,-0.5103,1.4298,1.2865,-0.0973,0.2002
+MRPL53,Translation,-0.6223,0.2757,0.0719,0.007,0.3018
+MRPL54,Translation,-0.8437,0.6599,0.63,-0.1461,-0.5606
+MRPL55,Translation,-0.0501,1.4076,1.5386,0.098,1.3158
+MRPL9,Translation,0.724,1.0506,0.9217,0.0909,1.4301
+MRPS10,Translation,0.4035,0.1261,-0.0815,0.0493,-0.0623
+MRPS11,Translation,-0.5151,-0.0082,0.1819,0.1948,-0.8955
+MRPS12,Translation,-0.821,1.5261,1.2125,0.3352,2.125
+MRPS14,Translation,1.1038,0.9484,0.753,0.3849,0.2343
+MRPS15,Translation,-0.7261,-0.3438,-0.9936,-0.1815,-0.4414
+MRPS16,Translation,0.057,0.662,0.3967,0.3618,-0.1967
+MRPS17,Translation,0.1975,1.0669,1.2556,-0.0662,1.1253
+MRPS18A,Translation,-0.3585,-0.218,0.159,-0.1861,0.7235
+MRPS18B,Translation,-0.0254,0.002,-0.2658,0.0459,0.4933
+MRPS18C,Translation,-0.4878,-0.2388,-0.2364,-0.0374,0.141
+MRPS2,Translation,-0.4311,0.4524,-0.3066,-0.2048,1.7661
+MRPS21,Translation,0.8039,1.1738,1.1784,0.1882,1.2794
+MRPS22,Translation,-0.2986,0.3423,-0.8243,-0.1571,-0.0755
+MRPS23,Translation,0.3697,0.8429,0.8778,0.4071,0.6902
+MRPS24,Translation,-0.8197,0.2914,0.4545,-0.4709,1.3469
+MRPS25,Translation,-0.6469,0.151,-1.0912,-0.3292,0.4126
+MRPS26,Translation,-0.1536,1.3294,0.9878,-0.2456,1.3447
+MRPS27,Translation,0.1212,0.6707,-0.5455,-0.0884,-0.2694
+MRPS28,Translation,-0.1738,-0.3377,-0.5721,-0.3125,-0.3272
+MRPS30,Translation,2.5711,0.92,2.0857,0.0842,1.2524
+MRPS31,Translation,-0.2247,0.0944,-0.3609,-0.2904,-0.4652
+MRPS33,Translation,-0.034,0.7223,-1.533,0.0918,0.2273
+MRPS34,Translation,0.4014,1.3894,2.1777,0.4373,1.4934
+MRPS35,Translation,0.8726,0.8019,0.468,0.2459,0.9371
+MRPS5,Translation,-0.1544,-0.2336,-0.1843,-0.2766,0.4084
+MRPS6,Translation,-0.9836,-0.137,-1.3674,-0.41,0.097
+MRPS7,Translation,-0.3407,0.0688,-0.4652,0.0622,0.3527
+MRPS9,Translation,-0.1213,0.2628,-0.189,-0.3281,0.5138
+MRRF,Translation,-0.0661,0.2015,0.1084,0.2664,-0.0611
+MSRA,ROS Defense,,,,,
+MSRB3,ROS Defense,,,,,
+MSTO1,Mitochondrial Dynamics,0.1978,1.2859,1.3969,0.0189,-0.6985
+MTCH1,Apoptosis,,,,,
+MTCH2,Apoptosis,,,,,
+MTERFD1,Translation,,,,,
+MTERFD2,Translation,,,,,
+MTFMT,Translation,-0.1722,-1.1469,-0.7954,-0.464,-0.9726
+MTFP1,Mitochondrial Dynamics,,,,,
+MTG1,Translation,,,,,
+MTHFD1,Folate & Pterine Metabolism,,,,,
+MTHFD1L,Folate & Pterine Metabolism,,,,,
+MTHFD2,Folate & Pterine Metabolism,,,,,
+MTHFD2L,Folate & Pterine Metabolism,,,,,
+MTHFS,Folate & Pterine Metabolism,,,,,
+MTIF2,Translation,0.4514,-0.0945,-0.1721,0.3322,1.0047
+MTO1,Translation,0.2067,0.2512,0.1868,0.0662,-0.1897
+MTOR,Mitochondrial Signaling,,,,,
+MTPAP,Translation,0.5364,0.5117,-0.0507,0.103,2.127
+MTRF1,Translation,0.8059,-0.2168,0.6163,0.3633,0.6625
+MTRF1L,Translation,-0.231,-0.8057,-0.8469,0.1081,-0.7014
+MTX1,Import & Sorting,,,,,
+MTX2,Import & Sorting,,,,,
+MTX3,Import & Sorting,,,,,
+MUL1,Protein Stability & Degradation,,,,,
+NADKD1,Amino Acid Metabolism,,,,,
+NARS,Translation,,,,,
+NARS2,Translation,0.4396,0.2333,0.4173,-0.5268,2.04
+ND1,Electron Transport Chain,,,,,
+ND2,Electron Transport Chain,,,,,
+ND3,Electron Transport Chain,,,,,
+ND4,Electron Transport Chain,,,,,
+ND4L,Electron Transport Chain,,,,,
+ND5,Electron Transport Chain,,,,,
+ND6,Electron Transport Chain,,,,,
+NDUFA1,Electron Transport Chain,-0.3612,0.0594,-0.6456,-0.1003,-0.3901
+NDUFA10,Electron Transport Chain,0.1513,0.4241,-0.5517,-0.0518,-0.3698
+NDUFA11,Electron Transport Chain,-0.9608,1.0932,-0.0862,-0.3723,-0.0837
+NDUFA12,Electron Transport Chain,-0.1472,-0.071,-0.4994,-0.1737,-0.6594
+NDUFA13,Electron Transport Chain,-0.2527,1.3077,0.655,0.0938,0.8334
+NDUFA2,Electron Transport Chain,-0.2845,0.8747,-0.0737,0.2747,-1.2349
+NDUFA4,Electron Transport Chain,-0.0597,0.7146,-1.2409,-0.2087,-0.0889
+NDUFA5,Electron Transport Chain,0.6184,1.0446,-0.6148,0.0634,-0.1995
+NDUFA6,Electron Transport Chain,0.0588,-0.2929,-0.3215,0.2331,-0.7843
+NDUFA7,Electron Transport Chain,0.0773,1.3981,0.0915,0.3782,-0.1128
+NDUFA8,Electron Transport Chain,-0.1571,-0.0037,-0.0409,0.0932,-0.4879
+NDUFA9,Electron Transport Chain,-0.1128,0.2399,-0.4992,0.1124,1.1656
+NDUFAB1,Electron Transport Chain,0.2433,0.8762,-0.0791,-0.2103,-0.035
+NDUFAF1,Electron Transport Chain,0.071,0.2256,0.2378,0.047,-0.7661
+NDUFAF3,Electron Transport Chain,-1.1141,0.579,-0.4171,0.483,0.3524
+NDUFAF4,Electron Transport Chain,-0.5327,-0.3488,-1.489,-0.5475,0.0757
+NDUFAF5,Electron Transport Chain,,,,,
+NDUFAF6,Electron Transport Chain,,,,,
+NDUFAF7,Electron Transport Chain,,,,,
+NDUFB1,Electron Transport Chain,-0.1221,0.9165,-0.1991,0.0744,-0.9908
+NDUFB10,Electron Transport Chain,0.015,0.4604,0.7084,-0.0418,0.3417
+NDUFB11,Electron Transport Chain,-0.5978,0.9667,-0.1672,0.0061,-0.7252
+NDUFB2,Electron Transport Chain,-0.3426,0.9564,-0.5338,0.1138,-0.268
+NDUFB3,Electron Transport Chain,0.1256,0.3778,-0.2442,0.3332,-0.5509
+NDUFB4,Electron Transport Chain,-0.2538,0.683,0.274,-0.0798,-0.1262
+NDUFB5,Electron Transport Chain,-0.0824,0.3146,-1.5207,0.0211,-0.2679
+NDUFB6,Electron Transport Chain,0.0159,0.6748,-0.1161,-0.2433,0.5289
+NDUFB7,Electron Transport Chain,-1.5544,1.101,0.4005,-0.499,0.4483
+NDUFB8,Electron Transport Chain,-0.548,0.0458,-0.5438,-0.3223,-0.5032
+NDUFB9,Electron Transport Chain,-0.3073,0.2604,-0.146,-0.1716,0.7219
+NDUFC2,Electron Transport Chain,-0.089,0.7871,0.1602,-0.3573,0.8175
+NDUFS1,Electron Transport Chain,0.6028,-0.2177,-0.9948,0.3368,-0.5716
+NDUFS2,Electron Transport Chain,0.908,1.2526,1.1647,0.6497,0.8126
+NDUFS3,Electron Transport Chain,-0.2816,0.1409,-0.32,-0.0653,-0.3302
+NDUFS4,Electron Transport Chain,-0.4968,0.2389,-1.2492,-0.6341,-0.9365
+NDUFS5,Electron Transport Chain,-0.117,0.1772,-0.6519,-0.5695,0.5404
+NDUFS6,Electron Transport Chain,-0.7283,0.9651,1.0545,-0.0332,1.1553
+NDUFS7,Electron Transport Chain,-0.9906,1.2469,-0.0436,-0.1356,0.1471
+NDUFS8,Electron Transport Chain,-0.5604,1.0527,0.2276,0.0679,-0.4445
+NDUFV1,Electron Transport Chain,-0.8603,0.5737,-0.355,-0.716,0.6308
+NDUFV2,Electron Transport Chain,0.1695,0.2194,0.4456,0.4026,0.3979
+NFS1,Fe-S cluster biosynthesis,-0.1422,0.9498,-0.1616,0.2455,0.3127
+NFU1,Fe-S cluster biosynthesis,-0.1312,-0.8083,-1.608,-0.2118,-0.7253
+NIF3L1,Replication & Transcription,,,,,
+NIPSNAP1,Electron Transport Chain,,,,,
+NIT1,Amino Acid Metabolism,,,,,
+NIT2,Amino Acid Metabolism,,,,,
+NLN,Protein Stability & Degradation,,,,,
+NME6,Nucleotide Metabolism,0.796,0.6812,0.2903,0.9689,1.1643
+NOA1,Translation,,,,,
+NRD1,Mitochondrial Signaling,,,,,
+NSUN3,Translation,,,,,
+NSUN4,Translation,,,,,
+NTHL1,Replication & Transcription,-0.1059,1.0229,2.1211,-1.0523,1.9952
+NUBPL,Electron Transport Chain,0.0309,0.3598,-1.1006,-0.2992,-1.5323
+NUDT19,Metabolism of Lipids & Lipoproteins,,,,,
+NUDT2,ROS Defense,,,,,
+NUDT6,Apoptosis,,,,,
+NUDT9,Nucleotide Metabolism,,,,,
+OAT,Amino Acid Metabolism,,,,,
+OGDH,TCA Cycle,-0.8425,-0.7465,-0.1999,-0.0574,0.3184
+OGDHL,TCA Cycle,,,,,
+OGG1,ROS Defense,-0.3041,0.3838,0.0733,-0.1996,0.1855
+OPA1,Mitochondrial Dynamics,0.5591,0.4159,-0.4905,0.3349,-0.3008
+OPA3,Metabolism of Lipids & Lipoproteins,0.3769,0.617,0.5715,0.1526,-0.4607
+OSGEPL1,Translation,0.632,1.161,-0.0368,0.1693,-0.0216
+OXA1L,Electron Transport Chain,-0.627,0.1086,-1.0979,-0.2824,-0.93
+OXCT1,Amino Acid Metabolism,,,,,
+OXCT2,Amino Acid Metabolism,,,,,
+OXR1,ROS Defense,,,,,
+OXSM,Fatty Acid Biosynthesis,,,,,
+Opa3 like,Metabolism of Lipids & Lipoproteins,,,,,
+P4HA1,Amino Acid Metabolism,,,,,
+PACRG,Apoptosis,,,,,
+PAM16,Import & Sorting,,,,,
+PANK2,Metabolism of Vitamins & Co-Factors,,,,,
+PARK2,Protein Stability & Degradation,-2.7784,-2.023,-3.3462,-0.7824,-2.1348
+PARK7,ROS Defense,,,,,
+PARL,Apoptosis,-0.7133,0.3477,-0.7245,-0.4192,-0.6458
+PARS2,Translation,0.5556,1.2603,0.5165,-0.1278,1.719
+PC,Amino Acid Metabolism,,,,,
+PCBD2,Amino Acid Metabolism,,,,,
+PCCA,Amino Acid Metabolism,,,,,
+PCK2,Pyruvate Metabolism,,,,,
+PDE12,Translation,,,,,
+PDHA1,Pyruvate Metabolism,-1.0279,-0.7792,-2.0518,-0.7246,-0.9741
+PDHA2,Pyruvate Metabolism,0.0,0.0,0.0,0.0,0.0
+PDHB,Pyruvate Metabolism,0.4212,0.6498,-0.01,-0.0162,-0.4475
+PDK1,Pyruvate Metabolism,,,,,
+PDK2,Pyruvate Metabolism,,,,,
+PDK3,Pyruvate Metabolism,,,,,
+PDK4,Pyruvate Metabolism,,,,,
+PDP1,Pyruvate Metabolism,,,,,
+PDP2,Pyruvate Metabolism,,,,,
+PDPR,Pyruvate Metabolism,,,,,
+PDSS1,Ubiquinone Biosynthesis,,,,,
+PDSS2,Ubiquinone Biosynthesis,,,,,
+PET112,Translation,,,,,
+PET117,Electron Transport Chain,,,,,
+PGAM5,Mitochondrial Dynamics,,,,,
+PGS1,Cardiolipin Biosynthesis,0.1445,-0.2116,-0.1511,-0.0605,0.4732
+PHB,Replication & Transcription,-0.4197,0.3312,0.0126,-0.4585,0.4235
+PHB2,Mitochondrial Dynamics,-0.6711,0.1862,-0.482,-0.2364,0.8821
+PIN4,Translation,,,,,
+PINK1,Mitochondrial Dynamics,-1.4646,-0.9115,-0.9613,-0.8091,-1.5543
+PISD,Metabolism of Lipids & Lipoproteins,,,,,
+PITRM1,Protein Stability & Degradation,,,,,
+PLD6,Cardiolipin Biosynthesis,-0.8384,-0.0259,-1.6116,-0.9279,0.1934
+PMPCA,Import & Sorting,-0.1694,0.7586,-0.0426,0.2383,1.7546
+PMPCB,Electron Transport Chain,0.0996,0.6375,-1.3718,-0.1862,0.4473
+PNKD,Translation,,,,,
+PNPT1,Translation,,,,,
+POLG,Replication & Transcription,-0.4568,-0.4925,-0.3149,-0.2257,0.1633
+POLG2,Replication & Transcription,0.6505,0.7392,0.0812,0.1172,1.0977
+POLRMT,Replication & Transcription,-0.2577,1.2092,0.9801,-0.0289,1.1261
+PPA2,Translation,,,,,
+PPIF,Calcium Signaling & Transport,-0.7082,0.319,0.064,2.8904,-1.1651
+PPOX,Heme Biosynthesis,0.7699,1.836,2.2291,0.1719,1.5912
+PPTC7,TCA Cycle,,,,,
+PRDX1,ROS Defense,,,,,
+PRDX2,ROS Defense,,,,,
+PRDX3,ROS Defense,0.6615,0.118,-0.4631,-0.124,-1.8668
+PRDX4,ROS Defense,,,,,
+PRDX5,ROS Defense,,,,,
+PRELID1,Apoptosis,,,,,
+PRODH,Amino Acid Metabolism,,,,,
+PRODH2,Amino Acid Metabolism,,,,,
+PSTK,Translation,,,,,
+PTCD1,Translation,,,,,
+PTCD3,Translation,0.5105,-0.29,-1.0563,0.2141,0.4484
+PTPMT1,Metabolism of Lipids & Lipoproteins,-0.3515,-0.2493,-0.3221,-0.1916,-0.9436
+PTRH2,Translation,,,,,
+PUS1,Translation,-0.0168,0.574,1.1103,0.1666,1.3931
+PUSL1,Translation,,,,,
+PYCR1,Amino Acid Metabolism,,,,,
+PYCR2,Amino Acid Metabolism,,,,,
+QARS,Translation,,,,,
+QDPR,Amino Acid Metabolism,,,,,
+QRSL1,Translation,0.3181,0.5224,0.0743,0.5187,0.9536
+QTRT1,Translation,-0.4752,0.8851,0.6909,-0.4621,2.9168
+RAD51,Replication & Transcription,,,,,
+RARS,Translation,,,,,
+RARS2,Translation,-0.0698,-0.0895,-0.5628,-0.2788,0.0735
+RBFA,Translation,,,,,
+REXO2,Translation,,,,,
+RFK,Metabolism of Vitamins & Co-Factors,,,,,
+RHOT1,Mitochondrial Signaling,0.7987,0.0196,-0.9077,-0.0074,0.1799
+RHOT2,Mitochondrial Signaling,0.2875,1.3807,1.9211,0.3292,1.128
+RMND1,Translation,,,,,
+RNF185,Protein Stability & Degradation,,,,,
+RNF5,Protein Stability & Degradation,,,,,
+RNMTL1,Translation,,,,,
+ROMO1,ROS Defense,,,,,
+RPS6KB1,Apoptosis,,,,,
+RPUSD4,Translation,-0.2767,-0.528,-1.086,-0.5363,-0.2534
+RTN4IP1,Electron Transport Chain,,,,,
+SAMM50,Import & Sorting,-0.7918,-0.7292,-0.9304,-0.1757,-1.0144
+SARDH,Metabolism of Lipids & Lipoproteins,,,,,
+SARS,Translation,,,,,
+SARS2,Translation,-0.7148,0.5227,0.6052,-0.5639,1.4301
+SCCPDH,Amino Acid Metabolism,,,,,
+SCO1,Electron Transport Chain,0.3626,0.5646,-0.5541,-0.2193,-0.3447
+SCO2,Electron Transport Chain,-0.3447,0.2739,1.1524,1.1761,0.5749
+SCP2,Bile Acid Synthesis,,,,,
+SDHA,Electron Transport Chain,-0.5828,0.4466,-0.3459,-0.186,-0.0483
+SDHAF2,Electron Transport Chain,-0.0762,0.1456,0.351,0.1007,-0.6311
+SDHAF3,Electron Transport Chain,,,,,
+SDHAF4,Electron Transport Chain,,,,,
+SDHB,Electron Transport Chain,-0.3073,-0.3472,-0.6882,-0.0887,0.0445
+SDHC,Electron Transport Chain,1.153,1.1413,0.3764,0.3659,0.2512
+SDHD,Electron Transport Chain,-0.21,-0.309,-1.454,0.0063,-1.4708
+SFXN1,Import & Sorting,,,,,
+SFXN2,Import & Sorting,,,,,
+SFXN3,Import & Sorting,,,,,
+SFXN5,Import & Sorting,,,,,
+SHC1,Mitochondrial Signaling,0.2407,0.0545,0.8206,-0.1596,-0.2377
+SHMT1,Folate & Pterine Metabolism,,,,,
+SHMT2,Folate & Pterine Metabolism,,,,,
+SIRT1,Mitochondrial Signaling,,,,,
+SIRT4,Mitochondrial Signaling,,,,,
+SLC22A4,Mitochondrial Carrier,,,,,
+SLC25A1,Mitochondrial Carrier,-1.3824,-0.8034,-2.1113,-0.1022,-1.8348
+SLC25A10,Mitochondrial Carrier,,,,,
+SLC25A11,Mitochondrial Carrier,,,,,
+SLC25A12,Calcium Signaling & Transport,,,,,
+SLC25A13,Calcium Signaling & Transport,,,,,
+SLC25A14,Mitochondrial Carrier,,,,,
+SLC25A15,Mitochondrial Carrier,,,,,
+SLC25A16,Mitochondrial Carrier,,,,,
+SLC25A18,Mitochondrial Carrier,,,,,
+SLC25A19,Mitochondrial Carrier,-0.3548,-0.561,0.1273,0.6765,0.7076
+SLC25A19,Fatty Acid Biosynthesis,-0.3548,-0.561,0.1273,0.6765,0.7076
+SLC25A2,Mitochondrial Carrier,,,,,
+SLC25A20,Fatty Acid Metabolism,-1.3847,-0.6653,-1.5253,-0.9562,-1.4651
+SLC25A21,Mitochondrial Carrier,,,,,
+SLC25A22,Mitochondrial Carrier,,,,,
+SLC25A23,Mitochondrial Carrier,,,,,
+SLC25A24,Mitochondrial Carrier,,,,,
+SLC25A25,Mitochondrial Carrier,,,,,
+SLC25A26,Mitochondrial Carrier,,,,,
+SLC25A27,Mitochondrial Carrier,,,,,
+SLC25A28,Fe-S cluster biosynthesis,-0.9324,-0.3958,0.112,-0.3806,-0.7255
+SLC25A29,Mitochondrial Carrier,,,,,
+SLC25A3,Mitochondrial Carrier,-0.9357,-0.3421,-1.1376,-0.4308,-0.7521
+SLC25A30,Mitochondrial Carrier,,,,,
+SLC25A31,Mitochondrial Dynamics,,,,,
+SLC25A32,Folate & Pterine Metabolism,,,,,
+SLC25A33,Mitochondrial Carrier,-0.3792,-0.4408,-1.249,-0.3741,-0.217
+SLC25A34,Mitochondrial Carrier,,,,,
+SLC25A35,Mitochondrial Carrier,,,,,
+SLC25A36,Mitochondrial Carrier,,,,,
+SLC25A37,Fe-S cluster biosynthesis,-0.2455,0.275,0.5513,0.0088,-0.3377
+SLC25A39,Mitochondrial Carrier,,,,,
+SLC25A4,Mitochondrial Dynamics,-0.2556,0.0072,0.0943,-0.7555,-0.0604
+SLC25A40,Mitochondrial Carrier,,,,,
+SLC25A41,Mitochondrial Carrier,,,,,
+SLC25A42,Mitochondrial Carrier,,,,,
+SLC25A44,Mitochondrial Carrier,,,,,
+SLC25A45,Mitochondrial Carrier,,,,,
+SLC25A46,Mitochondrial Dynamics,,,,,
+SLC25A47,Mitochondrial Carrier,,,,,
+SLC25A48,Mitochondrial Carrier,,,,,
+SLC25A5,Mitochondrial Dynamics,-0.7068,0.1601,-0.6677,0.3246,0.0852
+SLC25A51,Mitochondrial Carrier,,,,,
+SLC25A52,Mitochondrial Carrier,,,,,
+SLC25A53,Mitochondrial Carrier,,,,,
+SLC25A6,Mitochondrial Dynamics,-1.6811,-0.1438,-0.6263,-0.8253,-0.4469
+SLC3A1,Mitochondrial Carrier,,,,,
+SLC44A1,Mitochondrial Carrier,,,,,
+SLIRP,Translation,,,,,
+SLMO1,Metabolism of Lipids & Lipoproteins,,,,,
+SLMO2,Metabolism of Lipids & Lipoproteins,,,,,
+SOD2,ROS Defense,-1.7392,-1.8763,-2.3863,-0.2274,-0.123
+SORD,Fructose Metabolism,,,,,
+SPG7,Mitochondrial Dynamics,-1.1047,-0.2003,-0.4823,-0.2623,0.187
+SQRDL,Amino Acid Metabolism,,,,,
+SRC,Mitochondrial Signaling,,,,,
+SSBP1,Replication & Transcription,0.1133,1.1555,-0.4402,0.0277,0.7848
+STAR,Bile Acid Synthesis,,,,,
+STOML2,Calcium Signaling & Transport,-0.3551,0.2721,-0.0561,-0.0442,1.5467
+SUCLA2,TCA Cycle,-0.2779,-0.8614,-2.0143,-0.5277,-1.4194
+SUCLG1,TCA Cycle,-0.4785,-0.556,-1.3321,-0.3473,-0.5952
+SUCLG2,TCA Cycle,0.4259,0.116,-0.7443,0.0409,-0.8419
+SUOX,Amino Acid Metabolism,,,,,
+SUPV3L1,Replication & Transcription,,,,,
+SURF1,Electron Transport Chain,-0.6553,0.2749,0.1639,-0.1281,1.3487
+TACO1,Translation,-0.4483,0.4006,-0.1107,0.1438,0.3393
+TAMM41,Import & Sorting,,,,,
+TARS2,Translation,1.3283,2.0532,1.5737,0.8784,1.4952
+TAZ,Cardiolipin Biosynthesis,-0.8887,-0.2615,-0.8402,-0.2611,0.2496
+TBRG4,Electron Transport Chain,,,,,
+TCAIM,Mitochondrial Dynamics,,,,,
+TEFM,Replication & Transcription,,,,,
+TFAM,Replication & Transcription,0.8655,0.5247,-0.2564,0.2412,1.2219
+TFB1M,Electron Transport Chain,0.1336,0.3957,0.5071,-0.0099,0.9288
+TFB1M,Replication & Transcription,0.1336,0.3957,0.5071,-0.0099,0.9288
+TFB2M,Replication & Transcription,1.3691,1.7058,1.5659,0.8167,1.1391
+THG1L,Translation,,,,,
+TIMM10,Import & Sorting,-0.2967,0.4931,0.7023,0.1185,-0.0867
+TIMM13,Import & Sorting,-0.428,1.1113,0.9079,0.3216,1.3044
+TIMM17A,Import & Sorting,0.8338,1.2513,1.1421,1.0387,1.1315
+TIMM17B,Import & Sorting,0.0777,0.9109,0.8121,0.1841,1.2157
+TIMM21,Import & Sorting,,,,,
+TIMM22,Import & Sorting,-0.0171,0.3727,0.2402,-0.6124,0.23
+TIMM23,Import & Sorting,,,,,
+TIMM29,Import & Sorting,,,,,
+TIMM44,Import & Sorting,-0.3912,0.5273,0.4694,0.0208,0.9463
+TIMM50,Import & Sorting,-0.2821,0.6411,-0.2759,0.0069,3.6928
+TIMM8A,Import & Sorting,0.5673,0.505,-0.5384,-0.0877,0.2552
+TIMM8B,Import & Sorting,-0.3219,0.3506,0.0862,0.5933,-0.0609
+TIMM9,Import & Sorting,-0.1556,0.5719,-0.4167,-0.5759,-0.3006
+TIMMDC1,Import & Sorting,,,,,
+TK2,Replication & Transcription,-1.8569,-1.3729,-1.8507,-1.1572,-2.2441
+TMEM11,Mitochondrial Dynamics,,,,,
+TMEM173,Apoptosis,,,,,
+TMEM186,Electron Transport Chain,,,,,
+TMEM65,Calcium Signaling & Transport,,,,,
+TMEM70,Electron Transport Chain,-0.1668,0.0591,-0.3337,-0.302,0.1597
+TOMM20,Import & Sorting,0.6725,0.9908,0.7672,0.1077,1.2529
+TOMM20L,Import & Sorting,,,,,
+TOMM22,Import & Sorting,-0.3095,-0.3755,-0.1121,0.0675,0.049
+TOMM34,Import & Sorting,,,,,
+TOMM40,Import & Sorting,-0.2566,1.2442,1.3127,0.3965,1.3449
+TOMM40L,Import & Sorting,0.2468,0.8002,1.0981,0.1079,0.027
+TOMM7,Import & Sorting,-1.185,0.1328,0.176,-0.8416,0.3249
+TOMM70A,Import & Sorting,0.2793,0.5558,-0.7578,0.047,-0.3324
+TOP1MT,Replication & Transcription,-0.7215,0.3025,0.7198,-0.5804,2.6191
+TOP3A,Replication & Transcription,0.6644,0.5059,0.4025,-0.1333,0.5728
+TRAK1,Mitochondrial Dynamics,0.1522,0.5009,-0.0526,-0.0698,-0.7272
+TRAK2,Mitochondrial Dynamics,0.6631,-0.6838,0.5764,0.5129,-1.7929
+TRAP1,Apoptosis,0.2121,0.9731,0.2701,-0.1016,1.8111
+TRIAP1,Apoptosis,,,,,
+TRIT1,Translation,0.3024,0.5259,0.3409,-0.0435,0.3145
+TRMT10C,Translation,,,,,
+TRMT5,Translation,-0.062,0.3484,-0.8676,-0.233,-0.3941
+TRMU,Translation,-0.3364,-0.4857,0.1739,-0.3598,0.2884
+TRNT1,Translation,0.7392,0.7618,-0.0615,0.0893,0.4847
+TSFM,Translation,0.3151,0.6429,0.6765,0.2257,0.1926
+TSPO,Apoptosis,,,,,
+TSTD1,Electron Transport Chain,,,,,
+TTC19,Electron Transport Chain,0.5218,1.09,0.6852,-0.2419,0.5656
+TUFM,Translation,-0.0354,0.7929,0.7639,0.0071,1.0614
+TXN,ROS Defense,,,,,
+TXN2,ROS Defense,-0.4346,-0.4749,-0.0821,0.004,-1.0042
+TXNRD1,ROS Defense,,,,,
+TXNRD2,ROS Defense,0.3101,0.1259,1.0045,-0.2326,0.1738
+TYMS,Nucleotide Metabolism,,,,,
+UBA1,Protein Stability & Degradation,,,,,
+UCP1,Mitochondrial Carrier,,,,,
+UCP2,Mitochondrial Carrier,,,,,
+UCP3,Mitochondrial Carrier,,,,,
+UQCC,Electron Transport Chain,-0.055,0.3311,-0.3556,0.5098,-0.6619
+UQCR10,Electron Transport Chain,-0.2134,-0.1798,0.0353,0.3187,-1.2647
+UQCR11,Electron Transport Chain,-0.4773,0.6788,-0.3398,0.1504,-1.2268
+UQCRB,Electron Transport Chain,-0.6628,-0.2979,-1.4256,-0.3491,-0.2837
+UQCRC1,Electron Transport Chain,-0.3242,0.8253,0.0976,-0.205,0.894
+UQCRC2,Electron Transport Chain,0.1134,-0.0769,-0.94,-0.2907,-0.0411
+UQCRFS1,Electron Transport Chain,-0.6959,0.2601,-1.0124,0.1045,-0.2118
+UQCRH,Electron Transport Chain,-0.3963,0.1001,-1.3462,0.0251,0.5075
+UQCRQ,Electron Transport Chain,-0.1776,1.4232,0.4163,0.3332,-0.9782
+UROS,Heme Biosynthesis,-0.2312,0.5789,0.3867,0.4415,-0.7662
+USMG5,Electron Transport Chain,,,,,
+USP30,Mitochondrial Dynamics,,,,,
+VARS,Translation,,,,,
+VARS2,Translation,0.0492,0.3338,1.3139,0.5189,0.9139
+VDAC1,Import & Sorting,0.2344,0.9119,0.1951,0.5497,0.2013
+VDAC1,Apoptosis,0.2344,0.9119,0.1951,0.5497,0.2013
+VDAC2,Import & Sorting,-0.3292,-0.2711,-0.8965,-0.3124,-0.3707
+VDAC2,Apoptosis,-0.3292,-0.2711,-0.8965,-0.3124,-0.3707
+VDAC3,Import & Sorting,0.0463,-0.1133,-0.2891,-0.1939,0.5345
+VDAC3,Apoptosis,0.0463,-0.1133,-0.2891,-0.1939,0.5345
+WARS2,Translation,0.9238,0.014,0.0248,-0.14,-0.7639
+XPNPEP3,Protein Stability & Degradation,,,,,
+YARS2,Translation,0.0775,0.3811,-0.0418,-0.2611,0.5053
+YME1L1,Mitochondrial Dynamics,0.6201,0.2486,0.1866,0.4248,1.5194
+mTErf3,Translation,,,,,
+mTerf4,Translation,,,,,
+slc17a8,Mitochondrial Carrier,,,,,

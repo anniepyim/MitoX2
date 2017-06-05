@@ -10,7 +10,19 @@ if (isset($_GET["muu"])) {
 
 session_start();
 
+
 $id = session_id();
+
+$PCA_path = "data/PCA/".$id."/";
+if (!is_dir($PCA_path)){
+    mkdir($PCA_path, 0777, true);
+}
+
+$heatmap_path = "data/heatmap/".$id."/";
+if (!is_dir($heatmap_path)){
+    mkdir($heatmap_path, 0777, true);
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
