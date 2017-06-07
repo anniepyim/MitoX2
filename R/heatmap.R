@@ -23,7 +23,7 @@ for(i in 1:length(mitofunc)){
   if (nrow(subsetdata) >= 3){  
     outputname <- paste(mitofunc[i],".html",sep="")
     
-    p <- heatmaply(subsetdata,subplot_widths=c(0.9, 0.1),subplot_heights=c(0.05, 0.95),scale_fill_gradient_fun = ggplot2::scale_fill_gradient2(low = "blue", high = "red", midpoint = 0)) %>% layout(margin = list(l = 130, b = 100),xaxis=list(tickfont=list(size=7),tickangle=270),yaxis2=list(tickfont=list(size=5)))
+    p <- heatmaply(subsetdata,subplot_widths=c(0.9, 0.1),subplot_heights=c(0.1, 0.9),scale_fill_gradient_fun = ggplot2::scale_fill_gradient2(low = "blue", high = "red", midpoint = 0)) %>% layout(margin = list(l = 130, b = 100),xaxis=list(tickfont=list(size=7),tickangle=270),yaxis2=list(tickfont=list(size=5)))
     
     htmlwidgets::saveWidget(p, outputname, selfcontained=FALSE)
   }

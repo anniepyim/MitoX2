@@ -1786,8 +1786,8 @@ function issueWarning(){
     
     if ($('#selected-sample').find('option').length > 6 && flag == "SP")
         document.getElementById('warning').innerHTML="<font color=\"red\">No more than 6 samples!";
-    else if ($('#selected-sample').find('option').length > 55 && flag == "heatmap")
-        document.getElementById('warning').innerHTML="<font color=\"red\">No more than 50 samples!";
+    //else if ($('#selected-sample').find('option').length > 55 && flag == "heatmap")
+    //    document.getElementById('warning').innerHTML="<font color=\"red\">No more than 50 samples!";
     else
         document.getElementById('warning').innerHTML="";
 }
@@ -2386,7 +2386,7 @@ function heatmapcompareData(){
     });
     
     //Check for error
-    if (type != "TCGA") onError(new Error("Please select samples only from the TCGA project"));
+   // if (type != "TCGA") onError(new Error("Please select samples only from the TCGA project"));
     if ($('#selected-sample').find('option').length < 3) onError(new Error("Please add at least 3 samples"));
     if (sametype === false) onError(new Error("Please select samples from the same project"));
 
