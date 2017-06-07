@@ -46,7 +46,7 @@ for file in json_files:
 
 main.to_csv("combined.csv")
 
-cmd = "rm -R ../data/heatmap/" + ''.join(sessionid) + "/*"
+cmd = "rm -R ../data/user_uploads/" + ''.join(sessionid) + "/heatmap/*"
 os.system(cmd)
     
 cmd = "/usr/local/bin/Rscript heatmap.R " + ' '.join(sessionid)

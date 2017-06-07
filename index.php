@@ -13,12 +13,12 @@ session_start();
 
 $id = session_id();
 
-$PCA_path = "data/PCA/".$id."/";
+$PCA_path = "data/user_uploads/".$id."/PCA/";
 if (!is_dir($PCA_path)){
     mkdir($PCA_path, 0777, true);
 }
 
-$heatmap_path = "data/heatmap/".$id."/";
+$heatmap_path = "data/user_uploads/".$id."/heatmap/";
 if (!is_dir($heatmap_path)){
     mkdir($heatmap_path, 0777, true);
 }

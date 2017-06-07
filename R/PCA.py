@@ -53,7 +53,7 @@ main.to_csv("combined.csv")
 cmd = "/usr/local/bin/Rscript PCA.R "  + ''.join(sessionid) + ' ' + ' '.join(filetype) + ' ' + ' '.join(json_files)
 os.system(cmd)
 
-with open("../data/PCA/"+''.join(sessionid)+"/All Processes-pca.json") as result:
+with open("../data/user_uploads/"+''.join(sessionid)+"/PCA/All Processes-pca.json") as result:
     #result = {'success':'true','message':'The Command Completed Successfully'};
     print 'Content-Type: application/json\n\n'
     #print(json.load(result))
