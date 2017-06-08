@@ -1,11 +1,15 @@
 <?php 
+if ($_COOKIE['mitoviz_user_upload']!='') { 
+        session_id($_COOKIE['mitoviz_user_upload']);
+}
+
+if (isset($_GET["muu"])) {
+        session_id($_GET["muu"]);
+}
+
 session_start();
 
 $id = session_id();
-$compare = $_GET['compare'];
-
-if($compare){
-    $jsarray =implode(",", $compare);
     
 $PCA_path = "data/user_uploads/".$id."/PCA/";
 if (!is_dir($PCA_path)){
@@ -16,6 +20,11 @@ $heatmap_path = "data/user_uploads/".$id."/heatmap/";
 if (!is_dir($heatmap_path)){
     mkdir($heatmap_path, 0777, true);
 }
+
+$compare = $_GET['compare'];
+
+if($compare){
+    $jsarray =implode(",", $compare);
 
 }
 ?>

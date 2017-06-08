@@ -1,9 +1,7 @@
 <?php
 $id = $_GET['id'];
-
 ?>
-<!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,22 +18,14 @@ $id = $_GET['id'];
         <![endif]-->
         
         <!-- Vis CSS -->
-        <link href='./css/App.css' rel='stylesheet' type='text/css'>
-        <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
-        <script src="./js/bootstrap.min.js"></script>
-        
-        <link rel="icon" type="image/png" href="img/logos/favicon.png">
-        
+        <link href='css/App.css' rel='stylesheet' type='text/css'>       
+        <link rel="icon" type="image/png" href="img/logos/favicon.png">   
     </head>
     
-    <body>
-    </body>
+    <body></body>
     <!-- App Script  -->
-    <script data-my_var_1="<?php echo $id; ?>" data-my_var_2="./data/zzfiles/links.json" src="./js/App.js"></script>
+    <script data-my_var_1="<?php echo $id; ?>" data-my_var_2="./data/zzfiles/links.json" src="js/App.js"></script>
     <script>
-        
-        
-        
         App.init({});
     </script>
 </html>
