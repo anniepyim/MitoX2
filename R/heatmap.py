@@ -44,11 +44,12 @@ for file in json_files:
         main = main.join(df)
 
 
-main.to_csv("combined.csv")
-
 cmd = "rm -R ../data/user_uploads/" + ''.join(sessionid) + "/heatmap/*"
 os.system(cmd)
-    
+
+targetpath= "../data/user_uploads/" + ''.join(sessionid) + "/combined-PCA.csv"
+main.to_csv(targetpath)
+
 cmd = "/usr/local/bin/Rscript heatmap.R " + ' '.join(sessionid)
 os.system(cmd)
 

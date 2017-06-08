@@ -43,12 +43,12 @@ for file in json_files:
         main = df
     else:
         main = main.join(df)
-
-
-main.to_csv("combined.csv")
     
-#cmd = "rm -R ../data/PCA/" + ''.join(sessionid) + "/*"
-#os.system(cmd)
+cmd = "rm -R ../data/PCA/" + ''.join(sessionid) + "/*"
+os.system(cmd)
+
+targetpath= "../data/user_uploads/" + ''.join(sessionid) + "/combined-PCA.csv"
+main.to_csv(targetpath)
     
 cmd = "/usr/local/bin/Rscript PCA.R "  + ''.join(sessionid) + ' ' + ' '.join(filetype) + ' ' + ' '.join(json_files)
 os.system(cmd)

@@ -3,8 +3,9 @@ library(heatmaply)
 
 args = commandArgs(trailingOnly=TRUE)
 sessionid = args[1]
-data <- read.csv("combined.csv", header=TRUE,sep=",",check.names="FALSE")
-targetoutpath = paste("../data/user_uploads/",sessionid,"/heatmap/",sep="")
+targetin <- paste("../data/user_uploads/",sessionid,"/combined-heatmap.csv",sep="")
+data <- read.csv(targetin, header=TRUE,sep=",",check.names="FALSE")
+targetoutpath <- paste("../data/user_uploads/",sessionid,"/heatmap/",sep="")
 
 setwd(targetoutpath)
 mitofunc <- unique(data[,"process"])

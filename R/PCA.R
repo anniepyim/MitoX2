@@ -4,8 +4,9 @@ library(jsonlite)
 
 args = commandArgs(trailingOnly=TRUE)
 sessionid = args[1]
-data <- read.csv("combined.csv", header=TRUE,sep=",",check.names="FALSE")
-targetoutpath = paste("../data/user_uploads/",sessionid,"/PCA/",sep="")
+targetin <- paste("../data/user_uploads/",sessionid,"/combined-PCA.csv",sep="")
+data <- read.csv(targetin, header=TRUE,sep=",",check.names="FALSE")
+targetoutpath <- paste("../data/user_uploads/",sessionid,"/PCA/",sep="")
 
 # Get filenames and type of files from arguments
 if (length(args) <= 1) {
