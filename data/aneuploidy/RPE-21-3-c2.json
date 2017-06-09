@@ -52,6 +52,201 @@
   "mutation": "chrNA 10285825 T/G: MODIFIER: 3_prime_UTR_variant"
  },
  {
+  "gene": "MT-ATP6",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "MT",
+  "process": "Electron Transport Chain (MT)",
+  "gene_function": "MT-ATP6: Mitochondrially encoded ATP synthase 6 essential component of complex V",
+  "EMBL_ID": "ENSG00000198899",
+  "Normal": 204174,
+  "Abnormal": 219800,
+  "log2": 0.106393,
+  "pvalue": 0.2166,
+  "mutation": ""
+ },
+ {
+  "gene": "MT-ATP8",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "MT",
+  "process": "Electron Transport Chain (MT)",
+  "gene_function": "MT-ATP8: Mitochondrially encoded ATP synthase 6 essential component of complex V",
+  "EMBL_ID": "ENSG00000228253",
+  "Normal": 133432,
+  "Abnormal": 130218,
+  "log2": -0.0351706,
+  "pvalue": 0.86345,
+  "mutation": ""
+ },
+ {
+  "gene": "MT-CO1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "MT",
+  "process": "Electron Transport Chain (MT)",
+  "gene_function": "MT-CO1: Mitochondrially encoded cytochrome c oxidase I essential component of complex IV",
+  "EMBL_ID": "ENSG00000198804",
+  "Normal": 89982,
+  "Abnormal": 65511.5,
+  "log2": -0.457888,
+  "pvalue": 0.00005,
+  "mutation": ""
+ },
+ {
+  "gene": "MT-CO2",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "MT",
+  "process": "Electron Transport Chain (MT)",
+  "gene_function": "MT-CO2: Mitochondrially encoded cytochrome c oxidase II essential component of complex IV",
+  "EMBL_ID": "ENSG00000198712",
+  "Normal": 133241,
+  "Abnormal": 133267,
+  "log2": 0.000289668,
+  "pvalue": 0.9689,
+  "mutation": ""
+ },
+ {
+  "gene": "MT-CO3",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "MT",
+  "process": "Electron Transport Chain (MT)",
+  "gene_function": "MT-CO3: Mitochondrially encoded cytochrome c oxidase III essential component of complex IV",
+  "EMBL_ID": "ENSG00000198938",
+  "Normal": 133985,
+  "Abnormal": 148287,
+  "log2": 0.14633,
+  "pvalue": 0.1763,
+  "mutation": ""
+ },
+ {
+  "gene": "MT-CYB",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "MT",
+  "process": "Electron Transport Chain (MT)",
+  "gene_function": "MT-CYB: Essential component of complex III transfers electrons from iron sulphur protein to cytochrome c",
+  "EMBL_ID": "ENSG00000198727",
+  "Normal": 73397.5,
+  "Abnormal": 59130.2,
+  "log2": -0.311836,
+  "pvalue": 0.00005,
+  "mutation": ""
+ },
+ {
+  "gene": "MT-ND1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "MT",
+  "process": "Electron Transport Chain (MT)",
+  "gene_function": "MT-ND1: Mitochondrially encoded NADH dehydrogenase 1 part of enzyme complex I",
+  "EMBL_ID": "ENSG00000198888",
+  "Normal": 88072.5,
+  "Abnormal": 117714,
+  "log2": 0.418526,
+  "pvalue": 0.00005,
+  "mutation": ""
+ },
+ {
+  "gene": "MT-ND2",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "MT",
+  "process": "Electron Transport Chain (MT)",
+  "gene_function": "MT-ND2: Mitochondrially encoded NADH dehydrogenase 2 part of enzyme complex I",
+  "EMBL_ID": "ENSG00000198763",
+  "Normal": 104923,
+  "Abnormal": 138635,
+  "log2": 0.401953,
+  "pvalue": 0.00005,
+  "mutation": ""
+ },
+ {
+  "gene": "MT-ND3",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "MT",
+  "process": "Electron Transport Chain (MT)",
+  "gene_function": "MT-ND3: Mitochondrially encoded NADH dehydrogenase 3 part of enzyme complex I",
+  "EMBL_ID": "ENSG00000198840",
+  "Normal": 275179,
+  "Abnormal": 211353,
+  "log2": -0.380714,
+  "pvalue": 0.00005,
+  "mutation": ""
+ },
+ {
+  "gene": "MT-ND4",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "MT",
+  "process": "Electron Transport Chain (MT)",
+  "gene_function": "MT-ND4: Mitochondrially encoded NADH dehydrogenase 4 part of enzyme complex I",
+  "EMBL_ID": "ENSG00000198886",
+  "Normal": 110092,
+  "Abnormal": 121708,
+  "log2": 0.144707,
+  "pvalue": 0.00005,
+  "mutation": ""
+ },
+ {
+  "gene": "MT-ND4L",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "MT",
+  "process": "Electron Transport Chain (MT)",
+  "gene_function": "MT-ND4L: Mitochondrially encoded NADH dehydrogenase 4L part of enzyme complex I",
+  "EMBL_ID": "ENSG00000212907",
+  "Normal": 78424.6,
+  "Abnormal": 88569.9,
+  "log2": 0.17551,
+  "pvalue": 0.27555,
+  "mutation": ""
+ },
+ {
+  "gene": "MT-ND5",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "MT",
+  "process": "Electron Transport Chain (MT)",
+  "gene_function": "MT-ND5: Mitochondrially encoded NADH dehydrogenase 5 part of enzyme complex I",
+  "EMBL_ID": "ENSG00000198786",
+  "Normal": 33188.5,
+  "Abnormal": 23189.1,
+  "log2": -0.517234,
+  "pvalue": 0.00005,
+  "mutation": ""
+ },
+ {
+  "gene": "MT-ND6",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "MT",
+  "process": "Electron Transport Chain (MT)",
+  "gene_function": "MT-ND6: Mitochondrially encoded NADH dehydrogenase 6 part of enzyme complex I",
+  "EMBL_ID": "ENSG00000198695",
+  "Normal": 32176.7,
+  "Abnormal": 18882.3,
+  "log2": -0.768977,
+  "pvalue": 0.00005,
+  "mutation": ""
+ },
+ {
+  "gene": "MT-RNR1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "MT",
+  "process": "Translation (MT)",
+  "gene_function": "MT-RNR1: mitochondrially encoded 12S RNA",
+  "EMBL_ID": "ENSG00000211459",
+  "Normal": 19748.7,
+  "Abnormal": 21314.8,
+  "log2": 0.110104,
+  "pvalue": 0.00005,
+  "mutation": ""
+ },
+ {
+  "gene": "MT-RNR2",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "MT",
+  "process": "Translation (MT)",
+  "gene_function": "MT-RNR2: mitochondrially encoded 16S RNA",
+  "EMBL_ID": "ENSG00000210082",
+  "Normal": 83123.9,
+  "Abnormal": 76768.6,
+  "log2": -0.114747,
+  "pvalue": 0.00005,
+  "mutation": ""
+ },
+ {
   "gene": "PUSL1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -114,6 +309,19 @@
   "Abnormal": 5.4307,
   "log2": -0.634828,
   "pvalue": 0.02895,
+  "mutation": ""
+ },
+ {
+  "gene": "KIF1B",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "1",
+  "process": "Mitochondrial Dynamics",
+  "gene_function": "KIF1B: Involved in the mitochondrial movement, have role in the mitochondrial distribution in neurons",
+  "EMBL_ID": "ENSG00000054523",
+  "Normal": 7.57323,
+  "Abnormal": 7.85315,
+  "log2": 0.0523633,
+  "pvalue": 0.85165,
   "mutation": ""
  },
  {
@@ -195,6 +403,19 @@
   "mutation": ""
  },
  {
+  "gene": "UROD",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "1",
+  "process": "Heme Biosynthesis",
+  "gene_function": "UROD: Uroporphyrinogen III decarboxylase catalyzes stepwise decarboxylation of the Uroporphyrinogen III",
+  "EMBL_ID": "ENSG00000126088",
+  "Normal": 106.295,
+  "Abnormal": 134.105,
+  "log2": 0.335278,
+  "pvalue": 0.2237,
+  "mutation": ""
+ },
+ {
   "gene": "UQCRH",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -237,7 +458,7 @@
   "gene": "CPT2",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Degradation",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
   "gene_function": "carnitine O-palmitoyltransferase activity",
   "EMBL_ID": "NA",
   "Normal": 6.77695,
@@ -276,13 +497,26 @@
   "gene": "ACADM",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Degradation",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
   "gene_function": "acyl-CoA dehydrogenase activity; flavin adenine dinucleotide binding",
   "EMBL_ID": "NA",
   "Normal": 16.1097,
   "Abnormal": 11.1496,
   "log2": -0.53093,
   "pvalue": 0.05085,
+  "mutation": ""
+ },
+ {
+  "gene": "SH3GLB1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "1",
+  "process": "Mitochondrial Dynamics",
+  "gene_function": "SH3GLB1: Involved in the mitochondrial fission, proposed to be involved in the lipid remodeling of the outer membrane during fission",
+  "EMBL_ID": "ENSG00000097033",
+  "Normal": 18.0817,
+  "Abnormal": 16.5645,
+  "log2": -0.126438,
+  "pvalue": 0.63655,
   "mutation": ""
  },
  {
@@ -351,11 +585,24 @@
   "mutation": ""
  },
  {
+  "gene": "SLC27A3",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "1",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
+  "gene_function": "SLC27A3: Readily converts the transported very long chain fatty acids to acyl-CoAs",
+  "EMBL_ID": "ENSG00000143554",
+  "Normal": 0.390059,
+  "Abnormal": 1.03483,
+  "log2": 1.40763,
+  "pvalue": 0.0051,
+  "mutation": ""
+ },
+ {
   "gene": "MTX1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Import & Sorting",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 32.1459,
   "Abnormal": 60.8668,
@@ -572,6 +819,19 @@
   "mutation": ""
  },
  {
+  "gene": "C1orf31",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "1",
+  "process": "Electron Transport Chain",
+  "gene_function": "C1orf31: COA6 Complex IV assembly factor",
+  "EMBL_ID": "ENSG00000168275",
+  "Normal": 39.8354,
+  "Abnormal": 34.2453,
+  "log2": -0.218147,
+  "pvalue": 0.44845,
+  "mutation": ""
+ },
+ {
   "gene": "COX20",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -624,6 +884,19 @@
   "mutation": ""
  },
  {
+  "gene": "ENO1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "1",
+  "process": "Glycolysis",
+  "gene_function": "ENO1: Catalyzes the dehydration of 2-phosphoglycerate to phosphoenolpyruate",
+  "EMBL_ID": "ENSG00000074800",
+  "Normal": 1539.25,
+  "Abnormal": 1444.54,
+  "log2": -0.0916199,
+  "pvalue": 0.8116,
+  "mutation": ""
+ },
+ {
   "gene": "MTOR",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -634,6 +907,19 @@
   "Abnormal": 9.00997,
   "log2": 0.120061,
   "pvalue": 0.65535,
+  "mutation": ""
+ },
+ {
+  "gene": "CASP9",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "1",
+  "process": "Apoptosis",
+  "gene_function": "CASP9: Initiator caspase recruited by Apoptosome",
+  "EMBL_ID": "ENSG00000132906",
+  "Normal": 3.75879,
+  "Abnormal": 3.80485,
+  "log2": 0.0175717,
+  "pvalue": 0.95225,
   "mutation": ""
  },
  {
@@ -692,13 +978,39 @@
   "gene": "MECR",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Elongation",
+  "process": "Fatty Acid Biosynthesis and Elongation",
   "gene_function": "trans-2-enoyl-CoA reductase (NADPH) activity; zinc ion binding",
   "EMBL_ID": "NA",
   "Normal": 7.17891,
   "Abnormal": 6.38143,
   "log2": -0.169885,
   "pvalue": 0.5362,
+  "mutation": ""
+ },
+ {
+  "gene": "FABP3",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "1",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
+  "gene_function": "FABP3: Fatty acid binding proteins are also involved in the import and export of fatty acids",
+  "EMBL_ID": "ENSG00000121769",
+  "Normal": 0.419649,
+  "Abnormal": 0.754324,
+  "log2": 0.846001,
+  "pvalue": 0.1379,
+  "mutation": ""
+ },
+ {
+  "gene": "YARS",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "1",
+  "process": "Translation",
+  "gene_function": "YARS: Aminoacyl-tRNA synthetases that catalyze the aminoacylation of tRNA by their cognate amino acid",
+  "EMBL_ID": "ENSG00000134684",
+  "Normal": 68.5209,
+  "Abnormal": 58.4306,
+  "log2": -0.229819,
+  "pvalue": 0.44835,
   "mutation": ""
  },
  {
@@ -728,6 +1040,19 @@
   "mutation": ""
  },
  {
+  "gene": "YRDC",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "1",
+  "process": "Replication & Transcription",
+  "gene_function": "YRDC: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
+  "EMBL_ID": "ENSG00000196449",
+  "Normal": 18.32,
+  "Abnormal": 15.3127,
+  "log2": -0.258693,
+  "pvalue": 0.58125,
+  "mutation": ""
+ },
+ {
   "gene": "TRIT1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -738,6 +1063,32 @@
   "Abnormal": 9.20005,
   "log2": 0.193305,
   "pvalue": 0.479,
+  "mutation": ""
+ },
+ {
+  "gene": "SLC2A1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "1",
+  "process": "Glycolysis",
+  "gene_function": "SLC2A1: A major glucose transporter in the mammalian blood-brain barrier",
+  "EMBL_ID": "ENSG00000117394",
+  "Normal": 140.068,
+  "Abnormal": 157.248,
+  "log2": 0.166916,
+  "pvalue": 0.5828,
+  "mutation": ""
+ },
+ {
+  "gene": "MUTYH",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "1",
+  "process": "Replication & Transcription",
+  "gene_function": "MUTYH: Involved in the mitochondrial DNA base excision repair",
+  "EMBL_ID": "ENSG00000132781",
+  "Normal": 5.85188,
+  "Abnormal": 7.81555,
+  "log2": 0.417446,
+  "pvalue": 0.4532,
   "mutation": ""
  },
  {
@@ -758,7 +1109,7 @@
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Electron Transport Chain",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 23.6521,
   "Abnormal": 22.7905,
@@ -780,6 +1131,19 @@
   "mutation": ""
  },
  {
+  "gene": "SELRC1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "1",
+  "process": "Electron Transport Chain",
+  "gene_function": "SELRC1: COA7 Complex IV assembly factor",
+  "EMBL_ID": "ENSG00000162377",
+  "Normal": 12.8147,
+  "Abnormal": 11.0691,
+  "log2": -0.21126,
+  "pvalue": 0.4376,
+  "mutation": ""
+ },
+ {
   "gene": "ECHDC2",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -796,7 +1160,7 @@
   "gene": "ECHDC2",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Degradation",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
   "gene_function": "delta5-delta2; 4-dienoyl-CoA isomerase activity",
   "EMBL_ID": "NA",
   "Normal": 1.9644,
@@ -816,6 +1180,19 @@
   "Abnormal": 2.0404,
   "log2": -0.0605703,
   "pvalue": 0.8533,
+  "mutation": ""
+ },
+ {
+  "gene": "OMA1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "1",
+  "process": "Mitochondrial Dynamics",
+  "gene_function": "OMA1: Involved in the mitochondrial fusion, know to induce proteolytic inactivation of OPA1",
+  "EMBL_ID": "ENSG00000162600",
+  "Normal": 5.11779,
+  "Abnormal": 4.03687,
+  "log2": -0.342285,
+  "pvalue": 0.23565,
   "mutation": ""
  },
  {
@@ -842,6 +1219,19 @@
   "Abnormal": 8.04009,
   "log2": -0.412271,
   "pvalue": 0.15,
+  "mutation": ""
+ },
+ {
+  "gene": "GCLM",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "1",
+  "process": "ROS defense",
+  "gene_function": "GCLM: Catalyzes the first step reaction which combines cystein and glutamate to form glutamylcysteine",
+  "EMBL_ID": "ENSG00000023909",
+  "Normal": 12.3957,
+  "Abnormal": 10.692,
+  "log2": -0.213316,
+  "pvalue": 0.4244,
   "mutation": ""
  },
  {
@@ -897,6 +1287,19 @@
   "mutation": ""
  },
  {
+  "gene": "MCL1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "1",
+  "process": "Apoptosis",
+  "gene_function": "MCL1: Bcl-2 family member Anti-apoptotic proteins",
+  "EMBL_ID": "ENSG00000143384",
+  "Normal": 49.7744,
+  "Abnormal": 43.8999,
+  "log2": -0.181188,
+  "pvalue": 0.51065,
+  "mutation": ""
+ },
+ {
   "gene": "MRPL9",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -936,6 +1339,19 @@
   "mutation": ""
  },
  {
+  "gene": "BRP44",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "1",
+  "process": "Tricarboxylic Acid Cycle",
+  "gene_function": "BRP44: Mitochondrial pyruvate carrier 2",
+  "EMBL_ID": "ENSG00000143158",
+  "Normal": 22.6341,
+  "Abnormal": 16.1303,
+  "log2": -0.488732,
+  "pvalue": 0.2746,
+  "mutation": ""
+ },
+ {
   "gene": "MRPS14",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -959,6 +1375,32 @@
   "Abnormal": 9.36625,
   "log2": -1.0683,
   "pvalue": 0.0002,
+  "mutation": ""
+ },
+ {
+  "gene": "RNASEL",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "1",
+  "process": "Translation",
+  "gene_function": "RNASEL: Modulate the stability of mitochondrial mRNAsby interacting with MTIF2",
+  "EMBL_ID": "ENSG00000135828",
+  "Normal": 0.449075,
+  "Abnormal": 0.550806,
+  "log2": 0.294588,
+  "pvalue": 0.43275,
+  "mutation": ""
+ },
+ {
+  "gene": "GLRX2",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "1",
+  "process": "ROS defense",
+  "gene_function": "GLRX2: Involved in the control of mitochndrial protein gluthathionylation",
+  "EMBL_ID": "ENSG00000023572",
+  "Normal": 27.0368,
+  "Abnormal": 24.0979,
+  "log2": -0.166019,
+  "pvalue": 0.5573,
   "mutation": ""
  },
  {
@@ -1017,7 +1459,7 @@
   "gene": "FH",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "TCA Cycle",
+  "process": "Tricarboxylic Acid Cycle",
   "gene_function": "fumarate hydratase activity",
   "EMBL_ID": "NA",
   "Normal": 72.1561,
@@ -1037,6 +1479,19 @@
   "Abnormal": 7.75496,
   "log2": -0.616311,
   "pvalue": 0.02975,
+  "mutation": ""
+ },
+ {
+  "gene": "PFKP",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "10",
+  "process": "Glycolysis",
+  "gene_function": "PFKP: Catalyzes the irreversible conversion of fructose-6-phosphate to fructose-1,6-bisphosphate",
+  "EMBL_ID": "ENSG00000067057",
+  "Normal": 156.922,
+  "Abnormal": 122.748,
+  "log2": -0.354351,
+  "pvalue": 0.2239,
   "mutation": ""
  },
  {
@@ -1102,6 +1557,19 @@
   "Abnormal": 12.6293,
   "log2": -0.883613,
   "pvalue": 0.00105,
+  "mutation": ""
+ },
+ {
+  "gene": "CDK1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "10",
+  "process": "Apoptosis",
+  "gene_function": "CDK1: Can Inhibit CASP9 activity and also involved in the phosphorylation of DNM1L to increase fission",
+  "EMBL_ID": "ENSG00000170312",
+  "Normal": 57.1594,
+  "Abnormal": 33.1356,
+  "log2": -0.786608,
+  "pvalue": 0.0029,
   "mutation": ""
  },
  {
@@ -1212,8 +1680,8 @@
   "gene": "VDAC2",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Import & Sorting",
-  "gene_function": "cation channel activity; porin activity; channel activity; voltage-gated anion channel activity",
+  "process": "Apoptosis",
+  "gene_function": "voltage-gated anion channel activity",
   "EMBL_ID": "NA",
   "Normal": 238.186,
   "Abnormal": 211.14,
@@ -1225,8 +1693,8 @@
   "gene": "VDAC2",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Apoptosis",
-  "gene_function": "voltage-gated anion channel activity",
+  "process": "Import & Sorting",
+  "gene_function": "cation channel activity; porin activity; channel activity; voltage-gated anion channel activity",
   "EMBL_ID": "NA",
   "Normal": 238.186,
   "Abnormal": 211.14,
@@ -1274,6 +1742,19 @@
   "mutation": ""
  },
  {
+  "gene": "PGAM1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "10",
+  "process": "Glycolysis",
+  "gene_function": "PGAM1: Catalyzes the reversible reaction of 3-phosphoglycerate to 2-phosphoglycerate",
+  "EMBL_ID": "ENSG00000171314",
+  "Normal": 608.903,
+  "Abnormal": 431.549,
+  "log2": -0.496686,
+  "pvalue": 0.1137,
+  "mutation": ""
+ },
+ {
   "gene": "C10orf2",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -1316,13 +1797,26 @@
   "gene": "ACSL5",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Biosynthesis",
+  "process": "Fatty Acid Biosynthesis and Elongation",
   "gene_function": "long-chain fatty acid-CoA ligase activity",
   "EMBL_ID": "NA",
   "Normal": 0.752131,
   "Abnormal": 0.110675,
   "log2": -2.76466,
   "pvalue": 0.00005,
+  "mutation": ""
+ },
+ {
+  "gene": "CASP7",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "10",
+  "process": "Apoptosis",
+  "gene_function": "CASP7: Executioner caspases leading to apoptosis",
+  "EMBL_ID": "ENSG00000165806",
+  "Normal": 8.59611,
+  "Abnormal": 6.8391,
+  "log2": -0.329878,
+  "pvalue": 0.2233,
   "mutation": ""
  },
  {
@@ -1342,7 +1836,7 @@
   "gene": "ACADSB",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Degradation",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
   "gene_function": "acyl-CoA dehydrogenase activity; flavin adenine dinucleotide binding; RNA polymerase II transcription cofactor activity; short-branched-chain-acyl-CoA dehydrogenase activity",
   "EMBL_ID": "NA",
   "Normal": 4.40709,
@@ -1401,6 +1895,19 @@
   "Abnormal": 2.8787,
   "log2": -0.203772,
   "pvalue": 0.45125,
+  "mutation": ""
+ },
+ {
+  "gene": "KIF5B",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "10",
+  "process": "Mitochondrial Dynamics",
+  "gene_function": "KIF5B: Involved in the mitochondrial movement, have role in the mitochondrial distribution in neurons",
+  "EMBL_ID": "ENSG00000170759",
+  "Normal": 49.7217,
+  "Abnormal": 59.0624,
+  "log2": 0.248364,
+  "pvalue": 0.40285,
   "mutation": ""
  },
  {
@@ -1534,6 +2041,32 @@
   "mutation": ""
  },
  {
+  "gene": "MMS19",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "10",
+  "process": "Fe-S cluster biosynthesis",
+  "gene_function": "MMS19: Cytosolic Fe/S protein assembly targeting factor",
+  "EMBL_ID": "ENSG00000155229",
+  "Normal": 30.6669,
+  "Abnormal": 32.5499,
+  "log2": 0.0859713,
+  "pvalue": 0.7456,
+  "mutation": ""
+ },
+ {
+  "gene": "GOT1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "10",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
+  "gene_function": "GOT1: Plasma membrane fatty acid binding protein",
+  "EMBL_ID": "ENSG00000120053",
+  "Normal": 52.9864,
+  "Abnormal": 55.1901,
+  "log2": 0.0587879,
+  "pvalue": 0.8227,
+  "mutation": ""
+ },
+ {
   "gene": "SLC25A28",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -1655,7 +2188,7 @@
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Apoptosis",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 47.251,
   "Abnormal": 39.2909,
@@ -1667,7 +2200,7 @@
   "gene": "ECHS1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Elongation",
+  "process": "Fatty Acid Biosynthesis and Elongation",
   "gene_function": "enoyl-CoA hydratase activity",
   "EMBL_ID": "NA",
   "Normal": 168.546,
@@ -1703,6 +2236,32 @@
   "mutation": ""
  },
  {
+  "gene": "LDHA",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "11",
+  "process": "Glycolysis",
+  "gene_function": "LDHA: Catalyzes the interconversion of pyruvate to lactate and back",
+  "EMBL_ID": "ENSG00000134333",
+  "Normal": 647.668,
+  "Abnormal": 614.669,
+  "log2": -0.0754433,
+  "pvalue": 0.82205,
+  "mutation": ""
+ },
+ {
+  "gene": "EIF3M",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "11",
+  "process": "Apoptosis",
+  "gene_function": "EIF3M: PCI domain containing protein 1 can negatively regulate CASP9 activity",
+  "EMBL_ID": "ENSG00000149100",
+  "Normal": 108.487,
+  "Abnormal": 83.7757,
+  "log2": -0.372918,
+  "pvalue": 0.2371,
+  "mutation": ""
+ },
+ {
   "gene": "CAT",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -1713,6 +2272,19 @@
   "Abnormal": 14.8476,
   "log2": -0.28779,
   "pvalue": 0.28125,
+  "mutation": ""
+ },
+ {
+  "gene": "PDHX",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "11",
+  "process": "Tricarboxylic Acid Cycle",
+  "gene_function": "PDHX: Catalyzes the conversion of pyruvate to acetyl coenzyme A",
+  "EMBL_ID": "ENSG00000110435",
+  "Normal": 9.62382,
+  "Abnormal": 8.13917,
+  "log2": -0.241728,
+  "pvalue": 0.5037,
   "mutation": ""
  },
  {
@@ -1807,6 +2379,19 @@
   "mutation": ""
  },
  {
+  "gene": "GSTP1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "11",
+  "process": "ROS defense",
+  "gene_function": "GSTP1: Mitochondrial gluthathione-S-transferases through gluthothione conjugation or proxide reduction detoxify harmful byproducts",
+  "EMBL_ID": "ENSG00000084207",
+  "Normal": 600.66,
+  "Abnormal": 953.722,
+  "log2": 0.66702,
+  "pvalue": 0.03765,
+  "mutation": ""
+ },
+ {
   "gene": "NDUFV1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -1846,6 +2431,19 @@
   "mutation": ""
  },
  {
+  "gene": "TMEM126B",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "11",
+  "process": "Electron Transport Chain",
+  "gene_function": "TMEM126B: Component of the mitochondrial complex I assembly complex",
+  "EMBL_ID": "ENSG00000171204",
+  "Normal": 30.3299,
+  "Abnormal": 27.1662,
+  "log2": -0.158927,
+  "pvalue": 0.57205,
+  "mutation": ""
+ },
+ {
   "gene": "ACAT1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -1862,7 +2460,7 @@
   "gene": "ACAT1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Degradation",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
   "gene_function": "acetyl-CoA C-acyltransferase activity",
   "EMBL_ID": "NA",
   "Normal": 33.6786,
@@ -1937,6 +2535,19 @@
   "mutation": ""
  },
  {
+  "gene": "HMBS",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "11",
+  "process": "Heme Biosynthesis",
+  "gene_function": "HMBS: Hydroxymethylbilane synthase catalyzes head to tail condensation of four PBG and subsequent deamination to form a linear tetrapyrrole, Hydroxymethylbilane",
+  "EMBL_ID": "ENSG00000256269",
+  "Normal": 24.494,
+  "Abnormal": 32.1993,
+  "log2": 0.394606,
+  "pvalue": 0.14115,
+  "mutation": ""
+ },
+ {
   "gene": "FOXRED1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -1947,6 +2558,19 @@
   "Abnormal": 11.926,
   "log2": -0.052857,
   "pvalue": 0.84355,
+  "mutation": ""
+ },
+ {
+  "gene": "ACAD8",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "11",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
+  "gene_function": "ACAD8: Involved in the caatabolism of fatty acids and branched chain aminoacid valine",
+  "EMBL_ID": "ENSG00000151498",
+  "Normal": 7.47823,
+  "Abnormal": 6.20381,
+  "log2": -0.269541,
+  "pvalue": 0.323,
   "mutation": ""
  },
  {
@@ -1986,6 +2610,19 @@
   "Abnormal": 9.05938,
   "log2": 0.054251,
   "pvalue": 0.9212,
+  "mutation": ""
+ },
+ {
+  "gene": "AMBRA1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "11",
+  "process": "Mitochondrial Dynamics",
+  "gene_function": "AMBRA1: Involved in the mitophagy, translocates to the mitochondria and facilitate phagophore formation",
+  "EMBL_ID": "ENSG00000110497",
+  "Normal": 7.1108,
+  "Abnormal": 6.29339,
+  "log2": -0.176174,
+  "pvalue": 0.5034,
   "mutation": ""
  },
  {
@@ -2080,6 +2717,19 @@
   "mutation": ""
  },
  {
+  "gene": "TRMT112",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "11",
+  "process": "Replication & Transcription",
+  "gene_function": "TRMT112: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
+  "EMBL_ID": "ENSG00000173113",
+  "Normal": 332.318,
+  "Abnormal": 440.149,
+  "log2": 0.405429,
+  "pvalue": 0.2333,
+  "mutation": ""
+ },
+ {
   "gene": "SLC25A45",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -2122,7 +2772,7 @@
   "gene": "CPT1A",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Degradation",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
   "gene_function": "carnitine O-palmitoyltransferase activity",
   "EMBL_ID": "NA",
   "Normal": 9.77482,
@@ -2142,6 +2792,19 @@
   "Abnormal": 84.278,
   "log2": 0.524304,
   "pvalue": 0.0642,
+  "mutation": ""
+ },
+ {
+  "gene": "CHCHD8",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "11",
+  "process": "Electron Transport Chain",
+  "gene_function": "CHCHD8: COA4 Complex IV assembly factor",
+  "EMBL_ID": "ENSG00000181924",
+  "Normal": 80.7694,
+  "Abnormal": 103.977,
+  "log2": 0.364377,
+  "pvalue": 0.1768,
   "mutation": ""
  },
  {
@@ -2223,6 +2886,19 @@
   "mutation": ""
  },
  {
+  "gene": "PUS3",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "11",
+  "process": "Replication & Transcription",
+  "gene_function": "PUS3: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
+  "EMBL_ID": "ENSG00000110060",
+  "Normal": 5.21902,
+  "Abnormal": 4.823,
+  "log2": -0.113847,
+  "pvalue": 0.74565,
+  "mutation": ""
+ },
+ {
   "gene": "RPUSD4",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -2246,6 +2922,45 @@
   "Abnormal": 40.8963,
   "log2": -0.819615,
   "pvalue": 0.00175,
+  "mutation": ""
+ },
+ {
+  "gene": "GAPDH",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "12",
+  "process": "Glycolysis",
+  "gene_function": "GAPDH: Catalyzes the reversible oxidative phosphorylation of glyceraldehyde-3-phosphate and may also inhibit Caspase independent cell death in apoptosis",
+  "EMBL_ID": "ENSG00000111640",
+  "Normal": 6214.22,
+  "Abnormal": 6871.8,
+  "log2": 0.145114,
+  "pvalue": 0.7873,
+  "mutation": ""
+ },
+ {
+  "gene": "TPI1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "12",
+  "process": "Glycolysis",
+  "gene_function": "TPI1: Catalyzes the isomerization of glyceraldehydes 3-phosphate and dihydroxy-acetone phosphate",
+  "EMBL_ID": "ENSG00000111669",
+  "Normal": 1112.32,
+  "Abnormal": 758.18,
+  "log2": -0.552961,
+  "pvalue": 0.1024,
+  "mutation": ""
+ },
+ {
+  "gene": "ENO2",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "12",
+  "process": "Glycolysis",
+  "gene_function": "ENO2: Catalyzes the dehydration of 2-phosphoglycerate to phosphoenolpyruate",
+  "EMBL_ID": "ENSG00000111674",
+  "Normal": 49.7169,
+  "Abnormal": 43.2784,
+  "log2": -0.200089,
+  "pvalue": 0.44105,
   "mutation": ""
  },
  {
@@ -2291,8 +3006,8 @@
   "gene": "DNM1L",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Mitochondrial Dynamics",
-  "gene_function": "actin binding; GTP binding; GTPase activity; microtubule binding; microtubule motor activity",
+  "process": "Apoptosis",
+  "gene_function": "GTP binding; GTPase activity",
   "EMBL_ID": "NA",
   "Normal": 28.6036,
   "Abnormal": 16.8818,
@@ -2304,8 +3019,8 @@
   "gene": "DNM1L",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Apoptosis",
-  "gene_function": "GTP binding; GTPase activity",
+  "process": "Mitochondrial Dynamics",
+  "gene_function": "actin binding; GTP binding; GTPase activity; microtubule binding; microtubule motor activity",
   "EMBL_ID": "NA",
   "Normal": 28.6036,
   "Abnormal": 16.8818,
@@ -2314,11 +3029,24 @@
   "mutation": ""
  },
  {
+  "gene": "PFKM",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "12",
+  "process": "Glycolysis",
+  "gene_function": "PFKM: Catalyzes the phosphorylation of fructose-6-phosphate to fructose-1,6-bisphosphate",
+  "EMBL_ID": "ENSG00000152556",
+  "Normal": 47.9794,
+  "Abnormal": 29.5437,
+  "log2": -0.699563,
+  "pvalue": 0.0116,
+  "mutation": ""
+ },
+ {
   "gene": "COX14",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Electron Transport Chain",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 79.7486,
   "Abnormal": 52.0683,
@@ -2431,6 +3159,19 @@
   "mutation": ""
  },
  {
+  "gene": "APAF1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "12",
+  "process": "Apoptosis",
+  "gene_function": "APAF1: Binds CASP9 preprotein forming an apoptosome and activates it",
+  "EMBL_ID": "ENSG00000120868",
+  "Normal": 5.25532,
+  "Abnormal": 3.3254,
+  "log2": -0.660251,
+  "pvalue": 0.0906,
+  "mutation": ""
+ },
+ {
   "gene": "TXNRD1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -2470,10 +3211,49 @@
   "mutation": ""
  },
  {
+  "gene": "UNG",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "12",
+  "process": "Replication & Transcription",
+  "gene_function": "UNG: prevent mutagenesis by eliminating uracil from DNA molecules",
+  "EMBL_ID": "ENSG00000076248",
+  "Normal": 41.4864,
+  "Abnormal": 19.6475,
+  "log2": -1.0783,
+  "pvalue": 0.0001,
+  "mutation": ""
+ },
+ {
+  "gene": "TCHP",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "12",
+  "process": "Calcium Signaling & Transport",
+  "gene_function": "TCHP: Involved in the regulation of ER mitochondria juxtaposition",
+  "EMBL_ID": "ENSG00000139437",
+  "Normal": 15.9942,
+  "Abnormal": 13.514,
+  "log2": -0.243093,
+  "pvalue": 0.34945,
+  "mutation": ""
+ },
+ {
+  "gene": "ACAD10",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "12",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
+  "gene_function": "ACAD10: Involved in the catabolism of fatty acids with significant activity towards branched chains",
+  "EMBL_ID": "ENSG00000111271",
+  "Normal": 5.59151,
+  "Abnormal": 3.9069,
+  "log2": -0.517211,
+  "pvalue": 0.05705,
+  "mutation": ""
+ },
+ {
   "gene": "ALDH2",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Degradation",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
   "gene_function": "acetaldehyde dehydrogenase (acetylating) activity; aldehyde dehydrogenase (NAD) activity",
   "EMBL_ID": "NA",
   "Normal": 16.1663,
@@ -2538,13 +3318,26 @@
   "gene": "ACADS",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Degradation",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
   "gene_function": "acyl-CoA dehydrogenase activity; flavin adenine dinucleotide binding; RNA polymerase II transcription cofactor activity; short-branched-chain-acyl-CoA dehydrogenase activity",
   "EMBL_ID": "NA",
   "Normal": 2.96406,
   "Abnormal": 2.772,
   "log2": -0.0966487,
   "pvalue": 0.78445,
+  "mutation": ""
+ },
+ {
+  "gene": "C12orf65",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "12",
+  "process": "Translation",
+  "gene_function": "C12orf65: Codon-independent translation release factor that appears to contribute to peptide chain termination in the mitochondrial translation machinery",
+  "EMBL_ID": "ENSG00000130921",
+  "Normal": 18.432,
+  "Abnormal": 18.7192,
+  "log2": 0.0223045,
+  "pvalue": 0.94005,
   "mutation": ""
  },
  {
@@ -2600,6 +3393,32 @@
   "mutation": ""
  },
  {
+  "gene": "SLC2A3",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "12",
+  "process": "Glycolysis",
+  "gene_function": "SLC2A3: Solute carrier family 2 (facilitated glucose transporter), member 3",
+  "EMBL_ID": "ENSG00000059804",
+  "Normal": 4.57547,
+  "Abnormal": 2.82327,
+  "log2": -0.696552,
+  "pvalue": 0.01245,
+  "mutation": ""
+ },
+ {
+  "gene": "LDHB",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "12",
+  "process": "Glycolysis",
+  "gene_function": "LDHB: Catalyzes the interconversion of pyruvate to lactate and back",
+  "EMBL_ID": "ENSG00000111716",
+  "Normal": 922.545,
+  "Abnormal": 420.941,
+  "log2": -1.132,
+  "pvalue": 0.0007,
+  "mutation": ""
+ },
+ {
   "gene": "BCAT1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -2610,6 +3429,19 @@
   "Abnormal": 14.8695,
   "log2": -0.791256,
   "pvalue": 0.0063,
+  "mutation": ""
+ },
+ {
+  "gene": "ITPR2",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "12",
+  "process": "Calcium Signaling & Transport",
+  "gene_function": "ITPR2: Component of the Inositol-1,4,5-triphosphate receptors channels used for the fluxes of Ca2+ from ER to mitochondria",
+  "EMBL_ID": "ENSG00000123104",
+  "Normal": 2.06941,
+  "Abnormal": 1.14923,
+  "log2": -0.848553,
+  "pvalue": 0.00335,
   "mutation": ""
  },
  {
@@ -2626,10 +3458,23 @@
   "mutation": ""
  },
  {
+  "gene": "ATP5G2",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "12",
+  "process": "Electron Transport Chain",
+  "gene_function": "ATP5G2: ATP synthase H+ transporting mitochondrial Fo complex subunit C2 (subunit 9) essential component of complex V",
+  "EMBL_ID": "ENSG00000135390",
+  "Normal": 588.64,
+  "Abnormal": 586.628,
+  "log2": -0.00493977,
+  "pvalue": 0.9867,
+  "mutation": ""
+ },
+ {
   "gene": "CS",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "TCA Cycle",
+  "process": "Tricarboxylic Acid Cycle",
   "gene_function": "citrate (Si)-synthase activity",
   "EMBL_ID": "NA",
   "Normal": 105.315,
@@ -2694,13 +3539,26 @@
   "gene": "PPTC7",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "TCA Cycle",
+  "process": "Tricarboxylic Acid Cycle",
   "gene_function": "catalytic activity",
   "EMBL_ID": "NA",
   "Normal": 6.52724,
   "Abnormal": 3.54614,
   "log2": -0.880226,
   "pvalue": 0.0034,
+  "mutation": ""
+ },
+ {
+  "gene": "SLC24A6",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "12",
+  "process": "Calcium Signaling & Transport",
+  "gene_function": "SLC24A6: Involved in the calcium homeostasis by counteracting the calcium accumaltion in the mitochondria",
+  "EMBL_ID": "ENSG00000089060",
+  "Normal": 4.11354,
+  "Abnormal": 3.71865,
+  "log2": -0.145603,
+  "pvalue": 0.6033,
   "mutation": ""
  },
  {
@@ -2727,6 +3585,19 @@
   "Abnormal": 18.5576,
   "log2": -0.514578,
   "pvalue": 0.0488,
+  "mutation": ""
+ },
+ {
+  "gene": "DIABLO",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "12",
+  "process": "Apoptosis",
+  "gene_function": "DIABLO: Acts as caspase activator by inhibiting the inhibitors of apoptotic proteins",
+  "EMBL_ID": "ENSG00000184047",
+  "Normal": 33.9543,
+  "Abnormal": 20.6557,
+  "log2": -0.717056,
+  "pvalue": 0.00555,
   "mutation": ""
  },
  {
@@ -2795,6 +3666,19 @@
   "mutation": ""
  },
  {
+  "gene": "EFHA1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "13",
+  "process": "Calcium Signaling & Transport",
+  "gene_function": "EFHA1: Regulates the mitochodrial calcium uniporter by inhibiting and permitting the calcium depending upon the cytosolic calcium concentrations",
+  "EMBL_ID": "ENSG00000165487",
+  "Normal": 20.548,
+  "Abnormal": 18.244,
+  "log2": -0.171572,
+  "pvalue": 0.5117,
+  "mutation": ""
+ },
+ {
   "gene": "MIPEP",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -2805,6 +3689,19 @@
   "Abnormal": 6.03423,
   "log2": -0.496512,
   "pvalue": 0.1047,
+  "mutation": ""
+ },
+ {
+  "gene": "MTIF3",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "13",
+  "process": "Translation",
+  "gene_function": "MTIF3: Translation initiation factor could assist the mRNA to bind to rRNAs",
+  "EMBL_ID": "ENSG00000122033",
+  "Normal": 25.0203,
+  "Abnormal": 26.3932,
+  "log2": 0.0770693,
+  "pvalue": 0.9079,
   "mutation": ""
  },
  {
@@ -2850,7 +3747,7 @@
   "gene": "SUCLA2",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "TCA Cycle",
+  "process": "Tricarboxylic Acid Cycle",
   "gene_function": "ATP binding; metal ion binding; succinate-CoA ligase (ADP-forming) activity",
   "EMBL_ID": "NA",
   "Normal": 20.6864,
@@ -2870,6 +3767,19 @@
   "Abnormal": 63.6407,
   "log2": 0.405006,
   "pvalue": 0.1395,
+  "mutation": ""
+ },
+ {
+  "gene": "APEX1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "14",
+  "process": "Replication & Transcription",
+  "gene_function": "APEX1: Involved in the mitochondrial DNA base excision repair",
+  "EMBL_ID": "ENSG00000100823",
+  "Normal": 166.093,
+  "Abnormal": 129.874,
+  "log2": -0.354875,
+  "pvalue": 0.197,
   "mutation": ""
  },
  {
@@ -3019,7 +3929,7 @@
   "gene": "DLST",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "TCA Cycle",
+  "process": "Tricarboxylic Acid Cycle",
   "gene_function": "dihydrolipoyllysine-residue succinyltransferase activity",
   "EMBL_ID": "NA",
   "Normal": 46.1574,
@@ -3091,6 +4001,19 @@
   "Abnormal": 27.2776,
   "log2": 0.24301,
   "pvalue": 0.3964,
+  "mutation": ""
+ },
+ {
+  "gene": "PACS2",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "14",
+  "process": "Calcium Signaling & Transport",
+  "gene_function": "PACS2: Involved in the control of ER mitochondria appositions",
+  "EMBL_ID": "ENSG00000179364",
+  "Normal": 6.89947,
+  "Abnormal": 10.5984,
+  "log2": 0.619292,
+  "pvalue": 0.2063,
   "mutation": ""
  },
  {
@@ -3211,6 +4134,19 @@
   "mutation": ""
  },
  {
+  "gene": "RPUSD2",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "15",
+  "process": "Replication & Transcription",
+  "gene_function": "RPUSD2: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
+  "EMBL_ID": "ENSG00000166133",
+  "Normal": 6.86209,
+  "Abnormal": 7.9778,
+  "log2": 0.217343,
+  "pvalue": 0.43675,
+  "mutation": ""
+ },
+ {
   "gene": "RAD51",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -3276,10 +4212,23 @@
   "mutation": ""
  },
  {
+  "gene": "PML",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "15",
+  "process": "Calcium Signaling & Transport",
+  "gene_function": "PML: Regulates Inositol-1,4,5-triphosphate receptor mediated Ca2+ release from the ER",
+  "EMBL_ID": "ENSG00000140464",
+  "Normal": 21.4365,
+  "Abnormal": 34.8555,
+  "log2": 0.701315,
+  "pvalue": 0.02275,
+  "mutation": ""
+ },
+ {
   "gene": "IDH3A",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "TCA Cycle",
+  "process": "Tricarboxylic Acid Cycle",
   "gene_function": "isocitrate dehydrogenase (NAD+) activity; magnesium ion binding; NAD binding",
   "EMBL_ID": "NA",
   "Normal": 18.3143,
@@ -3315,6 +4264,19 @@
   "mutation": ""
  },
  {
+  "gene": "FAM96A",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "15",
+  "process": "Fe-S cluster biosynthesis",
+  "gene_function": "FAM96A: Components of the cytosolic Fe/S protein assembly (CIA) machinery",
+  "EMBL_ID": "ENSG00000166797",
+  "Normal": 42.4119,
+  "Abnormal": 29.7971,
+  "log2": -0.509296,
+  "pvalue": 0.0596,
+  "mutation": ""
+ },
+ {
   "gene": "MTFMT",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -3338,6 +4300,32 @@
   "Abnormal": 11.9182,
   "log2": -0.403313,
   "pvalue": 0.13405,
+  "mutation": ""
+ },
+ {
+  "gene": "ANP32A",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "15",
+  "process": "Apoptosis",
+  "gene_function": "ANP32A: Enhances APAF1 function",
+  "EMBL_ID": "ENSG00000140350",
+  "Normal": 55.05,
+  "Abnormal": 42.6962,
+  "log2": -0.366632,
+  "pvalue": 0.1652,
+  "mutation": ""
+ },
+ {
+  "gene": "PKM2",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "15",
+  "process": "Glycolysis",
+  "gene_function": "PKM2: Catalyzes the transphosphorylation of phohsphoenolpyruvate into pyruvate and ATP",
+  "EMBL_ID": "ENSG00000067225",
+  "Normal": 1978.27,
+  "Abnormal": 2033.91,
+  "log2": 0.0400155,
+  "pvalue": 0.92535,
   "mutation": ""
  },
  {
@@ -3409,13 +4397,26 @@
   "gene": "IDH2",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "TCA Cycle",
+  "process": "Tricarboxylic Acid Cycle",
   "gene_function": "isocitrate dehydrogenase (NADP+) activity; magnesium ion binding; NAD binding",
   "EMBL_ID": "NA",
   "Normal": 53.4869,
   "Abnormal": 79.4122,
   "log2": 0.570176,
   "pvalue": 0.03225,
+  "mutation": ""
+ },
+ {
+  "gene": "NME4",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "16",
+  "process": "Replication & Transcription",
+  "gene_function": "NME4: Shows mitochondrial nucleoside diphosphate kinase activity",
+  "EMBL_ID": "ENSG00000103202",
+  "Normal": 162.939,
+  "Abnormal": 298.596,
+  "log2": 0.873861,
+  "pvalue": 0.00495,
   "mutation": ""
  },
  {
@@ -3429,6 +4430,19 @@
   "Abnormal": 45.2586,
   "log2": 0.504455,
   "pvalue": 0.05455,
+  "mutation": ""
+ },
+ {
+  "gene": "NUBP2",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "16",
+  "process": "Fe-S cluster biosynthesis",
+  "gene_function": "NUBP2: Required for the assembly of cyotosolic iron-sulfur proteins",
+  "EMBL_ID": "ENSG00000095906",
+  "Normal": 50.8069,
+  "Abnormal": 65.5932,
+  "log2": 0.368522,
+  "pvalue": 0.17215,
   "mutation": ""
  },
  {
@@ -3484,6 +4498,19 @@
   "mutation": ""
  },
  {
+  "gene": "NUBP1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "16",
+  "process": "Fe-S cluster biosynthesis",
+  "gene_function": "NUBP1: Essential for both cytosolic iron-sulfur protein assembly and iron homeostasis",
+  "EMBL_ID": "ENSG00000103274",
+  "Normal": 23.8755,
+  "Abnormal": 31.3907,
+  "log2": 0.394811,
+  "pvalue": 0.1597,
+  "mutation": ""
+ },
+ {
   "gene": "COQ7",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -3497,6 +4524,19 @@
   "mutation": ""
  },
  {
+  "gene": "ACSM5",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "16",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
+  "gene_function": "ACSM5: Acyl-CoA synthetase activity for medium chain fatty acids",
+  "EMBL_ID": "ENSG00000183549",
+  "Normal": 0.732505,
+  "Abnormal": 0.045906,
+  "log2": -3.99608,
+  "pvalue": 0.0034,
+  "mutation": ""
+ },
+ {
   "gene": "UQCRC2",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -3507,6 +4547,19 @@
   "Abnormal": 66.032,
   "log2": -0.22208,
   "pvalue": 0.40935,
+  "mutation": ""
+ },
+ {
+  "gene": "ALDOA",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "16",
+  "process": "Glycolysis",
+  "gene_function": "ALDOA: Catalyzes the reversible conversion of fructose-1,6-bisphosphate to glyceraldehyde 3-phosphate and dihydroxyacetone phosphate",
+  "EMBL_ID": "ENSG00000149925",
+  "Normal": 1028.89,
+  "Abnormal": 1376.31,
+  "log2": 0.419714,
+  "pvalue": 0.23925,
   "mutation": ""
  },
  {
@@ -3546,6 +4599,19 @@
   "Abnormal": 3.15206,
   "log2": -0.2539,
   "pvalue": 0.3453,
+  "mutation": ""
+ },
+ {
+  "gene": "DUS2L",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "16",
+  "process": "Replication & Transcription",
+  "gene_function": "DUS2L: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
+  "EMBL_ID": "ENSG00000167264",
+  "Normal": 9.20732,
+  "Abnormal": 8.91842,
+  "log2": -0.0459935,
+  "pvalue": 0.90165,
   "mutation": ""
  },
  {
@@ -3627,6 +4693,19 @@
   "mutation": ""
  },
  {
+  "gene": "NME3",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "16",
+  "process": "Replication & Transcription",
+  "gene_function": "NME3: Shows mitochondrial nucleoside diphosphate kinase activity",
+  "EMBL_ID": "ENSG00000103024",
+  "Normal": 39.5166,
+  "Abnormal": 120.845,
+  "log2": 1.61262,
+  "pvalue": 0.00005,
+  "mutation": ""
+ },
+ {
   "gene": "MRPS34",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -3669,7 +4748,7 @@
   "gene": "ECI1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Degradation",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
   "gene_function": "dodecenoyl-CoA delta-isomerase activity",
   "EMBL_ID": "NA",
   "Normal": 41.2583,
@@ -3757,6 +4836,32 @@
   "mutation": ""
  },
  {
+  "gene": "MAPK3",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "16",
+  "process": "Apoptosis",
+  "gene_function": "MAPK3: Inhibitors of CASP9 activity",
+  "EMBL_ID": "ENSG00000102882",
+  "Normal": 22.2269,
+  "Abnormal": 31.0665,
+  "log2": 0.483053,
+  "pvalue": 0.0659,
+  "mutation": ""
+ },
+ {
+  "gene": "CIAPIN1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "16",
+  "process": "Fe-S cluster biosynthesis",
+  "gene_function": "CIAPIN1: Facilitates NUBP1 and NUBP2 assembly",
+  "EMBL_ID": "ENSG00000005194",
+  "Normal": 27.5945,
+  "Abnormal": 25.6315,
+  "log2": -0.106465,
+  "pvalue": 0.776,
+  "mutation": ""
+ },
+ {
   "gene": "GOT2",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -3783,6 +4888,19 @@
   "mutation": ""
  },
  {
+  "gene": "FAM96B",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "16",
+  "process": "Fe-S cluster biosynthesis",
+  "gene_function": "FAM96B: Components of the cytosolic Fe/S protein assembly (CIA) machinery",
+  "EMBL_ID": "ENSG00000166595",
+  "Normal": 101.946,
+  "Abnormal": 148.603,
+  "log2": 0.543659,
+  "pvalue": 0.05045,
+  "mutation": ""
+ },
+ {
   "gene": "DDX28",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -3793,6 +4911,19 @@
   "Abnormal": 5.91996,
   "log2": -0.160823,
   "pvalue": 0.68465,
+  "mutation": ""
+ },
+ {
+  "gene": "AARS",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "16",
+  "process": "Translation",
+  "gene_function": "AARS: Alanyl-tRNA synthetase that catalyzes the attachment of alanine to tRNA(Ala)",
+  "EMBL_ID": "ENSG00000090861",
+  "Normal": 60.5261,
+  "Abnormal": 42.8184,
+  "log2": -0.499327,
+  "pvalue": 0.0743,
   "mutation": ""
  },
  {
@@ -3813,7 +4944,7 @@
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Amino Acid Metabolism",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 21.0351,
   "Abnormal": 15.1934,
@@ -3848,10 +4979,23 @@
   "mutation": ""
  },
  {
+  "gene": "ENO3",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "17",
+  "process": "Glycolysis",
+  "gene_function": "ENO3: Catalyzes the dehydration of 2-phosphoglycerate to phosphoenolpyruate",
+  "EMBL_ID": "ENSG00000108515",
+  "Normal": 1.03332,
+  "Abnormal": 2.05957,
+  "log2": 0.995049,
+  "pvalue": 0.0159,
+  "mutation": ""
+ },
+ {
   "gene": "ACADVL",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Degradation",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
   "gene_function": "flavin adenine dinucleotide binding; very-long-chain-acyl-CoA dehydrogenase activity",
   "EMBL_ID": "NA",
   "Normal": 96.8943,
@@ -3878,7 +5022,7 @@
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Electron Transport Chain",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 12.4429,
   "Abnormal": 8.97534,
@@ -3890,7 +5034,7 @@
   "gene": "ALDH3A2",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Degradation",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
   "gene_function": "aldehyde dehydrogenase [NAD(P)+] activity; oxidoreductase activity; acting on the aldehyde or oxo group of donors; NAD or NADP as acceptor",
   "EMBL_ID": "NA",
   "Normal": 15.3195,
@@ -3923,6 +5067,19 @@
   "Abnormal": 9.49844,
   "log2": -0.172668,
   "pvalue": 0.5152,
+  "mutation": ""
+ },
+ {
+  "gene": "LIG3",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "17",
+  "process": "Replication & Transcription",
+  "gene_function": "LIG3: involved in the mitochondrial DNA replication and repair",
+  "EMBL_ID": "ENSG00000005156",
+  "Normal": 5.87401,
+  "Abnormal": 5.52213,
+  "log2": -0.0891201,
+  "pvalue": 0.74305,
   "mutation": ""
  },
  {
@@ -3994,7 +5151,7 @@
   "gene": "ACSF2",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Biosynthesis",
+  "process": "Fatty Acid Biosynthesis and Elongation",
   "gene_function": "4-coumarate-CoA ligase activity",
   "EMBL_ID": "NA",
   "Normal": 6.93581,
@@ -4098,8 +5255,8 @@
   "gene": "MRPL12",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Translation",
-  "gene_function": "chromatin binding; structural constituent of ribosome",
+  "process": "Mitochondrial Carrier",
+  "gene_function": "oxoglutarate:malate antiporter activity; transmembrane transporter activity",
   "EMBL_ID": "NA",
   "Normal": 155.344,
   "Abnormal": 182.655,
@@ -4111,8 +5268,8 @@
   "gene": "MRPL12",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Mitochondrial Carrier",
-  "gene_function": "oxoglutarate:malate antiporter activity; transmembrane transporter activity",
+  "process": "Translation",
+  "gene_function": "chromatin binding; structural constituent of ribosome",
   "EMBL_ID": "NA",
   "Normal": 155.344,
   "Abnormal": 182.655,
@@ -4125,12 +5282,25 @@
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Mitochondrial Carrier",
-  "gene_function": "dicarboxylic acid transmembrane transporter activity; inorganic phosphate transmembrane transporter activity; malate transmembrane transporter activity; oxaloacetate transmembrane transporter activity; succinate transmembrane transporter activity; sulfate transmembrane transporter activity; thiosulfate transmembrane transporter activity; transmembrane transporter activity; oxoglutarate:malate antiporter activity; ",
+  "gene_function": "dicarboxylic acid transmembrane transporter activity; inorganic phosphate transmembrane transporter activity; malate transmembrane transporter activity; oxaloacetate transmembrane transporter activity; succinate transmembrane transporter activity; sulfate transmembrane transporter activity; thiosulfate transmembrane transporter activity; transmembrane transporter activity; oxoglutarate:malate antiporter activity;",
   "EMBL_ID": "NA",
   "Normal": 39.3011,
   "Abnormal": 53.1948,
   "log2": 0.436715,
   "pvalue": 0.1137,
+  "mutation": ""
+ },
+ {
+  "gene": "NARF",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "17",
+  "process": "Fe-S cluster biosynthesis",
+  "gene_function": "NARF: Cytosolic Fe-S protein maturation",
+  "EMBL_ID": "ENSG00000141562",
+  "Normal": 25.5891,
+  "Abnormal": 28.0561,
+  "log2": 0.132786,
+  "pvalue": 0.6293,
   "mutation": ""
  },
  {
@@ -4144,6 +5314,32 @@
   "Abnormal": 57.9688,
   "log2": 0.335665,
   "pvalue": 0.2138,
+  "mutation": ""
+ },
+ {
+  "gene": "GABARAP",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "17",
+  "process": "Mitochondrial Dynamics",
+  "gene_function": "GABARAP: Involved in the mitophagy, interacts with BNIP3 and BNIP3L to remove mitochondria via autophagy",
+  "EMBL_ID": "ENSG00000170296",
+  "Normal": 235.299,
+  "Abnormal": 244.839,
+  "log2": 0.0573363,
+  "pvalue": 0.83405,
+  "mutation": ""
+ },
+ {
+  "gene": "TP53",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "17",
+  "process": "Apoptosis",
+  "gene_function": "TP53: Directly binds both BAK and BAX and activates them",
+  "EMBL_ID": "ENSG00000141510",
+  "Normal": 33.371,
+  "Abnormal": 33.8888,
+  "log2": 0.0222164,
+  "pvalue": 0.94085,
   "mutation": ""
  },
  {
@@ -4190,7 +5386,7 @@
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Cardiolipin Biosynthesis",
-  "gene_function": "cardiolipin hydrolase activity; cardiolipin synthase activity; endoribonuclease activity, producing 5â€™-phosphomonoesters",
+  "gene_function": "cardiolipin hydrolase activity; cardiolipin synthase activity; endoribonuclease activity, producing 5Ã¢â‚¬â„¢-phosphomonoesters",
   "EMBL_ID": "NA",
   "Normal": 3.01454,
   "Abnormal": 2.95673,
@@ -4203,7 +5399,7 @@
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Electron Transport Chain",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 8.23248,
   "Abnormal": 8.45582,
@@ -4290,6 +5486,32 @@
   "mutation": ""
  },
  {
+  "gene": "CCDC56",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "17",
+  "process": "Electron Transport Chain",
+  "gene_function": "CCDC56: COA3 Complex IV assembly factor",
+  "EMBL_ID": "ENSG00000183978",
+  "Normal": 75.2258,
+  "Abnormal": 83.1678,
+  "log2": 0.144796,
+  "pvalue": 0.5844,
+  "mutation": ""
+ },
+ {
+  "gene": "BECN1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "17",
+  "process": "Mitochondrial Dynamics",
+  "gene_function": "BECN1: Involved in the mitophagy, involved in the initiation of autophagy",
+  "EMBL_ID": "ENSG00000126581",
+  "Normal": 34.7916,
+  "Abnormal": 35.3176,
+  "log2": 0.0216517,
+  "pvalue": 0.9349,
+  "mutation": ""
+ },
+ {
   "gene": "SLC25A39",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -4320,7 +5542,7 @@
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Replication & Transcription",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 114.794,
   "Abnormal": 110.65,
@@ -4423,8 +5645,8 @@
   "gene": "SLC25A19",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Mitochondrial Carrier",
-  "gene_function": "oxidative phosphorylation uncoupler activity; transmembrane transporter activity",
+  "process": "Fatty Acid Biosynthesis and Elongation",
+  "gene_function": "thiamine pyrophosphate-transporting ATPase activity; transmembrane transporter activity",
   "EMBL_ID": "NA",
   "Normal": 7.04114,
   "Abnormal": 7.45719,
@@ -4436,8 +5658,8 @@
   "gene": "SLC25A19",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Biosynthesis",
-  "gene_function": "thiamine pyrophosphate-transporting ATPase activity; transmembrane transporter activity",
+  "process": "Mitochondrial Carrier",
+  "gene_function": "oxidative phosphorylation uncoupler activity; transmembrane transporter activity",
   "EMBL_ID": "NA",
   "Normal": 7.04114,
   "Abnormal": 7.45719,
@@ -4462,7 +5684,7 @@
   "gene": "ACOX1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Degradation",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
   "gene_function": "acyl-CoA dehydrogenase activity; acyl-CoA oxidase activity; flavin adenine dinucleotide binding",
   "EMBL_ID": "NA",
   "Normal": 3.95297,
@@ -4488,7 +5710,7 @@
   "gene": "FASN",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Biosynthesis",
+  "process": "Fatty Acid Biosynthesis and Elongation",
   "gene_function": "[acyl-carrier-protein] S-acetyltransferase activity; [acyl-carrier-protein] S-malonyltransferase activity; 3-hydroxypalmitoyl-[acyl-carrier-protein] dehydratase activity; 3-oxoacyl-[acyl-carrier-protein] reductase (NADPH) activity; 3-oxoacyl-[acyl-carrier-protein] synthase activity; enoyl-[acyl-carrier-protein] reductase (NADPH; B-specific) activity; fatty acid synthase activity; myristoyl-[acyl-carrier-protein] hydrolase activity; oleoyl-[acyl-carrier-protein] hydrolase activity; palmitoyl-[acyl-carrier-protein] hydrolase activity; zinc ion binding",
   "EMBL_ID": "NA",
   "Normal": 49.771,
@@ -4550,6 +5772,19 @@
   "mutation": ""
  },
  {
+  "gene": "PMAIP1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "18",
+  "process": "Apoptosis",
+  "gene_function": "PMAIP1: Noxa Bcl-2 family member propagating apoptosis",
+  "EMBL_ID": "ENSG00000141682",
+  "Normal": 12.1629,
+  "Abnormal": 10.065,
+  "log2": -0.273136,
+  "pvalue": 0.31475,
+  "mutation": ""
+ },
+ {
   "gene": "TIMM21",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -4567,7 +5802,7 @@
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Translation",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 3.55919,
   "Abnormal": 2.90317,
@@ -4618,7 +5853,7 @@
   "gene": "ACAA2",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Degradation",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
   "gene_function": "acetyl-CoA C-acyltransferase activity",
   "EMBL_ID": "NA",
   "Normal": 14.354,
@@ -4651,6 +5886,19 @@
   "Abnormal": 64.8253,
   "log2": -0.202772,
   "pvalue": 0.4708,
+  "mutation": ""
+ },
+ {
+  "gene": "BCL2",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "18",
+  "process": "Apoptosis",
+  "gene_function": "BCL2: Bcl-2 family member Anti-apoptotic proteins",
+  "EMBL_ID": "ENSG00000171791",
+  "Normal": 1.50511,
+  "Abnormal": 0.779068,
+  "log2": -0.950052,
+  "pvalue": 0.01675,
   "mutation": ""
  },
  {
@@ -4774,7 +6022,7 @@
   "gene": "GCDH",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Degradation",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
   "gene_function": "flavin adenine dinucleotide binding; glutaryl-CoA dehydrogenase activity",
   "EMBL_ID": "NA",
   "Normal": 9.98196,
@@ -4807,6 +6055,19 @@
   "Abnormal": 6.8339,
   "log2": -0.187494,
   "pvalue": 0.4906,
+  "mutation": ""
+ },
+ {
+  "gene": "SLC27A1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "19",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
+  "gene_function": "SLC27A1: Readily converts the transported very long chain fatty acids to acyl-CoAs",
+  "EMBL_ID": "ENSG00000130304",
+  "Normal": 6.75986,
+  "Abnormal": 12.5377,
+  "log2": 0.891209,
+  "pvalue": 0.0008,
   "mutation": ""
  },
  {
@@ -4862,6 +6123,19 @@
   "mutation": ""
  },
  {
+  "gene": "GPI",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "19",
+  "process": "Glycolysis",
+  "gene_function": "GPI: Glycolytic enzyme that interconverts glucose-6-phophsate and fructose-6-phosphate",
+  "EMBL_ID": "ENSG00000105220",
+  "Normal": 68.31,
+  "Abnormal": 61.0959,
+  "log2": -0.161021,
+  "pvalue": 0.56055,
+  "mutation": ""
+ },
+ {
   "gene": "COX6B1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -4872,6 +6146,19 @@
   "Abnormal": 633.327,
   "log2": 0.840636,
   "pvalue": 0.0089,
+  "mutation": ""
+ },
+ {
+  "gene": "SDHAF1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "19",
+  "process": "Electron Transport Chain",
+  "gene_function": "SDHAF1: Essential for complex II assembly",
+  "EMBL_ID": "ENSG00000205138",
+  "Normal": 5.16347,
+  "Abnormal": 8.31232,
+  "log2": 0.686912,
+  "pvalue": 0.0294,
   "mutation": ""
  },
  {
@@ -4914,6 +6201,19 @@
   "mutation": ""
  },
  {
+  "gene": "RPS19",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "19",
+  "process": "Translation",
+  "gene_function": "RPS19: Ribosomal protein required for pre-rRNA processing and maturation of 40S ribosomal subunits",
+  "EMBL_ID": "ENSG00000105372",
+  "Normal": 1661.65,
+  "Abnormal": 2973.81,
+  "log2": 0.839695,
+  "pvalue": 0.0363,
+  "mutation": ""
+ },
+ {
   "gene": "TOMM40",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -4927,16 +6227,42 @@
   "mutation": ""
  },
  {
+  "gene": "BAX",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "19",
+  "process": "Apoptosis",
+  "gene_function": "BAX: Bcl-2 family member propagating apoptosis",
+  "EMBL_ID": "ENSG00000087088",
+  "Normal": 200.682,
+  "Abnormal": 239.885,
+  "log2": 0.257434,
+  "pvalue": 0.35135,
+  "mutation": ""
+ },
+ {
   "gene": "CPT1C",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Degradation",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
   "gene_function": "carnitine O-palmitoyltransferase activity",
   "EMBL_ID": "NA",
   "Normal": 6.99103,
   "Abnormal": 9.43509,
   "log2": 0.432532,
   "pvalue": 0.1099,
+  "mutation": ""
+ },
+ {
+  "gene": "NDUFA3",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "19",
+  "process": "Electron Transport Chain",
+  "gene_function": "NDUFA3: Essential component of complex I transfers electrons from NADH to ubiquinone",
+  "EMBL_ID": "ENSG00000170906",
+  "Normal": 253.781,
+  "Abnormal": 655.435,
+  "log2": 1.36887,
+  "pvalue": 0.00005,
   "mutation": ""
  },
  {
@@ -4983,7 +6309,7 @@
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Mitochondrial Dynamics",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 63.4325,
   "Abnormal": 152.986,
@@ -5100,12 +6426,25 @@
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Translation",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 177.919,
   "Abnormal": 583.604,
   "log2": 1.71377,
   "pvalue": 0.00005,
+  "mutation": ""
+ },
+ {
+  "gene": "TRMT1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "19",
+  "process": "Replication & Transcription",
+  "gene_function": "TRMT1: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
+  "EMBL_ID": "ENSG00000104907",
+  "Normal": 25.3222,
+  "Abnormal": 51.1817,
+  "log2": 1.01522,
+  "pvalue": 0.00045,
   "mutation": ""
  },
  {
@@ -5151,7 +6490,7 @@
   "gene": "ECH1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Degradation",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
   "gene_function": "dodecenoyl-CoA delta-isomerase activity; delta5-delta2; 4-dienoyl-CoA isomerase activity",
   "EMBL_ID": "NA",
   "Normal": 25.9511,
@@ -5226,6 +6565,19 @@
   "mutation": ""
  },
  {
+  "gene": "BBC3",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "19",
+  "process": "Apoptosis",
+  "gene_function": "BBC3: Puma Bcl-2 family member propagating apoptosis",
+  "EMBL_ID": "ENSG00000105327",
+  "Normal": 4.74606,
+  "Abnormal": 7.73701,
+  "log2": 0.705048,
+  "pvalue": 0.028,
+  "mutation": ""
+ },
+ {
   "gene": "LIG1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -5278,10 +6630,23 @@
   "mutation": ""
  },
  {
+  "gene": "SLC27A5",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "19",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
+  "gene_function": "SLC27A5: Readily converts the transported very long chain fatty acids to acyl-CoAs",
+  "EMBL_ID": "ENSG00000083807",
+  "Normal": 3.39774,
+  "Abnormal": 4.37155,
+  "log2": 0.363569,
+  "pvalue": 0.25135,
+  "mutation": ""
+ },
+ {
   "gene": "HADHB",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Elongation",
+  "process": "Fatty Acid Biosynthesis and Elongation",
   "gene_function": "acetyl-CoA C-acyltransferase activity; long-chain-3-hydroxyacyl-CoA dehydrogenase activity",
   "EMBL_ID": "NA",
   "Normal": 43.8557,
@@ -5304,10 +6669,23 @@
   "mutation": ""
  },
  {
+  "gene": "C2orf56",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "2",
+  "process": "Electron Transport Chain",
+  "gene_function": "C2orf56: NDUFAF7 methylates arginine 85 in the NDUFS2 subunit of human complex I",
+  "EMBL_ID": "ENSG00000003509",
+  "Normal": 3.97981,
+  "Abnormal": 3.67928,
+  "log2": -0.113274,
+  "pvalue": 0.7029,
+  "mutation": ""
+ },
+ {
   "gene": "MDH1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "TCA Cycle",
+  "process": "Tricarboxylic Acid Cycle",
   "gene_function": "L-malate dehydrogenase activity",
   "EMBL_ID": "NA",
   "Normal": 111.914,
@@ -5395,6 +6773,19 @@
   "mutation": ""
  },
  {
+  "gene": "CIAO1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "2",
+  "process": "Fe-S cluster biosynthesis",
+  "gene_function": "CIAO1: Cytosolic Fe-S cluster biogenesis and maturation",
+  "EMBL_ID": "ENSG00000144021",
+  "Normal": 22.6147,
+  "Abnormal": 20.3293,
+  "log2": -0.153703,
+  "pvalue": 0.5588,
+  "mutation": ""
+ },
+ {
   "gene": "COX5B",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -5447,6 +6838,19 @@
   "mutation": ""
  },
  {
+  "gene": "BCL2L11",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "2",
+  "process": "Apoptosis",
+  "gene_function": "BCL2L11: Bim Bcl-2 family member propagating apoptosis",
+  "EMBL_ID": "ENSG00000153094",
+  "Normal": 1.85,
+  "Abnormal": 0.769901,
+  "log2": -1.26478,
+  "pvalue": 0.0048,
+  "mutation": ""
+ },
+ {
   "gene": "GPD2",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -5490,7 +6894,7 @@
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Import & Sorting",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 28.005,
   "Abnormal": 21.1469,
@@ -5603,6 +7007,19 @@
   "mutation": ""
  },
  {
+  "gene": "CREB1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "2",
+  "process": "Replication & Transcription",
+  "gene_function": "CREB1: Promotes the transcription of mitochondrial genes",
+  "EMBL_ID": "ENSG00000118260",
+  "Normal": 3.49838,
+  "Abnormal": 2.80112,
+  "log2": -0.320686,
+  "pvalue": 0.23235,
+  "mutation": ""
+ },
+ {
   "gene": "CPS1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -5633,7 +7050,7 @@
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Translation",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 42.3782,
   "Abnormal": 73.7411,
@@ -5658,8 +7075,8 @@
   "gene": "CYP27A1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Metabolism of Lipids & Lipoproteins",
-  "gene_function": "ecdysteroid 2-hydroxylase activity; electron carrier activity; heme binding; iron ion binding; oxidoreductase activity; acting on paired donors; with incorporation or reduction of molecular oxygen",
+  "process": "Bile Acid Synthesis",
+  "gene_function": "electron carrier activity; heme binding; iron ion binding; oxidoreductase activity; acting on paired donors; with incorporation or reduction of molecular oxygen",
   "EMBL_ID": "NA",
   "Normal": 2.23849,
   "Abnormal": 0.294752,
@@ -5671,8 +7088,8 @@
   "gene": "CYP27A1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Bile Acid Synthesis",
-  "gene_function": "electron carrier activity; heme binding; iron ion binding; oxidoreductase activity; acting on paired donors; with incorporation or reduction of molecular oxygen",
+  "process": "Metabolism of Lipids & Lipoproteins",
+  "gene_function": "ecdysteroid 2-hydroxylase activity; electron carrier activity; heme binding; iron ion binding; oxidoreductase activity; acting on paired donors; with incorporation or reduction of molecular oxygen",
   "EMBL_ID": "NA",
   "Normal": 2.23849,
   "Abnormal": 0.294752,
@@ -5684,7 +7101,7 @@
   "gene": "ACSL3",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Degradation",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
   "gene_function": "long-chain fatty acid-CoA ligase activity",
   "EMBL_ID": "NA",
   "Normal": 23.958,
@@ -5746,10 +7163,23 @@
   "mutation": ""
  },
  {
+  "gene": "RNASEH1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "2",
+  "process": "Replication & Transcription",
+  "gene_function": "RNASEH1: May have role in the removal of RNA primers at the origin of replication on heavy and light strands",
+  "EMBL_ID": "ENSG00000171865",
+  "Normal": 22.6333,
+  "Abnormal": 22.7464,
+  "log2": 0.00718556,
+  "pvalue": 0.97925,
+  "mutation": ""
+ },
+ {
   "gene": "HADHA",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Elongation",
+  "process": "Fatty Acid Biosynthesis and Elongation",
   "gene_function": "3-hydroxyacyl-CoA dehydrogenase activity; coenzyme binding; enoyl-CoA hydratase activity; long-chain-3-hydroxyacyl-CoA dehydrogenase activity",
   "EMBL_ID": "NA",
   "Normal": 69.5179,
@@ -5769,6 +7199,19 @@
   "Abnormal": 73.8918,
   "log2": 0.277614,
   "pvalue": 0.3091,
+  "mutation": ""
+ },
+ {
+  "gene": "TRMT61B",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "2",
+  "process": "Replication & Transcription",
+  "gene_function": "TRMT61B: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
+  "EMBL_ID": "ENSG00000171103",
+  "Normal": 6.39389,
+  "Abnormal": 6.12768,
+  "log2": -0.0613543,
+  "pvalue": 0.8278,
   "mutation": ""
  },
  {
@@ -5850,6 +7293,19 @@
   "mutation": ""
  },
  {
+  "gene": "BOLA3",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "2",
+  "process": "Fe-S cluster biosynthesis",
+  "gene_function": "BOLA3: Rrole in the biogenesis of iron-sulfur clusters",
+  "EMBL_ID": "ENSG00000163170",
+  "Normal": 52.8115,
+  "Abnormal": 59.5778,
+  "log2": 0.173924,
+  "pvalue": 0.55265,
+  "mutation": ""
+ },
+ {
   "gene": "MRPL53",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -5866,7 +7322,7 @@
   "gene": "SUCLG1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "TCA Cycle",
+  "process": "Tricarboxylic Acid Cycle",
   "gene_function": "ATP citrate synthase activity; cofactor binding; succinate-CoA ligase (ADP-forming) activity; succinate-CoA ligase (GDP-forming) activity",
   "EMBL_ID": "NA",
   "Normal": 50.8055,
@@ -5889,6 +7345,19 @@
   "mutation": ""
  },
  {
+  "gene": "EIF2AK3",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "2",
+  "process": "Translation",
+  "gene_function": "EIF2AK3: Metabolic-stress sensing protein kinase that phosphorylates and inactivates the alpha subunit of eukaryotic translation initiation factor 2",
+  "EMBL_ID": "ENSG00000172071",
+  "Normal": 2.9202,
+  "Abnormal": 3.11949,
+  "log2": 0.095241,
+  "pvalue": 0.7396,
+  "mutation": ""
+ },
+ {
   "gene": "MRPS5",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -5899,6 +7368,19 @@
   "Abnormal": 38.198,
   "log2": 0.104856,
   "pvalue": 0.70755,
+  "mutation": ""
+ },
+ {
+  "gene": "COA5",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "2",
+  "process": "Electron Transport Chain",
+  "gene_function": "COA5: Complex IV assembly factor",
+  "EMBL_ID": "ENSG00000183513",
+  "Normal": 7.49655,
+  "Abnormal": 7.43882,
+  "log2": -0.0111531,
+  "pvalue": 0.96915,
   "mutation": ""
  },
  {
@@ -5964,6 +7446,19 @@
   "Abnormal": 62.2487,
   "log2": -0.515937,
   "pvalue": 0.0631,
+  "mutation": ""
+ },
+ {
+  "gene": "NFE2L2",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "2",
+  "process": "Replication & Transcription",
+  "gene_function": "NFE2L2: Regulates the expression of TFB1M and TFB2M which are two mitochondrial transcription factors",
+  "EMBL_ID": "ENSG00000116044",
+  "Normal": 34.0069,
+  "Abnormal": 27.3204,
+  "log2": -0.31585,
+  "pvalue": 0.24595,
   "mutation": ""
  },
  {
@@ -6035,7 +7530,7 @@
   "gene": "IDH1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "TCA Cycle",
+  "process": "Tricarboxylic Acid Cycle",
   "gene_function": "isocitrate dehydrogenase (NADP+) activity; magnesium ion binding; NAD binding",
   "EMBL_ID": "NA",
   "Normal": 29.6501,
@@ -6136,11 +7631,24 @@
   "mutation": ""
  },
  {
+  "gene": "C20orf7",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "20",
+  "process": "Electron Transport Chain",
+  "gene_function": "C20orf7: NDUFAF5 is required for complex I assembly",
+  "EMBL_ID": "ENSG00000101247",
+  "Normal": 4.03722,
+  "Abnormal": 2.92572,
+  "log2": -0.464567,
+  "pvalue": 0.11395,
+  "mutation": ""
+ },
+ {
   "gene": "PET117",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Electron Transport Chain",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 13.8591,
   "Abnormal": 12.0268,
@@ -6149,11 +7657,24 @@
   "mutation": ""
  },
  {
+  "gene": "ACSS2",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "20",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
+  "gene_function": "ACSS2: Acyl-CoA synthetase activity for short chain fatty acids",
+  "EMBL_ID": "ENSG00000131069",
+  "Normal": 8.89014,
+  "Abnormal": 10.7463,
+  "log2": 0.273556,
+  "pvalue": 0.30195,
+  "mutation": ""
+ },
+ {
   "gene": "ROMO1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "ROS Defense",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 312.671,
   "Abnormal": 732.494,
@@ -6191,7 +7712,7 @@
   "gene": "IDH3B",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "TCA Cycle",
+  "process": "Tricarboxylic Acid Cycle",
   "gene_function": "isocitrate dehydrogenase (NAD+) activity; magnesium ion binding; NAD binding",
   "EMBL_ID": "NA",
   "Normal": 53.1243,
@@ -6214,11 +7735,63 @@
   "mutation": ""
  },
  {
+  "gene": "TRMT6",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "20",
+  "process": "Replication & Transcription",
+  "gene_function": "TRMT6: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
+  "EMBL_ID": "ENSG00000089195",
+  "Normal": 11.5806,
+  "Abnormal": 10.283,
+  "log2": -0.171451,
+  "pvalue": 0.52865,
+  "mutation": ""
+ },
+ {
+  "gene": "BCL2L1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "20",
+  "process": "Apoptosis",
+  "gene_function": "BCL2L1: Bcl-2 family member Anti-apoptotic proteins",
+  "EMBL_ID": "ENSG00000171552",
+  "Normal": 69.8769,
+  "Abnormal": 86.2791,
+  "log2": 0.304196,
+  "pvalue": 0.26185,
+  "mutation": ""
+ },
+ {
+  "gene": "CDK5RAP1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "20",
+  "process": "Replication & Transcription",
+  "gene_function": "CDK5RAP1: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
+  "EMBL_ID": "ENSG00000101391",
+  "Normal": 10.9718,
+  "Abnormal": 10.3283,
+  "log2": -0.0871892,
+  "pvalue": 0.7424,
+  "mutation": ""
+ },
+ {
+  "gene": "GSS",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "20",
+  "process": "ROS defense",
+  "gene_function": "GSS: Catalyzes the formation of gluthathione from glutamylcysteine by combining it with the glycine",
+  "EMBL_ID": "ENSG00000100983",
+  "Normal": 33.2222,
+  "Abnormal": 44.7212,
+  "log2": 0.428813,
+  "pvalue": 0.10065,
+  "mutation": ""
+ },
+ {
   "gene": "UQCC",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Electron Transport Chain",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 23.7014,
   "Abnormal": 20.7465,
@@ -6256,8 +7829,8 @@
   "gene": "CYP24A1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Metabolism of Vitamins & Co-Factors",
-  "gene_function": "ecdysone 20-monooxygenase activity; ecdysteroid 22-hydroxylase activity; electron carrier activity; heme binding; iron ion binding; oxidoreductase activity; acting on paired donors; with incorporation or reduction of molecular oxygen",
+  "process": "Bile Acid Synthesis",
+  "gene_function": "electron carrier activity; heme binding; iron ion binding; oxidoreductase activity; acting on paired donors; with incorporation or reduction of molecular oxygen",
   "EMBL_ID": "NA",
   "Normal": 0.574009,
   "Abnormal": 0.0243717,
@@ -6269,8 +7842,8 @@
   "gene": "CYP24A1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Bile Acid Synthesis",
-  "gene_function": "electron carrier activity; heme binding; iron ion binding; oxidoreductase activity; acting on paired donors; with incorporation or reduction of molecular oxygen",
+  "process": "Metabolism of Vitamins & Co-Factors",
+  "gene_function": "ecdysone 20-monooxygenase activity; ecdysteroid 22-hydroxylase activity; electron carrier activity; heme binding; iron ion binding; oxidoreductase activity; acting on paired donors; with incorporation or reduction of molecular oxygen",
   "EMBL_ID": "NA",
   "Normal": 0.574009,
   "Abnormal": 0.0243717,
@@ -6305,6 +7878,19 @@
   "mutation": ""
  },
  {
+  "gene": "SOD1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "21",
+  "process": "ROS defense",
+  "gene_function": "SOD1: May be involved in the removal of superoxides in the inter membrane space of mitochondria",
+  "EMBL_ID": "ENSG00000142168",
+  "Normal": 273.176,
+  "Abnormal": 457.404,
+  "log2": 0.743638,
+  "pvalue": 0.01635,
+  "mutation": ""
+ },
+ {
   "gene": "MRPS6",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -6315,6 +7901,32 @@
   "Abnormal": 121.009,
   "log2": 0.465209,
   "pvalue": 0.21405,
+  "mutation": ""
+ },
+ {
+  "gene": "NDUFV3",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "21",
+  "process": "Electron Transport Chain",
+  "gene_function": "NDUFV3: Essential component of complex I transfers electrons from NADH to ubiquinone",
+  "EMBL_ID": "ENSG00000160194",
+  "Normal": 19.3722,
+  "Abnormal": 45.9738,
+  "log2": 1.24683,
+  "pvalue": 0.0001,
+  "mutation": ""
+ },
+ {
+  "gene": "PFKL",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "21",
+  "process": "Glycolysis",
+  "gene_function": "PFKL: Catalyzes the conversion of fructose 6-phosphate to fructose 1,6-bisphosphate",
+  "EMBL_ID": "ENSG00000141959",
+  "Normal": 68.7979,
+  "Abnormal": 109.003,
+  "log2": 0.663932,
+  "pvalue": 0.01555,
   "mutation": ""
  },
  {
@@ -6400,7 +8012,7 @@
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Mitochondrial Dynamics",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 23.0885,
   "Abnormal": 19.1311,
@@ -6477,7 +8089,7 @@
   "gene": "ACO2",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "TCA Cycle",
+  "process": "Tricarboxylic Acid Cycle",
   "gene_function": "4 iron 4 sulfur cluster binding; aconitate hydratase activity",
   "EMBL_ID": "NA",
   "Normal": 30.6974,
@@ -6491,7 +8103,7 @@
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Calcium Signaling & Transport",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 19.5925,
   "Abnormal": 20.0499,
@@ -6552,6 +8164,19 @@
   "mutation": ""
  },
  {
+  "gene": "BID",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "22",
+  "process": "Apoptosis",
+  "gene_function": "BID: Bcl-2 family member propagating apoptosis",
+  "EMBL_ID": "ENSG00000015475",
+  "Normal": 24.1566,
+  "Abnormal": 20.863,
+  "log2": -0.21147,
+  "pvalue": 0.4192,
+  "mutation": ""
+ },
+ {
   "gene": "SLC25A1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -6578,11 +8203,24 @@
   "mutation": ""
  },
  {
+  "gene": "MAPK1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "22",
+  "process": "Apoptosis",
+  "gene_function": "MAPK1: Inhibitors of CASP9 activity",
+  "EMBL_ID": "ENSG00000100030",
+  "Normal": 25.8167,
+  "Abnormal": 25.5978,
+  "log2": -0.0122836,
+  "pvalue": 0.97,
+  "mutation": ""
+ },
+ {
   "gene": "CHCHD10",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Import & Sorting",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 2.13943,
   "Abnormal": 3.79604,
@@ -6646,7 +8284,7 @@
   "gene": "MCAT",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Biosynthesis",
+  "process": "Fatty Acid Biosynthesis and Elongation",
   "gene_function": "[acyl-carrier-protein] S-malonyltransferase activity",
   "EMBL_ID": "NA",
   "Normal": 11.3038,
@@ -6672,7 +8310,7 @@
   "gene": "CPT1B",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Degradation",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
   "gene_function": "carnitine O-palmitoyltransferase activity",
   "EMBL_ID": "NA",
   "Normal": 10.7797,
@@ -6695,6 +8333,19 @@
   "mutation": ""
  },
  {
+  "gene": "ITPR1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "3",
+  "process": "Calcium Signaling & Transport",
+  "gene_function": "ITPR1: Component of the Inositol-1,4,5-triphosphate receptors channels used for the fluxes of Ca2+ from ER to mitochondria",
+  "EMBL_ID": "ENSG00000150995",
+  "Normal": 1.7026,
+  "Abnormal": 1.80759,
+  "log2": 0.0863253,
+  "pvalue": 0.76645,
+  "mutation": ""
+ },
+ {
   "gene": "OGG1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -6711,7 +8362,7 @@
   "gene": "OXSM",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Biosynthesis",
+  "process": "Fatty Acid Biosynthesis and Elongation",
   "gene_function": "3-oxoacyl-[acyl-carrier-protein] synthase activity",
   "EMBL_ID": "NA",
   "Normal": 5.49957,
@@ -6773,11 +8424,24 @@
   "mutation": ""
  },
  {
+  "gene": "DHX30",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "3",
+  "process": "Translation",
+  "gene_function": "DHX30: May be involved in the biogenesis of mitochondrial ribosomes",
+  "EMBL_ID": "ENSG00000132153",
+  "Normal": 33.124,
+  "Abnormal": 36.3298,
+  "log2": 0.133276,
+  "pvalue": 0.6196,
+  "mutation": ""
+ },
+ {
   "gene": "NDUFAF3",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Electron Transport Chain",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 87.2893,
   "Abnormal": 175.222,
@@ -6829,7 +8493,7 @@
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Translation",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 8.5871,
   "Abnormal": 6.34873,
@@ -6874,6 +8538,19 @@
   "Abnormal": 35.6234,
   "log2": -0.0236161,
   "pvalue": 0.9296,
+  "mutation": ""
+ },
+ {
+  "gene": "QTRTD1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "3",
+  "process": "Replication & Transcription",
+  "gene_function": "QTRTD1: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
+  "EMBL_ID": "ENSG00000151576",
+  "Normal": 5.97004,
+  "Abnormal": 4.76986,
+  "log2": -0.323795,
+  "pvalue": 0.2295,
   "mutation": ""
  },
  {
@@ -6958,7 +8635,7 @@
   "gene": "ACAD9",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Degradation",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
   "gene_function": "flavin adenine dinucleotide binding; very-long-chain-acyl-CoA dehydrogenase activity",
   "EMBL_ID": "NA",
   "Normal": 22.898,
@@ -7179,7 +8856,7 @@
   "gene": "SUCLG2",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "TCA Cycle",
+  "process": "Tricarboxylic Acid Cycle",
   "gene_function": "ATP binding; metal ion binding; succinate-CoA ligase (ADP-forming) activity",
   "EMBL_ID": "NA",
   "Normal": 26.5698,
@@ -7277,6 +8954,19 @@
   "Abnormal": 53.7535,
   "log2": -0.392743,
   "pvalue": 0.1422,
+  "mutation": ""
+ },
+ {
+  "gene": "ACAD11",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "3",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
+  "gene_function": "ACAD11: May be involved in the catabolism of long chain fatty acids",
+  "EMBL_ID": "ENSG00000240303",
+  "Normal": 9.15418,
+  "Abnormal": 10.7327,
+  "log2": 0.229515,
+  "pvalue": 0.55055,
   "mutation": ""
  },
  {
@@ -7439,13 +9129,26 @@
   "gene": "HADH",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Elongation",
+  "process": "Fatty Acid Biosynthesis and Elongation",
   "gene_function": "3-hydroxyacyl-CoA dehydrogenase activity; NAD+ binding",
   "EMBL_ID": "NA",
   "Normal": 26.1851,
   "Abnormal": 18.7636,
   "log2": -0.480806,
   "pvalue": 0.0669,
+  "mutation": ""
+ },
+ {
+  "gene": "CCDC109B",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "4",
+  "process": "Calcium Signaling & Transport",
+  "gene_function": "CCDC109B: Forms a important component of mitochondrial calcium uniporter with MCU",
+  "EMBL_ID": "ENSG00000005059",
+  "Normal": 24.0094,
+  "Abnormal": 18.8364,
+  "log2": -0.350074,
+  "pvalue": 0.19605,
   "mutation": ""
  },
  {
@@ -7530,7 +9233,7 @@
   "gene": "ACOX3",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Degradation",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
   "gene_function": "acyl-CoA dehydrogenase activity; acyl-CoA oxidase activity; flavin adenine dinucleotide binding; pristanoyl-CoA oxidase activity",
   "EMBL_ID": "NA",
   "Normal": 6.40226,
@@ -7570,7 +9273,7 @@
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Electron Transport Chain",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 3.93422,
   "Abnormal": 3.24217,
@@ -7618,6 +9321,19 @@
   "mutation": ""
  },
  {
+  "gene": "NDUFC1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "4",
+  "process": "Electron Transport Chain",
+  "gene_function": "NDUFC1: Essential component of complex I transfers electrons from NADH to ubiquinone",
+  "EMBL_ID": "ENSG00000109390",
+  "Normal": 66.5992,
+  "Abnormal": 62.8034,
+  "log2": -0.0846611,
+  "pvalue": 0.89375,
+  "mutation": ""
+ },
+ {
   "gene": "PET112",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -7634,7 +9350,7 @@
   "gene": "CBR4",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Biosynthesis",
+  "process": "Fatty Acid Biosynthesis and Elongation",
   "gene_function": "2; 4-dienoyl-CoA reductase (NADPH) activity; oxidoreductase activity; acting on CH-OH group of donors",
   "EMBL_ID": "NA",
   "Normal": 3.37908,
@@ -7657,10 +9373,23 @@
   "mutation": ""
  },
  {
+  "gene": "CASP3",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "4",
+  "process": "Apoptosis",
+  "gene_function": "CASP3: Executioner caspases leading to apoptosis",
+  "EMBL_ID": "ENSG00000164305",
+  "Normal": 19.355,
+  "Abnormal": 22.0595,
+  "log2": 0.188698,
+  "pvalue": 0.4943,
+  "mutation": ""
+ },
+ {
   "gene": "ACSL1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Biosynthesis",
+  "process": "Fatty Acid Biosynthesis and Elongation",
   "gene_function": "long-chain fatty acid-CoA ligase activity",
   "EMBL_ID": "NA",
   "Normal": 9.25018,
@@ -7722,6 +9451,19 @@
   "mutation": ""
  },
  {
+  "gene": "NDUFAF2",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "5",
+  "process": "Electron Transport Chain",
+  "gene_function": "NDUFAF2: Required in the assembly of Complex I",
+  "EMBL_ID": "ENSG00000164182",
+  "Normal": 53.3682,
+  "Abnormal": 55.7449,
+  "log2": 0.0628603,
+  "pvalue": 0.8241,
+  "mutation": ""
+ },
+ {
   "gene": "NLN",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -7735,6 +9477,19 @@
   "mutation": ""
  },
  {
+  "gene": "MRPS36",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "5",
+  "process": "Translation",
+  "gene_function": "MRPS36: Mitoribosome which forms a part of mitochondrial translation machinary",
+  "EMBL_ID": "ENSG00000134056",
+  "Normal": 13.1386,
+  "Abnormal": 9.46544,
+  "log2": -0.473067,
+  "pvalue": 0.09785,
+  "mutation": ""
+ },
+ {
   "gene": "MCCC2",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -7745,6 +9500,19 @@
   "Abnormal": 9.89128,
   "log2": -0.17768,
   "pvalue": 0.50445,
+  "mutation": ""
+ },
+ {
+  "gene": "PTCD2",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "5",
+  "process": "Electron Transport Chain",
+  "gene_function": "PTCD2: Complex III assembly factor, maturation and stabilization of cytochrome b mRNA",
+  "EMBL_ID": "ENSG00000049883",
+  "Normal": 4.79523,
+  "Abnormal": 3.63645,
+  "log2": -0.399067,
+  "pvalue": 0.16695,
   "mutation": ""
  },
  {
@@ -7765,7 +9533,7 @@
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Mitochondrial Dynamics",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 15.8334,
   "Abnormal": 13.584,
@@ -7956,6 +9724,32 @@
   "mutation": ""
  },
  {
+  "gene": "SQSTM1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "5",
+  "process": "Mitochondrial Dynamics",
+  "gene_function": "SQSTM1: Involved  in the mitophagy, recruited to mitochondria and binds mitochondrial substrates on the autophagosomes",
+  "EMBL_ID": "ENSG00000161011",
+  "Normal": 211.975,
+  "Abnormal": 174.079,
+  "log2": -0.284151,
+  "pvalue": 0.49425,
+  "mutation": ""
+ },
+ {
+  "gene": "TERT",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "5",
+  "process": "Replication & Transcription",
+  "gene_function": "TERT: Role in the protection of mitochondrial integrity with a suggested role in mt-DNA replication and/or repair",
+  "EMBL_ID": "ENSG00000164362",
+  "Normal": 2.97442,
+  "Abnormal": 1.56825,
+  "log2": -0.923457,
+  "pvalue": 0.0042,
+  "mutation": ""
+ },
+ {
   "gene": "MRPL36",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -7966,6 +9760,19 @@
   "Abnormal": 77.2794,
   "log2": -0.052221,
   "pvalue": 0.84035,
+  "mutation": ""
+ },
+ {
+  "gene": "NSUN2",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "5",
+  "process": "Replication & Transcription",
+  "gene_function": "NSUN2: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
+  "EMBL_ID": "ENSG00000037474",
+  "Normal": 27.5092,
+  "Abnormal": 25.0592,
+  "log2": -0.134573,
+  "pvalue": 0.6242,
   "mutation": ""
  },
  {
@@ -8090,7 +9897,7 @@
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Import & Sorting",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 1.85526,
   "Abnormal": 1.46311,
@@ -8115,8 +9922,8 @@
   "gene": "VDAC1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Import & Sorting",
-  "gene_function": "cation channel activity; porin activity; channel activity; voltage-gated anion channel activity",
+  "process": "Apoptosis",
+  "gene_function": "voltage-gated anion channel activity",
   "EMBL_ID": "NA",
   "Normal": 168.659,
   "Abnormal": 132.258,
@@ -8128,8 +9935,8 @@
   "gene": "VDAC1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Apoptosis",
-  "gene_function": "voltage-gated anion channel activity",
+  "process": "Import & Sorting",
+  "gene_function": "cation channel activity; porin activity; channel activity; voltage-gated anion channel activity",
   "EMBL_ID": "NA",
   "Normal": 168.659,
   "Abnormal": 132.258,
@@ -8216,6 +10023,19 @@
   "mutation": ""
  },
  {
+  "gene": "CDKAL1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "6",
+  "process": "Replication & Transcription",
+  "gene_function": "CDKAL1: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
+  "EMBL_ID": "ENSG00000145996",
+  "Normal": 3.91369,
+  "Abnormal": 2.69253,
+  "log2": -0.539565,
+  "pvalue": 0.05795,
+  "mutation": ""
+ },
+ {
   "gene": "ALDH5A1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -8232,7 +10052,7 @@
   "gene": "ACOT13",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Biosynthesis",
+  "process": "Fatty Acid Biosynthesis and Elongation",
   "gene_function": "acyl-CoA hydrolase activity",
   "EMBL_ID": "NA",
   "Normal": 4.0632,
@@ -8294,11 +10114,50 @@
   "mutation": ""
  },
  {
+  "gene": "ITPR3",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "6",
+  "process": "Calcium Signaling & Transport",
+  "gene_function": "ITPR3: Component of the Inositol-1,4,5-triphosphate receptors channels used for the fluxes of Ca2+ from ER to mitochondria",
+  "EMBL_ID": "ENSG00000096433",
+  "Normal": 29.666,
+  "Abnormal": 30.8122,
+  "log2": 0.0546904,
+  "pvalue": 0.84875,
+  "mutation": ""
+ },
+ {
+  "gene": "TOMM6",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "6",
+  "process": "Import & Sorting",
+  "gene_function": "TOMM6: Outer membrane translocation, required for the assembly and stability of the TOM complex",
+  "EMBL_ID": "ENSG00000214736",
+  "Normal": 115.39,
+  "Abnormal": 98.2333,
+  "log2": -0.232239,
+  "pvalue": 0.37905,
+  "mutation": ""
+ },
+ {
+  "gene": "SLC29A1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "6",
+  "process": "Replication & Transcription",
+  "gene_function": "SLC29A1: Equilibrative nucleoside transporter 1 imports recycled deoxyribonucleosides from cytoplasm into mitochondria",
+  "EMBL_ID": "ENSG00000112759",
+  "Normal": 46.0585,
+  "Abnormal": 50.1077,
+  "log2": 0.121563,
+  "pvalue": 0.65135,
+  "mutation": ""
+ },
+ {
   "gene": "C6orf57",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Electron Transport Chain",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 6.8154,
   "Abnormal": 10.11,
@@ -8359,6 +10218,19 @@
   "mutation": ""
  },
  {
+  "gene": "TRMT11",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "6",
+  "process": "Replication & Transcription",
+  "gene_function": "TRMT11: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
+  "EMBL_ID": "ENSG00000066651",
+  "Normal": 8.0214,
+  "Abnormal": 6.24046,
+  "log2": -0.362201,
+  "pvalue": 0.18185,
+  "mutation": ""
+ },
+ {
   "gene": "MTHFD1L",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -8388,7 +10260,7 @@
   "gene": "ACAT2",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Degradation",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
   "gene_function": "acetyl-CoA C-acyltransferase activity",
   "EMBL_ID": "NA",
   "Normal": 37.7282,
@@ -8424,6 +10296,19 @@
   "mutation": ""
  },
  {
+  "gene": "CCDC90A",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "6",
+  "process": "Calcium Signaling & Transport",
+  "gene_function": "CCDC90A: Mitochondrial calcium uniporter regulator 1 required for the MCU dependent calcium uptake by the mitochondria",
+  "EMBL_ID": "ENSG00000050393",
+  "Normal": 8.19394,
+  "Abnormal": 6.95794,
+  "log2": -0.235897,
+  "pvalue": 0.3791,
+  "mutation": ""
+ },
+ {
   "gene": "VARS",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -8434,6 +10319,32 @@
   "Abnormal": 60.3995,
   "log2": 0.248538,
   "pvalue": 0.3587,
+  "mutation": ""
+ },
+ {
+  "gene": "BAK1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "6",
+  "process": "Apoptosis",
+  "gene_function": "BAK1: Bcl-2 family member propagating apoptosis",
+  "EMBL_ID": "ENSG00000030110",
+  "Normal": 14.826,
+  "Abnormal": 17.8255,
+  "log2": 0.26581,
+  "pvalue": 0.313,
+  "mutation": ""
+ },
+ {
+  "gene": "MNF1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "6",
+  "process": "Electron Transport Chain",
+  "gene_function": "MNF1: Complex III assembly factor, ubiquinol-cytochrome c reductase complex assembly factor 2",
+  "EMBL_ID": "ENSG00000137288",
+  "Normal": 156.394,
+  "Abnormal": 273.282,
+  "log2": 0.805201,
+  "pvalue": 0.01065,
   "mutation": ""
  },
  {
@@ -8512,6 +10423,32 @@
   "Abnormal": 6.59544,
   "log2": 0.120572,
   "pvalue": 0.64895,
+  "mutation": ""
+ },
+ {
+  "gene": "GSTA4",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "6",
+  "process": "ROS defense",
+  "gene_function": "GSTA4: Mitochondrial gluthathione-S-transferases through gluthothione conjugation or proxide reduction detoxify harmful byproducts",
+  "EMBL_ID": "ENSG00000170899",
+  "Normal": 5.72528,
+  "Abnormal": 8.29593,
+  "log2": 0.535058,
+  "pvalue": 0.07165,
+  "mutation": ""
+ },
+ {
+  "gene": "GCLC",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "6",
+  "process": "ROS defense",
+  "gene_function": "GCLC: Catalyzes the first step reaction which combines cystein and glutamate to form glutamylcysteine",
+  "EMBL_ID": "ENSG00000001084",
+  "Normal": 4.74115,
+  "Abnormal": 4.32883,
+  "log2": -0.13126,
+  "pvalue": 0.644,
   "mutation": ""
  },
  {
@@ -8636,7 +10573,7 @@
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Electron Transport Chain",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 6.10428,
   "Abnormal": 5.00711,
@@ -8671,6 +10608,19 @@
   "mutation": ""
  },
  {
+  "gene": "BRP44L",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "6",
+  "process": "Tricarboxylic Acid Cycle",
+  "gene_function": "BRP44L: Mitochondrial pyruvate carrier 1",
+  "EMBL_ID": "ENSG00000060762",
+  "Normal": 14.9591,
+  "Abnormal": 14.1923,
+  "log2": -0.075916,
+  "pvalue": 0.7862,
+  "mutation": ""
+ },
+ {
   "gene": "MALSU1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -8700,13 +10650,26 @@
   "gene": "OGDH",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "TCA Cycle",
+  "process": "Tricarboxylic Acid Cycle",
   "gene_function": "oxoglutarate dehydrogenase (succinyl-transferring) activity; thiamine pyrophosphate binding",
   "EMBL_ID": "NA",
   "Normal": 22.1343,
   "Abnormal": 25.0519,
   "log2": 0.178637,
   "pvalue": 0.51745,
+  "mutation": ""
+ },
+ {
+  "gene": "PPIA",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "7",
+  "process": "Apoptosis",
+  "gene_function": "PPIA: Cyclophilin A might work with ENDOG in a DNA degradation complex",
+  "EMBL_ID": "ENSG00000196262",
+  "Normal": 853.181,
+  "Abnormal": 790.129,
+  "log2": -0.110763,
+  "pvalue": 0.7774,
   "mutation": ""
  },
  {
@@ -8736,10 +10699,23 @@
   "mutation": ""
  },
  {
+  "gene": "ASL",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "7",
+  "process": "Urea Cycle",
+  "gene_function": "ASL: Argininosuccinate lyase catalyzes the reaction where Argininosuccinate is cleaved of its nitrogen and carbon skeleton forming arginine and fumarate respectively",
+  "EMBL_ID": "ENSG00000126522",
+  "Normal": 16.3156,
+  "Abnormal": 23.1457,
+  "log2": 0.50449,
+  "pvalue": 0.05255,
+  "mutation": ""
+ },
+ {
   "gene": "MDH2",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "TCA Cycle",
+  "process": "Tricarboxylic Acid Cycle",
   "gene_function": "L-malate dehydrogenase activity; malate dehydrogenase activity",
   "EMBL_ID": "NA",
   "Normal": 180.258,
@@ -8766,7 +10742,7 @@
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Electron Transport Chain",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 2.83326,
   "Abnormal": 2.03398,
@@ -8791,13 +10767,26 @@
   "gene": "DLD",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "TCA Cycle",
+  "process": "Tricarboxylic Acid Cycle",
   "gene_function": "dihydrolipoyl dehydrogenase activity; flavin adenine dinucleotide binding",
   "EMBL_ID": "NA",
   "Normal": 24.0322,
   "Abnormal": 16.8901,
   "log2": -0.508792,
   "pvalue": 0.0608,
+  "mutation": ""
+ },
+ {
+  "gene": "NRF1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "7",
+  "process": "Replication & Transcription",
+  "gene_function": "NRF1: Regulates the expression of TFB1M and TFB2M which are two mitochondrial transcription factors",
+  "EMBL_ID": "ENSG00000106459",
+  "Normal": 4.7022,
+  "Abnormal": 4.26363,
+  "log2": -0.141252,
+  "pvalue": 0.58985,
   "mutation": ""
  },
  {
@@ -8892,6 +10881,19 @@
   "mutation": ""
  },
  {
+  "gene": "COX19",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "7",
+  "process": "Electron Transport Chain",
+  "gene_function": "COX19: Complex IV assembly factor",
+  "EMBL_ID": "ENSG00000240230",
+  "Normal": 2.30223,
+  "Abnormal": 2.37394,
+  "log2": 0.0442561,
+  "pvalue": 0.8738,
+  "mutation": ""
+ },
+ {
   "gene": "FTSJ2",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -8902,6 +10904,19 @@
   "Abnormal": 17.1998,
   "log2": -0.176491,
   "pvalue": 0.50325,
+  "mutation": ""
+ },
+ {
+  "gene": "EIF2AK1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "7",
+  "process": "Translation",
+  "gene_function": "EIF2AK1: Inhibits protein synthesis at the translation initiation level, in response to various stress conditions",
+  "EMBL_ID": "ENSG00000086232",
+  "Normal": 30.2752,
+  "Abnormal": 29.2454,
+  "log2": -0.0499288,
+  "pvalue": 0.8655,
   "mutation": ""
  },
  {
@@ -8957,6 +10972,19 @@
   "mutation": ""
  },
  {
+  "gene": "C7orf44",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "7",
+  "process": "Electron Transport Chain",
+  "gene_function": "C7orf44: COA1 Complex IV assembly factor",
+  "EMBL_ID": "ENSG00000106603",
+  "Normal": 59.494,
+  "Abnormal": 55.8776,
+  "log2": -0.090473,
+  "pvalue": 0.7366,
+  "mutation": ""
+ },
+ {
   "gene": "MRPS24",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -8967,6 +10995,19 @@
   "Abnormal": 231.291,
   "log2": 0.187581,
   "pvalue": 0.5558,
+  "mutation": ""
+ },
+ {
+  "gene": "PGAM2",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "7",
+  "process": "Glycolysis",
+  "gene_function": "PGAM2: Catalyzes the reversible reaction of 3-phosphoglycerate to 2-phosphoglycerate",
+  "EMBL_ID": "ENSG00000164708",
+  "Normal": 0.334056,
+  "Abnormal": 0.852093,
+  "log2": 1.35092,
+  "pvalue": 0.0432,
   "mutation": ""
  },
  {
@@ -8993,6 +11034,19 @@
   "Abnormal": 338.13,
   "log2": -0.517723,
   "pvalue": 0.0632,
+  "mutation": ""
+ },
+ {
+  "gene": "SBDS",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "7",
+  "process": "Translation",
+  "gene_function": "SBDS: Required for the assembly of mature ribosomes and ribosome biogenesis",
+  "EMBL_ID": "ENSG00000126524",
+  "Normal": 58.4045,
+  "Abnormal": 62.4712,
+  "log2": 0.0971127,
+  "pvalue": 0.7181,
   "mutation": ""
  },
  {
@@ -9065,7 +11119,7 @@
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Mitochondrial Dynamics",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 140.492,
   "Abnormal": 146.574,
@@ -9165,6 +11219,19 @@
   "mutation": ""
  },
  {
+  "gene": "EFHA2",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "8",
+  "process": "Calcium Signaling & Transport",
+  "gene_function": "EFHA2: Regulates the mitochodrial calcium uniporter by inhibiting and permitting the calcium depending upon the cytosolic calcium concentrations",
+  "EMBL_ID": "ENSG00000155970",
+  "Normal": 1.10902,
+  "Abnormal": 1.1846,
+  "log2": 0.0951129,
+  "pvalue": 0.76345,
+  "mutation": ""
+ },
+ {
   "gene": "SLC25A37",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -9182,7 +11249,7 @@
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Apoptosis",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 38.2529,
   "Abnormal": 28.3827,
@@ -9207,8 +11274,8 @@
   "gene": "VDAC3",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Import & Sorting",
-  "gene_function": "cation channel activity; porin activity; channel activity; voltage-gated anion channel activity",
+  "process": "Apoptosis",
+  "gene_function": "voltage-gated anion channel activity",
   "EMBL_ID": "NA",
   "Normal": 96.5515,
   "Abnormal": 81.5503,
@@ -9220,8 +11287,8 @@
   "gene": "VDAC3",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Apoptosis",
-  "gene_function": "voltage-gated anion channel activity",
+  "process": "Import & Sorting",
+  "gene_function": "cation channel activity; porin activity; channel activity; voltage-gated anion channel activity",
   "EMBL_ID": "NA",
   "Normal": 96.5515,
   "Abnormal": 81.5503,
@@ -9308,6 +11375,45 @@
   "mutation": ""
  },
  {
+  "gene": "PKIA",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "8",
+  "process": "Mitochondrial Dynamics",
+  "gene_function": "PKIA: Involved in the mitochondrial fission, is known to inhibit GTPase activity of DNM1L",
+  "EMBL_ID": "ENSG00000171033",
+  "Normal": 9.25352,
+  "Abnormal": 5.47255,
+  "log2": -0.757789,
+  "pvalue": 0.00505,
+  "mutation": ""
+ },
+ {
+  "gene": "FABP5",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "8",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
+  "gene_function": "FABP5: Fatty acid binding proteins are also involved in the import and export of fatty acids",
+  "EMBL_ID": "ENSG00000164687",
+  "Normal": 136.208,
+  "Abnormal": 107.468,
+  "log2": -0.341899,
+  "pvalue": 0.20685,
+  "mutation": ""
+ },
+ {
+  "gene": "DECR1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "8",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
+  "gene_function": "DECR1: 2,4 dienoyl CoA reductase 1 catalyzes the metabolism of Polyunsaturated fatty acids",
+  "EMBL_ID": "ENSG00000104325",
+  "Normal": 54.3531,
+  "Abnormal": 51.4586,
+  "log2": -0.0789486,
+  "pvalue": 0.77415,
+  "mutation": ""
+ },
+ {
   "gene": "PDP1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -9321,11 +11427,24 @@
   "mutation": ""
  },
  {
+  "gene": "C8orf38",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "8",
+  "process": "Electron Transport Chain",
+  "gene_function": "C8orf38: NDUFAF6 important role in the assembly of complex I",
+  "EMBL_ID": "ENSG00000156170",
+  "Normal": 6.16189,
+  "Abnormal": 4.12488,
+  "log2": -0.579022,
+  "pvalue": 0.04555,
+  "mutation": ""
+ },
+ {
   "gene": "OXR1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "ROS Defense",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 6.55674,
   "Abnormal": 4.56312,
@@ -9455,7 +11574,7 @@
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Translation",
-  "gene_function": "double-stranded DNA binding; single -stranded RNA binding; small ribosomal subunit rRNA binding ",
+  "gene_function": "double-stranded DNA binding; single -stranded RNA binding; small ribosomal subunit rRNA binding",
   "EMBL_ID": "NA",
   "Normal": 11.6326,
   "Abnormal": 8.87465,
@@ -9490,6 +11609,19 @@
   "mutation": ""
  },
  {
+  "gene": "RRM2B",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "8",
+  "process": "Replication & Transcription",
+  "gene_function": "RRM2B: Required for the de novo deoxyribonucloetide synthesis in nonproliferating cells supplying dNTPs to mtDNA synthesis",
+  "EMBL_ID": "ENSG00000048392",
+  "Normal": 7.74687,
+  "Abnormal": 7.2903,
+  "log2": -0.0876352,
+  "pvalue": 0.7379,
+  "mutation": ""
+ },
+ {
   "gene": "SLC25A32",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -9500,6 +11632,19 @@
   "Abnormal": 6.62931,
   "log2": -0.530088,
   "pvalue": 0.2449,
+  "mutation": ""
+ },
+ {
+  "gene": "SYBU",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "8",
+  "process": "Mitochondrial Dynamics",
+  "gene_function": "SYBU: Involved in the mitochondrial movement, have a role in linking the mitochondria to KIF5B",
+  "EMBL_ID": "ENSG00000147642",
+  "Normal": 1.19205,
+  "Abnormal": 0.840773,
+  "log2": -0.503659,
+  "pvalue": 0.1328,
   "mutation": ""
  },
  {
@@ -9558,7 +11703,7 @@
   "gene": "ALDH1B1",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Degradation",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
   "gene_function": "acetaldehyde dehydrogenase (acetylating) activity; aldehyde dehydrogenase (NAD) activity",
   "EMBL_ID": "NA",
   "Normal": 15.633,
@@ -9633,6 +11778,19 @@
   "mutation": ""
  },
  {
+  "gene": "DNM1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "9",
+  "process": "Apoptosis",
+  "gene_function": "DNM1: Recruited to mitochondria can induce cristae remodelling to release cytochrome c and subsequent apoptosis",
+  "EMBL_ID": "ENSG00000106976",
+  "Normal": 7.40956,
+  "Abnormal": 10.5321,
+  "log2": 0.50733,
+  "pvalue": 0.4681,
+  "mutation": ""
+ },
+ {
   "gene": "COQ4",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -9643,6 +11801,19 @@
   "Abnormal": 29.6215,
   "log2": 0.829604,
   "pvalue": 0.0033,
+  "mutation": ""
+ },
+ {
+  "gene": "SLC27A4",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "9",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
+  "gene_function": "SLC27A4: Readily converts the transported very long chain fatty acids to acyl-CoAs",
+  "EMBL_ID": "ENSG00000167114",
+  "Normal": 16.4893,
+  "Abnormal": 23.6695,
+  "log2": 0.521496,
+  "pvalue": 0.05235,
   "mutation": ""
  },
  {
@@ -9750,6 +11921,19 @@
   "mutation": ""
  },
  {
+  "gene": "SIGMAR1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "9",
+  "process": "Calcium Signaling & Transport",
+  "gene_function": "SIGMAR1: Stabilises the Inositol-1,4,5-triphosphate receptors and ensures proper Ca2+ fluxes",
+  "EMBL_ID": "ENSG00000147955",
+  "Normal": 94.6817,
+  "Abnormal": 105.372,
+  "log2": 0.15433,
+  "pvalue": 0.57215,
+  "mutation": ""
+ },
+ {
   "gene": "STOML2",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -9763,6 +11947,19 @@
   "mutation": ""
  },
  {
+  "gene": "RMRP",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "9",
+  "process": "Replication & Transcription",
+  "gene_function": "RMRP: RNA component of mitochondrial RNA processing endoribonuclease: cleaves mitochondrial RNA at the priming site of mitochondrial DNA replication",
+  "EMBL_ID": "ENSG00000277027",
+  "Normal": 5.66489,
+  "Abnormal": 132.617,
+  "log2": 4.54907,
+  "pvalue": 0.00005,
+  "mutation": ""
+ },
+ {
   "gene": "HINT2",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -9773,6 +11970,19 @@
   "Abnormal": 46.3183,
   "log2": 0.548732,
   "pvalue": 0.05375,
+  "mutation": ""
+ },
+ {
+  "gene": "TOMM5",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "9",
+  "process": "Import & Sorting",
+  "gene_function": "TOMM5: Outer membrane translocation, transports preprotein to the import pore formed by TOMM40",
+  "EMBL_ID": "ENSG00000175768",
+  "Normal": 123.559,
+  "Abnormal": 108.567,
+  "log2": -0.186624,
+  "pvalue": 0.49405,
   "mutation": ""
  },
  {
@@ -9854,6 +12064,19 @@
   "mutation": ""
  },
  {
+  "gene": "ALAD",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "9",
+  "process": "Heme Biosynthesis",
+  "gene_function": "ALAD: ALA dehydratase catalyzes the reaction where two molecules of ALA condenses to form monopyrrole porphobilinogen (PBG)",
+  "EMBL_ID": "ENSG00000148218",
+  "Normal": 14.7877,
+  "Abnormal": 13.7902,
+  "log2": -0.100754,
+  "pvalue": 0.7009,
+  "mutation": ""
+ },
+ {
   "gene": "NDUFA8",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -9864,6 +12087,19 @@
   "Abnormal": 95.6772,
   "log2": 0.234763,
   "pvalue": 0.39495,
+  "mutation": ""
+ },
+ {
+  "gene": "TRUB2",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "9",
+  "process": "Replication & Transcription",
+  "gene_function": "TRUB2: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
+  "EMBL_ID": "ENSG00000167112",
+  "Normal": 32.135,
+  "Abnormal": 26.8694,
+  "log2": -0.258181,
+  "pvalue": 0.333,
   "mutation": ""
  },
  {
@@ -9902,6 +12138,58 @@
   "Normal": 25.2239,
   "Abnormal": 49.5857,
   "log2": 0.975132,
+  "pvalue": 0.0012,
+  "mutation": ""
+ },
+ {
+  "gene": "MT-TA",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "MT",
+  "process": "Translation (MT)",
+  "gene_function": "MT-TA: mitochondrially encoded tRNA alanine",
+  "EMBL_ID": "ENSG00000210127",
+  "Normal": 284.763,
+  "Abnormal": 701.076,
+  "log2": 1.29981,
+  "pvalue": 0.0012,
+  "mutation": ""
+ },
+ {
+  "gene": "MT-TC",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "MT",
+  "process": "Translation (MT)",
+  "gene_function": "MT-TC: mitochondrially encoded tRNA cysteine",
+  "EMBL_ID": "ENSG00000210140",
+  "Normal": 284.763,
+  "Abnormal": 701.076,
+  "log2": 1.29981,
+  "pvalue": 0.0012,
+  "mutation": ""
+ },
+ {
+  "gene": "MT-TN",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "MT",
+  "process": "Translation (MT)",
+  "gene_function": "MT-TN: mitochondrially encoded tRNA asparagine",
+  "EMBL_ID": "ENSG00000210135",
+  "Normal": 284.763,
+  "Abnormal": 701.076,
+  "log2": 1.29981,
+  "pvalue": 0.0012,
+  "mutation": ""
+ },
+ {
+  "gene": "MT-TY",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "MT",
+  "process": "Translation (MT)",
+  "gene_function": "MT-TY: mitochondrially encoded tRNA tyrosine",
+  "EMBL_ID": "ENSG00000210144",
+  "Normal": 284.763,
+  "Abnormal": 701.076,
+  "log2": 1.29981,
   "pvalue": 0.0012,
   "mutation": ""
  },
@@ -9971,6 +12259,19 @@
   "mutation": ""
  },
  {
+  "gene": "APEX2",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "X",
+  "process": "Replication & Transcription",
+  "gene_function": "APEX2: Involved in the mitochondrial DNA base excision repair",
+  "EMBL_ID": "ENSG00000169188",
+  "Normal": 18.2787,
+  "Abnormal": 15.7159,
+  "log2": -0.217934,
+  "pvalue": 0.41265,
+  "mutation": ""
+ },
+ {
   "gene": "PIN4",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -9984,11 +12285,37 @@
   "mutation": ""
  },
  {
+  "gene": "COX7B",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "X",
+  "process": "Electron Transport Chain",
+  "gene_function": "COX7B: Cytochrome c oxidase subunit VIIb essential component of complex IV",
+  "EMBL_ID": "ENSG00000131174",
+  "Normal": 252.767,
+  "Abnormal": 314.032,
+  "log2": 0.313105,
+  "pvalue": 0.26455,
+  "mutation": ""
+ },
+ {
+  "gene": "PGK1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "X",
+  "process": "Glycolysis",
+  "gene_function": "PGK1: Catalyzes the conversion of 1,3-diphosphoglycerate to 3-phosphoglycerate",
+  "EMBL_ID": "ENSG00000102144",
+  "Normal": 134.729,
+  "Abnormal": 109.355,
+  "log2": -0.301038,
+  "pvalue": 0.3058,
+  "mutation": ""
+ },
+ {
   "gene": "APOOL",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Mitochondrial Dynamics",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 2.53959,
   "Abnormal": 2.38641,
@@ -10020,6 +12347,19 @@
   "Abnormal": 312.996,
   "log2": 0.676032,
   "pvalue": 0.0413,
+  "mutation": ""
+ },
+ {
+  "gene": "XIAP",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "X",
+  "process": "Apoptosis",
+  "gene_function": "XIAP: X-linked inhibitor of apoptosis protein inhibits caspase activity by directly binding to CASP9, 3 and 7",
+  "EMBL_ID": "ENSG00000101966",
+  "Normal": 4.87866,
+  "Abnormal": 4.59069,
+  "log2": -0.0877759,
+  "pvalue": 0.75495,
   "mutation": ""
  },
  {
@@ -10062,11 +12402,24 @@
   "mutation": ""
  },
  {
+  "gene": "DKC1",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "X",
+  "process": "Translation",
+  "gene_function": "DKC1: Has an active role in telomerase stabilization and maintenance",
+  "EMBL_ID": "ENSG00000130826",
+  "Normal": 46.9209,
+  "Abnormal": 41.9385,
+  "log2": -0.161953,
+  "pvalue": 0.5443,
+  "mutation": ""
+ },
+ {
   "gene": "FUNDC2",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Mitochondrial Dynamics",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 10.0434,
   "Abnormal": 8.36167,
@@ -10118,7 +12471,7 @@
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
   "process": "Mitochondrial Dynamics",
-  "gene_function": "  ",
+  "gene_function": "",
   "EMBL_ID": "NA",
   "Normal": 13.2759,
   "Abnormal": 10.7322,
@@ -10179,6 +12532,19 @@
   "mutation": ""
  },
  {
+  "gene": "TRMT2B",
+  "sampleID": "RPE-21-3-c2",
+  "chr": "X",
+  "process": "Replication & Transcription",
+  "gene_function": "TRMT2B: Shows posttranscriptional modifications activity in the human mitochondrial tRNAs",
+  "EMBL_ID": "ENSG00000188917",
+  "Normal": 6.74401,
+  "Abnormal": 5.93877,
+  "log2": -0.183443,
+  "pvalue": 0.48975,
+  "mutation": ""
+ },
+ {
   "gene": "TIMM8A",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
@@ -10195,7 +12561,7 @@
   "gene": "ACSL4",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "Fatty Acid Degradation",
+  "process": "Fatty Acid Degradation and Beta-oxidation",
   "gene_function": "long-chain fatty acid-CoA ligase activity",
   "EMBL_ID": "NA",
   "Normal": 23.3083,
@@ -10221,7 +12587,7 @@
   "gene": "IDH3G",
   "sampleID": "RPE-21-3-c2",
   "chr": "NA",
-  "process": "TCA Cycle",
+  "process": "Tricarboxylic Acid Cycle",
   "gene_function": "isocitrate dehydrogenase (NAD+) activity; magnesium ion binding; NAD binding",
   "EMBL_ID": "NA",
   "Normal": 36.5163,
