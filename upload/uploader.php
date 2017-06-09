@@ -2,44 +2,60 @@
 session_start();
 //session_regenerate_id();
 $new_sessionid = session_id();
-$organism = $_POST['organism'];
 
 error_reporting(E_ERROR | E_PARSE);
 
-switch ($organism)
-{
-	case 'Human':
-        
-        $id = $new_sessionid;
-        
-        // try to save session for browser re-open
-        setcookie("mitoviz_user_upload", $id,$expire=time()+60*60*24*30);
-        
-        include_once "human/uploading.php";
-        include_once "human/./database.php";
-        
-        $error_upload = returnErrorUpload();
-        $error_database = array();
-        
-        if (count($error_upload) > 0){
-            break;
-        }else{
-            $error_database = returnErrorDatabase();
-        }
+$id = $new_sessionid;
 
-	break;
-	case 'Mouse':
-		include_once "mouse/mouse_uploading.php";
-		include_once "mouse/./mouse_database.php";
-		$id = $new_sessionid;
-		//header( "Location:upload_mitomap/index.php?id=$new_sessionid");
-        
 // try to save session for browser re-open
-                setcookie("mitoviz_user_upload", $id);
+setcookie("mitoviz_user_upload", $id,$expire=time()+60*60*24*30);
 
-                //header( "Location:../upload.html");
-	break;
+$organism = $_POST['organism'];
+$target_path_raw = "../data/user_uploads/".$id."/raw/";
+$target_path_json = "../data/user_uploads/".$id."/json/";
 
+if (!is_dir($target_path_raw)){
+    mkdir($target_path_raw, 0777, true);
+}
+
+if (!is_dir($target_path_json)){
+    mkdir($target_path_json, 0777, true);
+}
+
+$counter = count($_POST["samplename"]);
+
+$error_upload = array();
+
+for($i=0; $i<$counter; $i++) {
+    $samplename = $_POST['samplename'][$i];
+
+    $target_pathnew = $target_path_raw . basename( $_FILES['expfile']['name'][$i]); 
+
+    $express = $_FILES['expfile']['name'][$i];
+     if(move_uploaded_file($_FILES['expfile']['tmp_name'][$i], $target_pathnew)) {
+         //echo "The file ".  basename( $_FILES['expfile1']['name']). " has been uploaded";
+    } else{
+        array_push($error_upload,"There was an error uploading the expression file of sample '$samplename', please try again!");
+    }
+
+    $expressfile = $target_path_raw.$samplename."_exp.txt";
+    rename ($target_pathnew, $expressfile);
+
+
+    $target_pathnew = $target_path_raw . basename( $_FILES['mutfile']['name'][$i]); 
+
+    $variant = $_FILES['mutfile']['name'][$i];
+    if(move_uploaded_file($_FILES['mutfile']['tmp_name'][$i], $target_pathnew)) {
+        //echo "The file ".  basename( $_FILES['mutfile1']['name']). " has been uploaded";
+    } else{
+        array_push($error_upload,"There was an error uploading the mutation file of sample '$samplename', please try again!");
+    }
+
+    $mutationfile = $target_path_raw.$samplename."_var.txt";
+    rename ($target_pathnew, $mutationfile);
+    
+    $cmd = "python upload.py ".$samplename." ".$organism." ".$expressfile." ".$mutationfile." ".$id;
+    exec($cmd);  
 }
 ?>
 <!DOCTYPE html>
@@ -109,12 +125,11 @@ switch ($organism)
 
 <script>
     var error_upload = <?php echo json_encode($error_upload); ?>;
-    var error_database = <?php echo json_encode($error_database); ?>;
 
     var messageDiv = document.getElementById('message-div');
 
 
-    if (error_upload.length > 0 || error_database.length > 0){
+    if (error_upload.length > 0){
         newdiv = document.createElement('div');
         newdiv.innerHTML = "<h1>Oops...</h1><br>There are some problems with the uploading process. Please check the error messages below.<br><br>";
         messageDiv.appendChild(newdiv);
@@ -122,12 +137,6 @@ switch ($organism)
         for (i=0; i<error_upload.length;i++){
             newdiv = document.createElement('div');
             newdiv.innerHTML = "<font color='red'>"+ error_upload[i] +"</font><br>";
-            messageDiv.appendChild(newdiv);
-        }
-        
-        for (i=0; i<error_database.length;i++){
-            newdiv = document.createElement('div');
-            newdiv.innerHTML = "<font color='red'>"+ error_database[i] +"</font><br>";
             messageDiv.appendChild(newdiv);
         }
         
