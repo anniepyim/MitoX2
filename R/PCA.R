@@ -24,7 +24,7 @@ if (type == "TCGA"){
   info <- clinical[,c("sampleID","Cancer_type","Gender","Pathologic_stage","Vital_status","BRCA_cancer_factor_3neg")]
   colnames(info) <- c("sampleID","group","gender","stage","vital","neg3")
 }else if (type == "aneuploidy"){
-  info <- read.table("aneuploidy-data.txt",header=TRUE,sep="\t",check.names="FALSE")
+  info <- read.table("aneuploidy-data2.txt",header=TRUE,sep="\t",check.names="FALSE")
 }
 
 # Assign URL to each sample
