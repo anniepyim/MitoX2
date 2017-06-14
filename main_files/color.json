@@ -7,7 +7,6 @@
     },
     "aneuploidy" : {
         "cellline" : ["#ff0074","#52a4ff","#a7a5a5"],
-        "type" : ["#a4ff52","#ffff66","#ff751a","#ff004d","#a7a5a5"],
-        "test" : ["#a4ff52","#ffff66","#ff751a","#ff004d","#a7a5a5"]
+        "type" : ["#a4ff52","#ffff66","#ff751a","#ff004d","#a7a5a5"]
     }
 }
