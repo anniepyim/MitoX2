@@ -1,0 +1,17 @@
+sampleID	cellline	type		test
+HCT116-5-4-p	HCT116	5/4		te1st
+HCT116-5-4	HCT116	5/4		te2st
+HCT116-8-3-c3	HCT116	8/3		te3st
+HCT116-8-3-c4	HCT116	8/3		te4st
+HCT116-21-3-c1	HCT116	21/3		test
+HCT116-21-3-c3	HCT116	21/3		te1st
+RPE-5-3-12-3-p	RPE	5/3 12/3		te2st
+RPE-5-3-12-3	RPE	5/3 12/3		te3st
+RPE-21-3-c1-p	RPE	21/3		te4st
+RPE-21-3-c1	RPE	21/3		te1st
+RPE-21-3-c2	RPE	21/3		te2st
+RPEvsHCT116	[NA]	Wildtype		te3st
+C2-4-3	iPSC	21/3	NA	te4st
+C2-4-4	iPSC	21/3	NA	te3st
+C3-5-11	iPSC	21/3	NA	te3st
+C3-5-13	iPSC	21/3	NA	te1st
